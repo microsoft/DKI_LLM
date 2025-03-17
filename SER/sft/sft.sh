@@ -1,0 +1,22 @@
+deepspeed --num_nodes 1 --num_gpus 8 sft.py \
+ --model_name {YOUR_BASE_MODEL_PATH} \
+ --tokenizer_name {YOUR_TOKENIZER_PATH} \
+ --dataset_name {YOUR_DATASET_PATH} \
+ --load_from_json False \
+ --subset "data/finetune" \
+ --output_dir {PRETRAIN_MODEL_SAVE_PATH} \
+ --seq_length 512 \
+ --num_train_epochs 8 \
+ --per_device_train_batch_size 64 \
+ --gradient_accumulation_steps 1 \
+ --evaluation_strategy "no" \
+ --save_strategy "epoch" \
+ --save_total_limit 4 \
+ --learning_rate 2e-5 \
+ --warmup_steps 2 \
+ --logging_steps 2 \
+ --lr_scheduler_type "cosine" \
+ --report_to "wandb" \
+ --gradient_checkpointing True \
+ --deepspeed sft/deepspeed_config.json \
+ --bf16 True

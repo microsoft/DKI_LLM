@@ -1,0 +1,14 @@
+python inference.py \
+ --model_name {YOUR_MODEL_PATH} \
+ --tokenizer_name {YOUR_TOKENIZER_PATH} \
+ --dataset_name {YOUR_DATASET_PATH} \
+ --output_dir {DATA_SAVE_PATH} \
+ --tensor_parallel_size 8 \
+ --model_dtype "float16" \
+ --batch_size 50 \
+ --shuffle False \
+ --temperature 20 \
+ --top_k 20 \
+ --top_p 0.9 \
+ --max_tokens 512 \
+ --presence_penalty 1.0

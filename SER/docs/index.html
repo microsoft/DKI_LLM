@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <meta name="description" content="Self-Evolved Reward Learning for LLMs: A novel approach using self-feedback for reward learning in language models.">
+  <meta property="og:title" content="Self-Evolved Reward Learning for LLMs"/>
+  <meta property="og:description" content="Reinforcement Learning from Human Feedback enhanced with self-evolved reward learning."/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+  <meta name="twitter:title" content="Self-Evolved Reward Learning for LLMs">
+  <meta name="twitter:description" content="Self-Evolved Reward Learning for LLMs enhances RM performance via self-feedback.">
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="keywords" content="RLHF, Self-Evolved Reward Learning, LLMs, reward model, language models">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Self-Evolved Reward Learning for LLMs</title>
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <!-- 论文标题 -->
+          <h1 class="title is-1 publication-title">Self-Evolved Reward Learning for LLMs</h1>
+
+          <!-- 作者信息 -->
+          <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                Chenghua Huang<sup>1</sup>,
+              </span>
+            <span class="author-block">
+                Zhizhen Fan<sup>2</sup>,
+              </span>
+            <span class="author-block">
+                Lu Wang<sup>3</sup>,
+              </span>
+            <span class="author-block">
+                Fangkai Yang<sup>3</sup>,
+              </span>
+            <span class="author-block">
+                Pu Zhao<sup>3</sup>,
+              </span>
+            <span class="author-block">
+                Zeqi Lin<sup>3</sup>
+              </span>
+          </div>
+          <div class="is-size-5 publication-authors" style="margin-top: 0.5em;">
+              <span class="author-block">
+                Qingwei Lin<sup>3</sup>, Dongmei Zhang<sup>3</sup>, Saravan Rajmohan<sup>3</sup>, Qi Zhang<sup>3</sup>
+              </span>
+          </div>
+          <div class="is-size-5 publication-authors" style="margin-top: 0.5em;">
+              <span class="author-block">
+                <sup>1</sup>School of Computer Science, Fudan University<br>
+                <sup>2</sup>School of Computer Science, Peking University<br>
+                <sup>3</sup>Microsoft
+              </span>
+          </div>
+          <div class="is-size-5 publication-authors" style="margin-top: 0.5em;">
+              <span class="author-block">
+                Email: <a href="mailto:huangch22@m.fudan.edu.cn">huangch22@m.fudan.edu.cn</a>, <a href="mailto:2201210191@stu.pku.edu.cn">2201210191@stu.pku.edu.cn</a><br>
+                <a href="mailto:wlu@microsoft.com">wlu@microsoft.com</a>, <a href="mailto:fangkaiyang@microsoft.com">fangkaiyang@microsoft.com</a>, <a href="mailto:puzhao@microsoft.com">puzhao@microsoft.com</a>
+              </span>
+          </div>
+
+          <!-- 链接区块 -->
+          <div class="publication-links" style="margin-top: 1em;">
+            <!-- ArXiv abstract链接 -->
+            <span class="link-block">
+                <a href="https://arxiv.org/abs/2411.00418" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+            <!-- Github链接 -->
+            <span class="link-block">
+                <a href="https://github.com/YOUR_REPO_HERE" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                </a>
+              </span>
+
+            <!-- Arxiv PDF链接 -->
+            <span class="link-block">
+                <a href="https://arxiv.org/pdf/2411.00418.pdf" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+            <!-- hugginface链接 -->
+            <span class="link-block">
+                <a href="https://huggingface.co/" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <img src="static/images/huggingface.svg" alt="HuggingFace Icon" style="width:1em; height:1em;">
+                  </span>
+                  <span>HuggingFace-Coming Soon</span>
+                </a>
+              </span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- overview-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="static/images/overreview.png" alt="MY ALT TEXT"/>
+      <h2 class="subtitle has-text-centered">
+        The <strong>Self-Evolved Reward Learning (SER)</strong> pipeline. Our SER method consists of following steps: (1) Self-labeling: the reward model (RM) assigns labels to unlabeled data. (2) Identifying learning status and selecting data: high-confidence data is selected by assessing the learning status. (3) Retrain the RM: the RM trains itself using the self-labeled and selected data. (4) Train the Large Language Model (LLM): the LLM is trained under the guidance of the self-evolved RM. Note that steps (1)-(3) iterate multiple rounds to a converged RM.
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End overview -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Reinforcement Learning from Human Feedback (RLHF) is a crucial technique for aligning language models with human preferences, playing a pivotal role in the success of conversational models like GPT-4, ChatGPT, and Llama 2. A core challenge in employing RLHF lies in training a reliable reward model (RM), which relies on high-quality labels typically provided by human experts or advanced AI system. These methods can be costly and may introduce biases that affect the language model's responses. As language models improve, human input may become less effective in further enhancing their performance. In this paper, we propose Self-Evolved Reward Learning (SER), a novel approach where the RM generates additional training data to iteratively improve itself. We conducted extensive experiments on multiple datasets such as HH-RLHF and UltraFeedback, using models like Mistral and Llama 3, and compare SER against various baselines. Our results demonstrate that even with limited human-annotated data, learning from self-feedback can robustly enhance RM performance, thereby boosting the capabilities of large language models (LLMs).
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- experiment-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h2 class="title is-3,subtitle has-text-centered">Experiment</h2>
+      <img src="static/images/experiment.png" alt="MY ALT TEXT"/>
+      <h2 class="subtitle has-text-centered">
+        <strong>Reward modeling improves in performance with iterative evolution.</strong>  We demonstrate the performance variation of the model during the iterative process on the HH-RLHF, Ultrafeedback, and Summarize datasets. <em>Baseline</em> refers to the RM that uses the full dataset of human-annotated data.
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- experiment -->
+
+
+
+<!-- End paper abstract -->
+
+<!-- Image carousel
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item">
+          <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
+          <h2 class="subtitle has-text-centered">
+            First image description.
+          </h2>
+        </div>
+        <div class="item">
+          <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
+          <h2 class="subtitle has-text-centered">
+            Second image description.
+          </h2>
+        </div>
+        <div class="item">
+          <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
+          <h2 class="subtitle has-text-centered">
+            Third image description.
+          </h2>
+        </div>
+        <div class="item">
+          <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
+          <h2 class="subtitle has-text-centered">
+            Fourth image description.
+          </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+-->
+
+<!-- Youtube video
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Video Presentation</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <div class="publication-video">
+            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ -->
+
+<!--
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Another Carousel</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-video1">
+          <video poster="" id="video1" autoplay controls muted loop height="100%">
+            <source src="static/videos/carousel1.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video2">
+          <video poster="" id="video2" autoplay controls muted loop height="100%">
+            <source src="static/videos/carousel2.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video3">
+          <video poster="" id="video3" autoplay controls muted loop height="100%">
+            <source src="static/videos/carousel3.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ -->
+
+<!--
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Poster</h2>
+      <iframe src="static/pdfs/sample.pdf" width="100%" height="550"></iframe>
+    </div>
+  </div>
+</section>
+ -->
+
+<!-- BibTex citation -->
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{huang2024self,
+  title={Self-Evolved Reward Learning for LLMs},
+  author={Huang, Chenghua and Fan, Zhizhen and Wang, Lu and Yang, Fangkai and Zhao, Pu and Lin, Zeqi and Lin, Qingwei and Zhang, Dongmei and Rajmohan, Saravan and Zhang, Qi},
+  journal={arXiv preprint arXiv:2411.00418},
+  year={2024}
+}</code></pre>
+  </div>
+</section>
+<!--End BibTex citation -->
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+<!-- End of Statcounter Code -->
+
+</body>
+</html>
+
