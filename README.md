@@ -13,7 +13,7 @@ This repo hosts multiple open-source codes of the [Microsoft DKI LLM Group](http
 
 ### RL
 
-> **[Self-Evolved Reward Learning for LLMs](ser)**
+> **[Self-Evolved Reward Learning for LLMs](SER)**
 > Chenghua Huang, Zhizhen Fan, Lu Wang, Fangkai Yang, Pu Zhao, Zeqi Lin, Qingwei Lin, Dongmei Zhang, Saravan Rajmohan, Qi Zhang, ICLR 2025.
 
 
