@@ -1,46 +1,131 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--
+    Author: Chenghua Huang
+    Date: March 2025
+    Description: This is the main index for the paper code collection.
+  -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>DKI LLM</title>
+  <!-- Optional: Google Fonts for nicer typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+          href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
+          rel="stylesheet"
+  >
   <style>
+    /* Global Styles */
+    * {
+      box-sizing: border-box;
+    }
     body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
-      background-color: #f7f7f7;
-    }
-    header {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-    nav ul {
-      list-style: none;
+      margin: 0;
       padding: 0;
+      background: #f7f7f7;
+      font-family: "Open Sans", Arial, sans-serif;
+      color: #333;
     }
-    nav li {
-      margin: 10px 0;
+
+    /* Header (Hero Section) */
+    header {
+      background: #2c3e50; /* Dark background */
+      padding: 60px 20px;
+      text-align: center;
+      color: #fff;
     }
-    nav a {
+    header h1 {
+      margin: 0;
+      font-size: 3em;
+      font-weight: 600;
+    }
+    header p {
+      margin-top: 10px;
+      font-size: 1.2em;
+      color: #ddd;
+    }
+
+    /* Main Container */
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 30px 20px;
+    }
+
+    /* Paper List */
+    .paper-list {
+      display: grid;
+      grid-template-columns: 1fr; /* One column; change to e.g. 1fr 1fr for two columns */
+      grid-gap: 20px;
+      margin-top: 30px;
+    }
+
+    /* Each Paper Item (Card) */
+    .paper-item {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      padding: 20px;
+    }
+    .paper-item:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    }
+    .paper-item a {
+      color: #3498db;
       text-decoration: none;
-      color: #007bff;
+      font-weight: 600;
+      font-size: 1.2em;
     }
-    nav a:hover {
+    .paper-item a:hover {
       text-decoration: underline;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #777;
+      background: #fff;
+      margin-top: 40px;
+      box-shadow: 0 -1px 3px rgba(0,0,0,0.1);
     }
   </style>
 </head>
+
 <body>
-  <header>
-    <h1>Paper Code Collection</h1>
-    <p>Welcome to DKI LLM GitHub Pages site where each link leads to an introduction of a paper and its related code.</p>
-  </header>
-  
-  <nav>
-    <ul>
-      <li><a href="ser/ser_index.html">ICLR2025: Self-evolved reward learning for LLMs</a></li>
-      <!-- 可继续添加更多论文链接 -->
-    </ul>
-  </nav>
+<!-- Header / Hero Section -->
+<header>
+  <h1>Paper Code Collection</h1>
+  <p>
+    Welcome to DKI LLM GitHub Pages site where each link leads to an introduction
+    of a paper and its related code.
+  </p>
+</header>
+
+<!-- Main Content -->
+<div class="container">
+  <div class="paper-list">
+    <!-- Card 1 -->
+    <div class="paper-item">
+      <a href="ser/ser_index.html">ICLR2025: Self-evolved reward learning for LLMs</a>
+    </div>
+
+    <!-- Add more cards below as needed
+    <div class="paper-item">
+      <a href="#">Another Paper Title</a>
+    </div>
+    -->
+  </div>
+</div>
+
+<!-- Footer -->
+<footer>
+  © 2025 DKI LLM. All rights reserved.
+</footer>
 </body>
 </html>
+
