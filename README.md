@@ -1,4 +1,4 @@
-# :mailbox: Paper Code Collection (MSRA DKI Group) <img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31" height="25" align=center>
+# :mailbox: Paper Code Collection (Microsoft DKI Group) <img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31" height="25" align=center>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
