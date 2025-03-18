@@ -37,5 +37,12 @@ python vllmlan.py --path Qwen/Qwen2.5-72B-Instruct --n 1 --top_p 0.99 --temperat
 ### Notice:
 Different models have various chat templates, so you need to change it according to the file: tokenizer_config.json.
 
-## 1. Deduplication and Difficulty Filtering
-
+## 2. Deduplication and Difficulty Filtering
+```shell
+conda activate data
+python kcenter.py --start [start_pos] --end [end_pos]
+```
+e.g.,
+```shell
+python kcenter.py --start 0 --end 40000 & python kcenter.py --start 40000 --end 80000 & python kcenter.py --start 80000 --end 120000
+```
