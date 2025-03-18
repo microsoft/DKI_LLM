@@ -31,7 +31,7 @@ sampling_params = SamplingParams(
 
 # Prepare your prompts
 text = f"<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nYou are an AI assistant designed to provide helpful, step-by-step guidance on {args.language} coding problems. The user will ask you a wide range of {args.language} coding questions.\nYour purpose is to assist users in understanding {args.language} coding concepts, working through {args.language} code, and arriving at the correct {args.language} solutions.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n"
-fw = open("/blob/huawen/generated_instructions/" + name + "_t_" + str(args.temperature) + "_p_" + str(args.top_p) + "_" + args.language + "_output.jsonl", 'w+')
+fw = open("generated_instructions/" + name + "_t_" + str(args.temperature) + "_p_" + str(args.top_p) + "_" + args.language + "_output.jsonl", 'w+')
 # generate outputs
 for i in range(args.repeat):
     outputs = llm.generate(prompts=[text], sampling_params=sampling_params)
