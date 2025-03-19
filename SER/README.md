@@ -1,6 +1,6 @@
 # Self-Evolve Reward Learning for LLMs
 
-[![Project](http://img.shields.io/badge/Project-SER-E3E4C8.svg)](https://microsoft.github.io/DKI_LLM/)
+[![Project](http://img.shields.io/badge/Project-SER-E3E4C8.svg)](https://microsoft.github.io/DKI_LLM/ser/ser_index.html)
 [![Paper](http://img.shields.io/badge/Paper-arxiv.2411.00418-99D4C8.svg)](https://arxiv.org/abs/2411.00418)
 
 In this paper, we propose Self-Evolved Reward Learning (SER), a novel approach where the RM generates additional training data to iteratively improve itself. We conducted extensive experiments on multiple datasets such as HH-RLHF and UltraFeedback, using models like Mistral and Llama 3, and compare SER against various baselines. Our results demonstrate that even with limited human-annotated data, learning from self-feedback can robustly enhance RM performance, thereby boosting the capabilities of large language models (LLMs).
