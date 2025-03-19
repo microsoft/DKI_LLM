@@ -1,5 +1,5 @@
 # Model arguments
-model_name_or_path: /home/aiscuser/fhw/model_weights/deepseek-coder-6.7b-instruct
+model_name_or_path: /home/aiscuser/fhw/model_weights/deepseek-coder-6.7b-base
 model_revision: main
 torch_dtype: bfloat16
 attn_implementation: flash_attention_2
