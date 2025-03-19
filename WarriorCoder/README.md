@@ -64,3 +64,14 @@ e.g.:
 ```shell
 python kcenter.py --start 0 --end 40000 & python kcenter.py --start 40000 --end 80000 & python kcenter.py --start 80000 --end 120000
 ```
+## 4. Code Generating
+We use vllm to speed up the code generation process:
+```shell
+conda activate data
+python vllmans.py --path [model_path] --datapath [path_to_instructions_data]
+```
+e.g.:
+```shell
+python vllmans.py --path meta-llama/Llama-3.3-70B-Instruct --datapath llama_python_filtered.json
+```
+## 5. Calculation for Votes and Elo Rating
