@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
-This repo hosts multiple open-source codes of the [Microsoft DKI LLM Group](https://www.microsoft.com/en-us/research/opportunity/data-analytics-intern-msra-dki/). You could find the corresponding code as below:
+This repo hosts multiple open-source codes of the [Microsoft DKI LLM Group](https://www.microsoft.com/en-us/research/group/data-knowledge-intelligence/). You could find the corresponding code as below:
 
 ## News
 - January, 2025: our paper [Self-Evolve Reward Learning for LLMs](https://arxiv.org/abs/2411.00418) was accepted by ICLR 2025.
