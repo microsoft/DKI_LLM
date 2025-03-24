@@ -1,5 +1,5 @@
 # Model arguments
-model_name_or_path: /home/aiscuser/fhw/model_weights/deepseek-coder-6.7b-base
+model_name_or_path: model_weights/deepseek-coder-6.7b-base
 model_revision: main
 torch_dtype: bfloat16
 attn_implementation: flash_attention_2
@@ -27,7 +27,7 @@ logging_strategy: steps
 lr_scheduler_type: cosine
 max_seq_length: 4096
 num_train_epochs: 5
-output_dir: /cosmos/fhw/7b_model
+output_dir: output/7b_model
 overwrite_output_dir: true
 per_device_eval_batch_size: 8
 per_device_train_batch_size: 8
