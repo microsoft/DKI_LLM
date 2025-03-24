@@ -1,0 +1,42 @@
+# Model arguments
+model_name_or_path: model_weights/deepseek-coder-6.7b-base
+model_revision: main
+torch_dtype: bfloat16
+attn_implementation: flash_attention_2
+
+# Data training arguments
+chat_template: "{% if not add_generation_prompt is defined %}\n{% set add_generation_prompt = false %}\n{% endif %}\n{%- set ns = namespace(found=false) -%}\n{%- for message in messages -%}\n    {%- if message['role'] == 'system' -%}\n        {%- set ns.found = true -%}\n    {%- endif -%}\n{%- endfor -%}\n{{bos_token}}{%- if not ns.found -%}\n{{'You are an AI programming assistant, utilizing the Deepseek Coder model, developed by Deepseek Company, and you only answer questions related to computer science. For politically sensitive questions, security and privacy issues, and other non-computer science questions, you will refuse to answer\\n'}}\n{%- endif %}\n{%- for message in messages %}\n    {%- if message['role'] == 'system' %}\n{{ message['content'] }}\n    {%- else %}\n        {%- if message['role'] == 'user' %}\n{{'### Instruction:\\n' + message['content'] + '\\n'}}\n        {%- else %}\n{{'### Response:\\n' + message['content'] + '\\n<|EOT|>\\n'}}\n        {%- endif %}\n    {%- endif %}\n{%- endfor %}\n{% if add_generation_prompt %}\n{{'### Response:'}}\n{% endif %}"
+dataset_mixer:
+  data/my: 1.0
+dataset_splits:
+- train
+preprocessing_num_workers: 128
+
+# SFT trainer config
+bf16: true
+do_eval: true
+eval_strategy: epoch
+gradient_accumulation_steps: 16
+gradient_checkpointing: true
+gradient_checkpointing_kwargs:
+  use_reentrant: False
+learning_rate: 1.0e-05
+log_level: info
+logging_steps: 5  
+logging_strategy: steps
+lr_scheduler_type: cosine
+max_seq_length: 2048
+num_train_epochs: 3
+output_dir: trained_models_7b
+overwrite_output_dir: true
+per_device_eval_batch_size: 8
+per_device_train_batch_size: 8
+push_to_hub: False
+remove_unused_columns: true
+report_to:
+- tensorboard
+save_strategy: "steps"
+save_steps: 56
+save_total_limit: 30
+seed: 42
+warmup_ratio: 0.2
