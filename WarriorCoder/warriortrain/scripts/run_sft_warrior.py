@@ -85,8 +85,8 @@ def main():
     ###############
     # Load datasets
     ###############
-    raw_datasets = load_dataset("json", data_files="/home/aiscuser/fhw/data/warrior_train.json")
-    eval_raw_datasets = load_dataset("json", data_files="/home/aiscuser/fhw/data/warrior_test.json")
+    raw_datasets = load_dataset("json", data_files="warrior_train.json")
+    eval_raw_datasets = load_dataset("json", data_files="warrior_test.json")
     logger.info(
         f"Training on the following datasets and their proportions: {[split + ' : ' + str(dset.num_rows) for split, dset in raw_datasets.items()]}"
     )
