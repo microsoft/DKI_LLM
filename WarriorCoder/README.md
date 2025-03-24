@@ -86,7 +86,15 @@ Finally, we train the target model with the instructions with the best responses
 ```shell
 {"messages": [{"content": instructions_in_natural_language, "role": "user"}, {"content": best_response, "role": "assistant"}]}
 ```
-To reproduce the results in our paper, you need to fill in the training configuration in 
+To reproduce the results in our paper, you need to fill in the training configuration in **recipes/accelerate_configs/deepspeed_zero3.yaml** and **recipes/config_sft_warrior.yaml**.
+Then you can start your training process by:
+```shell
+cd warriortrain
+conda activate train
+accelerate launch --config_file recipes/accelerate_configs/deepspeed_zero3.yaml scripts/run_sft_warrior.py recipes/config_sft_warrior.yaml
+```
+### Notice:
+You also need to rewrite the path to your training and test data in **scripts/run_sft_warrior.py**.
 
 
 
