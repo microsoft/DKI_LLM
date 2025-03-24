@@ -79,6 +79,6 @@ python battle.py --path [model_path] --datapath [path_to_instructions_with answe
 After collecting all the voting results, we can calculate the Elo Rating:
 ```shell
 conda activate data
-python e.py --path [model_path] --datapath [path_to_instructions_with answers]
+python cal_elorating.py --path [model_path] --datapath [path_to_instructions_with answers]
 ```
 
