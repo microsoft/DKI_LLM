@@ -70,18 +70,15 @@ We use vllm to speed up the code generation process:
 conda activate data
 python vllmans.py --path [model_path] --datapath [path_to_instructions]
 ```
-e.g.:
-```shell
-python vllmans.py --path meta-llama/Llama-3.3-70B-Instruct --datapath athene_instructions.json
-```
 ## 5. Calculation for Votes and Elo Rating
 We conduct pariwise evaluations based on uninvolved llms:
 ```shell
 conda activate data
 python battle.py --path [model_path] --datapath [path_to_instructions_with answers]
 ```
-e.g.:
+After collecting all the voting results, we can calculate the Elo Rating:
 ```shell
-python vllmans.py --path Qwen/Qwen2.5-72B-Instruct --datapath athene_answerby_llama.json
+conda activate data
+python e.py --path [model_path] --datapath [path_to_instructions_with answers]
 ```
 
