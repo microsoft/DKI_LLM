@@ -68,10 +68,20 @@ python kcenter.py --start 0 --end 40000 & python kcenter.py --start 40000 --end 
 We use vllm to speed up the code generation process:
 ```shell
 conda activate data
-python vllmans.py --path [model_path] --datapath [path_to_instructions_data]
+python vllmans.py --path [model_path] --datapath [path_to_instructions]
 ```
 e.g.:
 ```shell
-python vllmans.py --path meta-llama/Llama-3.3-70B-Instruct --datapath llama_python_filtered.json
+python vllmans.py --path meta-llama/Llama-3.3-70B-Instruct --datapath athene_instructions.json
 ```
 ## 5. Calculation for Votes and Elo Rating
+We conduct pariwise evaluations based on uninvolved llms:
+```shell
+conda activate data
+python battle.py --path [model_path] --datapath [path_to_instructions_with answers]
+```
+e.g.:
+```shell
+python vllmans.py --path Qwen/Qwen2.5-72B-Instruct --datapath athene_answerby_llama.json
+```
+
