@@ -81,4 +81,12 @@ After collecting all the voting results, we can calculate the Elo Rating:
 conda activate data
 python cal_elorating.py --path [model_path] --datapath [path_to_instructions_with answers]
 ```
+## 6. Training
+Finally, we train the target model with the instructions with the best responses. The data format is:
+```shell
+{"messages": [{"content": instructions_in_natural_language, "role": "user"}, {"content": best_response, "role": "assistant"}]}
+```
+To reproduce the results in our paper, you need to fill in the training configuration in 
+
+
 
