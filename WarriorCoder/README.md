@@ -1,5 +1,5 @@
 ## The project provide the code for:
-1. Completion-based Instruction Mining
+1. Challenging Others with Tricky Questions
 2. Deduplication and Difficulty Filtering
 3. Embedding-based Compression
 4. Code Generating
@@ -26,8 +26,8 @@ pip install flash_attn-2.7.4.post1+cu12torch2.2cxx11abiFALSE-cp310-cp310-linux_x
 ```
 
 
-## 1. Completion-based Instruction Mining
-We use vllm to speed up the minging process:
+## 1. Challenging Others with Tricky Questions
+The first step of the arena is to use the strengths of A to challenge B, which makes it necessary to know what A has learned during its training process. Given that, we design a completion-based method to mine the capabilities which the code LLMs have already mastered. We use vllm to speed up the process:
 ```shell
 conda activate data
 python vllmlan.py --path [model_path] --n 1 --top_p [config_for_top_p] --temperature [config_for_temperature] --repeat [repeat_times] --max_tokens [max_length_of_context] --language [programming_language]
