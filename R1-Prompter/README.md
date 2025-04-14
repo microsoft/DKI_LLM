@@ -51,21 +51,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 accelerate launch --config_file=deepspeed_2
 ## Citation
 If you find this repository useful, please considering giving ⭐ or citing:
 
-[//]: # (```)
 
-[//]: # (@article{huang2024self,)
-
-[//]: # (  title={Self-Evolved Reward Learning for LLMs},)
-
-[//]: # (  author={Huang, Chenghua and Fan, Zhizhen and Wang, Lu and Yang, Fangkai and Zhao, Pu and Lin, Zeqi and Lin, Qingwei and Zhang, Dongmei and Rajmohan, Saravan and Zhang, Qi},)
-
-[//]: # (  journal={arXiv preprint arXiv:2411.00418},)
-
-[//]: # (  year={2024})
-
-[//]: # (})
-
-[//]: # (```)
 
 ## Contributing
 
