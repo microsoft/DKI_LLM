@@ -1,0 +1,16 @@
+diffusers[torch]
+transformers==4.46.0
+trl==0.15.2
+einops
+sentencepiece
+git+https://github.com/openai/CLIP.git
+mmcv-full
+open-clip-torch==2.20.0
+clip-benchmark
+watchdog
+spacy
+ruamel.yaml==0.17.32
+qwen-vl-utils[decord]==0.0.8
+wandb
+tenacity
+numpy==1.26.4
