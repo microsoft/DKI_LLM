@@ -1,46 +1,68 @@
-# R1-Prompter
+# RePrompt
 
 [//]: # ([![Project]&#40;http://img.shields.io/badge/Project-SER-E3E4C8.svg&#41;]&#40;https://microsoft.github.io/DKI_LLM/ser/ser_index.html&#41;)
 
 [//]: # ([![Paper]&#40;http://img.shields.io/badge/Paper-arxiv.2411.00418-99D4C8.svg&#41;]&#40;https://arxiv.org/abs/2411.00418&#41;)
 
-In this paper, we propose R1-Prompter, a self-reflective reprompting model designed to improve prompt quality for T2I synthesis. Our method fine-tunes an LLM using a GRPO-based reinforcement learning framework, encouraging it to generate chain-of-thought enriched prompts that better guide image generation. A reward model evaluates the resulting image for realism, semantic alignment, and compositional quality, providing feedback to refine the reprompting process. Extensive experiments on GenEval and T2I-Compbench show that R1-Prompter significantly enhances image fidelity and alignment in both simple and compositional scenarios, achieving state-of-the-art performance across multiple T2I backbones.
+In this paper, we propose RePrompt, a novel reprompting framework that introduces explicit reasoning into the prompt enhancement process via reinforcement learning. Instead of relying on handcrafted rules or stylistic rewrites, our method trains a language model to generate structured, self-reflective prompts by optimizing for image-level outcomes. The tailored reward models assesse the generated images in terms of human preference, semantic alignment, and visual composition, providing indirect supervision to refine prompt generation. Our approach enables end-to-end training without human-annotated data. Experiments on GenEval and T2I-Compbench show that RePrompt significantly boosts spatial layout fidelity and compositional generalization across diverse T2I backbones, establishing new state-of-the-art results. 
+<div align="center">
 
-[//]: # (<div align="center">)
+  <img width="70%" src="docs/overview.png">
 
-[//]: # (  <img width="70%" src="docs/overview.png">)
-
-[//]: # (</div>)
+</div>
 
 ## Quick Start 🚀
 
 ### Step 1: Build Environment
 ```bash
-conda env create -f environment.yaml
-conda activate r1-prompter
-
+conda create -n reprompt
+conda activate reprompt
+sh prepare.sh
 ```
 
-### Step 2: Prepare Data
+Setup geneval with [geneval](https://github.com/djghosh13/geneval).
 
-[//]: # (- Download raw data from [Ultrafeedback]&#40;https://huggingface.co/datasets/HuggingFaceH4/ultrafeedback_binarized&#41;, [Summarize]&#40;https://huggingface.co/datasets/HuggingFaceH4/summarize-from-feedback&#41;, [HH-RLHF]&#40;https://huggingface.co/datasets/Anthropic/hh-rlhf&#41;, [Stackoverflow]&#40;https://huggingface.co/datasets/HuggingFaceH4/stack-exchange-preferences&#41;.)
+Setup t2i-compbench with [t2i-compbench](https://github.com/Karine-Huang/T2I-CompBench). And put it in directory ```evaluation```.
 
-[//]: # (- Download base model from [LLama3-8B]&#40;https://huggingface.co/meta-llama/Meta-Llama-3-8B&#41;,[Mistral-7B]&#40;https://huggingface.co/mistralai/Mistral-7B-v0.1&#41;, [LLama2-13B]&#40;https://huggingface.co/meta-llama/Llama-2-13b&#41;, [LLama2-70B]&#40;https://huggingface.co/meta-llama/Llama-2-70b&#41;)
+### Step 2: Init RePrompt with SFT
 
-### Step 3: Train
 
-[//]: # (Our reward model is initialized from the SFT model. We initialize the base model and execute the following script:)
-
-We use the following script to train our model:
+We use the following script to init our model with sft:
 
 ```shell
-CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 accelerate launch --config_file=deepspeed_2.yaml r1_prompter.py \
-  --data data/generation_prompts_1k_filterd.txt \
-  --gpt_path Qwen/Qwen2.5-3B-Instruct \
-  --sdmodel_name black-forest-labs/FLUX.1-dev \
-  --outdir r1_prompter_with_flux
+FORCE_TORCHRUN=1 llamafactory-cli train configs/qwen25-3b-full-sft.yaml 
 ```
 
+### Step 3: Train RePrompt with RL
+
+
+We use the following script to train our model with rl:
+
+```shell
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 accelerate launch --config_file=configs/rl_ds2.yaml train_reprompt.py \
+  --data data/generation_prompts_1k_filterd.txt \
+  --gpt_path output/Qwen2.5-3B-sft \
+  --sdmodel_name black-forest-labs/FLUX.1-dev \
+  --outdir /output/reprompt_with_flux
+```
+
+### Step 4: Eval RePrompt
+
+
+We use the following script to run our model on GenEval Benchmark:
+
+```shell
+torchrun --nnodes=1 --nproc_per_node=8 --node_rank=0 evaluation/reprompt_infer_geneval.py
+sh evaluation/geneval/eval.sh
+```
+
+We use the following script to run our model on T2I-CompBench:
+
+```shell
+torchrun --nnodes=1 --nproc_per_node=8 --node_rank=0 evaluation/reprompt_infer_t2icomp.py
+```
+
+And get the metrics with [T2I-CompBench](https://github.com/Karine-Huang/T2I-CompBench) instruction.
 
 
 

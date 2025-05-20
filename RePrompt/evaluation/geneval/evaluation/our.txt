@@ -1,0 +1,12 @@
+24       True
+25       True
+26       True
+27       True
+48      False
+        ...  
+2167    False
+2180    False
+2181    False
+2182    False
+2183    False
+Name: correct, Length: 400, dtype: bool
