@@ -15,7 +15,6 @@ from torch import autocast, nn
 from diffusers import DiffusionPipeline, FluxPipeline, StableDiffusion3Pipeline, Transformer2DModel, PixArtSigmaPipeline
 from trl.trl import GRPOConfig, GRPOTrainer
 
-# from CloudGPT_AOAI.cloudgpt_aoai import get_chat_completion, encode_image
 import openai
 import base64
 
@@ -136,12 +135,6 @@ class PromptScorer:
         base64_image = base64.b64encode(buffered.getvalue()).decode("utf-8")
         image_meta = f"data:image/{'PNG'.lower()};base64"
 
-        # Define API endpoint and headers (update with your actual API key)
-        # api_url = "https://api.openai.com/v1/chat/completions"
-        # headers = {
-        #     "Authorization": "Bearer YOUR_API_KEY",
-        # }
-
         # Construct the messages for the API
         messages = [
             {
@@ -173,10 +166,6 @@ class PromptScorer:
 
         try:
 
-            # response = get_chat_completion(
-            #     engine="gpt-4-visual-preview",
-            #     messages=messages,
-            # )
             response = openai.ChatCompletion.create(
                 model="gpt-4-vision-preview",
                 messages=messages,
@@ -229,8 +218,6 @@ def main(args):
 
     scorer = accelerator.prepare(scorer)
 
-    # TODO maybe shard the data for parallel training
-
     dataset = [x.strip() for x in list(open(args.data,'r'))]
     # print(len(dataset))
     dataset = [{'prompt': [{"role":"system", "content": "You are Prompt Wizard assistant, designed to act as the ultimate creative muse for image generation model users. "
@@ -243,8 +230,6 @@ def main(args):
 
 
     def reward_t2i(completions, ori_prompt, **kwargs):
-
-        # TODO use plain texts here
         diffuser_prompts = []
         plain_texts = []
         for i, (prompt,sample) in enumerate(zip(ori_prompt, completions)):
