@@ -1,6 +1,6 @@
+torch
 diffusers[torch]
-transformers==4.46.0
-trl==0.15.2
+transformers
 einops
 sentencepiece
 git+https://github.com/openai/CLIP.git
