@@ -101,4 +101,4 @@ Any use of third-party trademarks or logos are subject to those third-party's po
 
 If you have any question or find any bug, please go ahead and [open an issue](https://github.com/microsoft/DKI_LLM/issues). Issues are an acceptable discussion forum as well.
 
-If you want to concat the author, please email: `mingrui0001@gmail.com`.
+If you want to concat the author, please email: `mingrui0001@gmail.com` and `wlu@microsoft.com`.
