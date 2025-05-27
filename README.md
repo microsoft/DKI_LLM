@@ -16,7 +16,8 @@ This repo hosts multiple open-source codes of the [Microsoft DKI LLM Group](http
 > **[Self-Evolved Reward Learning for LLMs](SER)**
 > Chenghua Huang, Zhizhen Fan, Lu Wang, Fangkai Yang, Pu Zhao, Zeqi Lin, Qingwei Lin, Dongmei Zhang, Saravan Rajmohan, Qi Zhang, ICLR 2025.
 
-
+> **[RePrompt: Reasoning-Augmented Reprompting for Text-to-Image Generation via Reinforcement Learning](RePrompt)**
+> Mingrui Wu, Lu Wang, Pu Zhao, Fangkai Yang, Jianjin Zhang, Jianfeng Liu, Yuefeng Zhan, Weihao Han, Hao Sun, Jiayi Ji, Xiaoshuai Sun, Qingwei Lin, Weiwei Deng, Dongmei Zhang, Feng Sun, Qi Zhang, Rongrong Ji. Arxiv.
 
 
 ## Contributing
