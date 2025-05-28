@@ -72,7 +72,17 @@ And get the metrics with [T2I-CompBench](https://github.com/Karine-Huang/T2I-Com
 
 ## Citation
 If you find this repository useful, please considering giving ⭐ or citing:
-
+```
+@misc{wu2025repromptreasoningaugmentedrepromptingtexttoimage,
+      title={RePrompt: Reasoning-Augmented Reprompting for Text-to-Image Generation via Reinforcement Learning}, 
+      author={Mingrui Wu and Lu Wang and Pu Zhao and Fangkai Yang and Jianjin Zhang and Jianfeng Liu and Yuefeng Zhan and Weihao Han and Hao Sun and Jiayi Ji and Xiaoshuai Sun and Qingwei Lin and Weiwei Deng and Dongmei Zhang and Feng Sun and Qi Zhang and Rongrong Ji},
+      year={2025},
+      eprint={2505.17540},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2505.17540}, 
+}
+```
 
 
 ## Contributing
