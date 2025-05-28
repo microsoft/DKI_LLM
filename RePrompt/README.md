@@ -2,7 +2,7 @@
 
 [//]: # ([![Project]&#40;http://img.shields.io/badge/Project-SER-E3E4C8.svg&#41;]&#40;https://microsoft.github.io/DKI_LLM/ser/ser_index.html&#41;)
 
-[//]: # ([![Paper]&#40;http://img.shields.io/badge/Paper-arxiv.2411.00418-99D4C8.svg&#41;]&#40;https://arxiv.org/abs/2411.00418&#41;)
+[![Paper](http://img.shields.io/badge/Paper-arxiv.2411.00418-99D4C8.svg)](https://arxiv.org/abs/2505.17540)
 
 In this paper, we propose RePrompt, a novel reprompting framework that introduces explicit reasoning into the prompt enhancement process via reinforcement learning. Instead of relying on handcrafted rules or stylistic rewrites, our method trains a language model to generate structured, self-reflective prompts by optimizing for image-level outcomes. The tailored reward models assesse the generated images in terms of human preference, semantic alignment, and visual composition, providing indirect supervision to refine prompt generation. Our approach enables end-to-end training without human-annotated data. Experiments on GenEval and T2I-Compbench show that RePrompt significantly boosts spatial layout fidelity and compositional generalization across diverse T2I backbones, establishing new state-of-the-art results. 
 <div align="center">
