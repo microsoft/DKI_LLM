@@ -1,0 +1,398 @@
+[
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 619,
+        "prompt": "Write a function to move all the numbers to the end of the given string.\n\ndef move_num(test_str):",
+        "code": "def move_num(test_str):\n  res = ''\n  dig = ''\n  for ele in test_str:\n    if ele.isdigit():\n      dig += ele\n    else:\n      res += ele\n  res += dig\n  return (res) ",
+        "test_imports": [],
+        "test_list": [
+            "assert move_num('I1love143you55three3000thousand') == 'Iloveyouthreethousand1143553000'",
+            "assert move_num('Avengers124Assemble') == 'AvengersAssemble124'",
+            "assert move_num('Its11our12path13to14see15things16do17things') == 'Itsourpathtoseethingsdothings11121314151617'"
+        ],
+        "entry_point": "move_num",
+        "test": "def check():\n    assert move_num('I1love143you55three3000thousand') == 'Iloveyouthreethousand1143553000'\n    assert move_num('Avengers124Assemble') == 'AvengersAssemble124'\n    assert move_num('Its11our12path13to14see15things16do17things') == 'Itsourpathtoseethingsdothings11121314151617'\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 776,
+        "prompt": "Write a function to count those characters which have vowels as their neighbors in the given string.\n\ndef count_vowels(test_str):",
+        "code": "def count_vowels(test_str):\n  res = 0\n  vow_list = ['a', 'e', 'i', 'o', 'u']\n  for idx in range(1, len(test_str) - 1):\n    if test_str[idx] not in vow_list and (test_str[idx - 1] in vow_list or test_str[idx + 1] in vow_list):\n      res += 1\n  if test_str[0] not in vow_list and test_str[1] in vow_list:\n    res += 1\n  if test_str[-1] not in vow_list and test_str[-2] in vow_list:\n    res += 1\n  return (res) ",
+        "test_imports": [],
+        "test_list": [
+            "assert count_vowels('bestinstareels') == 7",
+            "assert count_vowels('partofthejourneyistheend') == 12",
+            "assert count_vowels('amazonprime') == 5"
+        ],
+        "entry_point": "count_vowels",
+        "test": "def check():\n    assert count_vowels('bestinstareels') == 7\n    assert count_vowels('partofthejourneyistheend') == 12\n    assert count_vowels('amazonprime') == 5\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 230,
+        "prompt": "Write a function that takes in a string and character, replaces blank spaces in the string with the character, and returns the string.\n\ndef replace_blank(str1,char):",
+        "code": "def replace_blank(str1,char):\n str2 = str1.replace(' ', char)\n return str2",
+        "test_imports": [],
+        "test_list": [
+            "assert replace_blank(\"hello people\",'@')==(\"hello@people\")",
+            "assert replace_blank(\"python program language\",'$')==(\"python$program$language\")",
+            "assert replace_blank(\"blank space\",\"-\")==(\"blank-space\")"
+        ],
+        "entry_point": "replace_blank",
+        "test": "def check():\n    assert replace_blank(\"hello people\",'@')==(\"hello@people\")\n    assert replace_blank(\"python program language\",'$')==(\"python$program$language\")\n    assert replace_blank(\"blank space\",\"-\")==(\"blank-space\")\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 11,
+        "prompt": "Write a python function to remove first and last occurrence of a given character from the string.\n\ndef remove_Occ(s,ch): ",
+        "code": "def remove_Occ(s,ch): \n    for i in range(len(s)): \n        if (s[i] == ch): \n            s = s[0 : i] + s[i + 1:] \n            break\n    for i in range(len(s) - 1,-1,-1):  \n        if (s[i] == ch): \n            s = s[0 : i] + s[i + 1:] \n            break\n    return s ",
+        "test_imports": [],
+        "test_list": [
+            "assert remove_Occ(\"hello\",\"l\") == \"heo\"",
+            "assert remove_Occ(\"abcda\",\"a\") == \"bcd\"",
+            "assert remove_Occ(\"PHP\",\"P\") == \"H\""
+        ],
+        "entry_point": "remove_Occ",
+        "test": "def check():\n    assert remove_Occ(\"hello\",\"l\") == \"heo\"\n    assert remove_Occ(\"abcda\",\"a\") == \"bcd\"\n    assert remove_Occ(\"PHP\",\"P\") == \"H\"\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 285,
+        "prompt": "Write a function that checks whether a string contains the 'a' character followed by two or three 'b' characters.\nimport re\ndef text_match_two_three(text):",
+        "code": "import re\ndef text_match_two_three(text):\n        patterns = 'ab{2,3}'\n        if re.search(patterns,  text):\n                return True\n        else:\n                return False",
+        "test_imports": [],
+        "test_list": [
+            "assert text_match_two_three(\"ac\")==(False)",
+            "assert text_match_two_three(\"dc\")==(False)",
+            "assert text_match_two_three(\"abbbba\")==(True)"
+        ],
+        "entry_point": "text_match_two_three",
+        "test": "def check():\n    assert text_match_two_three(\"ac\")==(False)\n    assert text_match_two_three(\"dc\")==(False)\n    assert text_match_two_three(\"abbbba\")==(True)\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 787,
+        "prompt": "Write a function that matches a string that has an a followed by three 'b'.\nimport re\ndef text_match_three(text):",
+        "code": "import re\ndef text_match_three(text):\n        patterns = 'ab{3}?'\n        return re.search(patterns,  text)",
+        "test_imports": [],
+        "test_list": [
+            "assert not text_match_three(\"ac\")",
+            "assert not text_match_three(\"dc\")",
+            "assert text_match_three(\"abbbba\")",
+            "assert text_match_three(\"caacabbbba\")"
+        ],
+        "entry_point": "text_match_three",
+        "test": "def check():\n    assert not text_match_three(\"ac\")\n    assert not text_match_three(\"dc\")\n    assert text_match_three(\"abbbba\")\n    assert text_match_three(\"caacabbbba\")\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 757,
+        "prompt": "Write a function to count the pairs of reverse strings in the given string list. https://www.geeksforgeeks.org/python-program-to-count-the-pairs-of-reverse-strings/\n\ndef count_reverse_pairs(test_list):",
+        "code": "def count_reverse_pairs(test_list):\n  res = sum([1 for idx in range(0, len(test_list)) for idxn in range(idx, len( \n\ttest_list)) if test_list[idxn] == str(''.join(list(reversed(test_list[idx]))))]) \n  return res",
+        "test_imports": [],
+        "test_list": [
+            "assert count_reverse_pairs([\"julia\", \"best\", \"tseb\", \"for\", \"ailuj\"])== 2",
+            "assert count_reverse_pairs([\"geeks\", \"best\", \"for\", \"skeeg\"]) == 1",
+            "assert count_reverse_pairs([\"makes\", \"best\", \"sekam\", \"for\", \"rof\"]) == 2"
+        ],
+        "entry_point": "count_reverse_pairs",
+        "test": "def check():\n    assert count_reverse_pairs([\"julia\", \"best\", \"tseb\", \"for\", \"ailuj\"])== 2\n    assert count_reverse_pairs([\"geeks\", \"best\", \"for\", \"skeeg\"]) == 1\n    assert count_reverse_pairs([\"makes\", \"best\", \"sekam\", \"for\", \"rof\"]) == 2\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 9,
+        "prompt": "Write a python function to find the minimum number of rotations (greater than 0) required to get the same string.\n\ndef find_Rotations(str): ",
+        "code": "def find_Rotations(str): \n    tmp = str + str\n    n = len(str) \n    for i in range(1,n + 1): \n        substring = tmp[i: i+n] \n        if (str == substring): \n            return i \n    return n ",
+        "test_imports": [],
+        "test_list": [
+            "assert find_Rotations(\"aaaa\") == 1",
+            "assert find_Rotations(\"ab\") == 2",
+            "assert find_Rotations(\"abc\") == 3"
+        ],
+        "entry_point": "find_Rotations",
+        "test": "def check():\n    assert find_Rotations(\"aaaa\") == 1\n    assert find_Rotations(\"ab\") == 2\n    assert find_Rotations(\"abc\") == 3\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 16,
+        "prompt": "Write a function to that returns true if the input string contains sequences of lowercase letters joined with an underscore and false otherwise.\nimport re\ndef text_lowercase_underscore(text):",
+        "code": "import re\ndef text_lowercase_underscore(text):\n        patterns = '^[a-z]+_[a-z]+$'\n        if re.search(patterns,  text):\n                return True\n        else:\n                return False",
+        "test_imports": [],
+        "test_list": [
+            "assert text_lowercase_underscore(\"aab_cbbbc\")==(True)",
+            "assert text_lowercase_underscore(\"aab_Abbbc\")==(False)",
+            "assert text_lowercase_underscore(\"Aaab_abbbc\")==(False)"
+        ],
+        "entry_point": "text_lowercase_underscore",
+        "test": "def check():\n    assert text_lowercase_underscore(\"aab_cbbbc\")==(True)\n    assert text_lowercase_underscore(\"aab_Abbbc\")==(False)\n    assert text_lowercase_underscore(\"Aaab_abbbc\")==(False)\n"
+    },
+    {
+        "source_file": "charlessutton@: Benchmark Questions Verification V2.ipynb",
+        "task_id": 434,
+        "prompt": "Write a function that matches a string that has an a followed by one or more b's.\nimport re\ndef text_match_one(text):",
+        "code": "import re\ndef text_match_one(text):\n        patterns = 'ab+?'\n        if re.search(patterns,  text):\n                return True\n        else:\n                return False\n",
+        "test_imports": [],
+        "test_list": [
+            "assert text_match_one(\"ac\")==False",
+            "assert text_match_one(\"dc\")==False",
+            "assert text_match_one(\"abba\")==True"
+        ],
+        "entry_point": "text_match_one",
+        "test": "def check():\n    assert text_match_one(\"ac\")==False\n    assert text_match_one(\"dc\")==False\n    assert text_match_one(\"abba\")==True\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 247,
+        "prompt": "Write a function to find the length of the longest palindromic subsequence in the given string.\n\ndef lps(str): ",
+        "code": "def lps(str): \n\tn = len(str) \n\tL = [[0 for x in range(n)] for x in range(n)] \n\tfor i in range(n): \n\t\tL[i][i] = 1\n\tfor cl in range(2, n+1): \n\t\tfor i in range(n-cl+1): \n\t\t\tj = i+cl-1\n\t\t\tif str[i] == str[j] and cl == 2: \n\t\t\t\tL[i][j] = 2\n\t\t\telif str[i] == str[j]: \n\t\t\t\tL[i][j] = L[i+1][j-1] + 2\n\t\t\telse: \n\t\t\t\tL[i][j] = max(L[i][j-1], L[i+1][j]); \n\treturn L[0][n-1]",
+        "test_imports": [],
+        "test_list": [
+            "assert lps(\"TENS FOR TENS\") == 5",
+            "assert lps(\"CARDIO FOR CARDS\") == 7",
+            "assert lps(\"PART OF THE JOURNEY IS PART\") == 9"
+        ],
+        "entry_point": "lps",
+        "test": "def check():\n    assert lps(\"TENS FOR TENS\") == 5\n    assert lps(\"CARDIO FOR CARDS\") == 7\n    assert lps(\"PART OF THE JOURNEY IS PART\") == 9\n"
+    },
+    {
+        "source_file": "charlessutton@: Benchmark Questions Verification V2.ipynb",
+        "task_id": 459,
+        "prompt": "Write a function to remove uppercase substrings from a given string.\nimport re\ndef remove_uppercase(str1):",
+        "code": "import re\ndef remove_uppercase(str1):\n  return re.sub('[A-Z]', '', str1)",
+        "test_imports": [],
+        "test_list": [
+            "assert remove_uppercase('cAstyoUrFavoRitETVshoWs') == 'cstyoravoitshos'",
+            "assert remove_uppercase('wAtchTheinTernEtrAdIo') == 'wtchheinerntrdo'",
+            "assert remove_uppercase('VoicESeaRchAndreComMendaTionS') == 'oiceachndreomendaion'"
+        ],
+        "entry_point": "remove_uppercase",
+        "test": "def check():\n    assert remove_uppercase('cAstyoUrFavoRitETVshoWs') == 'cstyoravoitshos'\n    assert remove_uppercase('wAtchTheinTernEtrAdIo') == 'wtchheinerntrdo'\n    assert remove_uppercase('VoicESeaRchAndreComMendaTionS') == 'oiceachndreomendaion'\n"
+    },
+    {
+        "source_file": "charlessutton@: Benchmark Questions Verification V2.ipynb",
+        "task_id": 478,
+        "prompt": "Write a function to remove lowercase substrings from a given string.\nimport re\ndef remove_lowercase(str1):",
+        "code": "import re\ndef remove_lowercase(str1):\n return re.sub('[a-z]', '', str1)",
+        "test_imports": [],
+        "test_list": [
+            "assert remove_lowercase(\"PYTHon\")==('PYTH')",
+            "assert remove_lowercase(\"FInD\")==('FID')",
+            "assert remove_lowercase(\"STRinG\")==('STRG')"
+        ],
+        "entry_point": "remove_lowercase",
+        "test": "def check():\n    assert remove_lowercase(\"PYTHon\")==('PYTH')\n    assert remove_lowercase(\"FInD\")==('FID')\n    assert remove_lowercase(\"STRinG\")==('STRG')\n"
+    },
+    {
+        "source_file": "Mike's Copy of Benchmark Questions Verification V2.ipynb",
+        "task_id": 118,
+        "prompt": "Write a function to convert a string to a list of strings split on the space character.\n\ndef string_to_list(string): ",
+        "code": "def string_to_list(string): \n    lst = list(string.split(\" \")) \n    return lst",
+        "test_imports": [],
+        "test_list": [
+            "assert string_to_list(\"python programming\")==['python','programming']",
+            "assert string_to_list(\"lists tuples strings\")==['lists','tuples','strings']",
+            "assert string_to_list(\"write a program\")==['write','a','program']"
+        ],
+        "entry_point": "string_to_list",
+        "test": "def check():\n    assert string_to_list(\"python programming\")==['python','programming']\n    assert string_to_list(\"lists tuples strings\")==['lists','tuples','strings']\n    assert string_to_list(\"write a program\")==['write','a','program']\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 725,
+        "prompt": "Write a function to extract values between quotation marks \" \" of the given string.\nimport re\ndef extract_quotation(text1):",
+        "code": "import re\ndef extract_quotation(text1):\n  return (re.findall(r'\"(.*?)\"', text1))",
+        "test_imports": [],
+        "test_list": [
+            "assert extract_quotation('Cortex \"A53\" Based \"multi\" tasking \"Processor\"') == ['A53', 'multi', 'Processor']",
+            "assert extract_quotation('Cast your \"favorite\" entertainment \"apps\"') == ['favorite', 'apps']",
+            "assert extract_quotation('Watch content \"4k Ultra HD\" resolution with \"HDR 10\" Support') == ['4k Ultra HD', 'HDR 10']",
+            "assert extract_quotation(\"Watch content '4k Ultra HD' resolution with 'HDR 10' Support\") == []"
+        ],
+        "entry_point": "extract_quotation",
+        "test": "def check():\n    assert extract_quotation('Cortex \"A53\" Based \"multi\" tasking \"Processor\"') == ['A53', 'multi', 'Processor']\n    assert extract_quotation('Cast your \"favorite\" entertainment \"apps\"') == ['favorite', 'apps']\n    assert extract_quotation('Watch content \"4k Ultra HD\" resolution with \"HDR 10\" Support') == ['4k Ultra HD', 'HDR 10']\n    assert extract_quotation(\"Watch content '4k Ultra HD' resolution with 'HDR 10' Support\") == []\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 602,
+        "prompt": "Write a python function to find the first repeated character in a given string.\n\ndef first_repeated_char(str1):",
+        "code": "def first_repeated_char(str1):\n  for index,c in enumerate(str1):\n    if str1[:index+1].count(c) > 1:\n      return c",
+        "test_imports": [],
+        "test_list": [
+            "assert first_repeated_char(\"abcabc\") == \"a\"",
+            "assert first_repeated_char(\"abc\") == None",
+            "assert first_repeated_char(\"123123\") == \"1\""
+        ],
+        "entry_point": "first_repeated_char",
+        "test": "def check():\n    assert first_repeated_char(\"abcabc\") == \"a\"\n    assert first_repeated_char(\"abc\") == None\n    assert first_repeated_char(\"123123\") == \"1\"\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 18,
+        "prompt": "Write a function to remove characters from the first string which are present in the second string.\n\ndef remove_dirty_chars(string, second_string): ",
+        "code": "NO_OF_CHARS = 256\ndef str_to_list(string): \n\ttemp = [] \n\tfor x in string: \n\t\ttemp.append(x) \n\treturn temp \ndef lst_to_string(List): \n\treturn ''.join(List) \ndef get_char_count_array(string): \n\tcount = [0] * NO_OF_CHARS \n\tfor i in string: \n\t\tcount[ord(i)] += 1\n\treturn count \ndef remove_dirty_chars(string, second_string): \n\tcount = get_char_count_array(second_string) \n\tip_ind = 0\n\tres_ind = 0\n\ttemp = '' \n\tstr_list = str_to_list(string) \n\twhile ip_ind != len(str_list): \n\t\ttemp = str_list[ip_ind] \n\t\tif count[ord(temp)] == 0: \n\t\t\tstr_list[res_ind] = str_list[ip_ind] \n\t\t\tres_ind += 1\n\t\tip_ind+=1\n\treturn lst_to_string(str_list[0:res_ind]) ",
+        "test_imports": [],
+        "test_list": [
+            "assert remove_dirty_chars(\"probasscurve\", \"pros\") == 'bacuve'",
+            "assert remove_dirty_chars(\"digitalindia\", \"talent\") == 'digiidi'",
+            "assert remove_dirty_chars(\"exoticmiles\", \"toxic\") == 'emles'"
+        ],
+        "entry_point": "remove_dirty_chars",
+        "test": "def check():\n    assert remove_dirty_chars(\"probasscurve\", \"pros\") == 'bacuve'\n    assert remove_dirty_chars(\"digitalindia\", \"talent\") == 'digiidi'\n    assert remove_dirty_chars(\"exoticmiles\", \"toxic\") == 'emles'\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 269,
+        "prompt": "Write a function to find the ascii value of a character.\n\ndef ascii_value(k):",
+        "code": "def ascii_value(k):\n  ch=k\n  return ord(ch)",
+        "test_imports": [],
+        "test_list": [
+            "assert ascii_value('A')==65",
+            "assert ascii_value('R')==82",
+            "assert ascii_value('S')==83"
+        ],
+        "entry_point": "ascii_value",
+        "test": "def check():\n    assert ascii_value('A')==65\n    assert ascii_value('R')==82\n    assert ascii_value('S')==83\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 732,
+        "prompt": "Write a function to replace all occurrences of spaces, commas, or dots with a colon.\nimport re\ndef replace_specialchar(text):",
+        "code": "import re\ndef replace_specialchar(text):\n return (re.sub(\"[ ,.]\", \":\", text))\n",
+        "test_imports": [],
+        "test_list": [
+            "assert replace_specialchar('Python language, Programming language.')==('Python:language::Programming:language:')",
+            "assert replace_specialchar('a b c,d e f')==('a:b:c:d:e:f')",
+            "assert replace_specialchar('ram reshma,ram rahim')==('ram:reshma:ram:rahim')"
+        ],
+        "entry_point": "replace_specialchar",
+        "test": "def check():\n    assert replace_specialchar('Python language, Programming language.')==('Python:language::Programming:language:')\n    assert replace_specialchar('a b c,d e f')==('a:b:c:d:e:f')\n    assert replace_specialchar('ram reshma,ram rahim')==('ram:reshma:ram:rahim')\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 748,
+        "prompt": "Write a function to put spaces between words starting with capital letters in a given string.\nimport re\ndef capital_words_spaces(str1):",
+        "code": "import re\ndef capital_words_spaces(str1):\n  return re.sub(r\"(\\w)([A-Z])\", r\"\\1 \\2\", str1)",
+        "test_imports": [],
+        "test_list": [
+            "assert capital_words_spaces(\"Python\") == 'Python'",
+            "assert capital_words_spaces(\"PythonProgrammingExamples\") == 'Python Programming Examples'",
+            "assert capital_words_spaces(\"GetReadyToBeCodingFreak\") == 'Get Ready To Be Coding Freak'"
+        ],
+        "entry_point": "capital_words_spaces",
+        "test": "def check():\n    assert capital_words_spaces(\"Python\") == 'Python'\n    assert capital_words_spaces(\"PythonProgrammingExamples\") == 'Python Programming Examples'\n    assert capital_words_spaces(\"GetReadyToBeCodingFreak\") == 'Get Ready To Be Coding Freak'\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 800,
+        "prompt": "Write a function to remove all whitespaces from a string.\nimport re\ndef remove_all_spaces(text):",
+        "code": "import re\ndef remove_all_spaces(text):\n return (re.sub(r'\\s+', '',text))",
+        "test_imports": [],
+        "test_list": [
+            "assert remove_all_spaces('python  program')==('pythonprogram')",
+            "assert remove_all_spaces('python   programming    language')==('pythonprogramminglanguage')",
+            "assert remove_all_spaces('python                     program')==('pythonprogram')",
+            "assert remove_all_spaces('   python                     program')=='pythonprogram'"
+        ],
+        "entry_point": "remove_all_spaces",
+        "test": "def check():\n    assert remove_all_spaces('python  program')==('pythonprogram')\n    assert remove_all_spaces('python   programming    language')==('pythonprogramminglanguage')\n    assert remove_all_spaces('python                     program')==('pythonprogram')\n    assert remove_all_spaces('   python                     program')=='pythonprogram'\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 794,
+        "prompt": "Write a function that matches a string that has an 'a' followed by anything, ending in 'b'.\nimport re\ndef text_starta_endb(text):",
+        "code": "import re\ndef text_starta_endb(text):\n        patterns = 'a.*?b$'\n        return re.search(patterns,  text)",
+        "test_imports": [],
+        "test_list": [
+            "assert text_starta_endb(\"aabbbb\")",
+            "assert not text_starta_endb(\"aabAbbbc\")",
+            "assert not text_starta_endb(\"accddbbjjj\")"
+        ],
+        "entry_point": "text_starta_endb",
+        "test": "def check():\n    assert text_starta_endb(\"aabbbb\")\n    assert not text_starta_endb(\"aabAbbbc\")\n    assert not text_starta_endb(\"accddbbjjj\")\n"
+    },
+    {
+        "source_file": "Mike's Copy of Benchmark Questions Verification V2.ipynb",
+        "task_id": 79,
+        "prompt": "Write a python function to check whether the length of the word is odd or not.\n\ndef word_len(s): ",
+        "code": "def word_len(s): \n    s = s.split(' ')   \n    for word in s:    \n        if len(word)%2!=0: \n            return True  \n        else:\n          return False",
+        "test_imports": [],
+        "test_list": [
+            "assert word_len(\"Hadoop\") == False",
+            "assert word_len(\"great\") == True",
+            "assert word_len(\"structure\") == True"
+        ],
+        "entry_point": "word_len",
+        "test": "def check():\n    assert word_len(\"Hadoop\") == False\n    assert word_len(\"great\") == True\n    assert word_len(\"structure\") == True\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 395,
+        "prompt": "Write a python function to find the first non-repeated character in a given string.\n\ndef first_non_repeating_character(str1):",
+        "code": "def first_non_repeating_character(str1):\n  char_order = []\n  ctr = {}\n  for c in str1:\n    if c in ctr:\n      ctr[c] += 1\n    else:\n      ctr[c] = 1 \n      char_order.append(c)\n  for c in char_order:\n    if ctr[c] == 1:\n      return c\n  return None",
+        "test_imports": [],
+        "test_list": [
+            "assert first_non_repeating_character(\"abcabc\") == None",
+            "assert first_non_repeating_character(\"abc\") == \"a\"",
+            "assert first_non_repeating_character(\"ababc\") == \"c\""
+        ],
+        "entry_point": "first_non_repeating_character",
+        "test": "def check():\n    assert first_non_repeating_character(\"abcabc\") == None\n    assert first_non_repeating_character(\"abc\") == \"a\"\n    assert first_non_repeating_character(\"ababc\") == \"c\"\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 737,
+        "prompt": "Write a function to check whether the given string is starting with a vowel or not using regex.\nimport re \ndef check_str(string): ",
+        "code": "import re \nregex = '^[aeiouAEIOU][A-Za-z0-9_]*'\ndef check_str(string): \n\treturn re.search(regex, string)",
+        "test_imports": [],
+        "test_list": [
+            "assert check_str(\"annie\")",
+            "assert not check_str(\"dawood\")",
+            "assert check_str(\"Else\")"
+        ],
+        "entry_point": "check_str",
+        "test": "def check():\n    assert check_str(\"annie\")\n    assert not check_str(\"dawood\")\n    assert check_str(\"Else\")\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 628,
+        "prompt": "Write a function to replace all spaces in the given string with '%20'.\n\ndef replace_spaces(string):",
+        "code": "def replace_spaces(string):\n  return string.replace(\" \", \"%20\")",
+        "test_imports": [],
+        "test_list": [
+            "assert replace_spaces(\"My Name is Dawood\") == 'My%20Name%20is%20Dawood'",
+            "assert replace_spaces(\"I am a Programmer\") == 'I%20am%20a%20Programmer'",
+            "assert replace_spaces(\"I love Coding\") == 'I%20love%20Coding'"
+        ],
+        "entry_point": "replace_spaces",
+        "test": "def check():\n    assert replace_spaces(\"My Name is Dawood\") == 'My%20Name%20is%20Dawood'\n    assert replace_spaces(\"I am a Programmer\") == 'I%20am%20a%20Programmer'\n    assert replace_spaces(\"I love Coding\") == 'I%20love%20Coding'\n"
+    },
+    {
+        "source_file": "charlessutton@: Benchmark Questions Verification V2.ipynb",
+        "task_id": 396,
+        "prompt": "Write a function to check whether the given string starts and ends with the same character or not.\nimport re  \ndef check_char(string): ",
+        "code": "import re  \nregex = r'^[a-z]$|^([a-z]).*\\1$'\ndef check_char(string): \n\tif(re.search(regex, string)): \n\t\treturn \"Valid\" \n\telse: \n\t\treturn \"Invalid\" ",
+        "test_imports": [],
+        "test_list": [
+            "assert check_char(\"abba\") == \"Valid\"",
+            "assert check_char(\"a\") == \"Valid\"",
+            "assert check_char(\"abcd\") == \"Invalid\""
+        ],
+        "entry_point": "check_char",
+        "test": "def check():\n    assert check_char(\"abba\") == \"Valid\"\n    assert check_char(\"a\") == \"Valid\"\n    assert check_char(\"abcd\") == \"Invalid\"\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 226,
+        "prompt": "Write a python function to remove the characters which have odd index values of a given string.\n\ndef odd_values_string(str):",
+        "code": "def odd_values_string(str):\n  result = \"\" \n  for i in range(len(str)):\n    if i % 2 == 0:\n      result = result + str[i]\n  return result",
+        "test_imports": [],
+        "test_list": [
+            "assert odd_values_string('abcdef') == 'ace'",
+            "assert odd_values_string('python') == 'pto'",
+            "assert odd_values_string('data') == 'dt'",
+            "assert odd_values_string('lambs') == 'lms'"
+        ],
+        "entry_point": "odd_values_string",
+        "test": "def check():\n    assert odd_values_string('abcdef') == 'ace'\n    assert odd_values_string('python') == 'pto'\n    assert odd_values_string('data') == 'dt'\n    assert odd_values_string('lambs') == 'lms'\n"
+    }
+]

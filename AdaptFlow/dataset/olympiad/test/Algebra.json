@@ -1,0 +1,258 @@
+[
+    {
+        "question": "A circular disc is divided into 36 sectors. A number is written in each sector. When three consecutive sectors contain $a, b$ and $c$ in that order, then $b=a c$. If the number 2 is placed in one of the sectors and the number 3 is placed in one of the adjacent sectors, as shown, what is the sum of the 36 numbers on the disc?\n\n<img_3397>",
+        "answer": "48"
+    },
+    {
+        "question": "On Saturday, Jimmy started painting his toy helicopter between 9:00 a.m. and 10:00 a.m. When he finished between 10:00 a.m. and 11:00 a.m. on the same morning, the hour hand was exactly where the minute hand had been when he started, and the minute hand was exactly where the hour hand had been when he started. Jimmy spent $t$ hours painting. Determine the value of $t$.\n\n<img_3736>",
+        "answer": "$\\frac{12}{13}$"
+    },
+    {
+        "question": "Let $n \\geqslant 2$ be an integer, and let $f$ be a $4 n$-variable polynomial with real coefficients. Assume that, for any $2 n$ points $\\left(x_{1}, y_{1}\\right), \\ldots,\\left(x_{2 n}, y_{2 n}\\right)$ in the plane, $f\\left(x_{1}, y_{1}, \\ldots, x_{2 n}, y_{2 n}\\right)=0$ if and only if the points form the vertices of a regular $2 n$-gon in some order, or are all equal.\n\n\n\nDetermine the smallest possible degree of $f$.",
+        "answer": "$2n$"
+    },
+    {
+        "question": "For a positive integer $a$, define a sequence of integers $x_{1}, x_{2}, \\ldots$ by letting $x_{1}=a$ and $x_{n+1}=2 x_{n}+1$ for $n \\geq 1$. Let $y_{n}=2^{x_{n}}-1$. Determine the largest possible $k$ such that, for some positive integer $a$, the numbers $y_{1}, \\ldots, y_{k}$ are all prime.",
+        "answer": "2"
+    },
+    {
+        "question": "A cubic sequence is a sequence of integers given by $a_{n}=n^{3}+b n^{2}+c n+d$, where $b, c$ and $d$ are integer constants and $n$ ranges over all integers, including negative integers.\n\nDetermine the possible values of $a_{2015} \\cdot a_{2016}$ for a cubic sequence satisfying the condition in part (a).",
+        "answer": "0"
+    },
+    {
+        "question": "Let $x_{1}, \\ldots, x_{100}$ be nonnegative real numbers such that $x_{i}+x_{i+1}+x_{i+2} \\leq 1$ for all $i=1, \\ldots, 100$ (we put $x_{101}=x_{1}, x_{102}=x_{2}$ ). Find the maximal possible value of the sum\n\n$$\nS=\\sum_{i=1}^{100} x_{i} x_{i+2}\n$$",
+        "answer": "$\\frac{25}{2}$"
+    },
+    {
+        "question": "Find the smallest real constant $C$ such that for any positive real numbers $a_{1}, a_{2}, a_{3}, a_{4}$ and $a_{5}$ (not necessarily distinct), one can always choose distinct subscripts $i, j, k$ and $l$ such that\n\n$$\n\\left|\\frac{a_{i}}{a_{j}}-\\frac{a_{k}}{a_{l}}\\right| \\leqslant C .\\tag{1}\n$$",
+        "answer": "$\\frac{1}{2}$"
+    },
+    {
+        "question": "Let $n$ be a positive integer, and set $N=2^{n}$. Determine the smallest real number $a_{n}$ such that, for all real $x$,\n\n$$\n\\sqrt[N]{\\frac{x^{2 N}+1}{2}} \\leqslant a_{n}(x-1)^{2}+x\n$$",
+        "answer": "$\\frac{N}{2}$"
+    },
+    {
+        "question": "Determine all functions $f: \\mathbb{Z} \\rightarrow \\mathbb{Z}$ satisfying\n\n$$\nf(f(m)+n)+f(m)=f(n)+f(3 m)+2014\n\\tag{1}\n$$\n\nfor all integers $m$ and $n$.",
+        "answer": "$f(n) = 2 n+1007$"
+    },
+    {
+        "question": "Let $k \\geqslant 2$ be an integer. Find the smallest integer $n \\geqslant k+1$ with the property that there exists a set of $n$ distinct real numbers such that each of its elements can be written as a sum of $k$ other distinct elements of the set.",
+        "answer": "$n=k+4$"
+    },
+    {
+        "question": "Let $a_{0}, a_{1}, a_{2}, \\ldots$ be a sequence of real numbers such that $a_{0}=0, a_{1}=1$, and for every $n \\geqslant 2$ there exists $1 \\leqslant k \\leqslant n$ satisfying\n\n$$\na_{n}=\\frac{a_{n-1}+\\cdots+a_{n-k}}{k}\n$$\n\nFind the maximal possible value of $a_{2018}-a_{2017}$.",
+        "answer": "$\\frac{2016}{2017^{2}}$"
+    },
+    {
+        "question": "If $2 \\leq x \\leq 5$ and $10 \\leq y \\leq 20$, what is the maximum value of $15-\\frac{y}{x}$ ?",
+        "answer": "13"
+    },
+    {
+        "question": "The Sieve of Sundaram uses the following infinite table of positive integers:\n\n| 4 | 7 | 10 | 13 | $\\cdots$ |\n| :---: | :---: | :---: | :---: | :---: |\n| 7 | 12 | 17 | 22 | $\\cdots$ |\n| 10 | 17 | 24 | 31 | $\\cdots$ |\n| 13 | 22 | 31 | 40 | $\\cdots$ |\n| $\\vdots$ | $\\vdots$ | $\\vdots$ | $\\vdots$ |  |\n\nThe numbers in each row in the table form an arithmetic sequence. The numbers in each column in the table form an arithmetic sequence. The first four entries in each of the first four rows and columns are shown.\nDetermine the number in the 50th row and 40th column.",
+        "answer": "4090"
+    },
+    {
+        "question": "Determine all possible values of $r$ such that the three term geometric sequence 4, $4 r, 4 r^{2}$ is also an arithmetic sequence.\n\n(An arithmetic sequence is a sequence in which each term after the first is obtained from the previous term by adding a constant. For example, 3, 5, 7, 9, 11 is an arithmetic sequence.)",
+        "answer": "1"
+    },
+    {
+        "question": "A bakery sells small and large cookies. Before a price increase, the price of each small cookie is $\\$ 1.50$ and the price of each large cookie is $\\$ 2.00$. The price of each small cookie is increased by $10 \\%$ and the price of each large cookie is increased by $5 \\%$. What is the percentage increase in the total cost of a purchase of 2 small cookies and 1 large cookie?",
+        "answer": "$8 \\%$"
+    },
+    {
+        "question": "If $x+\\frac{1}{x}=\\frac{13}{6}$, determine all values of $x^{2}+\\frac{1}{x^{2}}$.",
+        "answer": "$\\frac{97}{36}$"
+    },
+    {
+        "question": "Ross starts with an angle of measure $8^{\\circ}$ and doubles it 10 times until he obtains $8192^{\\circ}$. He then adds up the reciprocals of the sines of these 11 angles. That is, he calculates\n\n$$\nS=\\frac{1}{\\sin 8^{\\circ}}+\\frac{1}{\\sin 16^{\\circ}}+\\frac{1}{\\sin 32^{\\circ}}+\\cdots+\\frac{1}{\\sin 4096^{\\circ}}+\\frac{1}{\\sin 8192^{\\circ}}\n$$\n\nDetermine, without using a calculator, the measure of the acute angle $\\alpha$ so that $S=\\frac{1}{\\sin \\alpha}$.",
+        "answer": "$4^{\\circ}$"
+    },
+    {
+        "question": "If $\\cos \\theta=\\tan \\theta$, determine all possible values of $\\sin \\theta$, giving your answer(s) as simplified exact numbers.",
+        "answer": "$\\frac{-1+\\sqrt{5}}{2}$"
+    },
+    {
+        "question": "If $\\frac{1}{\\cos x}-\\tan x=3$, what is the numerical value of $\\sin x$ ?",
+        "answer": "$-\\frac{4}{5}$"
+    },
+    {
+        "question": "Define $f(x)=\\sin ^{6} x+\\cos ^{6} x+k\\left(\\sin ^{4} x+\\cos ^{4} x\\right)$ for some real number $k$.\nDetermine all real numbers $k$ for which there exists a real number $c$ such that $f(c)=0$.",
+        "answer": "$[-1,-\\frac{1}{2}]$"
+    },
+    {
+        "question": "Consider the system of equations:\n\n$$\n\\begin{aligned}\nc+d & =2000 \\\\\n\\frac{c}{d} & =k\n\\end{aligned}\n$$\n\nDetermine the number of integers $k$ with $k \\geq 0$ for which there is at least one pair of integers $(c, d)$ that is a solution to the system.",
+        "answer": "20"
+    },
+    {
+        "question": "The $n$th term of an arithmetic sequence is given by $t_{n}=555-7 n$.\n\nIf $S_{n}=t_{1}+t_{2}+\\ldots+t_{n}$, determine the smallest value of $n$ for which $S_{n}<0$.",
+        "answer": "158"
+    },
+    {
+        "question": "The arithmetic sequences $a_{1}, a_{2}, a_{3}, \\ldots, a_{20}$ and $b_{1}, b_{2}, b_{3}, \\ldots, b_{20}$ consist of 40 distinct positive integers, and $a_{20}+b_{14}=1000$. Compute the least possible value for $b_{20}+a_{14}$.",
+        "answer": "10"
+    },
+    {
+        "question": "The sequence $a_{1}, a_{2}, a_{3}, \\ldots$ is a geometric sequence with $a_{20}=8$ and $a_{14}=2^{21}$. Compute $a_{21}$.",
+        "answer": "1"
+    },
+    {
+        "question": "Let $T=650$. If $\\log T=2-\\log 2+\\log k$, compute the value of $k$.",
+        "answer": "13"
+    },
+    {
+        "question": "Let $T=100$. Nellie has a flight from Rome to Athens that is scheduled to last for $T+30$ minutes. However, owing to a tailwind, her flight only lasts for $T$ minutes. The plane's speed is 1.5 miles per minute faster than what it would have been for the originally scheduled flight. Compute the distance (in miles) that the plane travels.",
+        "answer": "650"
+    },
+    {
+        "question": "Let $T=9$. Compute $\\sqrt{\\sqrt{\\sqrt[T]{10^{T^{2}-T}}}}$.",
+        "answer": "100"
+    },
+    {
+        "question": "Let $T=8640$. Compute $\\left\\lfloor\\log _{4}\\left(1+2+4+\\cdots+2^{T}\\right)\\right\\rfloor$.",
+        "answer": "4320"
+    },
+    {
+        "question": "Compute $\\cos ^{3} \\frac{2 \\pi}{7}+\\cos ^{3} \\frac{4 \\pi}{7}+\\cos ^{3} \\frac{8 \\pi}{7}$.",
+        "answer": "$-\\frac{1}{2}$"
+    },
+    {
+        "question": "Let $T=T N Y W R$. Compute $2^{\\log _{T} 8}-8^{\\log _{T} 2}$.",
+        "answer": "0"
+    },
+    {
+        "question": "Let $T=T N Y W R$. The sequence $a_{1}, a_{2}, a_{3}, \\ldots$, is arithmetic with $a_{16}=13$ and $a_{30}=20$. Compute the value of $k$ for which $a_{k}=T$.",
+        "answer": "17"
+    },
+    {
+        "question": "The zeros of $x^{2}+b x+93$ are $r$ and $s$. If the zeros of $x^{2}-22 x+c$ are $r+1$ and $s+1$, compute $c$.",
+        "answer": "114"
+    },
+    {
+        "question": "The solutions to the equation $x^{2}-180 x+8=0$ are $r_{1}$ and $r_{2}$. Compute\n\n$$\n\\frac{r_{1}}{\\sqrt[3]{r_{2}}}+\\frac{r_{2}}{\\sqrt[3]{r_{1}}}\n$$",
+        "answer": "508"
+    },
+    {
+        "question": "Let $T=$ $\\frac{7}{8}$. The number $T$ can be expressed as a reduced fraction $\\frac{m}{n}$, where $m$ and $n$ are positive integers whose greatest common divisor is 1 . The equation $x^{2}+(m+n) x+m n=0$ has two distinct real solutions. Compute the lesser of these two solutions.",
+        "answer": "-8"
+    },
+    {
+        "question": "Let $T=$ -8, and let $i=\\sqrt{-1}$. Compute the positive integer $k$ for which $(-1+i)^{k}=\\frac{1}{2^{T}}$.",
+        "answer": "16"
+    },
+    {
+        "question": "Let $T=$ 16. Compute the value of $x$ that satisfies $\\log _{4} T=\\log _{2} x$.",
+        "answer": "4"
+    },
+    {
+        "question": "If $x, y$, and $z$ are positive integers such that $x y=20$ and $y z=12$, compute the smallest possible value of $x+z$.",
+        "answer": "8"
+    },
+    {
+        "question": "Let $T=15$. For complex $z$, define the function $f_{1}(z)=z$, and for $n>1, f_{n}(z)=$ $f_{n-1}(\\bar{z})$. If $f_{1}(z)+2 f_{2}(z)+3 f_{3}(z)+4 f_{4}(z)+5 f_{5}(z)=T+T i$, compute $|z|$.",
+        "answer": "$\\sqrt{26}$"
+    },
+    {
+        "question": "Let $T=-10$. Given that $\\log _{2} 4^{8 !}+\\log _{4} 2^{8 !}=6 ! \\cdot T \\cdot x$, compute $x$.",
+        "answer": "-14"
+    },
+    {
+        "question": "$\\quad$ Compute all real values of $x$ such that $\\log _{2}\\left(\\log _{2} x\\right)=\\log _{4}\\left(\\log _{4} x\\right)$.",
+        "answer": "$\\sqrt{2}$"
+    },
+    {
+        "question": "If $6 \\tan ^{-1} x+4 \\tan ^{-1}(3 x)=\\pi$, compute $x^{2}$.",
+        "answer": "$\\frac{15-8 \\sqrt{3}}{33}$"
+    },
+    {
+        "question": "Let $T=4 \\sqrt{5}$. If $x y=\\sqrt{5}, y z=5$, and $x z=T$, compute the positive value of $x$.",
+        "answer": "2"
+    },
+    {
+        "question": "Let $A=\\frac{1}{9}$, and let $B=\\frac{1}{25}$. In $\\frac{1}{A}$ minutes, 20 frogs can eat 1800 flies. At this rate, in $\\frac{1}{B}$ minutes, how many flies will 15 frogs be able to eat?",
+        "answer": "3750"
+    },
+    {
+        "question": "Let $T=5$. If $|T|-1+3 i=\\frac{1}{z}$, compute the sum of the real and imaginary parts of $z$.",
+        "answer": "$\\frac{1}{25}$"
+    },
+    {
+        "question": "Let $T=10$. Ann spends 80 seconds climbing up a $T$ meter rope at a constant speed, and she spends 70 seconds climbing down the same rope at a constant speed (different from her upward speed). Ann begins climbing up and down the rope repeatedly, and she does not pause after climbing the length of the rope. After $T$ minutes, how many meters will Ann have climbed in either direction?",
+        "answer": "80"
+    },
+    {
+        "question": "Let $P(x)=x^{2}+T x+800$, and let $r_{1}$ and $r_{2}$ be the roots of $P(x)$. The polynomial $Q(x)$ is quadratic, it has leading coefficient 1, and it has roots $r_{1}+1$ and $r_{2}+1$. Find the sum of the coefficients of $Q(x)$.",
+        "answer": "800"
+    },
+    {
+        "question": "For real numbers $\\alpha, B$, and $C$, the zeros of $T(x)=x^{3}+x^{2}+B x+C \\operatorname{are~}^{2} \\alpha$, $\\cos ^{2} \\alpha$, and $-\\csc ^{2} \\alpha$. Compute $T(5)$.",
+        "answer": "$\\frac{567}{4}$"
+    },
+    {
+        "question": "Let $T=5$. Compute the smallest positive integer $n$ such that there are at least $T$ positive integers in the domain of $f(x)=\\sqrt{-x^{2}-2 x+n}$.",
+        "answer": "35"
+    },
+    {
+        "question": "Let $T=35$. Compute the smallest positive real number $x$ such that $\\frac{\\lfloor x\\rfloor}{x-\\lfloor x\\rfloor}=T$.",
+        "answer": "$\\frac{36}{35}$"
+    },
+    {
+        "question": "Define $\\log ^{*}(n)$ to be the smallest number of times the log function must be iteratively applied to $n$ to get a result less than or equal to 1 . For example, $\\log ^{*}(1000)=2$ since $\\log 1000=3$ and $\\log (\\log 1000)=\\log 3=0.477 \\ldots \\leq 1$. Let $a$ be the smallest integer such that $\\log ^{*}(a)=3$. Compute the number of zeros in the base 10 representation of $a$.",
+        "answer": "9"
+    },
+    {
+        "question": "Let $T=0$. Compute the real value of $x$ for which there exists a solution to the system of equations\n\n$$\n\\begin{aligned}\nx+y & =0 \\\\\nx^{3}-y^{3} & =54+T .\n\\end{aligned}\n$$",
+        "answer": "3"
+    },
+    {
+        "question": "Let $T=9$. The sequence $a_{1}, a_{2}, a_{3}, \\ldots$ is an arithmetic progression, $d$ is the common difference, $a_{T}=10$, and $a_{K}=2010$, where $K>T$. If $d$ is an integer, compute the value of $K$ such that $|K-d|$ is minimal.",
+        "answer": "49"
+    },
+    {
+        "question": "Let $A$ be the number you will receive from position 7 , and let $B$ be the number you will receive from position 9 . There are exactly two ordered pairs of real numbers $\\left(x_{1}, y_{1}\\right),\\left(x_{2}, y_{2}\\right)$ that satisfy both $|x+y|=6(\\sqrt{A}-5)$ and $x^{2}+y^{2}=B^{2}$. Compute $\\left|x_{1}\\right|+\\left|y_{1}\\right|+\\left|x_{2}\\right|+\\left|y_{2}\\right|$.",
+        "answer": "24"
+    },
+    {
+        "question": "Let $T\\neq 0$. Suppose that $a, b, c$, and $d$ are real numbers so that $\\log _{a} c=\\log _{b} d=T$. Compute\n\n$$\n\\frac{\\log _{\\sqrt{a b}}(c d)^{3}}{\\log _{a} c+\\log _{b} d}\n$$",
+        "answer": "3"
+    },
+    {
+        "question": "Given that $a$ and $b$ are positive and\n\n$$\n\\lfloor 20-a\\rfloor=\\lfloor 19-b\\rfloor=\\lfloor a b\\rfloor,\n$$\n\ncompute the least upper bound of the set of possible values of $a+b$.",
+        "answer": "$\\frac{41}{5}$"
+    },
+    {
+        "question": "$\\quad$ Compute the least positive value of $t$ such that\n\n$$\n\\operatorname{Arcsin}(\\sin (t)), \\operatorname{Arccos}(\\cos (t)), \\operatorname{Arctan}(\\tan (t))\n$$\n\nform (in some order) a three-term arithmetic progression with a nonzero common difference.",
+        "answer": "$\\frac{3 \\pi}{4}$"
+    },
+    {
+        "question": "Given that $a, b, c$, and $d$ are integers such that $a+b c=20$ and $-a+c d=19$, compute the greatest possible value of $c$.",
+        "answer": "39"
+    },
+    {
+        "question": "Let $T=6$. Compute the value of $x$ such that $\\log _{T} \\sqrt{x-7}+\\log _{T^{2}}(x-2)=1$.",
+        "answer": "11"
+    },
+    {
+        "question": "Let $T=\\frac{1}{40}$. Given that $x, y$, and $z$ are real numbers such that $x+y=5, x^{2}-y^{2}=\\frac{1}{T}$, and $x-z=-7$, compute $x+z$",
+        "answer": "20"
+    },
+    {
+        "question": "Let $S=15$ and let $M=10$ . Sam and Marty each ride a bicycle at a constant speed. Sam's speed is $S \\mathrm{~km} / \\mathrm{hr}$ and Marty's speed is $M \\mathrm{~km} / \\mathrm{hr}$. Given that Sam and Marty are initially $100 \\mathrm{~km}$ apart and they begin riding towards one another at the same time, along a straight path, compute the number of kilometers that Sam will have traveled when Sam and Marty meet.",
+        "answer": "60"
+    },
+    {
+        "question": "Compute the number of integers $n$ for which $2^{4}<8^{n}<16^{32}$.",
+        "answer": "41"
+    },
+    {
+        "question": "Compute $\\left\\lfloor 100000(1.002)^{10}\\right\\rfloor$.",
+        "answer": "102018"
+    },
+    {
+        "question": "Suppose that $r$ and $s$ are the two roots of the equation $F_{k} x^{2}+F_{k+1} x+F_{k+2}=0$, where $F_{n}$ denotes the $n^{\\text {th }}$ Fibonacci number. Compute the value of $(r+1)(s+1)$.",
+        "answer": "2"
+    },
+    {
+        "question": "Let T be a rational number. Compute $\\sin ^{2} \\frac{T \\pi}{2}+\\sin ^{2} \\frac{(5-T) \\pi}{2}$.",
+        "answer": "1"
+    }
+]

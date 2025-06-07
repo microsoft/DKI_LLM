@@ -1,0 +1,50 @@
+[
+    {
+        "question": "The equation $2000x^6+100x^5+10x^3+x-2=0$ has exactly two real roots, one of which is $\\frac{m+\\sqrt{n}}r$ , where $m$ , $n$ and $r$ are integers, $m$ and $r$ are relatively prime, and $r>0$ . Find $m+n+r$ .",
+        "answer": "200"
+    },
+    {
+        "question": "Find the smallest positive integer solution to $\\tan{19x^{\\circ}}=\\dfrac{\\cos{96^{\\circ}}+\\sin{96^{\\circ}}}{\\cos{96^{\\circ}}-\\sin{96^{\\circ}}}$ .",
+        "answer": "159"
+    },
+    {
+        "question": "A positive integer $N$ has base-eleven representation $\\underline{a}\\kern 0.1em\\underline{b}\\kern 0.1em\\underline{c}$ and base-eight representation $\\underline1\\kern 0.1em\\underline{b}\\kern 0.1em\\underline{c}\\kern 0.1em\\underline{a},$ where $a,b,$ and $c$ represent (not necessarily distinct) digits. Find the least such $N$ expressed in base ten.",
+        "answer": "621"
+    },
+    {
+        "question": "The value of $x$ that satisfies $\\log_{2^x} 3^{20} = \\log_{2^{x+3}} 3^{2020}$ can be written as $\\frac{m}{n}$ , where $m$ and $n$ are relatively prime positive integers. Find $m+n$ .",
+        "answer": "103"
+    },
+    {
+        "question": "Find the positive integer $n$ such that \\[\\arctan\\frac {1}{3} + \\arctan\\frac {1}{4} + \\arctan\\frac {1}{5} + \\arctan\\frac {1}{n} = \\frac {\\pi}{4}.\\]",
+        "answer": "47"
+    },
+    {
+        "question": "Let $S_n$ be the sum of the reciprocals of the non-zero digits of the integers from $1$ to $10^n$ inclusive. Find the smallest positive integer $n$ for which $S_n$ is an integer.",
+        "answer": "63"
+    },
+    {
+        "question": "With all angles measured in degrees, the product $\\prod_{k=1}^{45} \\csc^2(2k-1)^\\circ=m^n$ , where $m$ and $n$ are integers greater than 1. Find $m+n$ .",
+        "answer": "91"
+    },
+    {
+        "question": "The polynomial $1-x+x^2-x^3+\\cdots+x^{16}-x^{17}$ may be written in the form $a_0+a_1y+a_2y^2+\\cdots +a_{16}y^{16}+a_{17}y^{17}$ , where $y=x+1$ and the $a_i$ 's are constants. Find the value of $a_2$ .",
+        "answer": "816"
+    },
+    {
+        "question": "Find the sum of all positive integers $a=2^n3^m$ where $n$ and $m$ are non-negative integers, for which $a^6$ is not a divisor of $6^a$ .",
+        "answer": "42"
+    },
+    {
+        "question": "For distinct complex numbers $z_1,z_2,\\dots,z_{673}$ , the polynomial \\[(x-z_1)^3(x-z_2)^3 \\cdots (x-z_{673})^3\\] can be expressed as $x^{2019} + 20x^{2018} + 19x^{2017}+g(x)$ , where $g(x)$ is a polynomial with complex coefficients and with degree at most $2016$ . The value of \\[\\left| \\sum_{1 \\le j <k \\le 673} z_jz_k \\right|\\] can be expressed in the form $\\tfrac{m}{n}$ , where $m$ and $n$ are relatively prime positive integers. Find $m+n$ .",
+        "answer": "352"
+    },
+    {
+        "question": "Given that $\\log_{10} \\sin x + \\log_{10} \\cos x = -1$ and that $\\log_{10} (\\sin x + \\cos x) = \\frac{1}{2} (\\log_{10} n - 1),$ find $n.$",
+        "answer": "12"
+    },
+    {
+        "question": "Positive numbers $x$ , $y$ , and $z$ satisfy $xyz = 10^{81}$ and $(\\log_{10}x)(\\log_{10} yz) + (\\log_{10}y) (\\log_{10}z) = 468$ . Find $\\sqrt {(\\log_{10}x)^2 + (\\log_{10}y)^2 + (\\log_{10}z)^2}$ .",
+        "answer": "75"
+    }
+]

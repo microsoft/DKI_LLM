@@ -1,0 +1,138 @@
+[
+    {
+        "question": "There are $2n$ complex numbers that satisfy both $z^{28} - z^{8} - 1 = 0$ and $|z| = 1$ . These numbers have the form $z_{m} = \\cos\\theta_{m} + i\\sin\\theta_{m}$ , where $0\\leq\\theta_{1} < \\theta_{2} < \\ldots < \\theta_{2n} < 360$ and angles are measured in degrees. Find the value of $\\theta_{2} + \\theta_{4} + \\ldots + \\theta_{2n}$ .",
+        "answer": "840"
+    },
+    {
+        "question": "For each ordered pair of real numbers $(x,y)$ satisfying \\[\\log_2(2x+y) = \\log_4(x^2+xy+7y^2)\\] there is a real number $K$ such that \\[\\log_3(3x+y) = \\log_9(3x^2+4xy+Ky^2).\\] Find the product of all possible values of $K$ .",
+        "answer": "189"
+    },
+    {
+        "question": "There is a positive real number $x$ not equal to either $\\tfrac{1}{20}$ or $\\tfrac{1}{2}$ such that \\[\\log_{20x} (22x)=\\log_{2x} (202x).\\] The value $\\log_{20x} (22x)$ can be written as $\\log_{10} (\\tfrac{m}{n})$ , where $m$ and $n$ are relatively prime positive integers. Find $m+n$ .",
+        "answer": "112"
+    },
+    {
+        "question": "For a real number $a$ , let $\\lfloor a \\rfloor$ denote the greatest integer less than or equal to $a$ . Let $\\mathcal{R}$ denote the region in the coordinate plane consisting of points $(x,y)$ such that $\\lfloor x \\rfloor ^2 + \\lfloor y \\rfloor ^2 = 25$ . The region $\\mathcal{R}$ is completely contained in a disk of radius $r$ (a disk is the union of a circle and its interior). The minimum value of $r$ can be written as $\\frac {\\sqrt {m}}{n}$ , where $m$ and $n$ are integers and $m$ is not divisible by the square of any prime. Find $m + n$ .",
+        "answer": "132"
+    },
+    {
+        "question": "The complex numbers $z$ and $w$ satisfy the system \\[z + \\frac{20i}w = 5+i\\] \\[w+\\frac{12i}z = -4+10i\\] Find the smallest possible value of $\\vert zw\\vert^2$ .",
+        "answer": "40"
+    },
+    {
+        "question": "There are positive integers $x$ and $y$ that satisfy the system of equations \\[\\log_{10} x + 2 \\log_{10} (\\gcd(x,y)) = 60\\] \\[\\log_{10} y + 2 \\log_{10} (\\text{lcm}(x,y)) = 570.\\] Let $m$ be the number of (not necessarily distinct) prime factors in the prime factorization of $x$ , and let $n$ be the number of (not necessarily distinct) prime factors in the prime factorization of $y$ . Find $3m+2n$ .",
+        "answer": "880"
+    },
+    {
+        "question": "Lines $l_1^{}$ and $l_2^{}$ both pass through the origin and make first-quadrant angles of $\\frac{\\pi}{70}$ and $\\frac{\\pi}{54}$ radians, respectively, with the positive x-axis. For any line $l^{}_{}$ , the transformation $R(l)^{}_{}$ produces another line as follows: $l^{}_{}$ is reflected in $l_1^{}$ , and the resulting line is reflected in $l_2^{}$ . Let $R^{(1)}(l)=R(l)^{}_{}$ and $R^{(n)}(l)^{}_{}=R\\left(R^{(n-1)}(l)\\right)$ . Given that $l^{}_{}$ is the line $y=\\frac{19}{92}x^{}_{}$ , find the smallest positive integer $m^{}_{}$ for which $R^{(m)}(l)=l^{}_{}$ .",
+        "answer": "945"
+    },
+    {
+        "question": "Let $a, b, c,$ and $d$ be real numbers that satisfy the system of equations \\begin{align*} a + b &= -3, \\\\ ab + bc + ca &= -4, \\\\ abc + bcd + cda + dab &= 14, \\\\ abcd &= 30. \\end{align*} There exist relatively prime positive integers $m$ and $n$ such that \\[a^2 + b^2 + c^2 + d^2 = \\frac{m}{n}.\\] Find $m + n$ .",
+        "answer": "145"
+    },
+    {
+        "question": "There is a unique positive real number $x$ such that the three numbers $\\log_8(2x),\\log_4x,$ and $\\log_2x,$ in that order, form a geometric progression with positive common ratio. The number $x$ can be written as $\\tfrac{m}{n},$ where $m$ and $n$ are relatively prime positive integers. Find $m+n.$",
+        "answer": "17"
+    },
+    {
+        "question": "For certain pairs $(m,n)$ of positive integers with $m\\geq n$ there are exactly $50$ distinct positive integers $k$ such that $|\\log m - \\log k| < \\log n$ . Find the sum of all possible values of the product $m \\cdot n$ .",
+        "answer": "125"
+    },
+    {
+        "question": "Let $x,y$ and $z$ be positive real numbers that satisfy the following system of equations: \\[\\log_2\\left({x \\over yz}\\right) = {1 \\over 2}\\] \\[\\log_2\\left({y \\over xz}\\right) = {1 \\over 3}\\] \\[\\log_2\\left({z \\over xy}\\right) = {1 \\over 4}\\] Then the value of $\\left|\\log_2(x^4y^3z^2)\\right|$ is $\\tfrac{m}{n}$ where $m$ and $n$ are relatively prime positive integers. Find $m+n$ .",
+        "answer": "33"
+    },
+    {
+        "question": "Find the number of integer values of $k$ in the closed interval $[-500,500]$ for which the equation $\\log(kx)=2\\log(x+2)$ has exactly one real solution.",
+        "answer": "501"
+    },
+    {
+        "question": "An equilateral triangle is inscribed in the ellipse whose equation is $x^2+4y^2=4$ . One vertex of the triangle is $(0,1)$ , one altitude is contained in the y-axis, and the length of each side is $\\sqrt{\\frac mn}$ , where $m$ and $n$ are relatively prime positive integers. Find $m+n$ .",
+        "answer": "937"
+    },
+    {
+        "question": "Let $S$ be the set of ordered pairs $(x, y)$ such that $0 < x \\le 1, 0<y\\le 1,$ and $\\left \\lfloor{\\log_2{\\left(\\frac 1x\\right)}}\\right \\rfloor$ and $\\left \\lfloor{\\log_5{\\left(\\frac 1y\\right)}}\\right \\rfloor$ are both even. Given that the area of the graph of $S$ is $m/n,$ where $m$ and $n$ are relatively prime positive integers, find $m+n.$ The notation $\\left \\lfloor{z}\\right \\rfloor$ denotes the greatest integer that is less than or equal to $z.$",
+        "answer": "14"
+    },
+    {
+        "question": "Find $3x^2 y^2$ if $x$ and $y$ are integers such that $y^2 + 3x^2 y^2 = 30x^2 + 517$ .",
+        "answer": "588"
+    },
+    {
+        "question": "Given that $\\sum_{k=1}^{35}\\sin 5k=\\tan \\frac mn,$ where angles are measured in degrees, and $m_{}$ and $n_{}$ are relatively prime positive integers that satisfy $\\frac mn<90,$ find $m+n.$",
+        "answer": "177"
+    },
+    {
+        "question": "Suppose that $x,$ $y,$ and $z$ are three positive numbers that satisfy the equations $xyz = 1,$ $x + \\frac {1}{z} = 5,$ and $y + \\frac {1}{x} = 29.$ Then $z + \\frac {1}{y} = \\frac {m}{n},$ where $m$ and $n$ are relatively prime positive integers. Find $m + n$ .",
+        "answer": "5"
+    },
+    {
+        "question": "Let $a,b,c,d,e,f,g,h,i$ be distinct integers from $1$ to $9.$ The minimum possible positive value of \\[\\dfrac{a \\cdot b \\cdot c - d \\cdot e \\cdot f}{g \\cdot h \\cdot i}\\] can be written as $\\frac{m}{n},$ where $m$ and $n$ are relatively prime positive integers. Find $m+n.$",
+        "answer": "289"
+    },
+    {
+        "question": "Let $x$ , $y$ and $z$ all exceed $1$ and let $w$ be a positive number such that $\\log_xw=24$ , $\\log_y w = 40$ and $\\log_{xyz}w=12$ . Find $\\log_zw$ .",
+        "answer": "60"
+    },
+    {
+        "question": "Suppose $x$ is in the interval $[0,\\pi/2]$ and $\\log_{24 \\sin x} (24 \\cos x) = \\frac{3}{2}$ .  Find $24 \\cot^2 x$ .",
+        "answer": "192"
+    },
+    {
+        "question": "An infinite geometric series has sum 2005. A new series, obtained by squaring each term of the original series, has 10 times the sum of the original series. The common ratio of the original series is $\\frac mn$ where $m$ and $n$ are relatively prime integers. Find $m+n.$",
+        "answer": "802"
+    },
+    {
+        "question": "Suppose that a parabola has vertex $\\left(\\frac{1}{4},-\\frac{9}{8}\\right)$ and equation $y = ax^2 + bx + c$ , where $a > 0$ and $a + b + c$ is an integer.  The minimum possible value of $a$ can be written in the form $\\frac{p}{q}$ , where $p$ and $q$ are relatively prime positive integers.  Find $p + q$ .",
+        "answer": "11"
+    },
+    {
+        "question": "There is a complex number $z$ with imaginary part $164$ and a positive integer $n$ such that \\[\\frac {z}{z + n} = 4i.\\] Find $n$ .",
+        "answer": "697"
+    },
+    {
+        "question": "A function $f$ is defined on the complex numbers by $f(z)=(a+bi)z,$ where $a_{}$ and $b_{}$ are positive numbers.  This function has the property that the image of each point in the complex plane is equidistant from that point and the origin.  Given that $|a+bi|=8$ and that $b^2=m/n,$ where $m_{}$ and $n_{}$ are relatively prime positive integers.  Find $m+n.$",
+        "answer": "259"
+    },
+    {
+        "question": "The complex numbers $z$ and $w$ satisfy $z^{13} = w,$ $w^{11} = z,$ and the imaginary part of $z$ is $\\sin{\\frac{m\\pi}{n}}$ , for relatively prime positive integers $m$ and $n$ with $m<n.$ Find $n.$",
+        "answer": "71"
+    },
+    {
+        "question": "A particle is located on the coordinate plane at $(5,0)$ . Define a move for the particle as a counterclockwise rotation of $\\pi/4$ radians about the origin followed by a translation of $10$ units in the positive $x$ -direction. Given that the particle's position after $150$ moves is $(p,q)$ , find the greatest integer less than or equal to $|p| + |q|$ .",
+        "answer": "19"
+    },
+    {
+        "question": "Let $S$ be the set of positive integers $k$ such that the two parabolas \\[y=x^2-k~~\\text{and}~~x=2(y-20)^2-k\\] intersect in four distinct points, and these four points lie on a circle with radius at most $21$ . Find the sum of the least element of $S$ and the greatest element of $S$ .",
+        "answer": "285"
+    },
+    {
+        "question": "If $\\tan x+\\tan y=25$ and $\\cot x + \\cot y=30$ , what is $\\tan(x+y)$ ?",
+        "answer": "150"
+    },
+    {
+        "question": "Given $f(z) = z^2-19z$ , there are complex numbers $z$ with the property that $z$ , $f(z)$ , and $f(f(z))$ are the vertices of a right triangle in the complex plane with a right angle at $f(z)$ . There are positive integers $m$ and $n$ such that one such value of $z$ is $m+\\sqrt{n}+11i$ . Find $m+n$ .",
+        "answer": "230"
+    },
+    {
+        "question": "Let $A$ be an acute angle such that $\\tan A = 2 \\cos A.$ Find the number of positive integers $n$ less than or equal to $1000$ such that $\\sec^n A + \\tan^n A$ is a positive integer whose units digit is $9.$",
+        "answer": "167"
+    },
+    {
+        "question": "Let $x$ be a real number such that $\\sin^{10}x+\\cos^{10} x = \\tfrac{11}{36}$ . Then $\\sin^{12}x+\\cos^{12} x = \\tfrac{m}{n}$ where $m$ and $n$ are relatively prime positive integers. Find $m+n$ .",
+        "answer": "67"
+    },
+    {
+        "question": "Consider the sequence defined by $a_k=\\frac 1{k^2+k}$ for $k\\ge 1$ . Given that $a_m+a_{m+1}+\\cdots+a_{n-1}=1/29$ , for positive integers $m$ and $n$ with $m<n$ , find $m+n$ .",
+        "answer": "840"
+    },
+    {
+        "question": "For $\\pi \\le \\theta < 2\\pi$ , let \\[P=\\dfrac12\\cos\\theta-\\dfrac14\\sin2\\theta-\\dfrac18\\cos3\\theta+\\dfrac1{16}\\sin4\\theta+\\dfrac1{32}\\cos5\\theta-\\dfrac1{64}\\sin6\\theta-\\dfrac1{128}\\cos7\\theta+\\ldots\\] and \\[Q=1-\\dfrac12\\sin\\theta-\\dfrac14\\cos2\\theta+\\dfrac1{8}\\sin3\\theta+\\dfrac1{16}\\cos4\\theta-\\dfrac1{32}\\sin5\\theta-\\dfrac1{64}\\cos6\\theta+\\dfrac1{128}\\sin7\\theta +\\ldots\\] so that $\\frac{P}{Q} = \\frac{2\\sqrt2}{7}$ . Then $\\sin\\theta = -\\frac{m}{n}$ where $m$ and $n$ are relatively prime positive integers. Find $m+n$ .",
+        "answer": "36"
+    },
+    {
+        "question": "Find the sum of all positive rational numbers that are less than 10 and that have denominator 30 when written in lowest terms.",
+        "answer": "400"
+    }
+]

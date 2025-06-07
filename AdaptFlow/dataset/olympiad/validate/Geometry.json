@@ -1,0 +1,58 @@
+[
+    {
+        "question": "Let $T$ be a rational number. Two coplanar squares $\\mathcal{S}_{1}$ and $\\mathcal{S}_{2}$ each have area $T$ and are arranged as shown to form a nonconvex octagon. The center of $\\mathcal{S}_{1}$ is a vertex of $\\mathcal{S}_{2}$, and the center of $\\mathcal{S}_{2}$ is a vertex of $\\mathcal{S}_{1}$. Compute $\\frac{\\text { area of the union of } \\mathcal{S}_{1} \\text { and } \\mathcal{S}_{2}}{\\text { area of the intersection of } \\mathcal{S}_{1} \\text { and } \\mathcal{S}_{2}}$.\n\n<img_3476>",
+        "answer": "7"
+    },
+    {
+        "question": "Points $P, Q, R$, and $S$ lie in the interior of square $A B C D$ such that triangles $A B P, B C Q$, $C D R$, and $D A S$ are equilateral. If $A B=1$, compute the area of quadrilateral $P Q R S$.",
+        "answer": "$2-\\sqrt{3}$"
+    },
+    {
+        "question": "Let $A B C D$ be a parallelogram with $\\angle A B C$ obtuse. Let $\\overline{B E}$ be the altitude to side $\\overline{A D}$ of $\\triangle A B D$. Let $X$ be the point of intersection of $\\overline{A C}$ and $\\overline{B E}$, and let $F$ be the point of intersection of $\\overline{A B}$ and $\\overleftrightarrow{D X}$. If $B C=30, C D=13$, and $B E=12$, compute the ratio $\\frac{A C}{A F}$.",
+        "answer": "$\\frac{222}{13}$"
+    },
+    {
+        "question": "Points $A, R, M$, and $L$ are consecutively the midpoints of the sides of a square whose area is 650. The coordinates of point $A$ are $(11,5)$. If points $R, M$, and $L$ are all lattice points, and $R$ is in Quadrant I, compute the number of possible ordered pairs $(x, y)$ of coordinates for point $R$.",
+        "answer": "10"
+    },
+    {
+        "question": "Let $T=\\frac{9}{17}$. When $T$ is expressed as a reduced fraction, let $m$ and $n$ be the numerator and denominator, respectively. A square pyramid has base $A B C D$, the distance from vertex $P$ to the base is $n-m$, and $P A=P B=P C=P D=n$. Compute the area of square $A B C D$.",
+        "answer": "450"
+    },
+    {
+        "question": "In acute triangle $I L K$, shown in the figure, point $G$ lies on $\\overline{L K}$ so that $\\overline{I G} \\perp \\overline{L K}$. Given that $I L=\\sqrt{41}$ and $L G=I K=5$, compute $G K$.\n\n<img_3922>",
+        "answer": "3"
+    },
+    {
+        "question": "A square $P Q R S$ with side of length $x$ is subdivided into four triangular regions as shown so that area (A) + area $(B)=\\text{area}(C)$. If $P T=3$ and $R U=5$, determine the value of $x$.\n\n<img_3567>",
+        "answer": "15"
+    },
+    {
+        "question": "In right triangle $A B C$ with right angle $C$, line $\\ell$ is drawn through $C$ and is parallel to $\\overline{A B}$. Points $P$ and $Q$ lie on $\\overline{A B}$ with $P$ between $A$ and $Q$, and points $R$ and $S$ lie on $\\ell$ with $C$ between $R$ and $S$ such that $P Q R S$ is a square. Let $\\overline{P S}$ intersect $\\overline{A C}$ in $X$, and let $\\overline{Q R}$ intersect $\\overline{B C}$ in $Y$. The inradius of triangle $A B C$ is 10 , and the area of square $P Q R S$ is 576 . Compute the sum of the inradii of triangles $A X P, C X S, C Y R$, and $B Y Q$.",
+        "answer": "14"
+    },
+    {
+        "question": "A regular pentagon covers part of another regular polygon, as shown. This regular polygon has $n$ sides, five of which are completely or partially visible. In the diagram, the sum of the measures of the angles marked $a^{\\circ}$ and $b^{\\circ}$ is $88^{\\circ}$. Determine the value of $n$.\n\n(The side lengths of a regular polygon are all equal, as are the measures of its interior angles.)\n<img_3254>",
+        "answer": "9"
+    },
+    {
+        "question": "The Little Prince lives on a spherical planet which has a radius of $24 \\mathrm{~km}$ and centre $O$. He hovers in a helicopter $(H)$ at a height of $2 \\mathrm{~km}$ above the surface of the planet. From his position in the helicopter, what is the distance, in kilometres, to the furthest point on the surface of the planet that he can see?\n\n<img_3900>",
+        "answer": "10"
+    },
+    {
+        "question": "The perimeter of equilateral $\\triangle P Q R$ is 12. The perimeter of regular hexagon $S T U V W X$ is also 12. What is the ratio of the area of $\\triangle P Q R$ to the area of $S T U V W X$ ?",
+        "answer": "$\\frac{2}{3}$"
+    },
+    {
+        "question": "In the diagram, $A B=B C=2 \\sqrt{2}, C D=D E$, $\\angle C D E=60^{\\circ}$, and $\\angle E A B=75^{\\circ}$. Determine the perimeter of figure $A B C D E$. Explain how you got your answer.\n\n<img_3224>",
+        "answer": "$4+4 \\sqrt{2}+2 \\sqrt{3}$"
+    },
+    {
+        "question": "Let $T=37$. A cube has edges of length $T$. Square holes of side length 1 are drilled from the center of each face of the cube through the cube's center and across to the opposite face; the edges of each hole are parallel to the edges of the cube. Compute the surface area of the resulting solid.",
+        "answer": "8640"
+    },
+    {
+        "question": "In the diagram, $A C D F$ is a rectangle with $A C=200$ and $C D=50$. Also, $\\triangle F B D$ and $\\triangle A E C$ are congruent triangles which are right-angled at $B$ and $E$, respectively. What is the area of the shaded region?\n\n<img_3742>",
+        "answer": "2500"
+    }
+]

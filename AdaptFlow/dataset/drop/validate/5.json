@@ -1,0 +1,74 @@
+[
+  {
+    "context": "Passage: Although it failed to dislodge the Burmese from Kengtung and Sipsongpanna at the beginning of the century , Siam never gave up its claims on these lands. They tested the waters in 1849, by raiding as far north as Kengtung. But when the Second Anglo-Burmese War started, the Siamese viewed it as their opportunity to take over the trans-Salween states. In late 1852, a large infantry and elephant force marched from Chiang Mai and launched a two-pronged invasion of Kengtung. Burma couldrespond only after the new king Mindon had seized power in February 1853. Because he was still concerned about the British threat, Mindon could only send several thousand infantry troops from the Mone  garrison to relieve the Siamese siege of Kengtung. With the troops by Kenghung sawbwa, the Burmese eventually drove out the Siamese but only after heavy loss of life. In 1854, the largest Siamese invasion force, consisted of Laotian levies, tried once more. But this time, with the British front quiet, the Burmese were ready. Mindon had deployed a larger, well-equipped army . The Siamese forces again reached Kengtung but could not break through. The Siamese forces withdrew to the border in May 1855.\nQuestion: How many animal forces did the Siamese take with them in 1852?\nAnswer:",
+    "completion": " 1",
+    "ref_text": "1|a large elephant force",
+    "id": 624
+  },
+  {
+    "context": "Passage: When Major General Nathanael Greene took command in the South, Marion and Lieutenant Colonel Henry Lee were ordered in January 1781, to attack Georgetown but were unsuccessful. In April they took Fort Watson and in May they captured Fort Motte, and succeeded in breaking communications between the British posts in the Carolinas. On August 31, Marion rescued a small American force trapped by 500 British soldiers, under the leadership of Major C. Fraser. For this action he received the thanks of the Continental Congress. Marion commanded the right wing under General Greene at the Battle of Eutaw Springs. In January 1782, he was elected to a new State Assembly at Jacksonborough and left his troops to take up his seat. During his absence his brigade grew disheartened, particularly after a British sortie from Charleston, and there was reportedly a conspiracy to turn him over to the British. But in June of that year, he put down a Loyalist uprising on the banks of the Pee Dee River. In August he left his brigade and returned to his plantation. In 1782, the British Parliament suspended offensive operations in America, and in December 1782, the British withdrew their garrison from Charleston. The war was brought to an end by the Treaty of Paris.\nQuestion: How many months after Marion rescued a small American force was he elected to the new State Assembly?\nAnswer:",
+    "completion": " 5",
+    "ref_text": "5|4|3",
+    "id": 6911
+  },
+  {
+    "context": "Passage: Lévis returned to France on parole, and was released for service in Europe by William Pitt. He served in the German campaigns of 1762, and retired from active military service when the war ended in 1763 with the Peace of Paris. He was appointed governor of Artois in 1765. He was promoted to Marshal of France in 1783, and was raised to the inheritable title Duc de Lévis in 1784. He died in 1787 in Arras, France, and was succeeded as duke of Lévis by his son Pierre-Marc-Gaston, who escaped to England during the French Revolution. His widow and three daughters were sent to the guillotine during the French Revolution. He left his name to Lévis, Quebec, across the river from Quebec City.\nQuestion: How many years was it that Levis served between the German campaigns and his reitrement?\nAnswer:",
+    "completion": " 1",
+    "ref_text": "1",
+    "id": 8779
+  },
+  {
+    "context": "Passage: Another factor in the revolt of 1381 was the conduct of the war with France. In 1337 Edward III of England had pressed his claims to the French throne, beginning a long-running conflict that became known as the Hundred Years' War. Edward had initial successes, but his campaigns were not decisive. Charles V of France became more active in the conflict after 1369, taking advantage of his country's greater economic strength to commence cross-Channel raids on England. By the 1370s, England's armies on the continent were under huge military and financial pressure; the garrisons in Calais and Brest alone, for example, were costing £36,000 a year to maintain, while military expeditions could consume £50,000 in only six months. Edward died in 1377, leaving the throne to his grandson, Richard II, then only ten years old.\nQuestion: How many years before the revolt of 1381 did Charles V of France become more active in the conflict?\nAnswer:",
+    "completion": " 12",
+    "ref_text": "12",
+    "id": 4094
+  },
+  {
+    "context": "Passage: Vaudreuil and Montcalm were minimally resupplied in 1758, as the British blockade of the French coastline limited French shipping. The situation in New France was further exacerbated by a poor harvest in 1757, a difficult winter, and the allegedly corrupt machinations of François Bigot, the intendant of the territory. His schemes to supply the colony inflated prices and were believed by Montcalm to line his pockets and those of his associates. A massive outbreak of smallpox among western Indian tribes led many of them to stay away from trading in 1758. The disease probably spread through the crowded conditions at William Henry after the battle; yet the Indians blamed the French for bringing \"bad medicine\" as well as denying them prizes at Fort William Henry. Montcalm focused his meager resources on the defense of the St. Lawrence, with primary defenses at Carillon, Quebec, and Louisbourg, while Vaudreuil argued unsuccessfully for a continuation of the raiding tactics that had worked quite effectively in previous years. The British failures in North America combined with other failures in the European theater and led to Newcastle's fall from power along with the Duke of Cumberland, his principal military advisor. Newcastle and Pitt joined in an uneasy coalition in which Pitt dominated the military planning. He embarked on a plan for the 1758 campaign that was largely developed by Loudoun. He had been replaced by Abercrombie as commander in chief after the failures of 1757. Pitt's plan called for three major offensive actions involving large numbers of regular troops supported by the provincial militias, aimed at capturing the heartlands of New France. Two of the expeditions were successful, with Fort Duquesne and Louisbourg falling to sizable British forces.\nQuestion: What was unable to resupply Vaudreuil and Montcalm?\nAnswer:",
+    "completion": " French shipping",
+    "ref_text": "French shipping|the French|François Bigot",
+    "id": 4035
+  },
+  {
+    "context": "Passage: The 10th Cavalry returned from the Philippines in late 1902 and settled down in different posts in the south western United States. Patrols and garrison life was the routine for the regiment. Under war plans, the 10th was designated for service in the Pacific and support in the Philippines from 1915 through 1942 but never rotated there. The 9th Cavalry Regiment  became \"Park Rangers\" in 1905 for Yosemite National Park and other state and federal lands. The Troopers' Campaign Hat, sporting the \"Montana Pinch\" used to help shed the tropical downpours. That \"Montana Pinch\" gave the hat the distinctive look we recognize today as the \"Smokey Bear Hat\".\nQuestion: How many years after the 10th Cavalry returned from the Philippines did the 9th Cavalry Regiment become Park Rangers for Yosemite National Park?\nAnswer:",
+    "completion": " 3",
+    "ref_text": "3|0",
+    "id": 4604
+  },
+  {
+    "context": "Passage: More than 5,000 US troops of General John J. Pershing's forces, including elements of the 7th Cavalry and the African-American U.S. 10th Cavalry Regiment, entered Mexico in hot pursuit of Villa. The campaign consisted primarily of dozens of minor skirmishes with small bands of insurgents. Gen. Pershing failed to catch up to Villa. On 21 June 1916, two troops of the 10th, totaling 92 troopers, attacked Mexican Federal Army troops in an engagement in the Battle of Carrizal, Chihuahua. 12 US troops were killed and 23 taken prisoner; 45 Federales were casualties, including the Mexican general Gomez. The engagement nearly precipitated open war with the Mexican government , but both governments immediately moved to lessen tensions and open negotiations for US withdrawal, preventing war. The prisoners were repatriated at El Paso, Texas by the Carrancista government.\nQuestion: Which side suffered more casualties, the Federales or the Americans?\nAnswer:",
+    "completion": " the Federales",
+    "ref_text": "the Federales|Federales",
+    "id": 6800
+  },
+  {
+    "context": "Passage: In May 1924, the French Army had established a line of out-posts north of the Oureghla River in disputed tribal territory. On 12 April 1925, an estimated 8,000 Rifians attacked this line and in two weeks over 40 of 66 French posts had been stormed or abandoned. French casualties exceeded 1,000 killed, 3,700 wounded and 1,000 missing - representing losses of over 20 percent of their forces deployed in the Rif. The French accordingly intervened on the side of Spain, employing up to 160,000 well trained and equipped troops from Metropolitan, Algerian, Senegalese and Foreign Legion units, as well as Moroccan regulars  and auxiliaries . With total Spanish forces now numbering about 90,000 the Rifian forces were now seriously outnumbered by their Franco-Spanish opponents. Final French deaths from battle and disease, in what had now become a major war, were to total 8,628.\nQuestion: Which nation had more troops?\nAnswer:",
+    "completion": " The French",
+    "ref_text": "The French|French",
+    "id": 4721
+  },
+  {
+    "context": "Passage: Instead, the Allies spent 1702 and 1703 taking towns such as Venlo and Roermond in the modern Dutch province of Limburg, as well as Liège, Bonn and Huy. Failure to take Antwerp in May 1703 ended hopes of a quick victory while a Dutch army under Slangenburg was surrounded by a French force several times their size at Ekeren on 30 June and only just escaped. Recriminations were considerable, with Slangenburg blaming his commander Obdam but also Marlborough and Van Coehoorn for failing to support him. Van Coehoorn was a difficult character with few friends while William's death in March 1702 deprived him of his most powerful sponsor and much of his influence. The campaigns of 1702 and 1703 showed his limitations as a field officer and led to criticism from both Marlborough and Dutch colleagues. In early 1704, he spoke with the Envoy of Savoy about possible opportunities in their army but died on 17 March in The Hague attending a conference with Marlborough. He is buried at Wijckel where the Frisian States sponsored the erection of a monument over his grave.\nQuestion: Which towns did the Allies take?\nAnswer:",
+    "completion": " Venlo and Roermond and Liège and Bonn and Huy",
+    "ref_text": "Venlo and Roermond and Liège and Bonn and Huy|Limburg and Liège and Bonn and Huy|Venlo and Roermond",
+    "id": 2531
+  },
+  {
+    "context": "Passage: In 2009, the Libyan Army (1951-2011) consisted of 25,000 volunteers with an additional 25,000 conscripts (total 50,000). At that time, the army was organised into 11 Border Defence and 4 Security Zones, one regime security brigade, 10 Tank Battalions, 10 Mechanized Infantry Battalions, 18 Infantry Battalions, 6 Commando Battalions, 22 Artillery Battalions, 4 SSM Brigade and 7 Air Defence Artillery Battalions. Khamis Gaddafis 32nd Brigade was one of the main regime protection forces. The Khamis Brigade was considered by US diplomats in 2009 as the most capable of defending the regime. In addition, the Revolutionary Guard Corps also served as a brigade-sized protection force for Gaddafi. In 2009, it emerged that a British Special Air Service team were training Libyan special forces. Under Gaddafi, conscription was listed as 18 months.\nQuestion: Did the army have less tank battalions or Infantry battalions?\nAnswer:",
+    "completion": " Tank Battalions",
+    "ref_text": "Tank Battalions|Tank",
+    "id": 5648
+  },
+  {
+    "context": "Passage: When Major General Nathanael Greene took command in the South, Marion and Lieutenant Colonel Henry Lee were ordered in January 1781, to attack Georgetown but were unsuccessful. In April they took Fort Watson and in May they captured Fort Motte, and succeeded in breaking communications between the British posts in the Carolinas. On August 31, Marion rescued a small American force trapped by 500 British soldiers, under the leadership of Major C. Fraser. For this action he received the thanks of the Continental Congress. Marion commanded the right wing under General Greene at the Battle of Eutaw Springs. In January 1782, he was elected to a new State Assembly at Jacksonborough and left his troops to take up his seat. During his absence his brigade grew disheartened, particularly after a British sortie from Charleston, and there was reportedly a conspiracy to turn him over to the British. But in June of that year, he put down a Loyalist uprising on the banks of the Pee Dee River. In August he left his brigade and returned to his plantation. In 1782, the British Parliament suspended offensive operations in America, and in December 1782, the British withdrew their garrison from Charleston. The war was brought to an end by the Treaty of Paris.\nQuestion: How many months after the unsuccessful attack on Georgetown did the American forces take Fort Watson?\nAnswer:",
+    "completion": " 3",
+    "ref_text": "3",
+    "id": 7610
+  },
+  {
+    "context": "Passage: More than 5,000 US troops of General John J. Pershing's forces, including elements of the 7th Cavalry and the African-American U.S. 10th Cavalry Regiment, entered Mexico in hot pursuit of Villa. The campaign consisted primarily of dozens of minor skirmishes with small bands of insurgents. Gen. Pershing failed to catch up to Villa. On 21 June 1916, two troops of the 10th, totaling 92 troopers, attacked Mexican Federal Army troops in an engagement in the Battle of Carrizal, Chihuahua. 12 US troops were killed and 23 taken prisoner; 45 Federales were casualties, including the Mexican general Gomez. The engagement nearly precipitated open war with the Mexican government , but both governments immediately moved to lessen tensions and open negotiations for US withdrawal, preventing war. The prisoners were repatriated at El Paso, Texas by the Carrancista government.\nQuestion: How many more US troops were taken prisoner than killed?\nAnswer:",
+    "completion": " 11",
+    "ref_text": "11",
+    "id": 1355
+  }
+]

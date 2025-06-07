@@ -1,0 +1,20 @@
+[
+  {
+    "question": "Joelle has 5 orchids and 4 African daisies on her balcony.  If the orchids have 5 petals and daisies have 10 petals, how many more petals do the daisies have compared to the orchids?",
+    "answer": "15",
+    "cot": "The number of petals on orchids is 5 x 5 = <<5*5=25>>25.\nThe number of petals on daisies is 4 x 10 = <<4*10=40>>40.\nDaisy petals outnumber orchid petals by 40 - 25 = <<40-25=15>>15.",
+    "id": "gsm8k-test-889"
+  },
+  {
+    "question": "A perfume company is trying to create new scents. They already have 4 vanilla scents and 8 fruity scents available and they need to decide which kind of scent to focus on. They decide to focus on whichever scent sells the most and monitor their number of sales as part of their research. By the end of the day, they sell 5 of each of the vanilla scents and 2 of each of the fruity scents available. How many more vanilla scents sold compared with the fruity scents?",
+    "answer": "4",
+    "cot": "The store sold 4 types of vanilla scents * 5 sales each = <<4*5=20>>20 of the vanilla scents.\nThe store sold 8 types of fruity scents * 2 sales each = <<8*2=16>>16 of the fruity scents.\nThis means that the store sold 20 vanilla – 16 fruity = <<20-16=4>>4 more vanilla scents.",
+    "id": "gsm8k-test-770"
+  },
+  {
+    "question": "Alex, Stan, and Adelwolfe are trying to catch them all, Pokemon that is.  Together they have caught 339 Pokemon.  Alex has caught 5 more than Stan, and Stan has caught 13 less than 4 times as many as Adelwolfe has caught. How many Pokemon has Stan caught?",
+    "answer": "147",
+    "cot": "Let x represent the number of Pokemon Adelwolfe caught\nStan: 4x-13\nAlex: 5+(4x-13)=4x-8\nTotal: x+4x-13+4x-8=339\n9x-21=339\n9x=360\nx=<<40=40>>40 Pokemon\nStan:4(40)-13=147 Pokemon",
+    "id": "gsm8k-test-963"
+  }
+]

@@ -1,0 +1,198 @@
+[
+    {
+        "question": "This Question involves one Robber and one or more Cops. After robbing a bank, the Robber retreats to a network of hideouts, represented by dots in the diagram below. Every day, the Robber stays holed up in a single hideout, and every night, the Robber moves to an adjacent hideout. Two hideouts are adjacent if and only if they are connected by an edge in the diagram, also called a hideout map (or map). For the purposes of this Power Question, the map must be connected; that is, given any two hideouts, there must be a path from one to the other. To clarify, the Robber may not stay in the same hideout for two consecutive days, although he may return to a hideout he has previously visited. For example, in the map below, if the Robber holes up in hideout $C$ for day 1 , then he would have to move to $B$ for day 2 , and would then have to move to either $A, C$, or $D$ on day 3.\n\n<img_3859>\n\nEvery day, each Cop searches one hideout: the Cops know the location of all hideouts and which hideouts are adjacent to which. Cops are thorough searchers, so if the Robber is present in the hideout searched, he is found and arrested. If the Robber is not present in the hideout searched, his location is not revealed. That is, the Cops only know that the Robber was not caught at any of the hideouts searched; they get no specific information (other than what they can derive by logic) about what hideout he was in. Cops are not constrained by edges on the map: a Cop may search any hideout on any day, regardless of whether it is adjacent to the hideout searched the previous day. A Cop may search the same hideout on consecutive days, and multiple Cops may search different hideouts on the same day. In the map above, a Cop could search $A$ on day 1 and day 2, and then search $C$ on day 3 .\n\nThe focus of this Power Question is to determine, given a hideout map and a fixed number of Cops, whether the Cops can be sure of catching the Robber within some time limit.\n\nMap Notation: The following notation may be useful when writing your solutions. For a map $M$, let $h(M)$ be the number of hideouts and $e(M)$ be the number of edges in $M$. The safety of a hideout $H$ is the number of hideouts adjacent to $H$, and is denoted by $s(H)$.\n\nThe Cop number of a map $M$, denoted $C(M)$, is the minimum number of Cops required to guarantee that the Robber is caught.\nFind $C(M)$ for the map below.\n\n<img_3641>",
+        "answer": "6"
+    },
+    {
+        "question": "An $\\boldsymbol{n}$-label is a permutation of the numbers 1 through $n$. For example, $J=35214$ is a 5 -label and $K=132$ is a 3 -label. For a fixed positive integer $p$, where $p \\leq n$, consider consecutive blocks of $p$ numbers in an $n$-label. For example, when $p=3$ and $L=263415$, the blocks are 263,634,341, and 415. We can associate to each of these blocks a $p$-label that corresponds to the relative order of the numbers in that block. For $L=263415$, we get the following:\n\n$$\n\\underline{263} 415 \\rightarrow 132 ; \\quad 2 \\underline{63415} \\rightarrow 312 ; \\quad 26 \\underline{341} 5 \\rightarrow 231 ; \\quad 263 \\underline{415} \\rightarrow 213\n$$\n\nMoving from left to right in the $n$-label, there are $n-p+1$ such blocks, which means we obtain an $(n-p+1)$-tuple of $p$-labels. For $L=263415$, we get the 4 -tuple $(132,312,231,213)$. We will call this $(n-p+1)$-tuple the $\\boldsymbol{p}$-signature of $L$ (or signature, if $p$ is clear from the context) and denote it by $S_{p}[L]$; the $p$-labels in the signature are called windows. For $L=263415$, the windows are $132,312,231$, and 213 , and we write\n\n$$\nS_{3}[263415]=(132,312,231,213)\n$$\n\nMore generally, we will call any $(n-p+1)$-tuple of $p$-labels a $p$-signature, even if we do not know of an $n$-label to which it corresponds (and even if no such label exists). A signature that occurs for exactly one $n$-label is called unique, and a signature that doesn't occur for any $n$-labels is called impossible. A possible signature is one that occurs for at least one $n$-label.\n\nIn this power question, you will be asked to analyze some of the properties of labels and signatures.\n\n\nWe can associate a shape to a given 2-signature: a diagram of up and down steps that indicates the relative order of adjacent numbers. For example, the following shape corresponds to the 2-signature $(12,12,12,21,12,21)$ :\n\n<img_3144>\n\n\n\nA 7-label with this 2-signature corresponds to placing the numbers 1 through 7 at the nodes above so that numbers increase with each up step and decrease with each down step. The 7-label 2347165 is shown below:\n\n<img_3777>\nCompute the number of 5-labels with 2 -signature $(12,21,12,21)$.",
+        "answer": "16"
+    },
+    {
+        "question": "An $\\boldsymbol{n}$-label is a permutation of the numbers 1 through $n$. For example, $J=35214$ is a 5 -label and $K=132$ is a 3 -label. For a fixed positive integer $p$, where $p \\leq n$, consider consecutive blocks of $p$ numbers in an $n$-label. For example, when $p=3$ and $L=263415$, the blocks are 263,634,341, and 415. We can associate to each of these blocks a $p$-label that corresponds to the relative order of the numbers in that block. For $L=263415$, we get the following:\n\n$$\n\\underline{263} 415 \\rightarrow 132 ; \\quad 2 \\underline{63415} \\rightarrow 312 ; \\quad 26 \\underline{341} 5 \\rightarrow 231 ; \\quad 263 \\underline{415} \\rightarrow 213\n$$\n\nMoving from left to right in the $n$-label, there are $n-p+1$ such blocks, which means we obtain an $(n-p+1)$-tuple of $p$-labels. For $L=263415$, we get the 4 -tuple $(132,312,231,213)$. We will call this $(n-p+1)$-tuple the $\\boldsymbol{p}$-signature of $L$ (or signature, if $p$ is clear from the context) and denote it by $S_{p}[L]$; the $p$-labels in the signature are called windows. For $L=263415$, the windows are $132,312,231$, and 213 , and we write\n\n$$\nS_{3}[263415]=(132,312,231,213)\n$$\n\nMore generally, we will call any $(n-p+1)$-tuple of $p$-labels a $p$-signature, even if we do not know of an $n$-label to which it corresponds (and even if no such label exists). A signature that occurs for exactly one $n$-label is called unique, and a signature that doesn't occur for any $n$-labels is called impossible. A possible signature is one that occurs for at least one $n$-label.\n\nIn this power question, you will be asked to analyze some of the properties of labels and signatures.\n\n\nWe can associate a shape to a given 2-signature: a diagram of up and down steps that indicates the relative order of adjacent numbers. For example, the following shape corresponds to the 2-signature $(12,12,12,21,12,21)$ :\n\n<img_3144>\n\n\n\nA 7-label with this 2-signature corresponds to placing the numbers 1 through 7 at the nodes above so that numbers increase with each up step and decrease with each down step. The 7-label 2347165 is shown below:\n\n<img_3777>\nDetermine the number of 9-labels with 2-signature\n\n$$\n(12,21,12,21,12,21,12,21) \\text {. }\n$$\n\nJustify your answer.",
+        "answer": "7936"
+    },
+    {
+        "question": "The arrangement of numbers known as Pascal's Triangle has fascinated mathematicians for centuries. In fact, about 700 years before Pascal, the Indian mathematician Halayudha wrote about it in his commentaries to a then-1000-year-old treatise on verse structure by the Indian poet and mathematician Pingala, who called it the Meruprastāra, or \"Mountain of Gems\". In this Power Question, we'll explore some properties of Pingala's/Pascal's Triangle (\"PT\") and its variants.\n\nUnless otherwise specified, the only definition, notation, and formulas you may use for PT are the definition, notation, and formulas given below.\n\nPT consists of an infinite number of rows, numbered from 0 onwards. The $n^{\\text {th }}$ row contains $n+1$ numbers, identified as $\\mathrm{Pa}(n, k)$, where $0 \\leq k \\leq n$. For all $n$, define $\\mathrm{Pa}(n, 0)=\\operatorname{Pa}(n, n)=1$. Then for $n>1$ and $1 \\leq k \\leq n-1$, define $\\mathrm{Pa}(n, k)=\\mathrm{Pa}(n-1, k-1)+\\mathrm{Pa}(n-1, k)$. It is convenient to define $\\mathrm{Pa}(n, k)=0$ when $k<0$ or $k>n$. We write the nonzero values of $\\mathrm{PT}$ in the familiar pyramid shown below.\n\n<img_3774>\n\nAs is well known, $\\mathrm{Pa}(n, k)$ gives the number of ways of choosing a committee of $k$ people from a set of $n$ people, so a simple formula for $\\mathrm{Pa}(n, k)$ is $\\mathrm{Pa}(n, k)=\\frac{n !}{k !(n-k) !}$. You may use this formula or the recursive definition above throughout this Power Question.\n\nClark's Triangle: If the left side of PT is replaced with consecutive multiples of 6 , starting with 0 , but the right entries (except the first) and the generating rule are left unchanged, the result is called Clark's Triangle. If the $k^{\\text {th }}$ entry of the $n^{\\text {th }}$ row is denoted by $\\mathrm{Cl}(n, k)$, then the formal rule is:\n\n$$\n\\begin{cases}\\mathrm{Cl}(n, 0)=6 n & \\text { for all } n \\\\ \\mathrm{Cl}(n, n)=1 & \\text { for } n \\geq 1 \\\\ \\mathrm{Cl}(n, k)=\\mathrm{Cl}(n-1, k-1)+\\mathrm{Cl}(n-1, k) & \\text { for } n \\geq 1 \\text { and } 1 \\leq k \\leq n-1\\end{cases}\n$$\n\nThe first four rows of Clark's Triangle are given below.\n\n<img_3289>\nCompute $\\mathrm{Cl}(11,2)$.",
+        "answer": "1000"
+    },
+    {
+        "question": "Leibniz's Harmonic Triangle: Consider the triangle formed by the rule\n\n$$\n\\begin{cases}\\operatorname{Le}(n, 0)=\\frac{1}{n+1} & \\text { for all } n \\\\ \\operatorname{Le}(n, n)=\\frac{1}{n+1} & \\text { for all } n \\\\ \\operatorname{Le}(n, k)=\\operatorname{Le}(n+1, k)+\\operatorname{Le}(n+1, k+1) & \\text { for all } n \\text { and } 0 \\leq k \\leq n\\end{cases}\n$$\n\nThis triangle, discovered first by Leibniz, consists of reciprocals of integers as shown below.\n\n<img_3684>\n\nFor this contest, you may assume that $\\operatorname{Le}(n, k)>0$ whenever $0 \\leq k \\leq n$, and that $\\operatorname{Le}(n, k)$ is undefined if $k<0$ or $k>n$.\nCompute $\\sum_{n=1}^{2011} \\operatorname{Le}(n, 1)$.",
+        "answer": "$\\frac{2011}{2012}$"
+    },
+    {
+        "question": "Let $n>1$ be an integer. In the space, consider the set\n$$\nS=\\{(x, y, z) \\mid x, y, z \\in\\{0,1, \\ldots, n\\}, x+y+z>0\\}\n$$\nFind the smallest number of planes that jointly contain all $(n+1)^{3}-1$ points of $S$ but none of them passes through the origin.",
+        "answer": "$3 n$"
+    },
+    {
+        "question": "Let $m$ be a positive integer and consider a checkerboard consisting of $m$ by $m$ unit squares. At the midpoints of some of these unit squares there is an ant. At time 0, each ant starts moving with speed 1 parallel to some edge of the checkerboard. When two ants moving in opposite directions meet, they both turn $90^{\\circ}$ clockwise and continue moving with speed 1 . When more than two ants meet, or when two ants moving in perpendicular directions meet, the ants continue moving in the same direction as before they met. When an ant reaches one of the edges of the checkerboard, it falls off and will not re-appear.\n\nConsidering all possible starting positions, determine the latest possible moment at which the last ant falls off the checkerboard or prove that such a moment does not necessarily exist.",
+        "answer": "$\\frac{3 m}{2}-1$"
+    },
+    {
+        "question": "A diagonal of a regular 2006-gon is called odd if its endpoints divide the boundary into two parts, each composed of an odd number of sides. Sides are also regarded as odd diagonals.\n\nSuppose the 2006-gon has been dissected into triangles by 2003 nonintersecting diagonals. Find the maximum possible number of isosceles triangles with two odd sides.",
+        "answer": "$1003$"
+    },
+    {
+        "question": "Find all positive integers $n$ for which all positive divisors of $n$ can be put into the cells of a rectangular table under the following constraints:\n\n- each cell contains a distinct divisor;\n- the sums of all rows are equal; and\n- the sums of all columns are equal.",
+        "answer": "1"
+    },
+    {
+        "question": "On a flat plane in Camelot, King Arthur builds a labyrinth $\\mathfrak{L}$ consisting of $n$ walls, each of which is an infinite straight line. No two walls are parallel, and no three walls have a common point. Merlin then paints one side of each wall entirely red and the other side entirely blue.\n\nAt the intersection of two walls there are four corners: two diagonally opposite corners where a red side and a blue side meet, one corner where two red sides meet, and one corner where two blue sides meet. At each such intersection, there is a two-way door connecting the two diagonally opposite corners at which sides of different colours meet.\n\nAfter Merlin paints the walls, Morgana then places some knights in the labyrinth. The knights can walk through doors, but cannot walk through walls.\n\nLet $k(\\mathfrak{L})$ be the largest number $k$ such that, no matter how Merlin paints the labyrinth $\\mathfrak{L}$, Morgana can always place at least $k$ knights such that no two of them can ever meet. For each $n$, what are all possible values for $k(\\mathfrak{L})$, where $\\mathfrak{L}$ is a labyrinth with $n$ walls?",
+        "answer": "$k=n+1$"
+    },
+    {
+        "question": "There are 60 empty boxes $B_{1}, \\ldots, B_{60}$ in a row on a table and an unlimited supply of pebbles. Given a positive integer $n$, Alice and Bob play the following game.\n\nIn the first round, Alice takes $n$ pebbles and distributes them into the 60 boxes as she wishes. Each subsequent round consists of two steps:\n\n(a) Bob chooses an integer $k$ with $1 \\leqslant k \\leqslant 59$ and splits the boxes into the two groups $B_{1}, \\ldots, B_{k}$ and $B_{k+1}, \\ldots, B_{60}$.\n\n(b) Alice picks one of these two groups, adds one pebble to each box in that group, and removes one pebble from each box in the other group.\n\nBob wins if, at the end of any round, some box contains no pebbles. Find the smallest $n$ such that Alice can prevent Bob from winning.",
+        "answer": "960"
+    },
+    {
+        "question": "$A \\pm 1 \\text{-}sequence$ is a sequence of 2022 numbers $a_{1}, \\ldots, a_{2022}$, each equal to either +1 or -1 . Determine the largest $C$ so that, for any $\\pm 1 -sequence$, there exists an integer $k$ and indices $1 \\leqslant t_{1}<\\ldots<t_{k} \\leqslant 2022$ so that $t_{i+1}-t_{i} \\leqslant 2$ for all $i$, and\n\n$$\n\\left|\\sum_{i=1}^{k} a_{t_{i}}\\right| \\geqslant C\n$$",
+        "answer": "506"
+    },
+    {
+        "question": "Queenie and Horst play a game on a $20 \\times 20$ chessboard. In the beginning the board is empty. In every turn, Horst places a black knight on an empty square in such a way that his new knight does not attack any previous knights. Then Queenie places a white queen on an empty square. The game gets finished when somebody cannot move.\n\nFind the maximal positive $K$ such that, regardless of the strategy of Queenie, Horst can put at least $K$ knights on the board.",
+        "answer": "100"
+    },
+    {
+        "question": "Let $k$ be a positive integer. The organising committee of a tennis tournament is to schedule the matches for $2 k$ players so that every two players play once, each day exactly one match is played, and each player arrives to the tournament site the day of his first match, and departs the day of his last match. For every day a player is present on the tournament, the committee has to pay 1 coin to the hotel. The organisers want to design the schedule so as to minimise the total cost of all players' stays. Determine this minimum cost.",
+        "answer": "$k\\left(4 k^{2}+k-1\\right) / 2$"
+    },
+    {
+        "question": "In the coordinate plane consider the set $S$ of all points with integer coordinates. For a positive integer $k$, two distinct points $A, B \\in S$ will be called $k$-friends if there is a point $C \\in S$ such that the area of the triangle $A B C$ is equal to $k$. A set $T \\subset S$ will be called a $k$-clique if every two points in $T$ are $k$-friends. Find the least positive integer $k$ for which there exists a $k$-clique with more than 200 elements.",
+        "answer": "180180"
+    },
+    {
+        "question": "Players $A$ and $B$ play a game with $N \\geq 2012$ coins and 2012 boxes arranged around a circle. Initially $A$ distributes the coins among the boxes so that there is at least 1 coin in each box. Then the two of them make moves in the order $B, A, B, A, \\ldots$ by the following rules:\n\n- On every move of his $B$ passes 1 coin from every box to an adjacent box.\n- On every move of hers $A$ chooses several coins that were not involved in $B$ 's previous move and are in different boxes. She passes every chosen coin to an adjacent box.\n\nPlayer $A$ 's goal is to ensure at least 1 coin in each box after every move of hers, regardless of how $B$ plays and how many moves are made. Find the least $N$ that enables her to succeed.",
+        "answer": "4022"
+    },
+    {
+        "question": "Three different numbers are chosen at random from the set $\\{1,2,3,4,5\\}$.\n\nThe numbers are arranged in increasing order.\n\nWhat is the probability that the resulting sequence is an arithmetic sequence?\n\n(An arithmetic sequence is a sequence in which each term after the first is obtained from the previous term by adding a constant. For example, 3,5,7,9 is an arithmetic sequence with four terms.)",
+        "answer": "$\\frac{2}{5}$"
+    },
+    {
+        "question": "Two fair dice, each having six faces numbered 1 to 6 , are thrown. What is the probability that the product of the two numbers on the top faces is divisible by 5 ?",
+        "answer": "$\\frac{11}{36}$"
+    },
+    {
+        "question": "Eleanor has 100 marbles, each of which is black or gold. The ratio of the number of black marbles to the number of gold marbles is $1: 4$. How many gold marbles should she add to change this ratio to $1: 6$ ?",
+        "answer": "40"
+    },
+    {
+        "question": "For each positive integer $n$, let $T(n)$ be the number of triangles with integer side lengths, positive area, and perimeter $n$. For example, $T(6)=1$ since the only such triangle with a perimeter of 6 has side lengths 2,2 and 2 .\nDetermine the smallest positive integer $n$ such that $T(n)>2010$.",
+        "answer": "309"
+    },
+    {
+        "question": "In a short-track speed skating event, there are five finalists including two Canadians. The first three skaters to finish the race win a medal. If all finalists have the same chance of finishing in any position, what is the probability that neither Canadian wins a medal?",
+        "answer": "$\\frac{1}{10}$"
+    },
+    {
+        "question": "A multiplicative partition of a positive integer $n \\geq 2$ is a way of writing $n$ as a product of one or more integers, each greater than 1. Note that we consider a positive integer to be a multiplicative partition of itself. Also, the order of the factors in a partition does not matter; for example, $2 \\times 3 \\times 5$ and $2 \\times 5 \\times 3$ are considered to be the same partition of 30 . For each positive integer $n \\geq 2$, define $P(n)$ to be the number of multiplicative partitions of $n$. We also define $P(1)=1$. Note that $P(40)=7$, since the multiplicative partitions of 40 are $40,2 \\times 20,4 \\times 10$, $5 \\times 8,2 \\times 2 \\times 10,2 \\times 4 \\times 5$, and $2 \\times 2 \\times 2 \\times 5$.\n\n(In each part, we use \"partition\" to mean \"multiplicative partition\". We also call the numbers being multiplied together in a given partition the \"parts\" of the partition.)\nDetermine the value of $P(1000)$.",
+        "answer": "31"
+    },
+    {
+        "question": "If $a$ is chosen randomly from the set $\\{1,2,3,4,5\\}$ and $b$ is chosen randomly from the set $\\{6,7,8\\}$, what is the probability that $a^{b}$ is an even number?",
+        "answer": "$\\frac{2}{5}$"
+    },
+    {
+        "question": "An integer $n$, with $100 \\leq n \\leq 999$, is chosen at random. What is the probability that the sum of the digits of $n$ is 24 ?",
+        "answer": "$\\frac{1}{90}$"
+    },
+    {
+        "question": "Billy and Crystal each have a bag of 9 balls. The balls in each bag are numbered from 1 to 9. Billy and Crystal each remove one ball from their own bag. Let $b$ be the sum of the numbers on the balls remaining in Billy's bag. Let $c$ be the sum of the numbers on the balls remaining in Crystal's bag. Determine the probability that $b$ and $c$ differ by a multiple of 4 .",
+        "answer": "$\\frac{7}{27}$"
+    },
+    {
+        "question": "Let $A, B$, and $C$ be randomly chosen (not necessarily distinct) integers between 0 and 4 inclusive. Pat and Chris compute the value of $A+B \\cdot C$ by two different methods. Pat follows the proper order of operations, computing $A+(B \\cdot C)$. Chris ignores order of operations, choosing instead to compute $(A+B) \\cdot C$. Compute the probability that Pat and Chris get the same answer.",
+        "answer": "$\\frac{9}{25}$"
+    },
+    {
+        "question": "Let $T=8$. At a party, everyone shakes hands with everyone else exactly once, except Ed, who leaves early. A grand total of $20 T$ handshakes take place. Compute the number of people at the party who shook hands with Ed.",
+        "answer": "7"
+    },
+    {
+        "question": "Let $T=25$. Suppose that $T$ people are standing in a line, including three people named Charlie, Chris, and Abby. If the people are assigned their positions in line at random, compute the probability that Charlie is standing next to at least one of Chris or Abby.",
+        "answer": "$\\frac{47}{300}$"
+    },
+    {
+        "question": "Let $T=70$. Chef Selma is preparing a burrito menu. A burrito consists of: (1) a choice of chicken, beef, turkey, or no meat, (2) exactly one of three types of beans, (3) exactly one of two types of rice, and (4) exactly one of $K$ types of cheese. Compute the smallest value of $K$ such that Chef Selma can make at least $T$ different burrito varieties.",
+        "answer": "3"
+    },
+    {
+        "question": "A set $S$ contains thirteen distinct positive integers whose sum is 120 . Compute the largest possible value for the median of $S$.",
+        "answer": "11"
+    },
+    {
+        "question": "Let $T=T N Y W R$. At some point during a given week, a law enforcement officer had issued $T+2$ traffic warnings, 20 tickets, and had made $T+5$ arrests. How many more tickets must the officer issue in order for the combined number of tickets and arrests to be 20 times the number of warnings issued that week?",
+        "answer": "15"
+    },
+    {
+        "question": "Five equilateral triangles are drawn in the plane so that no two sides of any of the triangles are parallel. Compute the maximum number of points of intersection among all five triangles.",
+        "answer": "60"
+    },
+    {
+        "question": "Suppose that $u$ and $v$ are distinct numbers chosen at random from the set $\\{1,2,3, \\ldots, 30\\}$. Compute the probability that the roots of the polynomial $(x+u)(x+v)+4$ are integers.",
+        "answer": "$\\frac{17}{145}$"
+    },
+    {
+        "question": "David builds a circular table; he then carves one or more positive integers into the table at points equally spaced around its circumference. He considers two tables to be the same if one can be rotated so that it has the same numbers in the same positions as the other. For example, a table with the numbers $8,4,5$ (in clockwise order) is considered the same as a table with the numbers 4, 5,8 (in clockwise order), but both tables are different from a table with the numbers 8, 5, 4 (in clockwise order). Given that the numbers he carves sum to 17 , compute the number of different tables he can make.",
+        "answer": "7711"
+    },
+    {
+        "question": "A seventeen-sided die has faces numbered 1 through 17, but it is not fair: 17 comes up with probability $1 / 2$, and each of the numbers 1 through 16 comes up with probability $1 / 32$. Compute the probability that the sum of two rolls is either 20 or 12.",
+        "answer": "$\\frac{7}{128}$"
+    },
+    {
+        "question": "Suppose that 5-letter \"words\" are formed using only the letters A, R, M, and L. Each letter need not be used in a word, but each word must contain at least two distinct letters. Compute the number of such words that use the letter A more than any other letter.",
+        "answer": "165"
+    },
+    {
+        "question": "The zeros of $f(x)=x^{6}+2 x^{5}+3 x^{4}+5 x^{3}+8 x^{2}+13 x+21$ are distinct complex numbers. Compute the average value of $A+B C+D E F$ over all possible permutations $(A, B, C, D, E, F)$ of these six numbers.",
+        "answer": "$-\\frac{23}{60}$"
+    },
+    {
+        "question": "Let $T=T N Y W R$. Kay has $T+1$ different colors of fingernail polish. Compute the number of ways that Kay can paint the five fingernails on her left hand by using at least three colors and such that no two consecutive fingernails have the same color.",
+        "answer": "109890"
+    },
+    {
+        "question": "$\\quad$ Let $T=2$. In how many ways can $T$ boys and $T+1$ girls be arranged in a row if all the girls must be standing next to each other?",
+        "answer": "36"
+    },
+    {
+        "question": "Let $\\mathcal{S}$ be the set of integers from 0 to 9999 inclusive whose base- 2 and base- 5 representations end in the same four digits. (Leading zeros are allowed, so $1=0001_{2}=0001_{5}$ is one such number.) Compute the remainder when the sum of the elements of $\\mathcal{S}$ is divided by 10,000.",
+        "answer": "6248"
+    },
+    {
+        "question": "Given an arbitrary finite sequence of letters (represented as a word), a subsequence is a sequence of one or more letters that appear in the same order as in the original sequence. For example, $N, C T, O T T$, and CONTEST are subsequences of the word CONTEST, but NOT, ONSET, and TESS are not. Assuming the standard English alphabet $\\{A, B, \\ldots, Z\\}$, compute the number of distinct four-letter \"words\" for which $E E$ is a subsequence.",
+        "answer": "3851"
+    },
+    {
+        "question": "Let $T=3$, and let $K=T+2$. Compute the largest $K$-digit number which has distinct digits and is a multiple of 63.",
+        "answer": "98721"
+    },
+    {
+        "question": "Each of the six faces of a cube is randomly colored red or blue with equal probability. Compute the probability that no three faces of the same color share a common vertex.",
+        "answer": "$\\frac{9}{32}$"
+    },
+    {
+        "question": "Elizabeth is in an \"escape room\" puzzle. She is in a room with one door which is locked at the start of the puzzle. The room contains $n$ light switches, each of which is initially off. Each minute, she must flip exactly $k$ different light switches (to \"flip\" a switch means to turn it on if it is currently off, and off if it is currently on). At the end of each minute, if all of the switches are on, then the door unlocks and Elizabeth escapes from the room.\n\nLet $E(n, k)$ be the minimum number of minutes required for Elizabeth to escape, for positive integers $n, k$ with $k \\leq n$. For example, $E(2,1)=2$ because Elizabeth cannot escape in one minute (there are two switches and one must be flipped every minute) but she can escape in two minutes (by flipping Switch 1 in the first minute and Switch 2 in the second minute). Define $E(n, k)=\\infty$ if the puzzle is impossible to solve (that is, if it is impossible to have all switches on at the end of any minute).\n\nFor convenience, assume the $n$ light switches are numbered 1 through $n$.\nCompute the $E(6,1)$",
+        "answer": "6"
+    },
+    {
+        "question": "Elizabeth is in an \"escape room\" puzzle. She is in a room with one door which is locked at the start of the puzzle. The room contains $n$ light switches, each of which is initially off. Each minute, she must flip exactly $k$ different light switches (to \"flip\" a switch means to turn it on if it is currently off, and off if it is currently on). At the end of each minute, if all of the switches are on, then the door unlocks and Elizabeth escapes from the room.\n\nLet $E(n, k)$ be the minimum number of minutes required for Elizabeth to escape, for positive integers $n, k$ with $k \\leq n$. For example, $E(2,1)=2$ because Elizabeth cannot escape in one minute (there are two switches and one must be flipped every minute) but she can escape in two minutes (by flipping Switch 1 in the first minute and Switch 2 in the second minute). Define $E(n, k)=\\infty$ if the puzzle is impossible to solve (that is, if it is impossible to have all switches on at the end of any minute).\n\nFor convenience, assume the $n$ light switches are numbered 1 through $n$.\nFind the following in terms of $n$. $E(n, 2)$ for positive even integers $n$",
+        "answer": "$\\frac{n}{2}$"
+    },
+    {
+        "question": "Elizabeth is in an \"escape room\" puzzle. She is in a room with one door which is locked at the start of the puzzle. The room contains $n$ light switches, each of which is initially off. Each minute, she must flip exactly $k$ different light switches (to \"flip\" a switch means to turn it on if it is currently off, and off if it is currently on). At the end of each minute, if all of the switches are on, then the door unlocks and Elizabeth escapes from the room.\n\nLet $E(n, k)$ be the minimum number of minutes required for Elizabeth to escape, for positive integers $n, k$ with $k \\leq n$. For example, $E(2,1)=2$ because Elizabeth cannot escape in one minute (there are two switches and one must be flipped every minute) but she can escape in two minutes (by flipping Switch 1 in the first minute and Switch 2 in the second minute). Define $E(n, k)=\\infty$ if the puzzle is impossible to solve (that is, if it is impossible to have all switches on at the end of any minute).\n\nFor convenience, assume the $n$ light switches are numbered 1 through $n$.\nFind the following in terms of $n$. $E(n, n-2)$ for $n \\geq 5$",
+        "answer": "3"
+    },
+    {
+        "question": "Eight students attend a Harper Valley ARML practice. At the end of the practice, they decide to take selfies to celebrate the event. Each selfie will have either two or three students in the picture. Compute the minimum number of selfies so that each pair of the eight students appears in exactly one selfie.",
+        "answer": "12"
+    },
+    {
+        "question": "Let $T=17$. In ARMLovia, the unit of currency is the edwah. Janet's wallet contains bills in denominations of 20 and 80 edwahs. If the bills are worth an average of $2 T$ edwahs each, compute the smallest possible value of the bills in Janet's wallet.",
+        "answer": "1020"
+    },
+    {
+        "question": "Let $T=5$. Compute the number of positive divisors of the number $20^{4} \\cdot 11^{T}$ that are perfect cubes.",
+        "answer": "12"
+    }
+]

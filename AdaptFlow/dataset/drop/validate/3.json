@@ -1,0 +1,266 @@
+[
+  {
+    "context": "Passage: Like most other European countries, Hungary is experiencing sub-replacement fertility; its estimated total fertility rate of 1.43 is well below the replacement rate of 2.1, albeit higher than its nadir of 1.28 in 1999. As a result, its population has gradually declining and rapidly aging. In 2011, the conservative government began a program to increase the birth rate with a focus on ethnic Magyars by reinstating 3 year maternity leave as well as boosting part-time jobs. The birth rate has gradually increased from 1.27 children born/woman in 2011. The natural decrease in the first 10 months of 2016 was only 25,828 which was 8,162 less than the corresponding period in 2015. In 2015, 47.9% of births were to unmarried women. Life expectancy was 71.96 years for men and 79.62 years for women in 2015, growing continuously since the End of Communism in Hungary (1989).\nQuestion: How many points lower was the fertility rate in 1999 in Hungary compared to what it is now experiencing?\nAnswer:",
+    "completion": " .15",
+    "ref_text": ".15",
+    "id": 9170
+  },
+  {
+    "context": "Passage: Puhl was granted free agent status in 1990, and signed with the New York Mets on December 13, 1990. He was released by the Mets during spring training on April 1, 1991, and subsequently signed by the Kansas City Royals on April 25, 1991. His final MLB game was on May 29, 1991, then was released from the Royals on June 9, 1991, ending his MLB career. His career statistics included a .280 batting average, 62 home runs, 676 runs, 435 RBIs, and 217 stolen bases. He accumulated 1,361 hits in 1,531 games. He was particularly effective in postseason play, batting .372 in 13 games over three series.\nQuestion: How many days after Puhl was released by the Mets did he sign with the Kansas City Royals?\nAnswer:",
+    "completion": " 24",
+    "ref_text": "24",
+    "id": 3133
+  },
+  {
+    "context": "Passage: The age distribution, , in Lausanne is; 11,818 children or 9.4% of the population are between 0 and 9 years old and 12,128 teenagers or 9.7% are between 10 and 19. Of the adult population, 21,101 people or 16.8% of the population are between 20 and 29 years old. 22,158 people or 17.6% are between 30 and 39, 18,016 people or 14.4% are between 40 and 49, and 13,940 people or 11.1% are between 50 and 59. The senior population distribution is 11,041 people or 8.8% of the population are between 60 and 69 years old, 8,277 people or 6.6% are between 70 and 79, there are 5,896 people or 4.7% who are between 80 and 89, and there are 1,171 people or 0.9% who are 90 and older.\nQuestion: Which groups had between 10% and 15% of the population?\nAnswer:",
+    "completion": " between 40 and 49 and between 50 and 59",
+    "ref_text": "between 40 and 49 and between 50 and 59|40 and 49 and 50 and 59",
+    "id": 1103
+  },
+  {
+    "context": "Passage: The commune of Aix-les-Bains had approximately 14,086 total jobs (employee + self-employed) in 1999, including 1,039 salaried jobs. The average annual rate of change of total employment, between 1990 and 1999, was 0.07%. The number of jobseekers (categories 1-2-3-HAR) on 31 December 2006 was 1,412 with a 13.7% unemployment rate. The rate of activity for those between 20 and 59 years of age stood at 82%, which equals the national average of 82.2%. There were 42.9% of working age against 24.3% of retirees whose number is well above the national average of 18.2%. There were 20.5% of school age and 12.2% of people without activity.\nQuestion: How many years passed between 1990 and 1999 that changed the annual total of employment?\nAnswer:",
+    "completion": " 9",
+    "ref_text": "9",
+    "id": 5430
+  },
+  {
+    "context": "Passage: Birth registration of Bahrain is available from 1976, death registration started in 1990. Between 1976 and 2011 the number of baby births roughly doubled but the birth rate of babies decreased from 32 to 13 per 1,000. The death rate of Bahrain  is among the lowest in the world.\nQuestion: How many year time span did births roughly double in Bahrain?\nAnswer:",
+    "completion": " 35",
+    "ref_text": "35",
+    "id": 932
+  },
+  {
+    "context": "Passage: There were 58,110 households, of which 25.8% had children under the age of 18 living with them, 40.6% were married couples living together, 9.7% had a female householder with no husband present, and 46.1% were non-families. 31.7% of all households were made up of individuals and 9.4% had someone living alone who was 65 years of age or older. The average household size was 2.27 and the average family size was 2.87. In the city, the population was 20.3% under the age of 18, 17.3% from 18 to 24, 28.5% from 25 to 44, 21.8% from 45 to 64, and 12.1% who were 65 years of age or older. The median age was 33 years. For every 100 females, there were 96.0 males. For every 100 females age 18 and over, there were 94.0 males. The median income for a household in the city was $35,850, and the median income for a family was $48,527. Males had a median income of $35,549 versus $26,721 for females. The per capita income for the city was $21,315. About 8.7% of families and 17.1% of the population were below the poverty line, including 14.8% of those under age 18 and 7.1% of those age 65 or over.\nQuestion: How many percent were not 65 years of age or older?\nAnswer:",
+    "completion": " 87.9",
+    "ref_text": "87.9",
+    "id": 8579
+  },
+  {
+    "context": "Passage: The first 30 sports were announced by the Singapore National Olympic Council on 10 December 2013 on the sidelines of the 27th SEA Games in Myanmar. It announced then that there was room for as many as eight more sports. On 29 April 2014, the final six sports, namely boxing, equestrian, floorball, petanque, rowing and volleyball were added to the programme. Floorball will feature in the event for the first time after being a demonstration sport in the 2013 edition. In its selection of events, the organising committee indicated their desire to set a model for subsequent games in trimming the number of \"traditional\" sports to refocus on the SEAG's initial intent to increase the level of sporting excellence in key sports. Hence, despite room for up to eight traditional sports, only two, floorball and netball, were included in the programme. Amongst the other 34 sports, 24 are Olympic sports and all remaining sports are featured in the Asian Games. The 2015 Southeast Asian Games programme was featured 402 events in 36 sports and disciplines. The number of events in each discipline is noted in parentheses.\nQuestion: How many sports will be an event for the first time?\nAnswer:",
+    "completion": " 1",
+    "ref_text": "1",
+    "id": 3353
+  },
+  {
+    "context": "Passage: The ages of New Havens residents are 25.4% under the age of 18, 16.4% from 18 to 24, 31.2% from 25 to 44, 16.7% from 45 to 64, and 10.2% who were 65 years of age or older. The median age is 29 years, which is significantly lower than the national average. There are 91.8 males per 100 females. For every 100 females age 18 and over, there are 87.6 males.\nQuestion: Which gender group is larger: females or males?\nAnswer:",
+    "completion": " females",
+    "ref_text": "females",
+    "id": 563
+  },
+  {
+    "context": "Passage: According to the market research firm SuperData, as of May 2015, the global games market was worth USD 74.2 billion. By region, North America accounted for $23.6 billion, Asia for $23.1 billion, Europe for $22.1 billion and South America for $4.5 billion. By market segment, mobile games were worth $22.3 billion, retail games 19.7 billion, free-to-play Massively multiplayer online game 8.7 billion, social games $7.9 billion, PC Downloadable content 7.5 billion, and other categories $3 billion or less each.\nQuestion: How many billions of dollars were the North America, Asia, and Europe markets worth combined?\nAnswer:",
+    "completion": " 68.8",
+    "ref_text": "68.8",
+    "id": 4902
+  },
+  {
+    "context": "Passage: In the county, the population was spread out with 25.00% under the age of 18, 17.10% from 18 to 24, 25.70% from 25 to 44, 19.30% from 45 to 64, and 12.90% who were 65 years of age or older.  The median age was 32 years. For every 100 females, there were 93.70 males.  For every 100 females age 18 and over, there were 89.10 males.\nQuestion: Which age group is larger: under the age of 18 or 65 years of age or older?\nAnswer:",
+    "completion": " under the age of 18",
+    "ref_text": "under the age of 18|25.70% FROM 25 TO 44, 19.30% FROM 45 TO 64.",
+    "id": 483
+  },
+  {
+    "context": "Passage: There were 88,296 households out of which 29.5% had children under the age of 18 living with them, 53.3% were Marriage living together, 9.1% had a female householder with no husband present, and 33.4% were non-families. 26.1% of all households were made up of individuals, 31.5% of households had individuals under 18 years, and 9.5% had someone living alone who was 65 years of age or older.  The average household size was 2.44 and the average family size was 2.96.\nQuestion: How many in percent of households didn't have children under the age of 18 living with them?\nAnswer:",
+    "completion": " 70.5",
+    "ref_text": "70.5",
+    "id": 789
+  },
+  {
+    "context": "Passage: In the city, the population was spread out with 12.0% under the age of 18, 55.2% from 18 to 24, 15.3% from 25 to 44, 10.3% from 45 to 64, and 7.1% who were 65 years of age or older.  The median age was 22 years. For every 100 females, there were 160.7 males.  For every 100 females age 18 and over, there were 173.2 males.\nQuestion: How many less females per 100 were there than males 18 or over?\nAnswer:",
+    "completion": " 73.2",
+    "ref_text": "73.2",
+    "id": 5834
+  },
+  {
+    "context": "Passage: Old age pensions were raised by 300 francs per month to 1,700 francs for a single person and to 3,700 francs for a couple, while health insurance benefits were made more widely available to unemployed persons and part-time employees. Housing allocations for the low-paid were raised by 25% in 1981, and in the two years following May 1981 family allowances were increased by 44% for families with 3 children and by 81% for families with 2 children. In 1981, the purchasing power of social transfers went up by 4.5% and by 7.6% in 1982. In addition, the minimum wage (which affected 1.7 million employees) was increased by 15% in real terms between May 1981 and December 1982.\nQuestion: How many more francs did a couple receive than a single person?\nAnswer:",
+    "completion": " 2000",
+    "ref_text": "2000",
+    "id": 5689
+  },
+  {
+    "context": "Passage: In 1918, party membership was approximately 200,000. In the late 1920s under Stalin, the party engaged in an intensive recruitment campaign, the \"Lenin Levy\", resulting in new members referred to as the Lenin Enrolment, from both the working class and rural areas. This represented an attempt to \"proletarianize\" the party and an attempt by Stalin to strengthen his base by outnumbering the Old Bolsheviks and reducing their influence in the Party. In 1925, the party had 1,025,000 members in a Soviet population of 147 million. In 1927, membership had risen to 1,200,000. During the collectivization campaign and industrialization campaigns of the first five-year plan from 1929 to 1933, party membership grew rapidly to approximately 3.5 million members. However, party leaders suspected that the mass intake of new members had allowed \"social-alien elements\" to penetrate the partys ranks and document verifications of membership ensued in 1933 and 1935, removing supposedly unreliable members. Meanwhile, the party closed its ranks to new members from 1933 to November 1936. Even after the reopening of party recruiting, membership fell to 1.9 million by 1939. Nicholas DeWitt gives 2.307 million members in 1939, including candidate members, compared with 1.535 million in 1929 and 6.3 million in 1947. In 1986, the CPSU had over 19 million membersapproximately 10% of the Soviet Unions adult population. Over 44% of party members were classified as industrial workers and 12% as collective farmers. The CPSU had party organizations in 14 of the Soviet Unions 15 republics. The Russian Soviet Federative Socialist Republic itself had no separate Communist Party until 1990 because the CPSU controlled affairs there directly.\nQuestion: How many members did the party lose 1933 to 1939?\nAnswer:",
+    "completion": " 1600000",
+    "ref_text": "1600000",
+    "id": 9510
+  },
+  {
+    "context": "Passage: Old age pensions were raised by 300 francs per month to 1,700 francs for a single person and to 3,700 francs for a couple, while health insurance benefits were made more widely available to unemployed persons and part-time employees. Housing allocations for the low-paid were raised by 25% in 1981, and in the two years following May 1981 family allowances were increased by 44% for families with 3 children and by 81% for families with 2 children. In 1981, the purchasing power of social transfers went up by 4.5% and by 7.6% in 1982. In addition, the minimum wage (which affected 1.7 million employees) was increased by 15% in real terms between May 1981 and December 1982.\nQuestion: How many months was the time span where minimum wage was increased by 15% in real terms?\nAnswer:",
+    "completion": " 19",
+    "ref_text": "19|7",
+    "id": 2447
+  },
+  {
+    "context": "Passage: Succession is now regulated by laws passed by the National Diet. The current law excludes women from the succession. A change to this law had been considered until Princess Kiko gave birth to a son. Until the birth of Prince Hisahito, son of Prince Akishino, on September 6, 2006, there was a potential succession problem, since Prince Akishino was the only male child to be born into the imperial family since 1965. Following the birth of Princess Aiko, there was public debate about amending the current Imperial Household Law to allow women to succeed to the throne. In January 2005, Prime Minister Junichiro Koizumi appointed a special panel composed of judges, university professors, and civil servants to study changes to the Imperial Household Law and to make recommendations to the government. The panel dealing with the succession issue recommended on October 25, 2005, amending the law to allow females of the male line of imperial descent to ascend the Japanese throne. On January 20, 2006, Prime Minister Junichiro Koizumi devoted part of his annual keynote speech to the controversy, pledging to submit a bill allowing women to ascend the throne to ensure that the succession continues in the future in a stable manner. Shortly after the announcement that Princess Kiko was pregnant with her third child, Koizumi suspended such plans. Her son, Prince Hisahito, is the third in line to the throne under the current law of succession. On January 3, 2007, Prime Minister Shinzō Abe announced that he would drop the proposal to alter the Imperial Household Law.\nQuestion: How many months after a panel was formed did they make a decision to support a revision to the law?\nAnswer:",
+    "completion": " 10",
+    "ref_text": "10|9",
+    "id": 1393
+  },
+  {
+    "context": "Passage: The total number of active military personnel in the Croatian Armed Forces stands at 14,506 and 6,000 reserves working in various service branches of the armed forces. In May 2016, Armed Forces had 16,019 members, of which 14,506 were active military personnel and 1,513 civil servants. Of the 14,506 active military personnel, 3,183 were officers, 5,389 non-commissioned officers, 5,393 soldiers, 520 military specialists, 337 civil servants and 1,176 other employees.\nQuestion: How many of the personnel were not non-commisioned officers?\nAnswer:",
+    "completion": " 9117",
+    "ref_text": "9117",
+    "id": 9335
+  },
+  {
+    "context": "Passage: Tunis, the capital, has a population of about 700,000, and the second city of Sfax approximately 250,000. The population growth rate measured as births per female has fallen from 7 (1960s) to 2 (2007). Life expectancy is female 75, male 72. The religion is Islam (98%), with 1% Christian, and 1% Jewish and other. Required education is eight years. The official language is Arabic language, with French language also spoken particularly in commercial dealings, and with less than 2% Berber languages. Literacy by definition includes all over 15 years, and is overall 74%, male 83% and female 65%. In 2006, 7.3 million mobile phones were in use and 1.3 million were on the internet; there were 26 television stations and 29 radio stations.  Over half the population is considered urban, with agricultural workers being about 30% of the total. Unemployment in 2000 was about 15.6%, and in 2006 about 13.9%. Over 300,000 Tunisians were reported to be residing in France during 1994. Left out of the recent prosperity were many rural and urban poor, including small businesses facing the world market.\nQuestion: What religions make up less than 5% of the population?\nAnswer:",
+    "completion": " Christian and Jewish",
+    "ref_text": "Christian and Jewish|Christian and Jewish and other",
+    "id": 6440
+  },
+  {
+    "context": "Passage: 1% of those at school in the South-East gained no GCSE passes in 2010; Portsmouth was most with 2.5%, and Windsor and Maidenhead had the lowest with 0.2%. For school free school meals, the region has the lowest percentage in England with 7.2%; the highest percentage is Southampton with 17%, and the lowest is Wokingham with 3.5% (the second lowest in England after Rutland); Buckinghamshire is 4.3%, then Bracknell Forest and Surrey are 4.9%. For truancy, the highest is South Bucks at 7.0, then Canterbury 7.0, Portsmouth 6.9, Thanet 6.9, Southampton 6.4, and Rushmoor 6.1. The lowest truancy percentages are for Tandridge 2.5, Windsor & Maidenhead 2.5, and Slough 2.5.\nQuestion: How many more percentage points difference was there between free school meals between Southampton and Wokingham?\nAnswer:",
+    "completion": " 7.2",
+    "ref_text": "7.2|13.5",
+    "id": 9501
+  },
+  {
+    "context": "Passage: There are hundreds of healthcare institutions in Croatia, including 79 hospitals and clinics with 23,967 beds. The hospitals and clinics care for more than 700 thousand patients per year and employ 5,205 Doctor of Medicine, including 3,929 specialists. There are 6,379 private practice offices, and a total of 41,271 health workers in the country. There are 63 emergency medical service units, responding to more than a million calls. The principal cause of death in 2008 was cardiovascular disease at 43.5% for men and 57.2% for women, followed by tumours, at 29.4% for men and 21.4% for women. In 2009 only 13 Croatians had been infected with HIV/AIDS and 6 had died from the disease. In 2008 it was estimated by the WHO that 27.4% of Croatians over the age of 15 are smokers. According to 2003 WHO data, 22% of the Croatian adult population is obese.\nQuestion: How many more percent of women die of cardiovascular disease than men?\nAnswer:",
+    "completion": " 13.7",
+    "ref_text": "13.7",
+    "id": 1775
+  },
+  {
+    "context": "Passage: Succession is now regulated by laws passed by the National Diet. The current law excludes women from the succession. A change to this law had been considered until Princess Kiko gave birth to a son. Until the birth of Prince Hisahito, son of Prince Akishino, on September 6, 2006, there was a potential succession problem, since Prince Akishino was the only male child to be born into the imperial family since 1965. Following the birth of Princess Aiko, there was public debate about amending the current Imperial Household Law to allow women to succeed to the throne. In January 2005, Prime Minister Junichiro Koizumi appointed a special panel composed of judges, university professors, and civil servants to study changes to the Imperial Household Law and to make recommendations to the government. The panel dealing with the succession issue recommended on October 25, 2005, amending the law to allow females of the male line of imperial descent to ascend the Japanese throne. On January 20, 2006, Prime Minister Junichiro Koizumi devoted part of his annual keynote speech to the controversy, pledging to submit a bill allowing women to ascend the throne to ensure that the succession continues in the future in a stable manner. Shortly after the announcement that Princess Kiko was pregnant with her third child, Koizumi suspended such plans. Her son, Prince Hisahito, is the third in line to the throne under the current law of succession. On January 3, 2007, Prime Minister Shinzō Abe announced that he would drop the proposal to alter the Imperial Household Law.\nQuestion: How many years old was Prince Akishino when his son was born?\nAnswer:",
+    "completion": " 41",
+    "ref_text": "41",
+    "id": 1919
+  },
+  {
+    "context": "Passage: There were 664,594 households out of which 24.35% had children under the age of 18 living with them, 46.28% were Marriage living together, 11.68% had a female householder with no husband present, and 37.40% were non-families. 30.11% of all households were made up of individuals and 14.70% (4.02% male and 10.68% female) had someone living alone who was 65 years of age or older. The average household size was 2.39 and the average family size was 2.97.\nQuestion: How many in percent of households were families?\nAnswer:",
+    "completion": " 62.6",
+    "ref_text": "62.6|62.60|2.97",
+    "id": 6728
+  },
+  {
+    "context": "Passage: Old age pensions were raised by 300 francs per month to 1,700 francs for a single person and to 3,700 francs for a couple, while health insurance benefits were made more widely available to unemployed persons and part-time employees. Housing allocations for the low-paid were raised by 25% in 1981, and in the two years following May 1981 family allowances were increased by 44% for families with 3 children and by 81% for families with 2 children. In 1981, the purchasing power of social transfers went up by 4.5% and by 7.6% in 1982. In addition, the minimum wage (which affected 1.7 million employees) was increased by 15% in real terms between May 1981 and December 1982.\nQuestion: How many francs were the old age pensions for a single person before they were raised?\nAnswer:",
+    "completion": " 1400",
+    "ref_text": "1400",
+    "id": 2886
+  },
+  {
+    "context": "Passage: Like most other European countries, Hungary is experiencing sub-replacement fertility; its estimated total fertility rate of 1.43 is well below the replacement rate of 2.1, albeit higher than its nadir of 1.28 in 1999. As a result, its population has gradually declining and rapidly aging. In 2011, the conservative government began a program to increase the birth rate with a focus on ethnic Magyars by reinstating 3 year maternity leave as well as boosting part-time jobs. The birth rate has gradually increased from 1.27 children born/woman in 2011. The natural decrease in the first 10 months of 2016 was only 25,828 which was 8,162 less than the corresponding period in 2015. In 2015, 47.9% of births were to unmarried women. Life expectancy was 71.96 years for men and 79.62 years for women in 2015, growing continuously since the End of Communism in Hungary (1989).\nQuestion: How many years longer is the life expectancy for women compared to men?\nAnswer:",
+    "completion": " 7.66",
+    "ref_text": "7.66",
+    "id": 5270
+  },
+  {
+    "context": "Passage: Old age pensions were raised by 300 francs per month to 1,700 francs for a single person and to 3,700 francs for a couple, while health insurance benefits were made more widely available to unemployed persons and part-time employees. Housing allocations for the low-paid were raised by 25% in 1981, and in the two years following May 1981 family allowances were increased by 44% for families with 3 children and by 81% for families with 2 children. In 1981, the purchasing power of social transfers went up by 4.5% and by 7.6% in 1982. In addition, the minimum wage (which affected 1.7 million employees) was increased by 15% in real terms between May 1981 and December 1982.\nQuestion: How many more percentage points was the increase for families with 2 children than for families with 3 children?\nAnswer:",
+    "completion": " 37",
+    "ref_text": "37",
+    "id": 2301
+  },
+  {
+    "context": "Passage: In the city, the age distribution of the population shows 21.8% under the age of 18, 13.1% from 18 to 24, 31.7% from 25 to 44, 20.1% from 45 to 64, and 13.2% who were 65 years of age or older. The median age was 34 years. For every 100 females, there were 87.1 males. For every 100 females age 18 and over, there were 83.5 males.\nQuestion: Which age group is larger: 25 to 44 or 45 to 64?\nAnswer:",
+    "completion": " 25 to 44",
+    "ref_text": "25 to 44",
+    "id": 8540
+  },
+  {
+    "context": "Passage: Old age pensions were raised by 300 francs per month to 1,700 francs for a single person and to 3,700 francs for a couple, while health insurance benefits were made more widely available to unemployed persons and part-time employees. Housing allocations for the low-paid were raised by 25% in 1981, and in the two years following May 1981 family allowances were increased by 44% for families with 3 children and by 81% for families with 2 children. In 1981, the purchasing power of social transfers went up by 4.5% and by 7.6% in 1982. In addition, the minimum wage (which affected 1.7 million employees) was increased by 15% in real terms between May 1981 and December 1982.\nQuestion: How many more francs per month did a couple receive than a single person?\nAnswer:",
+    "completion": " 2000",
+    "ref_text": "2000",
+    "id": 3
+  },
+  {
+    "context": "Passage: According to the 2016 American Community Survey, 78.1% of working Nashville residents commuted by driving alone, 9.8% carpooled, 2% used public transportation, and 2.2% walked. About 1.1% used all other forms of transportation, including taxicab, motorcycle, and bicycle. About 6.7% of working Nashville residents worked at home. In 2015, 7.9% of city of Nashville households were without a car; this figure decreased to 5.9% in 2016. The national average was 8.7 percent in 2016. Nashville averaged 1.72 cars per household in 2016, compared to a national average of 1.8 per household.\nQuestion: How many less Nashville residents worked at home than were without a car?\nAnswer:",
+    "completion": " 1.2",
+    "ref_text": "1.2",
+    "id": 8575
+  },
+  {
+    "context": "Passage: In the county, the population was spread out with 26.20% under the age of 18, 9.30% from 18 to 24, 26.50% from 25 to 44, 23.50% from 45 to 64, and 14.60% who were 65 years of age or older.  The median age was 37 years. For every 100 females there were 95.90 males.  For every 100 females age 18 and over, there were 92.50 males.\nQuestion: Which age group had the third most people?\nAnswer:",
+    "completion": " 45 to 64",
+    "ref_text": "45 to 64",
+    "id": 4844
+  },
+  {
+    "context": "Passage: In the city, the age distribution of the population shows 21.8% under the age of 18, 13.1% from 18 to 24, 31.7% from 25 to 44, 20.1% from 45 to 64, and 13.2% who were 65 years of age or older. The median age was 34 years. For every 100 females, there were 87.1 males. For every 100 females age 18 and over, there were 83.5 males.\nQuestion: Which age groups each made up more than 20% of the population?\nAnswer:",
+    "completion": " under the age of 18 and 25 to 44 and 45 to 64",
+    "ref_text": "under the age of 18 and 25 to 44 and 45 to 64",
+    "id": 0
+  },
+  {
+    "context": "Passage: In the city, the population was spread out with 12.0% under the age of 18, 55.2% from 18 to 24, 15.3% from 25 to 44, 10.3% from 45 to 64, and 7.1% who were 65 years of age or older.  The median age was 22 years. For every 100 females, there were 160.7 males.  For every 100 females age 18 and over, there were 173.2 males.\nQuestion: Which age group had the most people?\nAnswer:",
+    "completion": " 18 to 24",
+    "ref_text": "18 to 24",
+    "id": 8773
+  },
+  {
+    "context": "Passage: He has been Man of the Match 13 times in Test matches and Man of the Series four times, out of them twice in the Border-Gavaskar Trophy against Australian cricket team. The performances earned him respect from Australian cricket fans and players. Similarly he has been Man of the Match 62 times in One day International matches and Man of the Series 15 times. He became the first batsman to score 12,000, 13,000, 14,000 and 15,000 runs in Test cricket, having also been the third batsman and the first Indian to pass 11,000 runs in that form of the game. He was also the first player to score 10,000 runs in one-day internationals, and also the first player to cross every subsequent 1000-run mark that has been crossed in ODI cricket history. In the fourth Test of the Australian cricket team in India in 2008-09 against Australia at Nagpur on 6 November 2008, Tendulkar surpassed Australias Allan Border to become the player to cross the 50-run mark the most number of times in Test cricket history, and also the second ever player to score 11 Test centuries against Australia, tying with Sir Jack Hobbs of England more than 70 years previously. On 8 November 2011, Tendulkar became the first batsman to score 15,000 runs in Test Cricket.\nQuestion: How many times has Tendulkar been Man of the Match in all matches?\nAnswer:",
+    "completion": " 75",
+    "ref_text": "75|13",
+    "id": 3715
+  },
+  {
+    "context": "Passage: In the county, the population is spread out with 24.60% under the age of 18, 6.40% from 18 to 24, 22.80% from 25 to 44, 25.40% from 45 to 64, and 20.80% who are 65 years of age or older.  The median age is 42 years.  For every 100 females there are 95.90 males.  For every 100 females age 18 and over, there are 90.50 males.\nQuestion: How many in percent weren't 45 to 64?\nAnswer:",
+    "completion": " 74.6",
+    "ref_text": "74.6",
+    "id": 8124
+  },
+  {
+    "context": "Passage: Succession is now regulated by laws passed by the National Diet. The current law excludes women from the succession. A change to this law had been considered until Princess Kiko gave birth to a son. Until the birth of Prince Hisahito, son of Prince Akishino, on September 6, 2006, there was a potential succession problem, since Prince Akishino was the only male child to be born into the imperial family since 1965. Following the birth of Princess Aiko, there was public debate about amending the current Imperial Household Law to allow women to succeed to the throne. In January 2005, Prime Minister Junichiro Koizumi appointed a special panel composed of judges, university professors, and civil servants to study changes to the Imperial Household Law and to make recommendations to the government. The panel dealing with the succession issue recommended on October 25, 2005, amending the law to allow females of the male line of imperial descent to ascend the Japanese throne. On January 20, 2006, Prime Minister Junichiro Koizumi devoted part of his annual keynote speech to the controversy, pledging to submit a bill allowing women to ascend the throne to ensure that the succession continues in the future in a stable manner. Shortly after the announcement that Princess Kiko was pregnant with her third child, Koizumi suspended such plans. Her son, Prince Hisahito, is the third in line to the throne under the current law of succession. On January 3, 2007, Prime Minister Shinzō Abe announced that he would drop the proposal to alter the Imperial Household Law.\nQuestion: How many years after the panel was formed was the proposal dismissed?\nAnswer:",
+    "completion": " 2",
+    "ref_text": "2",
+    "id": 1315
+  },
+  {
+    "context": "Passage: By 2007, 56.8% of evacuees had found jobs, 22.3% were unemployed and seeking work, and 31.2% of evacuees were unemployed and living off government benefits rather than seeking work. The average monthly salary among the evacuees was NIS 5,380 (about $1,281), a slight rise of 2.1 percent from the average salary the year before. This was, however, a sharp drop of 39% from the settlers average monthly income before the disengagement. The average salary among evacuees was lower than the general average, as compared to above average before the disengagement. In addition to a drop in salary, the evacuees also suffered a drop in their standard of living due to the increased price of goods and services in their places of residence as compared to the settlements. Following the disengagement, settlers were temporarily relocated to hotels, sometimes for as long as half a year, before moving to mobile homes as temporary housing known as caravillas, before they could build proper homes. By June 2014, about 60% of evacuees were still living in these caravillas. Only 40% had moved to permanent housing, although construction of permanent settlements for the evacuees continues to progress. By July 2014, eleven towns for the evacuees had been completed with the expellees joining ten additional towns. Many of the permanent settlements under construction were given names reminiscent of the former Gaza settlements. By August 2014, unemployment among evacuees had dropped to 18%. In 2010 a bill was introduced in the Knesset providing a basic pension to business owners whose businesses collapsed.\nQuestion: Were more evacuees seeking work, or living off government benefits?\nAnswer:",
+    "completion": " living off government benefits",
+    "ref_text": "living off government benefits",
+    "id": 1145
+  },
+  {
+    "context": "Passage: National Council In the 2015 Swiss federal election, 2015 the most popular party was the Swiss Peoples Party with 25.4% of the vote. The next three most popular parties were the Christian Democratic Peoples Party of Switzerland (22.5%), the FDP.The Liberals (19.5%) and the Social Democratic Party of Switzerland (17.2%). In the federal election, a total of 9,438 votes were cast, and the voter turnout was 55.4%. The 2015 election saw a large change in the voting when compared to 2011. The percentage of the vote received by the SP increased sharply from 6.4% in 2011 to 17.2% in 2015, while the percentage that the Green Party of Switzerland received dropped from 21.3% to 9.5%.\nQuestion: How many percent of the population did not vote?\nAnswer:",
+    "completion": " 44.6",
+    "ref_text": "44.6",
+    "id": 1650
+  },
+  {
+    "context": "Passage: According to the 2016 American Community Survey, 78.1% of working Nashville residents commuted by driving alone, 9.8% carpooled, 2% used public transportation, and 2.2% walked. About 1.1% used all other forms of transportation, including taxicab, motorcycle, and bicycle. About 6.7% of working Nashville residents worked at home. In 2015, 7.9% of city of Nashville households were without a car; this figure decreased to 5.9% in 2016. The national average was 8.7 percent in 2016. Nashville averaged 1.72 cars per household in 2016, compared to a national average of 1.8 per household.\nQuestion: Which had the highest average cars per household in 2016, Nashville or national?\nAnswer:",
+    "completion": " Nashville",
+    "ref_text": "Nashville|national",
+    "id": 6914
+  },
+  {
+    "context": "Passage: There were 664,594 households out of which 24.35% had children under the age of 18 living with them, 46.28% were Marriage living together, 11.68% had a female householder with no husband present, and 37.40% were non-families. 30.11% of all households were made up of individuals and 14.70% (4.02% male and 10.68% female) had someone living alone who was 65 years of age or older. The average household size was 2.39 and the average family size was 2.97.\nQuestion: How many in percent of households didn't have children under the age of 18 living with them?\nAnswer:",
+    "completion": " 75.65",
+    "ref_text": "75.65|24.35",
+    "id": 3024
+  },
+  {
+    "context": "Passage: For the Class of 2017 (enrolled Fall 2013), Berea received 1,620 applications and accepted 551 (34.0%). The number enrolling was 397; the yield rate (the percentage of accepted students who enroll) was 72.1%, ranking behind only Harvard College and Stanford University in the 2014 CommonDataSet. In terms of class rank, 24.8% of enrolled freshmen were in the top 10% of their high school classes while 72.5% ranked in the top quarter. Of the 80.1% of enrolled freshmen submitting ACT (test) scores, the mean Composite score was 24.3; the middle 50% range was 22.0-26.0. Of the 14.6% of enrolled freshmen submitting SAT scores, the mean scores were 560 for critical reading, 565 for math, and 544 for writing, while the middle 50% range of SAT scores was 510-630 for critical reading, 513-610 for math, and 483-610 for writing. The incoming Class of 2017 was 54.8% female, 45.2% male.\nQuestion: How many of the applications to Berea for the class of 2017 were not accepted?\nAnswer:",
+    "completion": " 1069",
+    "ref_text": "1069|66",
+    "id": 6387
+  },
+  {
+    "context": "Passage: Paraguay has a small tourism industry. Total tourism receipts declined annually from 2000 through 2002. In 2003 Paraguay's hotel occupancy rate was 38 percent. It increased by 15 percent in 2004. Small gains in tourism have come from business rather than leisure travellers. For many years, Paraguay served as a central market for trafficable, duty-free goods. However, crackdowns by the governments of Brazil and Argentina have stemmed the flow of shoppers travelling to Paraguay looking for trafficable items. Paraguay is a country that has a lot of different activities for tourism, due to privileged weather and location conditions condensed into a varied geography, an inviting \"warm\" tropical climate and an  interesting history and unmatched folk art that adorn its streets with an identity that enchants anyone who visits the country. As an example, for less than 80 US dollars a visitor can have a personalized trip to a nature reserve area called Eco-Reserva Mbatovi which is located in the Paraguari department, about an hour away from the capital. The trip includes a bunch of different outdoor activities, water, and complete professional guidance during the whole trip.\nQuestion: How many percentage points was Paraguay's hotel occupancy rate in 2004?\nAnswer:",
+    "completion": " 53",
+    "ref_text": "53",
+    "id": 7080
+  },
+  {
+    "context": "Passage: Thailand is the worlds third largest producer of crude palm oil, producing approximately two million tonnes per year, or 1.2 percent of global output. Ninety-five percent of Thai production is consumed locally. Almost 85 percent of palm plantations and extraction mills are in south Thailand. At year-end 2016, 4.7 to 5.8 million Rai (unit) were planted in oil palms, employing 300,000 farmers, mostly on small landholdings of 20 rai. ASEAN as a region accounts for 52.5 million tonnes of palm oil production, about 85 percent of the world total and more than 90 percent of global exports. Indonesia accounts for 52.2 percent of world exports. Malaysian exports total 37.9 percent. The biggest consumers of palm oil are India, the European Union, and China, with the three consuming nearly 50 percent of world exports. Thailands Department of Internal Trade (DIT) usually sets the price of crude palm oil and refined palm oil. Thai farmers have a relatively low yield compared to those in Malaysia and Indonesia. Thai palm oil crops yield 4-17 percent oil compared to around 20 percent in competing countries. In addition, Indonesian and Malaysian oil palm plantations are 10 times the size of Thai plantations.\nQuestion: How many countries produce more crude palm oil than Thailand?\nAnswer:",
+    "completion": " 2",
+    "ref_text": "2|Indonesia and Malaysian",
+    "id": 7540
+  },
+  {
+    "context": "Passage: Of Saratoga Countys population in 2010, 6.3% were between ages of 5 and 9 years, 6.7% between 10 and 14 years, 6.5% between 15 and 19 years, 5.5% between 20 and 24 years, 5.5% between 25 and 29 years, 5.8% between 30 and 34 years, 6.6% between 35 and 39 years, 7.9% between 40 and 44 years, 8.5% between 45 and 49 years, 8.0% between 50 and 54 years, 7.0% between 55 and 59 years, 6.4% between 60 and 64 years, and 13.7% of age 65 years and over. 22.7% of the countys population was under age 18. The median age was 40.9 years.\nQuestion: How many percent of people were not between 40 and 44 years?\nAnswer:",
+    "completion": " 92.1",
+    "ref_text": "92.1",
+    "id": 2133
+  },
+  {
+    "context": "Passage: In the city, the population was spread out with 12.0% under the age of 18, 55.2% from 18 to 24, 15.3% from 25 to 44, 10.3% from 45 to 64, and 7.1% who were 65 years of age or older.  The median age was 22 years. For every 100 females, there were 160.7 males.  For every 100 females age 18 and over, there were 173.2 males.\nQuestion: Which age group had the third most people?\nAnswer:",
+    "completion": " under the age of 18",
+    "ref_text": "under the age of 18",
+    "id": 131
+  },
+  {
+    "context": "Passage: Per 2013 census, the total population of the department was 867,463 with 431,357 males and 436,106 females. The proportion of women was 50.30 per cent. The total rural population was 75.70 percent, while the urban population was 24.30 per cent. The proportion of women in child bearing age of 15 to 49 years was 22.00 per cent. The total foreign population in the department was 28,636 which formed 3.30 per cent of the total population in the department. The proportion of assets of foreigners aged 10+ years was 27.40 per cent, while for the people aged 15-64 years, it was 26.40 per cent. The proportion of women in foreign population constituted 47.60 per cent. The number of households in the department was 108,351 and the average household size was 8. The intercensal growth rate of population was 4.60 per cent.\nQuestion: How many percentage points higher was the percentage of assets of foreigners aged 10+ years than those aged 15-64?\nAnswer:",
+    "completion": " 1",
+    "ref_text": "1|1.0",
+    "id": 106
+  }
+]

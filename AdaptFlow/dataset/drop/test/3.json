@@ -1,0 +1,674 @@
+[
+  {
+    "context": "Passage: The number of entrants has increased greatly in recent years. In the FA Cup 2004-05 season, 660 clubs entered the competition, beating the long-standing record of 656 from the 1921-22 season. In 2005-06 FA Cup this increased to 674 entrants, in 2006-07 FA Cup to 687, in 2007-08 FA Cup to 731 clubs, and for the 2008-09 FA Cup and 2009-10 FA Cup competitions it reached 762. The number has varied slightly but remained roughly stable since then, with 759 clubs participating in 2010-11 FA Cup, a record 763 in 2011-12 FA Cup, 758 for 2012-13 FA Cup, 737 for 2013-14 FA Cup and 736 for 2014-15 FA Cup. By comparison, the other major English domestic cup, the EFL Cup, involves only the 92 members of the Premier League and Football League.\nQuestion: How many years did it take to beat the long-standing record of 656 entrants in the FA Cup competition>\nAnswer:",
+    "completion": " 83",
+    "ref_text": "83",
+    "id": 3481
+  },
+  {
+    "context": "Passage: From 1989 to 1993, the Pacers would play at or near .500 and qualify for the playoffs, in 1989-90 NBA season, the Pacers parlayed a fast start into the teams third playoff appearance. But the Pacers were swept by the 1989-90 Detroit Pistons season, who would go on to win their second consecutive 1990 NBA Finals. Reggie Miller became the first Pacer to play in the 1990 NBA All-Star Game since 1976 on the strength of his 24.6 points-per-game average. Despite four straight first round exits, this period was highlighted by a first round series with the Boston Celtics in 1990-91 NBA season that went to Game 5. The next season, the Pacers returned to the playoffs in 1992 NBA Playoffs and met the 1991-92 Boston Celtics season for the second year in a row. But this time, the Celtics left no doubt who was the better team, as they swept the Pacers in three straight games. Chuck Person and point guard Micheal Williams were traded to the Minnesota Timberwolves in the off-season, and the Pacers got Pooh Richardson and Sam Mitchell (basketball) in return. For the 1992-93 NBA season, Detlef Schrempf moved from sixth man to the starter at small forward and was elected to his first All-Star game. Miller, meanwhile, became the Pacers all-time NBA era leading scorer during this season (4th overall). The Pacers returned to the 1993 NBA Playoffs with a 41-41 record, but lost to the 1992-93 New York Knicks season in the first round, three games to one.\nQuestion: How many other players scored more than Reggie Miller in the 1992-1993 NBA season?\nAnswer:",
+    "completion": " 3",
+    "ref_text": "3",
+    "id": 8005
+  },
+  {
+    "context": "Passage: In 1989 Ricklefs was elected a Fellow of the Australian Academy of the Humanities. The Government of Australia awarded him in 2001 the Centenary Medal for service to Australian society and the humanities in the study of Indonesia. In 2010 he was elected as an erelid  of the Netherlands Koninklijk Instituut voor Taal-, Land- en Volkenkunde, one of only eight people currently recognised in this way. He was awarded the 2015 George McT. Kahin Prize of the Association for Asian Studies, ‘given biennially to an outstanding scholar of Southeast Asian studies from any discipline or country specialization to recognize distinguished scholarly work on Southeast Asia beyond the author's first book' for his work Islamisation and its opponents in Java: A political, social, cultural and religious history, c. 1930 to the present . In 2016 the Indonesian Ministry of Education and Culture presented Professor Ricklefs with its prestigious Cultural Award . In June 2017, Professor Ricklefs was made a member of the Order of Australia.\nQuestion: How many years after Ricklefs was elected a Fellow of the Australian Academy did he receive a prestigious Cultural Award?\nAnswer:",
+    "completion": " 27",
+    "ref_text": "27|86",
+    "id": 2519
+  },
+  {
+    "context": "Passage: Birth registration of Bahrain is available from 1976, death registration started in 1990. Between 1976 and 2011 the number of baby births roughly doubled but the birth rate of babies decreased from 32 to 13 per 1,000. The death rate of Bahrain  is among the lowest in the world.\nQuestion: How many years after birth registration did death registration start in Bahrain?\nAnswer:",
+    "completion": " 14",
+    "ref_text": "14",
+    "id": 6504
+  },
+  {
+    "context": "Passage: The monetary unit is the dinar, at about 1.33 per dollar U.S.A. (recently a fairly constant rate), with inflation estimated pp. 4.5% for 2006. Tunisias per capita annual income was approximately 8,900 dollars (U.S.A.) in 2006. Between 1988 and 1998 the economy more than doubled. The economy grew at 5% per year during the 1990s (the best in Northwest Africa), but hit a 15-year low of 1.9% in 2002 (due to drought and a decline in tourism), but it regained a 5% rate for 2003–2005; it was said to be 4%–5% for 2006.  Tunisias economy is diverse. Its products are primarily from light industry (food processing, textiles, footwear, agribusiness, mining commodities, construction materials) and from agriculture (olives, olive oil, grains (wheat and barley), tomatoes, citrus, sugar beets, dates, almonds, figs, vegetables, grapes, beef dairy), as well as livestock (sheep, goats) and fishing. Other production comes from petroleum and mining (phosphates, iron, oil, lead, zinc, salt). Tunisia is self-sufficient in oil, but not in natural gas. A very significant portion of the economy derives from the tourist industry. Gross Domestic Product (G.D.P.) was composed of approximately 12.5% agriculture, 33.1% industry, and 54.4% services. Exports went to France 29%, Italy 20%, Germany 9%, Spain 6%, Libya 5%, U.S.A. 4%. Imports came from France 25%, Italy 22%, Germany 10%, Spain 5%. An association agreement with the European Union will move Tunisia toward full free trade with the EU by 2008.\nQuestion: How many countries responsible for exports were not part of an import agreement?\nAnswer:",
+    "completion": " 2",
+    "ref_text": "2|U.S.A. and Libya",
+    "id": 4194
+  },
+  {
+    "context": "Passage: With the end of the \"crack epidemic\" in the mid-1990s and with the initiation of aggressive policing under mayors David Dinkins and subsequently  Rudolph Giuliani, crime in Harlem plummeted. In 1981, 6,500 robberies were reported in Harlem; robberies dropped to 4,800 in 1990 during David Dinkins mayoralty. By 2000, only 1,700 robberies were reported, and by 2010, only 1,100 were reported. There have been similar changes in all categories of crimes tracked by the New York City Police Department. In the 32nd Precinct, which services Central Harlem above 127th Street, for example, between 1990 and 2013, the murder rate dropped 89.4%, the rape rate dropped 67.5%, the robbery rate dropped 74.2%, burglary dropped 93.4%, and the total number of crime complaints dropped 77.6%.\nQuestion: How many more percentage of murder dropped than rapes?\nAnswer:",
+    "completion": " 21.9",
+    "ref_text": "21.9",
+    "id": 8490
+  },
+  {
+    "context": "Passage: The Astros won the 2005 National League Division Series against the Atlanta Braves, 3-1, with a game four that set postseason records for most innings (18), most players used by a single team (23), and longest game time (5 hours and 50 minutes). Trailing by a score of 6-1, Lance Berkman hit an eighth-inning grand slam to narrow the score to 6-5. In the bottom of the ninth, catcher Brad Ausmus hit a game-tying home run that allowed the game to continue in extra innings. In the bottom of the tenth inning, Luke Scott hit a blast to left field that had home run distance, but was inches foul. This game remained scoreless for the next eight innings. In the top of the fifteenth inning, Roger Clemens made only his second career relief appearance, pitching three shutout innings, notably striking out Julio Franco, at the time the oldest player in the MLB at 47 years old; Clemens was himself 43. In the bottom of the eighteenth inning, Clemens came to bat again, indicating that he would be pitching in the nineteenth inning, if it came to that. Clemens struck out, but the next batter, Chris Burke (baseball), hit a home run to left field for the Astros win, 7-6. Oddly enough, a fan in the \"Crawford Boxes\" in left field had previously caught Berkmans grand slam and this same fan caught Burkes home run.  The 2005 National League Championship Series featured a rematch of the 2004 National League Championship Series. The Astros lost the first game in St. Louis, but would win the next three games, with Roy Oswalt getting the win. Though the Astros were poised to close out the series in Game Five in Houston, Brad Lidge gave up a monstrous two-out three-run home run to Albert Pujols, forcing the series to a sixth game in St. Louis, where the Astros clinched a World Series appearance. Roy Oswalt was named NLCS MVP, having gone 2-0 with a 1.29 ERA in the series. Current honorary NL President William Y. Giles presented the league champion Astros with the Warren C. Giles Trophy. Warren Giles, Williams father and President of the National League from  to , had awarded an MLB franchise to the city of Houston in 1960.\nQuestion: How many years older was Julio Franco compared to Roger Clemens?\nAnswer:",
+    "completion": " 4",
+    "ref_text": "4",
+    "id": 1888
+  },
+  {
+    "context": "Passage: The solar arrays themselves were launched and installed over a period of eleven years, more slowly than originally planned, with the station continually suffering from a shortage of power as a result. The first two arrays, each 38 m2 (409 ft2) in area, were launched on the core module, and together provided a total of 9 kW of power. A third, Dorsum (anatomy) panel was launched on Kvant-1 and mounted on the core module in 1987, providing a further 2 kW from a 22 m2 (237 ft2) area. Kvant-2, launched in 1989, provided two 10 m (32.8 ft) long panels which supplied 3.5 kW each, whilst Kristall was launched with two collapsible, 15 m (49.2 ft) long arrays (providing 4 kW each) which were intended to be moved to Kvant-1 and installed on mounts which were attached during a spacewalk by the Soyuz TM-11 crew in 1991.\nQuestion: How many total kW of power did the solar arrays provide to the station after the Dorsum panel was installed?\nAnswer:",
+    "completion": " 11",
+    "ref_text": "11",
+    "id": 4292
+  },
+  {
+    "context": "Passage: The total number of active military personnel in the Croatian Armed Forces stands at 14,506 and 6,000 reserves working in various service branches of the armed forces. In May 2016, Armed Forces had 16,019 members, of which 14,506 were active military personnel and 1,513 civil servants. Of the 14,506 active military personnel, 3,183 were officers, 5,389 non-commissioned officers, 5,393 soldiers, 520 military specialists, 337 civil servants and 1,176 other employees.\nQuestion: How many active military personnel and reserve are in the Croatian Armed Forces?\nAnswer:",
+    "completion": " 20506",
+    "ref_text": "20506",
+    "id": 7831
+  },
+  {
+    "context": "Passage: With the end of the \"crack epidemic\" in the mid-1990s and with the initiation of aggressive policing under mayors David Dinkins and subsequently  Rudolph Giuliani, crime in Harlem plummeted. In 1981, 6,500 robberies were reported in Harlem; robberies dropped to 4,800 in 1990 during David Dinkins mayoralty. By 2000, only 1,700 robberies were reported, and by 2010, only 1,100 were reported. There have been similar changes in all categories of crimes tracked by the New York City Police Department. In the 32nd Precinct, which services Central Harlem above 127th Street, for example, between 1990 and 2013, the murder rate dropped 89.4%, the rape rate dropped 67.5%, the robbery rate dropped 74.2%, burglary dropped 93.4%, and the total number of crime complaints dropped 77.6%.\nQuestion: How many more robberies were there in 1981 than in 2010?\nAnswer:",
+    "completion": " 5400",
+    "ref_text": "5400",
+    "id": 2900
+  },
+  {
+    "context": "Passage: With the end of the \"crack epidemic\" in the mid-1990s and with the initiation of aggressive policing under mayors David Dinkins and subsequently  Rudolph Giuliani, crime in Harlem plummeted. In 1981, 6,500 robberies were reported in Harlem; robberies dropped to 4,800 in 1990 during David Dinkins mayoralty. By 2000, only 1,700 robberies were reported, and by 2010, only 1,100 were reported. There have been similar changes in all categories of crimes tracked by the New York City Police Department. In the 32nd Precinct, which services Central Harlem above 127th Street, for example, between 1990 and 2013, the murder rate dropped 89.4%, the rape rate dropped 67.5%, the robbery rate dropped 74.2%, burglary dropped 93.4%, and the total number of crime complaints dropped 77.6%.\nQuestion: How many more robberies in 2000 were reported than in 2010?\nAnswer:",
+    "completion": " 600",
+    "ref_text": "600",
+    "id": 8025
+  },
+  {
+    "context": "Passage: Kit sponsors BSR Housewares became the clubs first shirt English football sponsorship during the 1981–82 season. The clubs shirts have been sponsored for the majority of the time since then, although there was no shirt sponsor at the end of the 1993–94 season, after local solicitors Coucher & Shaw were closed down by the Law Society of England and Wales. Unusually for a Premier League club, Albion were again without a shirt sponsor for the start of the 2008–09 campaign, as negotiations with a new sponsor were still ongoing when the season began. The longest-running shirt sponsorship deal agreed by the club ran for seven seasons between 1997 and 2004 with the West Bromwich Building Society. Today the clubs principal sponsor is Ideal Boilers. Other sponsors have included T-Mobile (2004–08), Homeserve (2010–11), Bodog (2011–12), Zoopla (2012–14), QuickBooks (2014–15), Tlcbet (2015–16), K8 group (2016–2017), and Palm Eco-Town Development (2017–18).\nQuestion: Which two seasons was there no shirt sponsor?\nAnswer:",
+    "completion": " 1993–94 season and 2008–09",
+    "ref_text": "1993–94 season and 2008–09|1981–82 season 1993–94 season,",
+    "id": 1155
+  },
+  {
+    "context": "Passage: Among the other denominations there are approximately 93,000 Mormons in 253 congregations, 25,000 Jewish adherents in 21 synagogues, 12,000 Muslims in 39 masjids, 7,000 Buddhists in 34 temples, 7,000 Hindus in 17 temples, 2,500 Unitarian Universalism in 9 congregations, 2,000 Bahai in 17 temples, 5 Sikh temples, a Zoroastrian temple, a Jain temple and an uncounted number of neopagans.\nQuestion: How many more Mormons than Buddhists were there?\nAnswer:",
+    "completion": " 86000",
+    "ref_text": "86000",
+    "id": 1224
+  },
+  {
+    "context": "Passage: Old age pensions were raised by 300 francs per month to 1,700 francs for a single person and to 3,700 francs for a couple, while health insurance benefits were made more widely available to unemployed persons and part-time employees. Housing allocations for the low-paid were raised by 25% in 1981, and in the two years following May 1981 family allowances were increased by 44% for families with 3 children and by 81% for families with 2 children. In 1981, the purchasing power of social transfers went up by 4.5% and by 7.6% in 1982. In addition, the minimum wage (which affected 1.7 million employees) was increased by 15% in real terms between May 1981 and December 1982.\nQuestion: How many types of people received better health insurgence?\nAnswer:",
+    "completion": " 2",
+    "ref_text": "2",
+    "id": 8473
+  },
+  {
+    "context": "Passage: Final Fantasy Tactics sold nearly 825,000 copies in Japan in the first half of 1997, and ended the year at almost 1.24 million copies sold. Since then, the total number of copies sold in Japan has reached approximately 1.35 million. In the United States it reached an estimated sale of 750,000 units as of year 2004. As of March 31, 2003, the game had shipped 2.27 million copies worldwide, with 1.36 million of those copies being shipped in Japan and 910,000 abroad. Since its release, rumors were circulated that the game was to be re-released by Sony as  a Greatest Hits title, the tentative date being around July 30, 2001. As of August, 2011, the game had sold over 2.4 million copies worldwide.\nQuestion: How many of the 2.4 million copies sold worldwide were sold outside of the US and Japan?\nAnswer:",
+    "completion": " 910000",
+    "ref_text": "910000",
+    "id": 7502
+  },
+  {
+    "context": "Passage: By 2011 fewer than 7% of employees in the private sector belonged to unions. The UAW's numbers of automobile union members are representative of the manufacturing sector: 1,619,000 active members in 1970, 1,446,000 in 1980, 952,000 in 1990, 623,000 in 2004, and 377,000 in 2010 . By 2014, coal mining had largely shifted to open-pit mines in Wyoming, and there were only 60,000 active coal miners.  The UMW has 35,000 members, of whom 20,000 were coal miners, chiefly in underground mines in Kentucky and West Virginia. By contrast it had 800,000 members in the late 1930s. However it remains responsible for pensions and medical benefits for 40,000 retired miners, and for 50,000 spouses and dependents.\nQuestion: How many of UMW's members were not coal miners?\nAnswer:",
+    "completion": " 15000",
+    "ref_text": "15000",
+    "id": 3448
+  },
+  {
+    "context": "Passage: China is the second largest trading partner of Nepal. In 2015/16, total exports to China stood at US$181 million with marginal increase from US$179 million in the previous fiscal year. In contrast, import from China has been growing at the rate of 39 per cent per year. It rose from US$421 million in fiscal year 2009/10 to US$1,247 million in fiscal year 2015/16. As a result, the trade deficit with China has risen from US$401 million in 2009/10 to US$1228 million in 2015/16. Although, China has given zero tariff entry facility to over 8000 Nepali products starting from 2009, Nepal hasn’t been able to bring the trade deficit down. Nepal exports 370 products including noodles and agro products to China. Nepal regularly participates various trade fairs and exhibitions organized in China. Nepal-China’s Tibet Economic and Trade Fair is the regular biannual event hosted by either side alternatively to enhance business interaction and promote economic cooperation between Nepal and TAR. The 15th Nepal China’s Tibet Economic and Trade Fair was held on 17-22 November 2015 in Bhrikutimandap, Kathmandu Nepal.\nQuestion: Have Nepal's exports to China or it's imports been growing more rapidly?\nAnswer:",
+    "completion": " import",
+    "ref_text": "import",
+    "id": 169
+  },
+  {
+    "context": "Passage: The services sector made up nearly 50 percent of Paraguay's gross domestic product in 2004 and employed about 19 percent of Paraguay's working population. The importation of goods, especially from Argentina and Brazil, for sale and illegal reexportation creates service industry jobs. The services sector had a moderate growth rate of 0.9 percent from 1990 to 2003. The sector decreased by 7.8 percent in 2002, before rebounding in 2003 with a 1.6 percent growth rate. Instability in the economy and a large black market have hampered development of the formal services sector in Paraguay.\nQuestion: How many years did they have a moderate growth?\nAnswer:",
+    "completion": " 13",
+    "ref_text": "13",
+    "id": 50
+  },
+  {
+    "context": "Passage: the total number of full-time equivalent jobs was 15,215. The number of jobs in the primary sector was 1,157, of which 1,052 were in agriculture and 105 were in forestry or lumber production. The number of jobs in the secondary sector was 6,008 of which 3,648 or (60.7%) were in manufacturing, 46 or (0.8%) were in mining and 2,139 (35.6%) were in construction. The number of jobs in the tertiary sector was 8,050. In the tertiary sector; 1,892 or 23.5% were in the sale or repair of motor vehicles, 520 or 6.5% were in the movement and storage of goods, 1,440 or 17.9% were in a hotel or restaurant, 140 or 1.7% were in the information industry, 347 or 4.3% were the insurance or financial industry, 708 or 8.8% were technical professionals or scientists, 528 or 6.6% were in education and 1,213 or 15.1% were in health care.\nQuestion: How many percent of jobs in the tertiary sector were not in  the insurance or financial industry?\nAnswer:",
+    "completion": " 95.7",
+    "ref_text": "95.7|7703",
+    "id": 5931
+  },
+  {
+    "context": "Passage: The U.S. Marine Corps issued a request for proposals (RFP) in 2013 for its Humvee sustainment modification initiative to upgrade 6,700 expanded capacity vehicles (ECVs). The Marines plan to field the JLTV, but do not have enough funding to completely replace all Humvees, so they decided to continue sustaining their fleet. Key areas of improvement include upgrades to the suspension to reduce the amount of force transferred to the chassis, upgrading the engine and transmission for better fuel efficiency, enhancements to the cooling system to prevent overheating, a central tire inflation system to improve off-road mobility and ride quality, and increased underbody survivability. Testing of upgraded Humvees was to occur in 2014, with production and installation occurring from 2015 through 2018. Older A2 series Humvees make up half the current fleet, and 4,000 are to be disposed of through foreign military sales and transfers. By 2017, the Marines light tactical vehicle fleet is to consist of 3,500 A2 series Humvees, 9,500 ECV Humvees, and 5,000 JLTVs, with 18,000 vehicles in total. Humvees in service with the Marine Corps will be upgraded through 2030. The Marines shelved the Humvee modernization effort in March 2015 due to budget cuts.\nQuestion: How many of the Marines light tactical vehicle fleet by 2017 will not consist of the A2 series?\nAnswer:",
+    "completion": " 14500",
+    "ref_text": "14500",
+    "id": 6663
+  },
+  {
+    "context": "Passage: The first two Buick automobiles were made in 1899 and 1900 at the \"Buick Auto-Vim and Power Company\" by chief-engineer Walter Lorenzo Marr, but company owner David Dunbar Buick was reluctant to begin making automobiles, being satisfied with stationary and marine engine production, so Marr left Buick in 1901 to found Marr (automobile) under his own name. His replacement was Eugene Richard, who applied for a patent in 1902 for Marrs valve-in-head (Overhead valve engine) engine, which patent, number 771,095, was awarded to Richard in the name of Buick in 1904. In 1903, the third Buick automobile was made, this time by Richard, but in 1904 Buick, whose company was now called \"Buick Motor Company,\" moved to Flint, Michigan, and Richard stayed behind. Marr was rehired in Flint as chief engineer, to begin making automobiles in production. That year, 37 Buick automobiles were made, production increasing to 750 in 1905, 1,400 in 1906, 4,641 in 1907, and 8,800 in 1908, taking the number one spot away from close competitors Oldsmobile, Ford Motor Company, and Maxwell automobile.\nQuestion: How many Buick automobiles were built between 1904 and 1905?\nAnswer:",
+    "completion": " 787",
+    "ref_text": "787|713",
+    "id": 47
+  },
+  {
+    "context": "Passage: Wilkins was honored by several sports publications the next season as the NBA Comeback Player of the Year. He scored an average of 27.7 points per game in the first month of the season. He then suffered a setback when he fractured the ring finger on his right hand on December 15, sitting out the next 11 games. He returned to rack up 29.4 points per game on .487 shooting in January, then added 31.5 points per game on .519 shooting in February. By the end of the season, his scoring average was up to 29.9, second in the league behind Michael Jordans 32.6. When Wilkins scored his 31st point in a February 2 game against the 1992-93 Seattle SuperSonics season, he broke Bob Pettits franchise scoring record of 20,880 points. He had developed into a full-fledged three-point threat, hitting 120 of 316 attempts from long range to shatter his previous career bests. He was later selected to the All-NBA Second Team. The 1992-93 Chicago Bulls season swept the Hawks in the first round of the playoffs 3-0.\nQuestion: How many more average points per game did Wilkins get over Michael Jordan?\nAnswer:",
+    "completion": " 2.7",
+    "ref_text": "2.7",
+    "id": 8114
+  },
+  {
+    "context": "Passage: The 10th Cavalry returned from the Philippines in late 1902 and settled down in different posts in the south western United States. Patrols and garrison life was the routine for the regiment. Under war plans, the 10th was designated for service in the Pacific and support in the Philippines from 1915 through 1942 but never rotated there. The 9th Cavalry Regiment  became \"Park Rangers\" in 1905 for Yosemite National Park and other state and federal lands. The Troopers' Campaign Hat, sporting the \"Montana Pinch\" used to help shed the tropical downpours. That \"Montana Pinch\" gave the hat the distinctive look we recognize today as the \"Smokey Bear Hat\".\nQuestion: How many years was the 10th Cavalry designated to support the Philippines?\nAnswer:",
+    "completion": " 27",
+    "ref_text": "27",
+    "id": 4793
+  },
+  {
+    "context": "Passage: Tunis, the capital, has a population of about 700,000, and the second city of Sfax approximately 250,000. The population growth rate measured as births per female has fallen from 7 (1960s) to 2 (2007). Life expectancy is female 75, male 72. The religion is Islam (98%), with 1% Christian, and 1% Jewish and other. Required education is eight years. The official language is Arabic language, with French language also spoken particularly in commercial dealings, and with less than 2% Berber languages. Literacy by definition includes all over 15 years, and is overall 74%, male 83% and female 65%. In 2006, 7.3 million mobile phones were in use and 1.3 million were on the internet; there were 26 television stations and 29 radio stations.  Over half the population is considered urban, with agricultural workers being about 30% of the total. Unemployment in 2000 was about 15.6%, and in 2006 about 13.9%. Over 300,000 Tunisians were reported to be residing in France during 1994. Left out of the recent prosperity were many rural and urban poor, including small businesses facing the world market.\nQuestion: How many more people were in Tunis and Sfax than there were Tunisians residing in France during 1994?\nAnswer:",
+    "completion": " 650000",
+    "ref_text": "650000",
+    "id": 3245
+  },
+  {
+    "context": "Passage: Among the other denominations there are approximately 93,000 Mormons in 253 congregations, 25,000 Jewish adherents in 21 synagogues, 12,000 Muslims in 39 masjids, 7,000 Buddhists in 34 temples, 7,000 Hindus in 17 temples, 2,500 Unitarian Universalism in 9 congregations, 2,000 Bahai in 17 temples, 5 Sikh temples, a Zoroastrian temple, a Jain temple and an uncounted number of neopagans.\nQuestion: Are there fewer congregations or synagogues?\nAnswer:",
+    "completion": " synagogues and Bahai temples",
+    "ref_text": "synagogues and Bahai temples|synagogues",
+    "id": 1746
+  },
+  {
+    "context": "Passage: By 2011 fewer than 7% of employees in the private sector belonged to unions. The UAW's numbers of automobile union members are representative of the manufacturing sector: 1,619,000 active members in 1970, 1,446,000 in 1980, 952,000 in 1990, 623,000 in 2004, and 377,000 in 2010 . By 2014, coal mining had largely shifted to open-pit mines in Wyoming, and there were only 60,000 active coal miners.  The UMW has 35,000 members, of whom 20,000 were coal miners, chiefly in underground mines in Kentucky and West Virginia. By contrast it had 800,000 members in the late 1930s. However it remains responsible for pensions and medical benefits for 40,000 retired miners, and for 50,000 spouses and dependents.\nQuestion: How many members did the UAW lose between 1980 and 1990?\nAnswer:",
+    "completion": " 494000",
+    "ref_text": "494000",
+    "id": 4813
+  },
+  {
+    "context": "Passage: Northern Europe is home to a large bear population, with an estimated 2,500 (range 2,350-2,900) in Sweden, about 2,200 in Finland, about 700 in Estonia and 70 in Norway, totaling to nearly 5,000 individuals in the wild. Another large and relatively stable population of brown bears in Europe, consisting of 2,500-3,000 individuals, is the Dinaric-Pindos (Balkans) population, with contiguous distribution in northeast Italy, Slovenia, Croatia, Bosnia and Herzegovina, Serbia, Montenegro, Republic of Macedonia, Albania, Bulgaria and Greece. Brown bears inhabited the mountains of Austria until as recently as 2011, after a reintroduction effort failed and the species became extinct again. There is currently no effort to reintroduce the species into Austria. The entire alpine population of brown bears includes about 50 individuals, most of them living in the Adamello-Presanella Alps in Italy. Reintroduction of 10 Slovenian brown bears to the Trentino area in 1998 and 2002 produced occasional visitors to the South Tirol, the Swiss Geography of the Alpss, Bavaria and isolated sightings in the Geography of the Alpss. The small group of bears living in the Carinthian-Slovenian Alps is connected to the larger Dinaric-Pindos population.\nQuestion: How many more large bears are there in Estonia compared to Norway?\nAnswer:",
+    "completion": " 630",
+    "ref_text": "630",
+    "id": 856
+  },
+  {
+    "context": "Passage: Other instances of napalms use include by France during the First Indochina War (1946-1954), the Algerian War of Independence (1954-1962), the Portuguese Colonial War (1961-1974), the Six-Day War by Israel (1967), in Nigeria (1969), India and Pakistan (1965 and 1971), Egypt (1973), by Morocco during the Western Sahara War (1975-1991), by Argentina (1982), by Iran (1980-88), by Iraq (1980-88, 1991), by Angola during the Angolan Civil War, and Yugoslav Wars (1991-1996).\nQuestion: How many years did Iran use napalm?\nAnswer:",
+    "completion": " 8",
+    "ref_text": "8",
+    "id": 8046
+  },
+  {
+    "context": "Passage: The total number of active military personnel in the Croatian Armed Forces stands at 14,506 and 6,000 reserves working in various service branches of the armed forces. In May 2016, Armed Forces had 16,019 members, of which 14,506 were active military personnel and 1,513 civil servants. Of the 14,506 active military personnel, 3,183 were officers, 5,389 non-commissioned officers, 5,393 soldiers, 520 military specialists, 337 civil servants and 1,176 other employees.\nQuestion: How many of the personnel were not civil servants?\nAnswer:",
+    "completion": " 14169",
+    "ref_text": "14169|14506",
+    "id": 3280
+  },
+  {
+    "context": "Passage: Other instances of napalms use include by France during the First Indochina War (1946-1954), the Algerian War of Independence (1954-1962), the Portuguese Colonial War (1961-1974), the Six-Day War by Israel (1967), in Nigeria (1969), India and Pakistan (1965 and 1971), Egypt (1973), by Morocco during the Western Sahara War (1975-1991), by Argentina (1982), by Iran (1980-88), by Iraq (1980-88, 1991), by Angola during the Angolan Civil War, and Yugoslav Wars (1991-1996).\nQuestion: What two countries were napalm used in the period from 1980 to 1988?\nAnswer:",
+    "completion": " Iran and Iraq",
+    "ref_text": "Iran and Iraq|Argentina and Iraq",
+    "id": 7871
+  },
+  {
+    "context": "Passage: In 1989 Ricklefs was elected a Fellow of the Australian Academy of the Humanities. The Government of Australia awarded him in 2001 the Centenary Medal for service to Australian society and the humanities in the study of Indonesia. In 2010 he was elected as an erelid  of the Netherlands Koninklijk Instituut voor Taal-, Land- en Volkenkunde, one of only eight people currently recognised in this way. He was awarded the 2015 George McT. Kahin Prize of the Association for Asian Studies, ‘given biennially to an outstanding scholar of Southeast Asian studies from any discipline or country specialization to recognize distinguished scholarly work on Southeast Asia beyond the author's first book' for his work Islamisation and its opponents in Java: A political, social, cultural and religious history, c. 1930 to the present . In 2016 the Indonesian Ministry of Education and Culture presented Professor Ricklefs with its prestigious Cultural Award . In June 2017, Professor Ricklefs was made a member of the Order of Australia.\nQuestion: How many times was he awarded?\nAnswer:",
+    "completion": " 3",
+    "ref_text": "3|6",
+    "id": 4808
+  },
+  {
+    "context": "Passage: When the railroad was extended through Madison in 1875, larger mills were built. The first Madison Woolen Mill was constructed in 1881 near the bridge between Madison and Anson, with the firm's second mill built nearby in 1887. In 1890, the Manufacturing Investment Company built a sulfite mill, but it failed. It was taken over in 1899 by the Great Northern Paper Company, which rebuilt the plant to produce wood pulp and paper. Like many New England textile manufacturers, the town's woolen mills eventually went out of business, but the pulp and paper mill remains today as the Madison Paper Industries which will close by May 2016 due to low demand for supercalender paper and Canadian competition. In 1901, Lakewood Summer Theatre opened in East Madison on the western side of Lake Wesserunsett. Since 1967 it has been the official summer theatre of Maine, and the oldest continually operating summer theatre in America. Actors who have performed at Lakewood include John Travolta, Carol Channing, and Phyllis Diller Completed in 2007 is the largest structure by volume in Maine, the Backyard Farms greenhouse that covers 24 acres .\nQuestion: How many years after Lakewood Summer Theatre opened in East Madison did it become the official summer theatre of Maine?\nAnswer:",
+    "completion": " 66",
+    "ref_text": "66",
+    "id": 2036
+  },
+  {
+    "context": "Passage: Late in the 18th Century, Qing dynasty set about a momentous task, the creation of the Siku Quanshu. The Qianlong Emperor ordered the creation of the Siku Quanshu in 1772. Local and Provincial officers were in charge of locating and collecting important books. The Qianlong Emperor encouraged owners of rare or valuable books to send them to the capital, however few actually did due to concerns about the Literary Inquisition. Towards the end of 1772, seeing that only a limited number of people actually handed in books, the Qianlong Emperor issued imperial decrees stressing that books would be returned to their owners once the compilation was finished and that owners of the books would not be persecuted if their books contained anti-Manchu sentiment. Less than three months after the issue of this decree, four to five thousand books were handed in. By March of 1773, an editorial board  was created in Beijing to gather and review books brought to them. This board included over 361 scholars, with Ji Yun and Lu Xixiong  as chief editors. There was around 3,826 scribes who copied every word by hand. These copyists were not paid in coinage but in government positions after they had transcribed a set amount of the encyclopedia. It took over a decade until the encyclopedia was completed and all seven copies were distributed.\nQuestion: Which were there less of, scholars or scribes?\nAnswer:",
+    "completion": " scholars",
+    "ref_text": "scholars|1772",
+    "id": 7019
+  },
+  {
+    "context": "Passage: In the New Jersey gubernatorial election, 2013, Democrat Barbara Buono received 75.9% of the vote (5,757 cast), ahead of Republican Chris Christie with 22.7% (1,723 votes), and other candidates with 1.4% (104 votes), among the 8,174 ballots cast by the citys 21,996 registered voters (590 ballots were spoiled), for a turnout of 37.2%. In the New Jersey gubernatorial election, 2009, Democrat Jon Corzine received 7,140 ballots cast (81.3% vs. 50.6% countywide), ahead of Republican Chris Christie with 1,057 votes (12.0% vs. 41.7%), Independent Chris Daggett with 355 votes (4.0% vs. 5.9%) and other candidates with 84 votes (1.0% vs. 0.8%), among the 8,786 ballots cast by the citys 21,738 registered voters, yielding a 40.4% turnout (vs. 46.5% in the county).\nQuestion: How many more votes did Barbara Buono receive compared to Chris Christie in 2013?\nAnswer:",
+    "completion": " 4034",
+    "ref_text": "4034|53.2",
+    "id": 14
+  },
+  {
+    "context": "Passage: The total number of active military personnel in the Croatian Armed Forces stands at 14,506 and 6,000 reserves working in various service branches of the armed forces. In May 2016, Armed Forces had 16,019 members, of which 14,506 were active military personnel and 1,513 civil servants. Of the 14,506 active military personnel, 3,183 were officers, 5,389 non-commissioned officers, 5,393 soldiers, 520 military specialists, 337 civil servants and 1,176 other employees.\nQuestion: Which personnel were there more of in the Croatian Armed Forces, officers or non-commissioned officers?\nAnswer:",
+    "completion": " non-commissioned officers",
+    "ref_text": "non-commissioned officers",
+    "id": 9358
+  },
+  {
+    "context": "Passage: The first two Buick automobiles were made in 1899 and 1900 at the \"Buick Auto-Vim and Power Company\" by chief-engineer Walter Lorenzo Marr, but company owner David Dunbar Buick was reluctant to begin making automobiles, being satisfied with stationary and marine engine production, so Marr left Buick in 1901 to found Marr (automobile) under his own name. His replacement was Eugene Richard, who applied for a patent in 1902 for Marrs valve-in-head (Overhead valve engine) engine, which patent, number 771,095, was awarded to Richard in the name of Buick in 1904. In 1903, the third Buick automobile was made, this time by Richard, but in 1904 Buick, whose company was now called \"Buick Motor Company,\" moved to Flint, Michigan, and Richard stayed behind. Marr was rehired in Flint as chief engineer, to begin making automobiles in production. That year, 37 Buick automobiles were made, production increasing to 750 in 1905, 1,400 in 1906, 4,641 in 1907, and 8,800 in 1908, taking the number one spot away from close competitors Oldsmobile, Ford Motor Company, and Maxwell automobile.\nQuestion: How many years after leaving Buick did Walter Lorenzo Marr return to work at Buick?\nAnswer:",
+    "completion": " 3",
+    "ref_text": "3",
+    "id": 2088
+  },
+  {
+    "context": "Passage: Consequences of obesity  Obesity causes several chronic diseases including heart disease and diabetes. The three leading causes of death in Texas - heart disease, stroke, and cancer - are all linked to obesity. Additionally, obesity can cause type 2 diabetes, arteriosclerosis, and hypertension. In 2010, Texas saw 1,261,654 cases of heart disease and is predicted to see 5,688,482 cases in 2030. In 2010, Texas saw 1,962,059 cases of diabetes and is predicted to see 2,851,697 cases in 2030. In 2010, Texas saw 4,300,252 cases of hypertension and is predicted to see 5,689,509 cases in 2030. In 2010, Texas saw 328,379 cases of obesity-related cancer and is predicted to see 810,806 cases in 2030.\nQuestion: Are there expected to be more cases of heart disease or diabetes in 2030?\nAnswer:",
+    "completion": " heart disease",
+    "ref_text": "heart disease",
+    "id": 1446
+  },
+  {
+    "context": "Passage: The Dutch Reformed Church remained the largest church body in the Netherlands until the middle of the 20th century, when it was overtaken by the Roman Catholic Church. The rapid secularisation of the Netherlands in the 1960s dramatically reduced participation in the mainstream Protestant church. From the '60s onward, a number of attempts were made to effect a reunion with the Reformed Churches in the Netherlands . This led to the two churches uniting with the Evangelical Lutheran Church in the Kingdom of the Netherlands  to establish the Protestant Church in the Netherlands in 2004. The 2004 merger led to a separation in which a number of congregations and members of the Dutch Reformed Church separated to form the Restored Reformed Church . Estimations of their membership vary from 35,000 up to 70,000 in about 120 local congregations served by 88 ministers. The Restored Reformed Church disapproves of the pluralistic nature of the merged church, which they allege contains partly contradicting Reformed and Lutheran confessions. This conservative group also opposes the ordination of women and the blessing of same-sex unions in Christian churches, which have been adopted as practices by the merged church.\nQuestion: Did the Restored Reformed Church have fewer local congregations or ministers?\nAnswer:",
+    "completion": " ministers",
+    "ref_text": "ministers",
+    "id": 7272
+  },
+  {
+    "context": "Passage: Other instances of napalms use include by France during the First Indochina War (1946-1954), the Algerian War of Independence (1954-1962), the Portuguese Colonial War (1961-1974), the Six-Day War by Israel (1967), in Nigeria (1969), India and Pakistan (1965 and 1971), Egypt (1973), by Morocco during the Western Sahara War (1975-1991), by Argentina (1982), by Iran (1980-88), by Iraq (1980-88, 1991), by Angola during the Angolan Civil War, and Yugoslav Wars (1991-1996).\nQuestion: How many wars were going on in 1967?\nAnswer:",
+    "completion": " 2",
+    "ref_text": "2|Portuguese Colonial War and Six-Day War by Israel|3",
+    "id": 1662
+  },
+  {
+    "context": "Passage: In 2009, the Libyan Army (1951-2011) consisted of 25,000 volunteers with an additional 25,000 conscripts (total 50,000). At that time, the army was organised into 11 Border Defence and 4 Security Zones, one regime security brigade, 10 Tank Battalions, 10 Mechanized Infantry Battalions, 18 Infantry Battalions, 6 Commando Battalions, 22 Artillery Battalions, 4 SSM Brigade and 7 Air Defence Artillery Battalions. Khamis Gaddafis 32nd Brigade was one of the main regime protection forces. The Khamis Brigade was considered by US diplomats in 2009 as the most capable of defending the regime. In addition, the Revolutionary Guard Corps also served as a brigade-sized protection force for Gaddafi. In 2009, it emerged that a British Special Air Service team were training Libyan special forces. Under Gaddafi, conscription was listed as 18 months.\nQuestion: Which battalions in the army had the smallest number?\nAnswer:",
+    "completion": " Commando Battalions",
+    "ref_text": "Commando Battalions|Air Defence Artillery",
+    "id": 5722
+  },
+  {
+    "context": "Passage: Consequences of obesity  Obesity causes several chronic diseases including heart disease and diabetes. The three leading causes of death in Texas - heart disease, stroke, and cancer - are all linked to obesity. Additionally, obesity can cause type 2 diabetes, arteriosclerosis, and hypertension. In 2010, Texas saw 1,261,654 cases of heart disease and is predicted to see 5,688,482 cases in 2030. In 2010, Texas saw 1,962,059 cases of diabetes and is predicted to see 2,851,697 cases in 2030. In 2010, Texas saw 4,300,252 cases of hypertension and is predicted to see 5,689,509 cases in 2030. In 2010, Texas saw 328,379 cases of obesity-related cancer and is predicted to see 810,806 cases in 2030.\nQuestion: What are all the disease cases that are the higher than heart disease in 2010?\nAnswer:",
+    "completion": " diabetes and hypertension",
+    "ref_text": "diabetes and hypertension",
+    "id": 3064
+  },
+  {
+    "context": "Passage: The reliance on Adobe for decoding Flash makes its use on the World Wide Web a concern—the completeness of its public specifications are debated, and no complete implementation of Flash is publicly available in source code form with a license that permits reuse. Generally, public specifications are what makes a format re-implementable , and reusable codebases can be ported to new platforms without the endorsement of the format creator. Adobe's restrictions on the use of the SWF/FLV specifications were lifted in February 2009 . However, despite efforts of projects like Gnash, Swfdec and Lightspark, a complete free Flash player is yet to be seen, as of September 2011. For example, Gnash cannot use SWF v10 yet. Notably, Gnash was listed on the Free Software Foundation's high priority list, from at least 2007, to its overdue removal in January 2017. Notable advocates of free software, open standards, and the World Wide Web have warned against the use of Flash: The founder of Mozilla Europe, Tristan Nitot, stated in 2008:\nQuestion: How many years was Gnash listed on the Free Software Foundation's high priority list?\nAnswer:",
+    "completion": " 10",
+    "ref_text": "10",
+    "id": 4169
+  },
+  {
+    "context": "Passage: Modern Clallam County is generally regarded as a competitive area politically. In the United States presidential election, 2016, Donald Trump won with 46.7% of the vote, compared to 44.0% of the vote for Hillary Clinton. In the United States presidential election, 2012, Barack Obama narrowly won with 48.4% of the vote, compared to 48.0% of the vote for Mitt Romney. In the United States presidential election, 2008, Democratic Party (United States) Barack Obama won the county with 50.5% of the vote, compared to 47.2% for Republican candidate John McCain. However, Republican George W. Bush carried Clallam twice, defeating John Kerry by 51.3% to 46.3% in United States presidential election, 2004, and Al Gore by 50.4% to 42.7% in United States presidential election, 2000 (although Bush lost Washington (state) as a whole both times). Clallam County is a bellwether, voting for the nationwide winning candidate in every presidential election from United States presidential election, 1980 onward.\nQuestion: in 2016 how many more percent of the vote did Trump receive compared to Clinton?\nAnswer:",
+    "completion": " 2.7",
+    "ref_text": "2.7",
+    "id": 3685
+  },
+  {
+    "context": "Passage: Among the other denominations there are approximately 93,000 Mormons in 253 congregations, 25,000 Jewish adherents in 21 synagogues, 12,000 Muslims in 39 masjids, 7,000 Buddhists in 34 temples, 7,000 Hindus in 17 temples, 2,500 Unitarian Universalism in 9 congregations, 2,000 Bahai in 17 temples, 5 Sikh temples, a Zoroastrian temple, a Jain temple and an uncounted number of neopagans.\nQuestion: Were there more Mormons or Jewish people?\nAnswer:",
+    "completion": " Mormons",
+    "ref_text": "Mormons|68000",
+    "id": 2168
+  },
+  {
+    "context": "Passage: Paraguay has a small tourism industry. Total tourism receipts declined annually from 2000 through 2002. In 2003 Paraguay's hotel occupancy rate was 38 percent. It increased by 15 percent in 2004. Small gains in tourism have come from business rather than leisure travellers. For many years, Paraguay served as a central market for trafficable, duty-free goods. However, crackdowns by the governments of Brazil and Argentina have stemmed the flow of shoppers travelling to Paraguay looking for trafficable items. Paraguay is a country that has a lot of different activities for tourism, due to privileged weather and location conditions condensed into a varied geography, an inviting \"warm\" tropical climate and an  interesting history and unmatched folk art that adorn its streets with an identity that enchants anyone who visits the country. As an example, for less than 80 US dollars a visitor can have a personalized trip to a nature reserve area called Eco-Reserva Mbatovi which is located in the Paraguari department, about an hour away from the capital. The trip includes a bunch of different outdoor activities, water, and complete professional guidance during the whole trip.\nQuestion: How many years were between Paraguay's occupancy rate growing 15 percent, and its occupancy rate being 38 percent?\nAnswer:",
+    "completion": " 1",
+    "ref_text": "1",
+    "id": 6478
+  },
+  {
+    "context": "Passage: Consequences of obesity  Obesity causes several chronic diseases including heart disease and diabetes. The three leading causes of death in Texas - heart disease, stroke, and cancer - are all linked to obesity. Additionally, obesity can cause type 2 diabetes, arteriosclerosis, and hypertension. In 2010, Texas saw 1,261,654 cases of heart disease and is predicted to see 5,688,482 cases in 2030. In 2010, Texas saw 1,962,059 cases of diabetes and is predicted to see 2,851,697 cases in 2030. In 2010, Texas saw 4,300,252 cases of hypertension and is predicted to see 5,689,509 cases in 2030. In 2010, Texas saw 328,379 cases of obesity-related cancer and is predicted to see 810,806 cases in 2030.\nQuestion: How many cases of obesity related cancer, heart disease and diabates did TX see in 2010?\nAnswer:",
+    "completion": " 3552092",
+    "ref_text": "3552092",
+    "id": 144
+  },
+  {
+    "context": "Passage: From 1989 to 1993, the Pacers would play at or near .500 and qualify for the playoffs, in 1989-90 NBA season, the Pacers parlayed a fast start into the teams third playoff appearance. But the Pacers were swept by the 1989-90 Detroit Pistons season, who would go on to win their second consecutive 1990 NBA Finals. Reggie Miller became the first Pacer to play in the 1990 NBA All-Star Game since 1976 on the strength of his 24.6 points-per-game average. Despite four straight first round exits, this period was highlighted by a first round series with the Boston Celtics in 1990-91 NBA season that went to Game 5. The next season, the Pacers returned to the playoffs in 1992 NBA Playoffs and met the 1991-92 Boston Celtics season for the second year in a row. But this time, the Celtics left no doubt who was the better team, as they swept the Pacers in three straight games. Chuck Person and point guard Micheal Williams were traded to the Minnesota Timberwolves in the off-season, and the Pacers got Pooh Richardson and Sam Mitchell (basketball) in return. For the 1992-93 NBA season, Detlef Schrempf moved from sixth man to the starter at small forward and was elected to his first All-Star game. Miller, meanwhile, became the Pacers all-time NBA era leading scorer during this season (4th overall). The Pacers returned to the 1993 NBA Playoffs with a 41-41 record, but lost to the 1992-93 New York Knicks season in the first round, three games to one.\nQuestion: How many games out of three did the Boston Celtics win in the 1992 NBA Playoffs against the Pacers?\nAnswer:",
+    "completion": " 0",
+    "ref_text": "0|3",
+    "id": 19
+  },
+  {
+    "context": "Passage: The commune of Antony is part of the employment zone of Boulogne-Billancourt. The total working population of the commune is 27,979. The rate of employment between 20 and 59 years old is 79% compared to the national average is 82.2%. There are 2,216 unemployed. In 1999 Antony had an unemployment rate of 7.9% which was much lower than the national average which was 12.9%. The percentage of working people was 46.7% against 45.2% nationally. There were 16.4% retired, 29.3% of young people in school, and finally 7.5% of people without activity.\nQuestion: How many percent higher was Antony's percentage of working people than the national average?\nAnswer:",
+    "completion": " 1.5",
+    "ref_text": "1.5",
+    "id": 4629
+  },
+  {
+    "context": "Passage: With the end of the \"crack epidemic\" in the mid-1990s and with the initiation of aggressive policing under mayors David Dinkins and subsequently  Rudolph Giuliani, crime in Harlem plummeted. In 1981, 6,500 robberies were reported in Harlem; robberies dropped to 4,800 in 1990 during David Dinkins mayoralty. By 2000, only 1,700 robberies were reported, and by 2010, only 1,100 were reported. There have been similar changes in all categories of crimes tracked by the New York City Police Department. In the 32nd Precinct, which services Central Harlem above 127th Street, for example, between 1990 and 2013, the murder rate dropped 89.4%, the rape rate dropped 67.5%, the robbery rate dropped 74.2%, burglary dropped 93.4%, and the total number of crime complaints dropped 77.6%.\nQuestion: What crime's rae dropped the least?\nAnswer:",
+    "completion": " rape",
+    "ref_text": "rape",
+    "id": 2122
+  },
+  {
+    "context": "Passage: The Front refused to officially disclose the number of members that it had. Thurlow suggested that \"the most reliable estimates\" were those produced by the anti-fascist investigatory magazine Searchlight (magazine). Following its establishment, the NF claimed to have 4000 members in 1968, and in February 1974 a branch chairman claimed that it had 20,000 members. Fielding suggested that it probably had about 21,000 members in early 1975, of whom 6,000 to 8,000 were \"paper members\" who had not renewed their membership subscriptions but not officially terminated their membership. Searchlight claimed that from its origins with 4,000 members in 1968, the party reached a peak membership of 17,500 in 1972, which had declined to 10,000 in 1979, to 3,148 in 1984, and to 1,000 in January 1985. An estimate of party membership in 1989 put adherents of the Flag Group at about 3,000 and of the Strasserite faction at about 600. Thurlow noted that even at its peak in the 1970s, the Fronts membership was still only half the size of that of the BUF during its 1930s heyday.\nQuestion: How many more members did the Front have in 1974 than in 1975, not including the smallest estimate of \"paper members?\"\nAnswer:",
+    "completion": " 5000",
+    "ref_text": "5000",
+    "id": 7655
+  },
+  {
+    "context": "Passage: Of those aged 15 or over, 7,857,370 (51.6%) were economically active, 4,199,558 (27.6%) did Homemaking, 1,431,105 (9.4%) were students, 914,934 (6.0%) were unable to work and 346,084 (2.3%) were pensioners. 521,938 (6.6%) of the economically active were unemployed. 604,540 Sri Lankans were living aboard for more than six months but were intending to return to Sri Lanka, mostly in the Arab states of the Persian Gulf (373,050 61.7%).\nQuestion: How many in percent of those aged 15 and over were able to work?\nAnswer:",
+    "completion": " 94",
+    "ref_text": "94|6.0%",
+    "id": 6481
+  },
+  {
+    "context": "Passage: According to the market research firm SuperData, as of May 2015, the global games market was worth USD 74.2 billion. By region, North America accounted for $23.6 billion, Asia for $23.1 billion, Europe for $22.1 billion and South America for $4.5 billion. By market segment, mobile games were worth $22.3 billion, retail games 19.7 billion, free-to-play Massively multiplayer online game 8.7 billion, social games $7.9 billion, PC Downloadable content 7.5 billion, and other categories $3 billion or less each.\nQuestion: Which regions accounted for more than $23 billion dollars each of the global games market?\nAnswer:",
+    "completion": " North America and Asia",
+    "ref_text": "North America and Asia",
+    "id": 6670
+  },
+  {
+    "context": "Passage: Beyond Indonesia's art deco architecture also much of the country's rail and road infrastructure as well as its major cities were built during the colonial period. Many of Indonesia's main cities were mere rural townships before colonial industrialization and urban development. Examples on Java include the capital Jakarta and Bandung, outside Java examples include Ambon and Menado city. Most main railroads and rail stations on Java as well as the main road, called Daendels Great Post Road  after the Governor General commissioning the work, connecting west to east Java were also built during the Dutch East Indies era. Between 1800 and 1950 Dutch engineers created an infrastructure including 67,000 kilometers  of roads, 7,500 kilometers  of railways, many large bridges, modern irrigation systems covering 1.4 million hectares  of rice fields, several international harbors, and 140 public drinking water systems. These Dutch constructed public works became the material base of the colonial and postcolonial Indonesian state.\nQuestion: How many years did the Dutch East Indies era last in Indonesia?\nAnswer:",
+    "completion": " 150",
+    "ref_text": "150|50",
+    "id": 6383
+  },
+  {
+    "context": "Passage: the total number of full-time equivalent jobs was 15,215. The number of jobs in the primary sector was 1,157, of which 1,052 were in agriculture and 105 were in forestry or lumber production. The number of jobs in the secondary sector was 6,008 of which 3,648 or (60.7%) were in manufacturing, 46 or (0.8%) were in mining and 2,139 (35.6%) were in construction. The number of jobs in the tertiary sector was 8,050. In the tertiary sector; 1,892 or 23.5% were in the sale or repair of motor vehicles, 520 or 6.5% were in the movement and storage of goods, 1,440 or 17.9% were in a hotel or restaurant, 140 or 1.7% were in the information industry, 347 or 4.3% were the insurance or financial industry, 708 or 8.8% were technical professionals or scientists, 528 or 6.6% were in education and 1,213 or 15.1% were in health care.\nQuestion: How many percent of the jobs in the secondary sector were not in construction?\nAnswer:",
+    "completion": " 64.4",
+    "ref_text": "64.4",
+    "id": 9251
+  },
+  {
+    "context": "Passage: The number of entrants has increased greatly in recent years. In the FA Cup 2004-05 season, 660 clubs entered the competition, beating the long-standing record of 656 from the 1921-22 season. In 2005-06 FA Cup this increased to 674 entrants, in 2006-07 FA Cup to 687, in 2007-08 FA Cup to 731 clubs, and for the 2008-09 FA Cup and 2009-10 FA Cup competitions it reached 762. The number has varied slightly but remained roughly stable since then, with 759 clubs participating in 2010-11 FA Cup, a record 763 in 2011-12 FA Cup, 758 for 2012-13 FA Cup, 737 for 2013-14 FA Cup and 736 for 2014-15 FA Cup. By comparison, the other major English domestic cup, the EFL Cup, involves only the 92 members of the Premier League and Football League.\nQuestion: Which seasons saw less than 700 clubs enter the competition?\nAnswer:",
+    "completion": " FA Cup 2004-05 and 1921-22 season and 2005-06 FA Cup and 2006-07 FA Cup",
+    "ref_text": "FA Cup 2004-05 and 1921-22 season and 2005-06 FA Cup and 2006-07 FA Cup|2004-05 and 1921-22 and 2005-06 and 2006-07|2004-05 season and 1921-22 season and 2005-06 FA Cup and 2006-07 FA Cup",
+    "id": 7581
+  },
+  {
+    "context": "Passage: In 2012, Albanias GDP per capita stood at 30% of the European Union average, while GDP (PPP) per capita was 35%. Albania were one of three countries in Europe to record an economic growth in the first quarter of 2010 after the global financial crisis. The International Monetary Fund predicted 2.6% growth for Albania in 2010 and 3.2% in 2011. According to the Forbes , the Gross Domestic Product (GDP) was growing at 2.8%. The country had a trade balance of −9.7% and unemployment rate of 14.7%. The Foreign direct investment has increased significantly in recent years as the government has embarked on an ambitious program to improve the business climate through fiscal and legislative reforms. The economy is expected to expand in the near term, driven by a recovery in consumption and robust investments. Growth is projected to be 3.2% in 2016, 3.5% in 2017, and 3.8% in 2018.\nQuestion: How many more percent was predicted by the International Monetary Fund for growth in 2011 versus 2010?\nAnswer:",
+    "completion": " 0.6",
+    "ref_text": "0.6|.6",
+    "id": 7277
+  },
+  {
+    "context": "Passage: The number of entrants has increased greatly in recent years. In the FA Cup 2004-05 season, 660 clubs entered the competition, beating the long-standing record of 656 from the 1921-22 season. In 2005-06 FA Cup this increased to 674 entrants, in 2006-07 FA Cup to 687, in 2007-08 FA Cup to 731 clubs, and for the 2008-09 FA Cup and 2009-10 FA Cup competitions it reached 762. The number has varied slightly but remained roughly stable since then, with 759 clubs participating in 2010-11 FA Cup, a record 763 in 2011-12 FA Cup, 758 for 2012-13 FA Cup, 737 for 2013-14 FA Cup and 736 for 2014-15 FA Cup. By comparison, the other major English domestic cup, the EFL Cup, involves only the 92 members of the Premier League and Football League.\nQuestion: Which FA Cup season had fewer clubs entered: 2005–06 or 2006–07?\nAnswer:",
+    "completion": " 2005–06",
+    "ref_text": "2005–06",
+    "id": 4189
+  },
+  {
+    "context": "Passage: The Astros won the 2005 National League Division Series against the Atlanta Braves, 3-1, with a game four that set postseason records for most innings (18), most players used by a single team (23), and longest game time (5 hours and 50 minutes). Trailing by a score of 6-1, Lance Berkman hit an eighth-inning grand slam to narrow the score to 6-5. In the bottom of the ninth, catcher Brad Ausmus hit a game-tying home run that allowed the game to continue in extra innings. In the bottom of the tenth inning, Luke Scott hit a blast to left field that had home run distance, but was inches foul. This game remained scoreless for the next eight innings. In the top of the fifteenth inning, Roger Clemens made only his second career relief appearance, pitching three shutout innings, notably striking out Julio Franco, at the time the oldest player in the MLB at 47 years old; Clemens was himself 43. In the bottom of the eighteenth inning, Clemens came to bat again, indicating that he would be pitching in the nineteenth inning, if it came to that. Clemens struck out, but the next batter, Chris Burke (baseball), hit a home run to left field for the Astros win, 7-6. Oddly enough, a fan in the \"Crawford Boxes\" in left field had previously caught Berkmans grand slam and this same fan caught Burkes home run.  The 2005 National League Championship Series featured a rematch of the 2004 National League Championship Series. The Astros lost the first game in St. Louis, but would win the next three games, with Roy Oswalt getting the win. Though the Astros were poised to close out the series in Game Five in Houston, Brad Lidge gave up a monstrous two-out three-run home run to Albert Pujols, forcing the series to a sixth game in St. Louis, where the Astros clinched a World Series appearance. Roy Oswalt was named NLCS MVP, having gone 2-0 with a 1.29 ERA in the series. Current honorary NL President William Y. Giles presented the league champion Astros with the Warren C. Giles Trophy. Warren Giles, Williams father and President of the National League from  to , had awarded an MLB franchise to the city of Houston in 1960.\nQuestion: How many points did the Astros win the Braves 7-6?\nAnswer:",
+    "completion": " 1",
+    "ref_text": "1",
+    "id": 5710
+  },
+  {
+    "context": "Passage: Modern Clallam County is generally regarded as a competitive area politically. In the United States presidential election, 2016, Donald Trump won with 46.7% of the vote, compared to 44.0% of the vote for Hillary Clinton. In the United States presidential election, 2012, Barack Obama narrowly won with 48.4% of the vote, compared to 48.0% of the vote for Mitt Romney. In the United States presidential election, 2008, Democratic Party (United States) Barack Obama won the county with 50.5% of the vote, compared to 47.2% for Republican candidate John McCain. However, Republican George W. Bush carried Clallam twice, defeating John Kerry by 51.3% to 46.3% in United States presidential election, 2004, and Al Gore by 50.4% to 42.7% in United States presidential election, 2000 (although Bush lost Washington (state) as a whole both times). Clallam County is a bellwether, voting for the nationwide winning candidate in every presidential election from United States presidential election, 1980 onward.\nQuestion: Did Trump win over Hillary by a smaller or larger margin than Obama won over Romney?\nAnswer:",
+    "completion": " larger",
+    "ref_text": "larger",
+    "id": 8911
+  },
+  {
+    "context": "Passage: Among the other denominations there are approximately 93,000 Mormons in 253 congregations, 25,000 Jewish adherents in 21 synagogues, 12,000 Muslims in 39 masjids, 7,000 Buddhists in 34 temples, 7,000 Hindus in 17 temples, 2,500 Unitarian Universalism in 9 congregations, 2,000 Bahai in 17 temples, 5 Sikh temples, a Zoroastrian temple, a Jain temple and an uncounted number of neopagans.\nQuestion: How many less buildings did the Jewish people have compared to the Mormons?\nAnswer:",
+    "completion": " 232",
+    "ref_text": "232",
+    "id": 9370
+  },
+  {
+    "context": "Passage: After periods with Shamrock Rovers, Shelbourne and University College Dublin A.F.C., Ó Snodaigh was a squad member of the successful Bray Wanderers side that won the 1989-90 FAI Cup in at Lansdowne Road with a 3-0 victory against St Francis, lost in the European Cup Winners Cup tie against Trabzonspor, and finished runners-up in the 1990-91 League of Ireland First Division. That same year he was a central member of Wanderers reserve side that finished runners-up in the League of Ireland B Division. He won the B team player of the year award in 1990 and was a member of the first team that lost the LFA President's Cup final 3-1 against Dundalk. In time he left Bray and became a member of Leinster Senior League side Pegasus where, over a seven-year period, he was a member of their FAI Intermediate Cup winning team in 1992 against Bluebell United, top scorer in 1996/7, selected for the Leinster Senior League selection team in 1992, was captain of the side that got relegated from the senior division in 1997 following a defeat away to Bluebell and played in every position for the side except goalkeeper.\nQuestion: How many positions did Ó Snodaigh not play over the years?\nAnswer:",
+    "completion": " 1",
+    "ref_text": "1",
+    "id": 6112
+  },
+  {
+    "context": "Passage: China is the second largest trading partner of Nepal. In 2015/16, total exports to China stood at US$181 million with marginal increase from US$179 million in the previous fiscal year. In contrast, import from China has been growing at the rate of 39 per cent per year. It rose from US$421 million in fiscal year 2009/10 to US$1,247 million in fiscal year 2015/16. As a result, the trade deficit with China has risen from US$401 million in 2009/10 to US$1228 million in 2015/16. Although, China has given zero tariff entry facility to over 8000 Nepali products starting from 2009, Nepal hasn’t been able to bring the trade deficit down. Nepal exports 370 products including noodles and agro products to China. Nepal regularly participates various trade fairs and exhibitions organized in China. Nepal-China’s Tibet Economic and Trade Fair is the regular biannual event hosted by either side alternatively to enhance business interaction and promote economic cooperation between Nepal and TAR. The 15th Nepal China’s Tibet Economic and Trade Fair was held on 17-22 November 2015 in Bhrikutimandap, Kathmandu Nepal.\nQuestion: How many millions of dollars higher was the Nepal trade deficit to China in 2015/2016 than it was in 2009/2010?\nAnswer:",
+    "completion": " 827",
+    "ref_text": "827",
+    "id": 8770
+  },
+  {
+    "context": "Passage: Thailand is the worlds third largest producer of crude palm oil, producing approximately two million tonnes per year, or 1.2 percent of global output. Ninety-five percent of Thai production is consumed locally. Almost 85 percent of palm plantations and extraction mills are in south Thailand. At year-end 2016, 4.7 to 5.8 million Rai (unit) were planted in oil palms, employing 300,000 farmers, mostly on small landholdings of 20 rai. ASEAN as a region accounts for 52.5 million tonnes of palm oil production, about 85 percent of the world total and more than 90 percent of global exports. Indonesia accounts for 52.2 percent of world exports. Malaysian exports total 37.9 percent. The biggest consumers of palm oil are India, the European Union, and China, with the three consuming nearly 50 percent of world exports. Thailands Department of Internal Trade (DIT) usually sets the price of crude palm oil and refined palm oil. Thai farmers have a relatively low yield compared to those in Malaysia and Indonesia. Thai palm oil crops yield 4-17 percent oil compared to around 20 percent in competing countries. In addition, Indonesian and Malaysian oil palm plantations are 10 times the size of Thai plantations.\nQuestion: Whose oil palm plantations are smaller, Thai or Indonesian?\nAnswer:",
+    "completion": " Thai",
+    "ref_text": "Thai",
+    "id": 5198
+  },
+  {
+    "context": "Passage: The reliance on Adobe for decoding Flash makes its use on the World Wide Web a concern—the completeness of its public specifications are debated, and no complete implementation of Flash is publicly available in source code form with a license that permits reuse. Generally, public specifications are what makes a format re-implementable , and reusable codebases can be ported to new platforms without the endorsement of the format creator. Adobe's restrictions on the use of the SWF/FLV specifications were lifted in February 2009 . However, despite efforts of projects like Gnash, Swfdec and Lightspark, a complete free Flash player is yet to be seen, as of September 2011. For example, Gnash cannot use SWF v10 yet. Notably, Gnash was listed on the Free Software Foundation's high priority list, from at least 2007, to its overdue removal in January 2017. Notable advocates of free software, open standards, and the World Wide Web have warned against the use of Flash: The founder of Mozilla Europe, Tristan Nitot, stated in 2008:\nQuestion: For how many years was Gnash listed on the Free Software Foundation's high priority list?\nAnswer:",
+    "completion": " 10",
+    "ref_text": "10",
+    "id": 5381
+  },
+  {
+    "context": "Passage: From 1962 to 1999, women entering the U.S. workforce represented a nearly 8 percentage point increase in the overall LFPR. The U.S. overall LFPR (age 16+) has been falling since its all-time high point of 67.3% reached in January-April 2000, reaching 62.7% by January 2018. This decline since 2000 is primarily driven by the retirement of the Baby Boom generation. Since the overall labor force is defined as those age 16+, an aging society with more persons past the typical prime working age (25-54) exerts a steady downward influence on the LFPR. The decline was forecast by economists and Demography going back into the 1990s, if not earlier. For example, during 1999 the BLS forecast that the overall LFPR would be 66.9% in 2015 and 63.2% in 2025. A 2006 forecast by Federal Reserve economists (i.e., before the Great Recession that began in December 2007) estimated the LFPR would be below 64% by 2016, close to the 62.7% average that year.\nQuestion: How many years was the time span where women entering the U.S. workforce represented a nearly 8 percentage point increase in the overall LFPR?\nAnswer:",
+    "completion": " 37",
+    "ref_text": "37",
+    "id": 9235
+  },
+  {
+    "context": "Passage: After periods with Shamrock Rovers, Shelbourne and University College Dublin A.F.C., Ó Snodaigh was a squad member of the successful Bray Wanderers side that won the 1989-90 FAI Cup in at Lansdowne Road with a 3-0 victory against St Francis, lost in the European Cup Winners Cup tie against Trabzonspor, and finished runners-up in the 1990-91 League of Ireland First Division. That same year he was a central member of Wanderers reserve side that finished runners-up in the League of Ireland B Division. He won the B team player of the year award in 1990 and was a member of the first team that lost the LFA President's Cup final 3-1 against Dundalk. In time he left Bray and became a member of Leinster Senior League side Pegasus where, over a seven-year period, he was a member of their FAI Intermediate Cup winning team in 1992 against Bluebell United, top scorer in 1996/7, selected for the Leinster Senior League selection team in 1992, was captain of the side that got relegated from the senior division in 1997 following a defeat away to Bluebell and played in every position for the side except goalkeeper.\nQuestion: How many years after being selected for the Leinster Senior League, did Snodaigh become captain?\nAnswer:",
+    "completion": " 5",
+    "ref_text": "5|7",
+    "id": 4401
+  },
+  {
+    "context": "Passage: The Dutch Reformed Church remained the largest church body in the Netherlands until the middle of the 20th century, when it was overtaken by the Roman Catholic Church. The rapid secularisation of the Netherlands in the 1960s dramatically reduced participation in the mainstream Protestant church. From the '60s onward, a number of attempts were made to effect a reunion with the Reformed Churches in the Netherlands . This led to the two churches uniting with the Evangelical Lutheran Church in the Kingdom of the Netherlands  to establish the Protestant Church in the Netherlands in 2004. The 2004 merger led to a separation in which a number of congregations and members of the Dutch Reformed Church separated to form the Restored Reformed Church . Estimations of their membership vary from 35,000 up to 70,000 in about 120 local congregations served by 88 ministers. The Restored Reformed Church disapproves of the pluralistic nature of the merged church, which they allege contains partly contradicting Reformed and Lutheran confessions. This conservative group also opposes the ordination of women and the blessing of same-sex unions in Christian churches, which have been adopted as practices by the merged church.\nQuestion: Which event happened first, the Roman Catholic Church took over or the Dutch Reformed Church separated?\nAnswer:",
+    "completion": " Dutch Reformed Church separated",
+    "ref_text": "Dutch Reformed Church separated|overtaken by the Roman Catholic",
+    "id": 7746
+  },
+  {
+    "context": "Passage: Consequences of obesity  Obesity causes several chronic diseases including heart disease and diabetes. The three leading causes of death in Texas - heart disease, stroke, and cancer - are all linked to obesity. Additionally, obesity can cause type 2 diabetes, arteriosclerosis, and hypertension. In 2010, Texas saw 1,261,654 cases of heart disease and is predicted to see 5,688,482 cases in 2030. In 2010, Texas saw 1,962,059 cases of diabetes and is predicted to see 2,851,697 cases in 2030. In 2010, Texas saw 4,300,252 cases of hypertension and is predicted to see 5,689,509 cases in 2030. In 2010, Texas saw 328,379 cases of obesity-related cancer and is predicted to see 810,806 cases in 2030.\nQuestion: Which disease is expected to affect the second largest number of people in 2030?\nAnswer:",
+    "completion": " heart disease",
+    "ref_text": "heart disease",
+    "id": 7750
+  },
+  {
+    "context": "Passage: Consequences of obesity  Obesity causes several chronic diseases including heart disease and diabetes. The three leading causes of death in Texas - heart disease, stroke, and cancer - are all linked to obesity. Additionally, obesity can cause type 2 diabetes, arteriosclerosis, and hypertension. In 2010, Texas saw 1,261,654 cases of heart disease and is predicted to see 5,688,482 cases in 2030. In 2010, Texas saw 1,962,059 cases of diabetes and is predicted to see 2,851,697 cases in 2030. In 2010, Texas saw 4,300,252 cases of hypertension and is predicted to see 5,689,509 cases in 2030. In 2010, Texas saw 328,379 cases of obesity-related cancer and is predicted to see 810,806 cases in 2030.\nQuestion: Which of these is NOT a leading cause of death in Texas, stroke, hypertension, cancer, or heart disease?\nAnswer:",
+    "completion": " hypertension",
+    "ref_text": "hypertension",
+    "id": 135
+  },
+  {
+    "context": "Passage: After 1960 public sector unions grew rapidly and secured good wages and high pensions for their members. While manufacturing and farming steadily declined, state- and local-government employment quadrupled from 4 million workers in 1950 to 12 million in 1976 and 16.6 million in 2009. In 2009 the U.S. membership of public sector unions surpassed membership of private sector unions for the first time, at 7.9 million and 7.4 million respectively. In 2011 states faced a growing fiscal crisis and the Republicans had made major gains in the 2010 elections. Public sector unions came under heavy attack especially in Wisconsin, as well as Indiana, New Jersey and Ohio from conservative Republican legislatures. Conservative state legislatures tried to drastically reduce the abilities of unions to collectively bargain.  Conservatives argued that public unions were too powerful since they helped elect their bosses, and that overly generous pension systems were too heavy a drain on state budgets.\nQuestion: How many more union jobs were there in 2009 compared to 1950?\nAnswer:",
+    "completion": " 12600000",
+    "ref_text": "12600000",
+    "id": 6868
+  },
+  {
+    "context": "Passage: During the 1970s the oil shocks (1973 oil crisis and 1979 energy crisis) hit Iceland hard. Inflation rose to 43% in 1974 and 59% in 1980, falling to 15% in 1987 but rising to 30% in 1988. Iceland experienced moderately strong GDP growth (3% on average) from 1995 to 2004. Growth slowed between 2000 and 2002, but the economy expanded by 4.3% in 2003 and grew by 6.2% in 2004. Growth in 2005 exceeded 6%. Inflation averaged merely 1.5% from 1993 to 1994, and only 1.7% from 1994 to 1995. Inflation over 2006 topped at 8.6%, with a rate of 6.9% as of January 2007. Standard & Poors reduced their rating for Iceland to AA- from A+ (long term) in December 2006, following a loosening of fiscal policy by the Icelandic government ahead of the 2007 elections. Foreign debt rose to more than five times the value of Icelands GDP, and Icelands Central Bank raised short-term interest rates to nearly 15% in 2007. Due to the plunging currency against the euro and dollar, in 2008 inflation was speculated to be at 20-25%.\nQuestion: Which year did inflation raise more, 1980 or 1974?\nAnswer:",
+    "completion": "   1980",
+    "ref_text": "  1980|1980",
+    "id": 7108
+  },
+  {
+    "context": "Passage: Birth registration of Bahrain is available from 1976, death registration started in 1990. Between 1976 and 2011 the number of baby births roughly doubled but the birth rate of babies decreased from 32 to 13 per 1,000. The death rate of Bahrain  is among the lowest in the world.\nQuestion: How many did the birth rate of babies decrease by?\nAnswer:",
+    "completion": " 19",
+    "ref_text": "19",
+    "id": 7462
+  },
+  {
+    "context": "Passage: Serbia and Montenegro was a confederated union which existed between 2003 and 2006. The two republics initially formed the Federal Republic of Yugoslavia in 1992. The economics of Serbia and Montenegro entered a prolonged decline in 1989. Exacerbated by the economic embargo imposed during the Bosnian war, the Federal Republic of Yugoslavia (FRY) economys downward spiral showed no real sign of recovery until 1995. Gross domestic product was nowhere near its 1991 level, but the Kosovo War of the basic infrastructure of the country and many factories, as well as a renewed embargo caused a further huge drop in GDP in relation to the 1991 level. The first sign of an economic recovery occurred in 2001 after the removal of Milošević on 5 October 2000.  A vigorous team of economic reformers has worked to tame inflation (non-energy inflation is less than 9% in 2002, down from over 120% two years earlier) and rationalize the Serbia and Montenegro economy. Gross domestic product, although only half of its 1997 level, is projected to increase steadily in the near future. As of January 2005 GDP has recovered to 55-60% of its 1990 level, due to GDP growth of 8.5% in 2004.\nQuestion: How many years did the Serbia Montenegro confederated union exist?\nAnswer:",
+    "completion": " 3",
+    "ref_text": "3",
+    "id": 5828
+  },
+  {
+    "context": "Passage: After Mwai Kibaki took over as president in 2003,the GDP growth quickly picked up to 2.3% in 2004 reaching an all time high of 7% in 2007.GDP growth slumped to 1% in 2008 due to post election violence,then picked up to 2.9% in 2009 before averaging 5% between 2009 to 2013 when the Grand Coalition government came to an end.In the last year of Kibaki and the grand coalition government in 2013,Kenyas total GDP was US$55.1 Billion with a population of 44.83 Million and a per capita of US$1,229.\nQuestion: How many years was the time span where the GDP average 5% before the Grand Coalition government came to an end?\nAnswer:",
+    "completion": " 4",
+    "ref_text": "4",
+    "id": 8484
+  },
+  {
+    "context": "Passage: Houston is considered an Automobile dependency city, with an estimated 77.2% of commuters driving alone to work in 2016, up from 71.7% in 1990 and 75.6% in 2009. In 2016, another 11.4% of Houstonians carpooled to work, while 3.6% used public transit, 2.1% walked, and 0.5% bicycled. A commuting study estimated that the median length of commute in the region was  in 2012. According to the 2013 American Community Survey, the average work commute in Houston (city) takes 26.3 minutes. A 1999 Murdoch University study found that Houston had both the lengthiest commute and lowest urban density of 13 large American cities surveyed, and a 2017 Arcadis study ranked Houston 22nd out of 23 American cities in transportation sustainability. Harris County is one of the largest consumers of gasoline in the United States, ranking second (behind Los Angeles County, California) in 2013.\nQuestion: How many more people in percentage carpooled in 2016 compared to walked to work?\nAnswer:",
+    "completion": " 9.3",
+    "ref_text": "9.3",
+    "id": 4228
+  },
+  {
+    "context": "Passage: After Mwai Kibaki took over as president in 2003,the GDP growth quickly picked up to 2.3% in 2004 reaching an all time high of 7% in 2007.GDP growth slumped to 1% in 2008 due to post election violence,then picked up to 2.9% in 2009 before averaging 5% between 2009 to 2013 when the Grand Coalition government came to an end.In the last year of Kibaki and the grand coalition government in 2013,Kenyas total GDP was US$55.1 Billion with a population of 44.83 Million and a per capita of US$1,229.\nQuestion: Which year had the highest GDP growth, 2008 or 2009?\nAnswer:",
+    "completion": "   2009",
+    "ref_text": "  2009|2009",
+    "id": 6646
+  },
+  {
+    "context": "Passage: Like most other European countries, Hungary is experiencing sub-replacement fertility; its estimated total fertility rate of 1.43 is well below the replacement rate of 2.1, albeit higher than its nadir of 1.28 in 1999. As a result, its population has gradually declining and rapidly aging. In 2011, the conservative government began a program to increase the birth rate with a focus on ethnic Magyars by reinstating 3 year maternity leave as well as boosting part-time jobs. The birth rate has gradually increased from 1.27 children born/woman in 2011. The natural decrease in the first 10 months of 2016 was only 25,828 which was 8,162 less than the corresponding period in 2015. In 2015, 47.9% of births were to unmarried women. Life expectancy was 71.96 years for men and 79.62 years for women in 2015, growing continuously since the End of Communism in Hungary (1989).\nQuestion: Which had a lower life expectancy as of 2015, men or women?\nAnswer:",
+    "completion": " men",
+    "ref_text": "men",
+    "id": 960
+  },
+  {
+    "context": "Passage: Other instances of napalms use include by France during the First Indochina War (1946-1954), the Algerian War of Independence (1954-1962), the Portuguese Colonial War (1961-1974), the Six-Day War by Israel (1967), in Nigeria (1969), India and Pakistan (1965 and 1971), Egypt (1973), by Morocco during the Western Sahara War (1975-1991), by Argentina (1982), by Iran (1980-88), by Iraq (1980-88, 1991), by Angola during the Angolan Civil War, and Yugoslav Wars (1991-1996).\nQuestion: How many years did Morocco use napalm between 1975-1991?\nAnswer:",
+    "completion": " 16",
+    "ref_text": "16",
+    "id": 1468
+  },
+  {
+    "context": "Passage: The poll tax was resurrected during the 17th century, usually related to a military emergency. It was imposed by Charles I of England in 1641 to finance the raising of the army against the Scottish and Irish uprisings. With the Restoration (England) of Charles II of England in 1660, the Convention Parliament (1660) instituted a poll tax to finance the disbanding of the New Model Army (pay arrears, etc.) (12 Charles II c.9). The poll tax was assessed according to \"rank\", e.g. dukes paid £100, earls £60, knights £20, esquires £10. Eldest sons paid 2/3rds of their fathers rank, widows paid a third of their late husbands rank. The members of the livery companies paid according to companys rank (e.g. masters of first-tier guilds like the Mercers paid £10, whereas masters of fifth-tier guilds, like the Clerks, paid 5 shillings). Professionals also paid differing rates, e.g. physicians (£10), judges (£20), advocates (£5), attorneys (£3), and so on. Anyone with property (land, etc.) paid 40 shillings per £100 earned, anyone over the age of 16 and unmarried paid 12-pence and everyone else over 16 paid 6-pence.\nQuestion: What professionals paid higher rates than the advocates?\nAnswer:",
+    "completion": " physicians and judges",
+    "ref_text": "physicians and judges",
+    "id": 1562
+  },
+  {
+    "context": "Passage: Consequences of obesity  Obesity causes several chronic diseases including heart disease and diabetes. The three leading causes of death in Texas - heart disease, stroke, and cancer - are all linked to obesity. Additionally, obesity can cause type 2 diabetes, arteriosclerosis, and hypertension. In 2010, Texas saw 1,261,654 cases of heart disease and is predicted to see 5,688,482 cases in 2030. In 2010, Texas saw 1,962,059 cases of diabetes and is predicted to see 2,851,697 cases in 2030. In 2010, Texas saw 4,300,252 cases of hypertension and is predicted to see 5,689,509 cases in 2030. In 2010, Texas saw 328,379 cases of obesity-related cancer and is predicted to see 810,806 cases in 2030.\nQuestion: Which diseases does TX expect to top 5 million by in 2030?\nAnswer:",
+    "completion": " heart disease and hypertension",
+    "ref_text": "heart disease and hypertension|heart disease, hypertension",
+    "id": 9086
+  },
+  {
+    "context": "Passage: The Timberwolves debuted on November 3, 1989, losing to the Seattle SuperSonics on the road 106-94. Five days later, they made their home debut at the Hubert H. Humphrey Metrodome, losing to the Chicago Bulls 96-84. Two nights later on November 10, the Wolves got their first win, beating the Philadelphia 76ers at home 125-118. The Timberwolves, led by Tony Campbell with 23.2 ppg, went on to a 22-60 record, finishing in sixth place in the Midwest Division. Playing in the Hubert H. Humphrey Metrodome, the expansion Timberwolves set an NBA record by drawing over 1 million fans to their home games. This included a crowd of 49,551 on April 17, 1990, which saw the Timberwolves lose to the Denver Nuggets 99-88 in the final home game of the season.\nQuestion: When did the Timberwolves make their home debut at the Hubert H. Humphrey Metrodome?\nAnswer:",
+    "completion": " 8 November 1989",
+    "ref_text": "8 November 1989|1994 November 1989",
+    "id": 1575
+  },
+  {
+    "context": "Passage: Sitcoms offered a romanticized view of middle class American life with The Adventures of Ozzie and Harriet (1952–1966), Father Knows Best (1954–1960), and American Broadcasting Companys The Donna Reed Show (1958–1966) exemplifying the genre. Emmy Award-winning comedy I Love Lucy (1951–1960) starred husband and wife Desi Arnaz and Lucille Ball and enjoyed such popularity that some businesses closed early on Monday nights in order to allow employees to hurry home for the show. In The Life of Riley (1953–1958), blue collar Chester A. Riley (William Bendix) became the prototype for a long line of bumbling television patriarchs that included Fred Flintstone and Archie Bunker. The shows first incarnation for the DuMont Television Network lasted a season (1949–1950) and won an Emmy during the first Emmy Awards in 1949. The Honeymooners (1955–1956) followed bus driver Ralph Kramden (Jackie Gleason) and his sewer-working sidekick Ed Norton (Art Carney) while archetypal suburban life was limned in Leave It to Beaver (1957–1963), purportedly the first sitcom to be told from a childs point of view and the first to strike a blow for television realism by displaying a toilet in an early episode. Genre series were popular with Dragnet (series) (1952) starring Jack Webb representing police procedural drama, British television syndication series The Adventures of Robin Hood (TV series) (1955) starring Richard Greene representing historical drama, and Gunsmoke (1955) with James Arness and Amanda Blake representing the western. Mid-decade, Warner Bros. produced a group of five westerns with Maverick (TV series) starring James Garner and Cheyenne (1955 TV series) starring Clint Walker leading the group in popularity.\nQuestion: How many more years did I Love Lucy run as a sitcom on TV than Leave It To Beaver Beaver?\nAnswer:",
+    "completion": " 3",
+    "ref_text": "3",
+    "id": 3017
+  },
+  {
+    "context": "Passage: The 2018 edition of the U.S. Open featured a total of 37 hours of coverage in the United States, with 19.5 hours being on Thursday and Friday, and 17.5 hours being on Saturday and Sunday; the Fox Sports 1 cable network carried a total of 13.5 hours of coverage on Thursday and Friday. The Fox broadcast network had a total of 23.5 hours of coverage Thursday through Sunday, with 6 hours Thursday and Friday, and 17.5 hours Saturday and Sunday. The overall 37-hour total was down 1.5 hours from last years total of 38.5 hours, due to the Fox broadcast networks coverage having 23.5 hours this year, compared to the 24.5 hours it had last year, and the Fox Sports 1 cable networks 13.5 hours this year, compared to the 14 hours it had last year.\nQuestion: In what year did the total coverage amount to 38.5 hours?\nAnswer:",
+    "completion": "   2017",
+    "ref_text": "  2017|last year",
+    "id": 9417
+  },
+  {
+    "context": "Passage: In contrast, the boroughs of Xochimilco (172nd), Tláhuac (177th), and Iztapalapa (183rd) presented the lowest HDI values of the Federal District with values of 0.8481, 0.8473, and 0.8464 respectively, which are still in the global high-HDI range. The only borough that did not have a high HDI was that of rural Milpa Alta, which had a \"medium\" HDI of 0.7984, far below all of the other boroughs (627th nationally, the rest being in the top 200). Mexico Citys HDI for the 2005 report was of 0.9012 (very high), and its 2010 value of 0.9225 (very high), or (by newer methodology) 0.8307, was Mexicos highest.\nQuestion: How many points higher was the HDI value of Xochimilco than Iztapalapa?\nAnswer:",
+    "completion": " 0.0017",
+    "ref_text": "0.0017",
+    "id": 8879
+  },
+  {
+    "context": "Passage: Air temperature is stable over the year at 26 °C in February and 27 °C in August. Precipitation is as high as 3,000 mm/year and mostly occurs in summer. Sea currents are south-easterly and easterly in winter and south-westerly and westerly in summer. The average surface water temperature is 26-28 °C in February and 29 °C in May. The water temperature is constant at 4.8 °C at the depths of 1,600 m and below. Salinity is 31.5-32.5‰  in summer and 30.0-33.0‰ in winter in the southern part. In the northern part, it decreases to 20-25‰ due to the inflow of fresh water from the Irrawaddy River. Tides are semidiurnal  with an amplitude of up to 7.2 meters.\nQuestion: At it's maximum level in the summer and winter, how many more percent is the salinity level in the northern part of the country in the summer?\nAnswer:",
+    "completion": " 7.5",
+    "ref_text": "7.5|5‰|.5",
+    "id": 4362
+  },
+  {
+    "context": "Passage: In the 2006 Krystal Square Off, Kobayashis mark of 97 hamburgers was 30 better than his winning total in 2005 and 28 better than the World Record he set in 2004. At a speed-eating contest in Hong Kong on August 13, 2005, Kobayashi consumed 83 vegetarian jiaozi dumplings in 8 minutes. The next day, he ate 100 baozi in 12 minutes. Kobayashi also won the 2005 Alka-Seltzer US Open of Competitive Eating, a three-hour IFOCE elimination tournament on ESPN, as well as the Glutton Bowl, a two-hour IFOCE eating special that aired on the Fox Network in 2002. However, on Foxs 2003 show Man vs. Beast, Kobayashi lost in an eating competition against a 1089-pound (494 kg) Kodiak bear, when he ate 31 bunless hot dogs in 2 minutes and 36 seconds to the bears 50. In a 2014 interview, Kobayashi claims to have beaten the bear in the rehearsal. (In October 2012, Kobayashi broke the record held by the bear at the Texas state fair.)\nQuestion: How many total hamburgers did Kobayashi eat in the 2004, 2005 and 2006 Krystal Square offs?\nAnswer:",
+    "completion": " 233",
+    "ref_text": "233",
+    "id": 4900
+  },
+  {
+    "context": "Passage: In 1989 Ricklefs was elected a Fellow of the Australian Academy of the Humanities. The Government of Australia awarded him in 2001 the Centenary Medal for service to Australian society and the humanities in the study of Indonesia. In 2010 he was elected as an erelid  of the Netherlands Koninklijk Instituut voor Taal-, Land- en Volkenkunde, one of only eight people currently recognised in this way. He was awarded the 2015 George McT. Kahin Prize of the Association for Asian Studies, ‘given biennially to an outstanding scholar of Southeast Asian studies from any discipline or country specialization to recognize distinguished scholarly work on Southeast Asia beyond the author's first book' for his work Islamisation and its opponents in Java: A political, social, cultural and religious history, c. 1930 to the present . In 2016 the Indonesian Ministry of Education and Culture presented Professor Ricklefs with its prestigious Cultural Award . In June 2017, Professor Ricklefs was made a member of the Order of Australia.\nQuestion: Which award did he most recently receive?\nAnswer:",
+    "completion": " prestigious Cultural Award",
+    "ref_text": "prestigious Cultural Award|Cultural Award",
+    "id": 965
+  },
+  {
+    "context": "Passage: Other instances of napalms use include by France during the First Indochina War (1946-1954), the Algerian War of Independence (1954-1962), the Portuguese Colonial War (1961-1974), the Six-Day War by Israel (1967), in Nigeria (1969), India and Pakistan (1965 and 1971), Egypt (1973), by Morocco during the Western Sahara War (1975-1991), by Argentina (1982), by Iran (1980-88), by Iraq (1980-88, 1991), by Angola during the Angolan Civil War, and Yugoslav Wars (1991-1996).\nQuestion: Which countries used instances of napalms in during the Angolan Civil War and Yogoslav Wars in the 1980-88?\nAnswer:",
+    "completion": " Iran and Iraq",
+    "ref_text": "Iran and Iraq|Argentina and Iran and Iraq",
+    "id": 700
+  },
+  {
+    "context": "Passage: Thailand is the worlds third largest producer of crude palm oil, producing approximately two million tonnes per year, or 1.2 percent of global output. Ninety-five percent of Thai production is consumed locally. Almost 85 percent of palm plantations and extraction mills are in south Thailand. At year-end 2016, 4.7 to 5.8 million Rai (unit) were planted in oil palms, employing 300,000 farmers, mostly on small landholdings of 20 rai. ASEAN as a region accounts for 52.5 million tonnes of palm oil production, about 85 percent of the world total and more than 90 percent of global exports. Indonesia accounts for 52.2 percent of world exports. Malaysian exports total 37.9 percent. The biggest consumers of palm oil are India, the European Union, and China, with the three consuming nearly 50 percent of world exports. Thailands Department of Internal Trade (DIT) usually sets the price of crude palm oil and refined palm oil. Thai farmers have a relatively low yield compared to those in Malaysia and Indonesia. Thai palm oil crops yield 4-17 percent oil compared to around 20 percent in competing countries. In addition, Indonesian and Malaysian oil palm plantations are 10 times the size of Thai plantations.\nQuestion: How many percent of Tha's palm oil is not consumed locally?\nAnswer:",
+    "completion": " 5",
+    "ref_text": "5|95",
+    "id": 4977
+  },
+  {
+    "context": "Passage: The seat of the Archbishop of Karelia and All Finland is in Kuopio. The archbishop is the head of the church and the diocese. He is assisted in the diocese by a suffragan bishop known as the Bishop of Joensuu. Despite his title, the bishop is also seated at Kuopio. The word \"Karelia\" in the archbishop's title only refers to the Finnish Karelia. The current Archbishop, Leo Makkonen, was born in 1948. Before his appointment as the archbishop in 2001, he was the Metropolitan of Helsinki from 1996, and Metropolitan of Oulu from 1980. The current Bishop of Joensuu is Arseni, who took the position in 2005. The Diocese of Karelia has 22,000 church members in 12 parishes. The number of priests in the diocese is about 45, and churches and chapels total over 80. The diocese also includes the only orthodox monasteries in Finland. The Orthodox Church Museum of Finland also operates in Kuopio.\nQuestion: How many years was Makkonen the Metropolitan of Helsinki for?\nAnswer:",
+    "completion": " 5",
+    "ref_text": "5",
+    "id": 4080
+  },
+  {
+    "context": "Passage: The title track, \"My Love Is Your Love (song)\" was the fourth single from the album. It was a massive hit worldwide, becoming another signature song for Whitney. Firstly, the single was released in each country of Europe from June 1999, prior to the United States. Upon release, the song was popular immediately across Europe, and became a bigger hit during her My Love Is Your Love European Tour. In the U.K., it went straight to its peak position, number two, on the singles chart, the issue date of July 3, 1999. The single sold 525,000 copies, becoming the twenty-second best-selling single of 1999. In Germany, it peaked at number two and was certified Platinum for shipments of 500,000 copies by the Bundesverband Musikindustrie (BVMI). It also reached the number two in countries such as Austria, Ireland, the Netherlands, Sweden, and Switzerland. It went to top ten in Belgium, Denmark, France, and Norway. Eventually the single topped the Eurochart Hot 100 for a week, becoming her fourth number one single, and was positioned at number six in the Europes Top Singles list of 1999. In New Zealand, it peaked at number one for a week, which was Houstons third number-one single after 1987s \"I Wanna Dance with Somebody (Who Loves Me)\" and 1992s \"I Will Always Love You\". Likewise, it was a hit in the United States. The song debuted at number eighty-one on the Billboard Hot 100 chart in September 1999 and peaked at number four in January 2000, becoming her 22nd top ten hit. In addition, it reached the number two position on the Hot R&B Singles & Tracks chart, spending a total of twenty-nine weeks on the chart. The single sold 1,100,000 copies and was certified Platinum by the RIAA on December 14, 1999. Worldwide it sold over 3 million copies and became her third best-selling single ever, behind \"I Will Always Love You\" and \"I Wanna Dance with Somebody (Who Loves Me)\", with 12 million and 4.2 million copies sold, respectively.\nQuestion: How many of Whitney Houston's songs ranked #1 in New Zealand?\nAnswer:",
+    "completion": " 3",
+    "ref_text": "3",
+    "id": 2533
+  },
+  {
+    "context": "Passage: By the end of 1986, Computer Entertainer claimed the Atari 7800 had sold 100,000 consoles in the United States, less than the Sega Master Systems 125,000 and the Nintendo Entertainment Systems 1.1 million. According to Atari, due to manufacturing problems, it only managed to produce and sell 100,000 units by 1986, including units that had been in a warehouse since 1984. A common complaint in 1986 was a lack of games, including a gap of months between new releases (Galagas release in August was followed by Xevious in November). By the end of 1986, the 7800 had 10 games, compared to Segas 20 and Nintendos 36; nine of the NES games were third-party, whereas the 7800 and Master System had no third-party games. A reason cited for the lack of third-party interest in the 7800 was its small 100,000 install base and low market penetration.\nQuestion: How many more Sega Master Systems had been sold compared to Atari 7800?\nAnswer:",
+    "completion": " 25000",
+    "ref_text": "25000",
+    "id": 952
+  },
+  {
+    "context": "Passage: On January 31, 2015, the Hawks became the first NBA team to go 17–0 in a calendar month by beating Portland. The 2015 All-Star Game consisted of four Hawks All-Stars including Jeff Teague, Paul Millsap, Kyle Korver and Al Horford. On March 9, 2015, Kyle Korver and DeMarre Carroll each scored 20 points to help the Hawks become the first NBA team to 50 wins in 2014–15, scoring a season-high in routing the Sacramento Kings 130-105. The Hawks also set a franchise record by going 20-of-36 for three-pointers, breaking the mark of 19 set against the Dallas Mavericks on December 17, 1996. On March 20, 2015, the Hawks clinched their first division title in over two decades and became the first team not based in Florida to win the NBAs Southeast Division (NBA); one week later, with a win over Miami as well as a Cleveland loss to Brooklyn, the Hawks clinched the top seed in the 2015 NBA Playoffs. The team finished a franchise-best 60-22.\nQuestion: How many wins did the Hawks have in January?\nAnswer:",
+    "completion": " 17",
+    "ref_text": "17",
+    "id": 5520
+  },
+  {
+    "context": "Passage: Birth registration of Bahrain is available from 1976, death registration started in 1990. Between 1976 and 2011 the number of baby births roughly doubled but the birth rate of babies decreased from 32 to 13 per 1,000. The death rate of Bahrain  is among the lowest in the world.\nQuestion: How many years after birth registration was available in Bahrain was death registration started?\nAnswer:",
+    "completion": " 14",
+    "ref_text": "14",
+    "id": 4057
+  },
+  {
+    "context": "Passage: The Front refused to officially disclose the number of members that it had. Thurlow suggested that \"the most reliable estimates\" were those produced by the anti-fascist investigatory magazine Searchlight (magazine). Following its establishment, the NF claimed to have 4000 members in 1968, and in February 1974 a branch chairman claimed that it had 20,000 members. Fielding suggested that it probably had about 21,000 members in early 1975, of whom 6,000 to 8,000 were \"paper members\" who had not renewed their membership subscriptions but not officially terminated their membership. Searchlight claimed that from its origins with 4,000 members in 1968, the party reached a peak membership of 17,500 in 1972, which had declined to 10,000 in 1979, to 3,148 in 1984, and to 1,000 in January 1985. An estimate of party membership in 1989 put adherents of the Flag Group at about 3,000 and of the Strasserite faction at about 600. Thurlow noted that even at its peak in the 1970s, the Fronts membership was still only half the size of that of the BUF during its 1930s heyday.\nQuestion: According to Searchlight, in which years did the Flag group have 10000 or more members?\nAnswer:",
+    "completion": " 1972 and 1979",
+    "ref_text": "1972 and 1979|1974 and 1975 and 1968",
+    "id": 9410
+  },
+  {
+    "context": "Passage: Late in the 18th Century, Qing dynasty set about a momentous task, the creation of the Siku Quanshu. The Qianlong Emperor ordered the creation of the Siku Quanshu in 1772. Local and Provincial officers were in charge of locating and collecting important books. The Qianlong Emperor encouraged owners of rare or valuable books to send them to the capital, however few actually did due to concerns about the Literary Inquisition. Towards the end of 1772, seeing that only a limited number of people actually handed in books, the Qianlong Emperor issued imperial decrees stressing that books would be returned to their owners once the compilation was finished and that owners of the books would not be persecuted if their books contained anti-Manchu sentiment. Less than three months after the issue of this decree, four to five thousand books were handed in. By March of 1773, an editorial board  was created in Beijing to gather and review books brought to them. This board included over 361 scholars, with Ji Yun and Lu Xixiong  as chief editors. There was around 3,826 scribes who copied every word by hand. These copyists were not paid in coinage but in government positions after they had transcribed a set amount of the encyclopedia. It took over a decade until the encyclopedia was completed and all seven copies were distributed.\nQuestion: Who the smallest group of people, 3,826 scribes or 361 scholars?\nAnswer:",
+    "completion": " 361 scholars",
+    "ref_text": "361 scholars|scribes|siku quanshu",
+    "id": 6946
+  },
+  {
+    "context": "Passage: In the spring of 2000, Walkertons system typically drew most of its water from one well at a time, alternating unevenly between wells 5, 6, and 7. Well 7 was turned off between March 10 and May 2, ran alone from May 2 through May 9 before turning off again, and was then used again between May 15 and May 19. From May 9 to May 13, Well 5 provided the bulk of Walkertons water, supplemented from May 10–13 by Well 6. Though Well 7 ran without chlorination between May 3 and May 9, expert evaluation of well 7s pumping schedule and lack of physical vulnerabilities to contamination concluded that it was highly unlikely to have been involved in the outbreak. Well 6, which records indicate was out of service beginning May 13, was similarly determined to have been unlikely to have been the source of contamination based on its location and characteristics.\nQuestion: How many wells were the Walkertons alternating between?\nAnswer:",
+    "completion": " 3",
+    "ref_text": "3",
+    "id": 6491
+  },
+  {
+    "context": "Passage: The first issue in 1942 consisted of denominations of 1, 5, 10 and 50 centavos and 1, 5, and 10 Pesos. The next year brought \"replacement notes\" of the 1, 5 and 10 Pesos while 1944 ushered in a 100 Peso note and soon after an inflationary 500 Pesos note. In 1945, the Japanese issued a 1,000 Pesos note. This set of new money, which was printed even before the war, became known in the Philippines as Mickey Mouse money due to its very low value caused by severe inflation. Anti-Japanese newspapers portrayed stories of going to the market laden with suitcases or \"bayong\" (native bags made of woven coconut or Corypha leaf strips) overflowing with the Japanese-issued bills. In 1944, a box of matches cost more than 100 Mickey Mouse pesos. In 1945, a kilogram of camote cost around 1000 Mickey Mouse pesos. Inflation plagued the country with the devaluation of the Japanese money, evidenced by a 60% inflation experienced in January 1944.\nQuestion: How many denominations were there in 1942?\nAnswer:",
+    "completion": " 8",
+    "ref_text": "8|7",
+    "id": 4947
+  },
+  {
+    "context": "Passage: Guatemala became more economically developed and stable from 1990-2011. The annual gross domestic product growth rate for Guatemala in 2000 was 3.6%, but just 0.9% in 2009, increasing slightly in 2010 to 2.0% The poverty rate in Guatemala in 2006 was 54.8%, and the extreme poverty rate was 26.1%. Latin America as a whole had a poverty rate of 33% and an extreme poverty rate of 12.9% in 2009. The data indicate that Guatemala is behind other Latin American countries, in terms of lowering poverty rates, but there has been an increase in economic activity in terms of gross domestic product and development. Guatemala’s human development index increased from 0.462 in 1990, to 0.525 in 2000, to 0.550 in 2005, and 0.574 in 2011.3 Guatemala ranked 131st in human development index in 2011. Other important human development statistics such as the total fertility rate in Guatemala decreased from 4.8 births per woman in 2000 to 4.2 births per woman in 2006. During the same period, life expectancy increased from 67.9 years in 2000, to 69.9 years in 2006.\nQuestion: How many percent higher was the annual gross domestic product growth rate for Guatemala in 2000 than it was in 2009?\nAnswer:",
+    "completion": " 2.7",
+    "ref_text": "2.7",
+    "id": 1180
+  },
+  {
+    "context": "Passage: Canada defines a small business as one with fewer than 100 paid employees and a medium-sized business as one with at least 100 and fewer than 500 employees.  As of December 2012, there were 1,107,540 employer businesses in Canada, of which 1,087,803 were small. Small businesses make up 98.2 percent of employer businesses, medium-sized businesses make up 1.6 percent of employer businesses and large businesses make up 0.1 percent of employer businesses. In 2012, over 7.7 million employees, or 69.7 percent of the total private labour force, worked for small businesses and 2.2 million employees, or 20.2 percent of the labour force, worked for medium-sized businesses. In total, SMEs employed about 10 million individuals, or 89.9 percent of employees. Canadian high-growth firms are present in every economic sector and are not just concentrated in knowledge-based industries. In terms of employment, the highest concentrations of high-growth firms in Canada during the 2006-2009 period were in construction (4.9 percent of all firms); business, building and other support services (4.6 percent); and professional, scientific and technical services (4.5 percent). In 2011, only 10.4 percent of SMEs exported. Nonetheless, they were responsible for $150 billion, or about 41.0 percent, of Canadas total value of exports.\nQuestion: How many percent of Canadaian employees worked for large businesses?\nAnswer:",
+    "completion": " 10.1",
+    "ref_text": "10.1|large businesses make up 0.1 percent of employer  businesses. In 2012, over 7.7 million employees, or 69.7 percent of the total private labour force,",
+    "id": 353
+  },
+  {
+    "context": "Passage: Guatemala became more economically developed and stable from 1990-2011. The annual gross domestic product growth rate for Guatemala in 2000 was 3.6%, but just 0.9% in 2009, increasing slightly in 2010 to 2.0% The poverty rate in Guatemala in 2006 was 54.8%, and the extreme poverty rate was 26.1%. Latin America as a whole had a poverty rate of 33% and an extreme poverty rate of 12.9% in 2009. The data indicate that Guatemala is behind other Latin American countries, in terms of lowering poverty rates, but there has been an increase in economic activity in terms of gross domestic product and development. Guatemala’s human development index increased from 0.462 in 1990, to 0.525 in 2000, to 0.550 in 2005, and 0.574 in 2011.3 Guatemala ranked 131st in human development index in 2011. Other important human development statistics such as the total fertility rate in Guatemala decreased from 4.8 births per woman in 2000 to 4.2 births per woman in 2006. During the same period, life expectancy increased from 67.9 years in 2000, to 69.9 years in 2006.\nQuestion: How many percent higher was the poverty rate in Guatemala in 2006 then the extreme poverty rate?\nAnswer:",
+    "completion": " 28.7",
+    "ref_text": "28.7",
+    "id": 1188
+  },
+  {
+    "context": "Passage: In October 1998, Macromedia disclosed the Flash Version 3 Specification on its website. It did this in response to many new and often semi-open formats competing with SWF, such as Xara's Flare and Sharp's Extended Vector Animation formats. Several developers quickly created a C library for producing SWF. In February 1999, MorphInk 99 was introduced, the first third-party program to create SWF files. Macromedia also hired Middlesoft to create a freely available developers' kit for the SWF file format versions 3 to 5. Macromedia made the Flash Files specifications for versions 6 and later available only under a non-disclosure agreement, but they are widely available from various sites. In April 2006, the Flash SWF file format specification was released with details on the then newest version format . Although still lacking specific information on the incorporated video compression formats , this new documentation covered all the new features offered in Flash v8 including new ActionScript commands, expressive filter controls, and so on. The file format specification document is offered only to developers who agree to a license agreement that permits them to use the specifications only to develop programs that can export to the Flash file format. The license does not allow the use of the specifications to create programs that can be used for playback of Flash files. The Flash 9 specification was made available under similar restrictions. In June 2009, Adobe launched the Open Screen Project , which made the SWF specification available without restrictions. Previously, developers could not use the specification for making SWF-compatible players, but only for making SWF-exporting authoring software. The specification still omits information on codecs such as Sorenson Spark, however.\nQuestion: How many years after Flash SWF file format specification was released did Adobe launch the Open Screen Project?\nAnswer:",
+    "completion": " 3",
+    "ref_text": "3",
+    "id": 9401
+  },
+  {
+    "context": "Passage: From 1989 to 1993, the Pacers would play at or near .500 and qualify for the playoffs, in 1989-90 NBA season, the Pacers parlayed a fast start into the teams third playoff appearance. But the Pacers were swept by the 1989-90 Detroit Pistons season, who would go on to win their second consecutive 1990 NBA Finals. Reggie Miller became the first Pacer to play in the 1990 NBA All-Star Game since 1976 on the strength of his 24.6 points-per-game average. Despite four straight first round exits, this period was highlighted by a first round series with the Boston Celtics in 1990-91 NBA season that went to Game 5. The next season, the Pacers returned to the playoffs in 1992 NBA Playoffs and met the 1991-92 Boston Celtics season for the second year in a row. But this time, the Celtics left no doubt who was the better team, as they swept the Pacers in three straight games. Chuck Person and point guard Micheal Williams were traded to the Minnesota Timberwolves in the off-season, and the Pacers got Pooh Richardson and Sam Mitchell (basketball) in return. For the 1992-93 NBA season, Detlef Schrempf moved from sixth man to the starter at small forward and was elected to his first All-Star game. Miller, meanwhile, became the Pacers all-time NBA era leading scorer during this season (4th overall). The Pacers returned to the 1993 NBA Playoffs with a 41-41 record, but lost to the 1992-93 New York Knicks season in the first round, three games to one.\nQuestion: Which team won the 1989-90 NBA Finals, the Detroit Pistons or the Pacers?\nAnswer:",
+    "completion": " Detroit Pistons",
+    "ref_text": "Detroit Pistons",
+    "id": 7856
+  },
+  {
+    "context": "Passage: After being higher in the postwar period, the U.S. unemployment rate fell below the rising eurozone unemployment rate in the mid-1980s and has remained significantly lower almost continuously since. In 1955, 55% of Americans worked in services, between 30% and 35% in industry, and between 10% and 15% in Agriculture in the United States. By 1980, over 65% were employed in services, between 25% and 30% in industry, and less than 5% in agriculture. Male unemployment continued to be significantly higher than those of females (at 9.8% vs. 7.5% in 2009). The unemployment among Caucasians continues being much lower than those for African-Americans (at 8.5% vs. 15.8% also in 2009).\nQuestion: In 1955 did more Americans work in services or in industry?\nAnswer:",
+    "completion": " services",
+    "ref_text": "services",
+    "id": 7051
+  },
+  {
+    "context": "Passage: The Czech lands were among the first industrialized countries in continental Europe during the German Confederation era. The Czech industrial tradition dates back to the 19th century, when the Lands of the Bohemian Crown were the economic and industrial heartland of the Austrian Empire and later the Austrian side of Austria-Hungary. The Czech lands produced a majority  of all industrial goods in the Empire, some of which were almost monopolistic. The Czechoslovak crown was introduced in April 1919. Introduced at a 1:1 ratio to the Austro-Hungarian currency, it became one of the most stable currencies in Europe. The First Republic became one of the 10 most developed countries of the world . The consequences of the 1938 Munich Agreement and subsequent occupation were disastrous for the economy. After the occupation and forced subordination of the economy to German economic interests, the crown was officially pegged to the mark at a ratio of 1:10, even though the unofficial exchange rate was 1 to 6-7 and Germans immediately started buying Czech goods in large quantities. In accordance with Stalin's development policy of planned interdependence, all the economies of the socialist countries were tightly linked to that of the Soviet Union. Czechoslovakia was the most prosperous country in the Eastern Bloc, however it continued to lag further behind the rest of the developed world. With the disintegration of the communist economic alliance in 1991, Czech manufacturers lost their traditional markets among former communist countries in the east. Today, this heritage is both an asset and a liability. The Czech Republic has a well-educated population and a well-developed infrastructure.\nQuestion: What is the currency of Germany called?\nAnswer:",
+    "completion": " the mark",
+    "ref_text": "the mark|mark",
+    "id": 3742
+  },
+  {
+    "context": "Passage: The total number of active military personnel in the Croatian Armed Forces stands at 14,506 and 6,000 reserves working in various service branches of the armed forces. In May 2016, Armed Forces had 16,019 members, of which 14,506 were active military personnel and 1,513 civil servants. Of the 14,506 active military personnel, 3,183 were officers, 5,389 non-commissioned officers, 5,393 soldiers, 520 military specialists, 337 civil servants and 1,176 other employees.\nQuestion: How many more active Croatian personnel than reserves are there?\nAnswer:",
+    "completion": " 8506",
+    "ref_text": "8506",
+    "id": 8639
+  },
+  {
+    "context": "Passage: Modern Clallam County is generally regarded as a competitive area politically. In the United States presidential election, 2016, Donald Trump won with 46.7% of the vote, compared to 44.0% of the vote for Hillary Clinton. In the United States presidential election, 2012, Barack Obama narrowly won with 48.4% of the vote, compared to 48.0% of the vote for Mitt Romney. In the United States presidential election, 2008, Democratic Party (United States) Barack Obama won the county with 50.5% of the vote, compared to 47.2% for Republican candidate John McCain. However, Republican George W. Bush carried Clallam twice, defeating John Kerry by 51.3% to 46.3% in United States presidential election, 2004, and Al Gore by 50.4% to 42.7% in United States presidential election, 2000 (although Bush lost Washington (state) as a whole both times). Clallam County is a bellwether, voting for the nationwide winning candidate in every presidential election from United States presidential election, 1980 onward.\nQuestion: Which election had a smaller margin of victory for the winning candidate in Clallam County, the 2016 election or the 2012 election?\nAnswer:",
+    "completion": " the 2012 election",
+    "ref_text": "the 2012 election|2012 election",
+    "id": 1247
+  },
+  {
+    "context": "Passage: Old age pensions were raised by 300 francs per month to 1,700 francs for a single person and to 3,700 francs for a couple, while health insurance benefits were made more widely available to unemployed persons and part-time employees. Housing allocations for the low-paid were raised by 25% in 1981, and in the two years following May 1981 family allowances were increased by 44% for families with 3 children and by 81% for families with 2 children. In 1981, the purchasing power of social transfers went up by 4.5% and by 7.6% in 1982. In addition, the minimum wage (which affected 1.7 million employees) was increased by 15% in real terms between May 1981 and December 1982.\nQuestion: How many more percent was family allowance increased by for families with 2 children compared to families with 3 children?\nAnswer:",
+    "completion": " 37",
+    "ref_text": "37",
+    "id": 7073
+  },
+  {
+    "context": "Passage: In April 2011, the ECB raised interest rates for the first time since 2008 from 1% to 1.25%, with a further increase to 1.50% in July 2011. However, in 2012-2013 the ECB sharply lowered interest rates to encourage economic growth, reaching the historically low 0.25% in November 2013. Soon after the rates were cut to 0.15%, then on 4 September 2014 the central bank reduced the rates by two thirds from 0.15% to 0.05%, the lowest rates on record.\nQuestion: How many years passed since 2008 before interest rates were raised?\nAnswer:",
+    "completion": " 3",
+    "ref_text": "3|6",
+    "id": 8009
+  },
+  {
+    "context": "Passage: Among the other denominations there are approximately 93,000 Mormons in 253 congregations, 25,000 Jewish adherents in 21 synagogues, 12,000 Muslims in 39 masjids, 7,000 Buddhists in 34 temples, 7,000 Hindus in 17 temples, 2,500 Unitarian Universalism in 9 congregations, 2,000 Bahai in 17 temples, 5 Sikh temples, a Zoroastrian temple, a Jain temple and an uncounted number of neopagans.\nQuestion: Are there more Jewish adherents or Muslims?\nAnswer:",
+    "completion": " Jewish adherents",
+    "ref_text": "Jewish adherents",
+    "id": 2199
+  },
+  {
+    "context": "Passage: the total number of full-time equivalent jobs was 15,215. The number of jobs in the primary sector was 1,157, of which 1,052 were in agriculture and 105 were in forestry or lumber production. The number of jobs in the secondary sector was 6,008 of which 3,648 or (60.7%) were in manufacturing, 46 or (0.8%) were in mining and 2,139 (35.6%) were in construction. The number of jobs in the tertiary sector was 8,050. In the tertiary sector; 1,892 or 23.5% were in the sale or repair of motor vehicles, 520 or 6.5% were in the movement and storage of goods, 1,440 or 17.9% were in a hotel or restaurant, 140 or 1.7% were in the information industry, 347 or 4.3% were the insurance or financial industry, 708 or 8.8% were technical professionals or scientists, 528 or 6.6% were in education and 1,213 or 15.1% were in health care.\nQuestion: Which were there more jobs of in the primary sector, agriculture or forestry or lumber production?\nAnswer:",
+    "completion": " agriculture",
+    "ref_text": "agriculture",
+    "id": 8543
+  },
+  {
+    "context": "Passage: From 1975, Flavin installed permanent works in Europe and the United States, including \"Untitled. In memory of Urs Graf\" at the Kunstmuseum Basel (conceived 1972, realized 1975); the Kröller-Müller Museum, Otterlo, Netherlands (1977); Hudson River Museum, Yonkers, New York (1979); United States Courthouse, Anchorage, Alaska (1979-89); the Staatliche Kunsthalle Baden-Baden, Germany (1989); the lobby of the MetroTech Center (with Skidmore, Owings & Merrill), Brooklyn, New York (1992); seven lampposts outside the Städtische Galerie im Lenbachhaus, Munich (1994); Hypovereinsbank, Munich (1995); Institut Arbeit und Technik/Wissenschaftspark, Gelsenkirchen, Germany (1996); and the Union Bank of Switzerland, Bern (1996).  Additional sites for Flavins architectural “interventions” became the Grand Central Station in New York (1976), Hamburger Bahnhof in Berlin (1996), and the Chinati Foundation in Marfa, Texas (2000). His large-scale work in colored fluorescent light for six buildings at the Chinati Foundation was initiated in the early 1980s, although the final plans were not completed until 1996. His last artwork was a site-specific art at Santa Maria Annunciata in Chiesa Rossa, Milan, Italy. The 1930s church was designed by Giovanni Muzio. The design for the piece was completed two days before Flavins death on November 29, 1996. Its installation was completed one year later with the assistance of the Dia Art Foundation and Fondazione Prada.\nQuestion: In what year was the site-specific art at Santa Maria Annunciata in Chiesa Rossa, Milan, Italy completed?\nAnswer:",
+    "completion": "   1997",
+    "ref_text": "  1997|1977",
+    "id": 9092
+  }
+]

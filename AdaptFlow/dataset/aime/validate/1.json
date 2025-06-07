@@ -1,0 +1,46 @@
+[
+    {
+        "question": "Before starting to paint, Bill had $130$ ounces of blue paint, $164$ ounces of red paint, and $188$ ounces of white paint. Bill painted four equally sized stripes on a wall, making a blue stripe, a red stripe, a white stripe, and a pink stripe. Pink is a mixture of red and white, not necessarily in equal amounts. When Bill finished, he had equal amounts of blue, red, and white paint left. Find the total number of ounces of paint Bill had left.",
+        "answer": "114"
+    },
+    {
+        "question": "Butch and Sundance need to get out of Dodge. To travel as quickly as possible, each alternates walking and riding their only horse, Sparky, as follows. Butch begins by walking while Sundance rides. When Sundance reaches the first of the hitching posts that are conveniently located at one-mile intervals along their route, he ties Sparky to the post and begins walking. When Butch reaches Sparky, he rides until he passes Sundance, then leaves Sparky at the next hitching post and resumes walking, and they continue in this manner. Sparky, Butch, and Sundance walk at $6,$ $4,$ and $2.5$ miles per hour, respectively. The first time Butch and Sundance meet at a milepost, they are $n$ miles from Dodge, and they have been traveling for $t$ minutes. Find $n + t$ .",
+        "answer": "279"
+    },
+    {
+        "question": "Zou and Chou are practicing their $100$ -meter sprints by running $6$ races against each other. Zou wins the first race, and after that, the probability that one of them wins a race is $\\frac23$ if they won the previous race but only $\\frac13$ if they lost the previous race. The probability that Zou will win exactly $5$ of the $6$ races is $\\frac mn$ , where $m$ and $n$ are relatively prime positive integers. Find $m+n$ .",
+        "answer": "97"
+    },
+    {
+        "question": "Kathy has $5$ red cards and $5$ green cards. She shuffles the $10$ cards and lays out $5$ of the cards in a row in a random order. She will be happy if and only if all the red cards laid out are adjacent and all the green cards laid out are adjacent. For example, card orders RRGGG, GGGGR, or RRRRR will make Kathy happy, but RRRGR will not. The probability that Kathy will be happy is $\\frac{m}{n}$ , where $m$ and $n$ are relatively prime positive integers. Find $m + n$ .",
+        "answer": "157"
+    },
+    {
+        "question": "Forty teams play a tournament in which every team plays every other( $39$ different opponents) team exactly once.  No ties occur, and each team has a $50 \\%$ chance of winning any game it plays.  The probability that no two teams win the same number of games is $m/n,$ where $m_{}$ and $n_{}$ are relatively prime positive integers.  Find $\\log_2 n.$",
+        "answer": "742"
+    },
+    {
+        "question": "While watching a show, Ayako, Billy, Carlos, Dahlia, Ehuang, and Frank sat in that order in a row of six chairs. During the break, they went to the kitchen for a snack. When they came back, they sat on those six chairs in such a way that if two of them sat next to each other before the break, then they did not sit next to each other after the break. Find the number of possible seating orders they could have chosen after the break. ",
+        "answer": "90"
+    },
+    {
+        "question": "A group of clerks is assigned the task of sorting $1775$ files. Each clerk sorts at a constant rate of $30$ files per hour. At the end of the first hour, some of the clerks are reassigned to another task; at the end of the second hour, the same number of the remaining clerks are also reassigned to another task, and a similar assignment occurs at the end of the third hour. The group finishes the sorting in $3$ hours and $10$ minutes. Find the number of files sorted during the first one and a half hours of sorting.",
+        "answer": "945"
+    },
+    {
+        "question": "The cards in a stack of $2n$ cards are numbered consecutively from 1 through $2n$ from top to bottom. The top $n$ cards are removed, kept in order, and form pile $A.$ The remaining cards form pile $B.$ The cards are then restacked by taking cards alternately from the tops of pile $B$ and $A,$ respectively. In this process, card number $(n+1)$ becomes the bottom card of the new stack, card number 1 is on top of this card, and so on, until piles $A$ and $B$ are exhausted. If, after the restacking process, at least one card from each pile occupies the same position that it occupied in the original stack, the stack is named magical. Find the number of cards in the magical stack in which card number 131 retains its original position.",
+        "answer": "392"
+    },
+    {
+        "question": "The probability that a set of three distinct vertices chosen at random from among the vertices of a regular $n$ -gon determine an obtuse triangle is $\\frac{93}{125}$ .  Find the sum of all possible values of $n$ .",
+        "answer": "503"
+    },
+    {
+        "question": "Let $S$ be the set of positive integer divisors of $20^9.$ Three numbers are chosen independently and at random with replacement from the set $S$ and labeled $a_1,a_2,$ and $a_3$ in the order they are chosen. The probability that both $a_1$ divides $a_2$ and $a_2$ divides $a_3$ is $\\tfrac{m}{n},$ where $m$ and $n$ are relatively prime positive integers. Find $m.$",
+        "answer": "77"
+    },
+    {
+        "question": "Teams $T_1$ , $T_2$ , $T_3$ , and $T_4$ are in the playoffs. In the semifinal matches, $T_1$ plays $T_4$ , and $T_2$ plays $T_3$ . The winners of those two matches will play each other in the final match to determine the champion. When $T_i$ plays $T_j$ , the probability that $T_i$ wins is $\\frac{i}{i+j}$ , and the outcomes of all the matches are independent. The probability that $T_4$ will be the champion is $\\frac{p}{q}$ , where $p$ and $q$ are relatively prime positive integers. Find $p+q$ .",
+        "answer": "781"
+    }
+]

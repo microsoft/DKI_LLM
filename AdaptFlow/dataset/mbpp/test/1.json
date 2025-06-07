@@ -1,0 +1,841 @@
+[
+    {
+        "source_file": "charlessutton@: Benchmark Questions Verification V2.ipynb",
+        "task_id": 435,
+        "prompt": "Write a python function to find the last digit of a given number.\n\ndef last_Digit(n) :",
+        "code": "def last_Digit(n) :\n    return (n % 10) ",
+        "test_imports": [],
+        "test_list": [
+            "assert last_Digit(123) == 3",
+            "assert last_Digit(25) == 5",
+            "assert last_Digit(30) == 0"
+        ],
+        "entry_point": "last_Digit",
+        "test": "def check():\n    assert last_Digit(123) == 3\n    assert last_Digit(25) == 5\n    assert last_Digit(30) == 0\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 8,
+        "prompt": "Write a function to find squares of individual elements in a list.\n\ndef square_nums(nums):",
+        "code": "def square_nums(nums):\n square_nums = list(map(lambda x: x ** 2, nums))\n return square_nums",
+        "test_imports": [],
+        "test_list": [
+            "assert square_nums([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])==[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]",
+            "assert square_nums([10,20,30])==([100,400,900])",
+            "assert square_nums([12,15])==([144,225])"
+        ],
+        "entry_point": "square_nums",
+        "test": "def check():\n    assert square_nums([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])==[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]\n    assert square_nums([10,20,30])==([100,400,900])\n    assert square_nums([12,15])==([144,225])\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 558,
+        "prompt": "Write a python function to find the sum of the per-digit difference between two integers.\n\ndef digit_distance_nums(n1, n2):",
+        "code": "def digit_distance_nums(n1, n2):\n         return sum(map(int,str(abs(n1-n2))))",
+        "test_imports": [],
+        "test_list": [
+            "assert digit_distance_nums(1,2) == 1",
+            "assert digit_distance_nums(23,56) == 6",
+            "assert digit_distance_nums(123,256) == 7"
+        ],
+        "entry_point": "digit_distance_nums",
+        "test": "def check():\n    assert digit_distance_nums(1,2) == 1\n    assert digit_distance_nums(23,56) == 6\n    assert digit_distance_nums(123,256) == 7\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 256,
+        "prompt": "Write a python function that takes in a non-negative number and returns the number of prime numbers less than the given non-negative number.\n\ndef count_Primes_nums(n):",
+        "code": "def count_Primes_nums(n):\n    ctr = 0\n    for num in range(n):\n        if num <= 1:\n            continue\n        for i in range(2,num):\n            if (num % i) == 0:\n                break\n        else:\n            ctr += 1\n    return ctr",
+        "test_imports": [],
+        "test_list": [
+            "assert count_Primes_nums(5) == 2",
+            "assert count_Primes_nums(10) == 4",
+            "assert count_Primes_nums(100) == 25"
+        ],
+        "entry_point": "count_Primes_nums",
+        "test": "def check():\n    assert count_Primes_nums(5) == 2\n    assert count_Primes_nums(10) == 4\n    assert count_Primes_nums(100) == 25\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 6,
+        "prompt": "Write a python function to check whether the two numbers differ at one bit position only or not.\n\ndef differ_At_One_Bit_Pos(a,b): ",
+        "code": "def is_Power_Of_Two (x): \n    return x and (not(x & (x - 1))) \ndef differ_At_One_Bit_Pos(a,b): \n    return is_Power_Of_Two(a ^ b)",
+        "test_imports": [],
+        "test_list": [
+            "assert differ_At_One_Bit_Pos(13,9) == True",
+            "assert differ_At_One_Bit_Pos(15,8) == False",
+            "assert differ_At_One_Bit_Pos(2,4) == False",
+            "assert differ_At_One_Bit_Pos(2, 3) == True",
+            "assert differ_At_One_Bit_Pos(5, 1) == True",
+            "assert differ_At_One_Bit_Pos(1, 5) == True"
+        ],
+        "entry_point": "differ_At_One_Bit_Pos",
+        "test": "def check():\n    assert differ_At_One_Bit_Pos(13,9) == True\n    assert differ_At_One_Bit_Pos(15,8) == False\n    assert differ_At_One_Bit_Pos(2,4) == False\n    assert differ_At_One_Bit_Pos(2, 3) == True\n    assert differ_At_One_Bit_Pos(5, 1) == True\n    assert differ_At_One_Bit_Pos(1, 5) == True\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 784,
+        "prompt": "Write a function to find the product of first even and odd number of a given list.\n\ndef mul_even_odd(list1):",
+        "code": "def mul_even_odd(list1):\n    first_even = next((el for el in list1 if el%2==0),-1)\n    first_odd = next((el for el in list1 if el%2!=0),-1)\n    return (first_even*first_odd)",
+        "test_imports": [],
+        "test_list": [
+            "assert mul_even_odd([1,3,5,7,4,1,6,8])==4",
+            "assert mul_even_odd([1,2,3,4,5,6,7,8,9,10])==2",
+            "assert mul_even_odd([1,5,7,9,10])==10"
+        ],
+        "entry_point": "mul_even_odd",
+        "test": "def check():\n    assert mul_even_odd([1,3,5,7,4,1,6,8])==4\n    assert mul_even_odd([1,2,3,4,5,6,7,8,9,10])==2\n    assert mul_even_odd([1,5,7,9,10])==10\n"
+    },
+    {
+        "source_file": "charlessutton@: Benchmark Questions Verification V2.ipynb",
+        "task_id": 471,
+        "prompt": "Write a python function to find the product of the array multiplication modulo n.\n\ndef find_remainder(arr, n): ",
+        "code": "def find_remainder(arr, n): \n    mul = 1\n    for i in range(len(arr)):  \n        mul = (mul * (arr[i] % n)) % n \n    return mul % n ",
+        "test_imports": [],
+        "test_list": [
+            "assert find_remainder([ 100, 10, 5, 25, 35, 14 ],11) ==9",
+            "assert find_remainder([1,1,1],1) == 0",
+            "assert find_remainder([1,2,1],2) == 0"
+        ],
+        "entry_point": "find_remainder",
+        "test": "def check():\n    assert find_remainder([ 100, 10, 5, 25, 35, 14 ],11) ==9\n    assert find_remainder([1,1,1],1) == 0\n    assert find_remainder([1,2,1],2) == 0\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 228,
+        "prompt": "Write a python function to check whether all the bits are unset in the given range or not.\n\ndef all_Bits_Set_In_The_Given_Range(n,l,r):  ",
+        "code": "def all_Bits_Set_In_The_Given_Range(n,l,r):  \n    num = (((1 << r) - 1) ^ ((1 << (l - 1)) - 1)) \n    new_num = n & num\n    if (new_num == 0): \n        return True\n    return False",
+        "test_imports": [],
+        "test_list": [
+            "assert all_Bits_Set_In_The_Given_Range(4,1,2) == True",
+            "assert all_Bits_Set_In_The_Given_Range(17,2,4) == True",
+            "assert all_Bits_Set_In_The_Given_Range(39,4,6) == False"
+        ],
+        "entry_point": "all_Bits_Set_In_The_Given_Range",
+        "test": "def check():\n    assert all_Bits_Set_In_The_Given_Range(4,1,2) == True\n    assert all_Bits_Set_In_The_Given_Range(17,2,4) == True\n    assert all_Bits_Set_In_The_Given_Range(39,4,6) == False\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 264,
+        "prompt": "Write a function to calculate a dog's age in dog's years.\n\ndef dog_age(h_age):",
+        "code": "def dog_age(h_age):\n if h_age < 0:\n \texit()\n elif h_age <= 2:\n\t d_age = h_age * 10.5\n else:\n\t d_age = 21 + (h_age - 2)*4\n return d_age",
+        "test_imports": [],
+        "test_list": [
+            "assert dog_age(12)==61",
+            "assert dog_age(15)==73",
+            "assert dog_age(24)==109"
+        ],
+        "entry_point": "dog_age",
+        "test": "def check():\n    assert dog_age(12)==61\n    assert dog_age(15)==73\n    assert dog_age(24)==109\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 781,
+        "prompt": "Write a python function to check whether the count of divisors is even. https://www.w3resource.com/python-exercises/basic/python-basic-1-exercise-24.php\nimport math \ndef count_divisors(n) : ",
+        "code": "import math \ndef count_divisors(n) : \n    count = 0\n    for i in range(1, (int)(math.sqrt(n)) + 2) : \n        if (n % i == 0) : \n            if( n // i == i) : \n                count = count + 1\n            else : \n                count = count + 2\n    return count % 2 == 0",
+        "test_imports": [],
+        "test_list": [
+            "assert count_divisors(10)",
+            "assert not count_divisors(100)",
+            "assert count_divisors(125)"
+        ],
+        "entry_point": "count_divisors",
+        "test": "def check():\n    assert count_divisors(10)\n    assert not count_divisors(100)\n    assert count_divisors(125)\n"
+    },
+    {
+        "source_file": "Mike's Copy of Benchmark Questions Verification V2.ipynb",
+        "task_id": 137,
+        "prompt": "Write a function to find the ratio of zeroes to non-zeroes in an array of integers.\nfrom array import array\ndef zero_count(nums):",
+        "code": "from array import array\ndef zero_count(nums):\n    n = len(nums)\n    n1 = 0\n    for x in nums:\n        if x == 0:\n            n1 += 1\n        else:\n          None\n    return n1/(n-n1)",
+        "test_imports": [
+            "import math"
+        ],
+        "test_list": [
+            "assert math.isclose(zero_count([0, 1, 2, -1, -5, 6, 0, -3, -2, 3, 4, 6, 8]), 0.181818, rel_tol=0.001)",
+            "assert math.isclose(zero_count([2, 1, 2, -1, -5, 6, 4, -3, -2, 3, 4, 6, 8]), 0.00, rel_tol=0.001)",
+            "assert math.isclose(zero_count([2, 4, -6, -9, 11, -12, 14, -5, 17]), 0.00, rel_tol=0.001)"
+        ],
+        "entry_point": "zero_count",
+        "test": "def check():\n    assert math.isclose(zero_count([0, 1, 2, -1, -5, 6, 0, -3, -2, 3, 4, 6, 8]), 0.181818, rel_tol=0.001)\n    assert math.isclose(zero_count([2, 1, 2, -1, -5, 6, 4, -3, -2, 3, 4, 6, 8]), 0.00, rel_tol=0.001)\n    assert math.isclose(zero_count([2, 4, -6, -9, 11, -12, 14, -5, 17]), 0.00, rel_tol=0.001)\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 633,
+        "prompt": "Write a python function to find the sum of xor of all pairs of numbers in the given list.\n\ndef pair_xor_Sum(arr,n) : ",
+        "code": "def pair_xor_Sum(arr,n) : \n    ans = 0 \n    for i in range(0,n) :    \n        for j in range(i + 1,n) :   \n            ans = ans + (arr[i] ^ arr[j])          \n    return ans ",
+        "test_imports": [],
+        "test_list": [
+            "assert pair_xor_Sum([5,9,7,6],4) == 47",
+            "assert pair_xor_Sum([7,3,5],3) == 12",
+            "assert pair_xor_Sum([7,3],2) == 4"
+        ],
+        "entry_point": "pair_xor_Sum",
+        "test": "def check():\n    assert pair_xor_Sum([5,9,7,6],4) == 47\n    assert pair_xor_Sum([7,3,5],3) == 12\n    assert pair_xor_Sum([7,3],2) == 4\n"
+    },
+    {
+        "source_file": "Mike's Copy of Benchmark Questions Verification V2.ipynb",
+        "task_id": 82,
+        "prompt": "Write a function to find the volume of a sphere.\nimport math\ndef volume_sphere(r):",
+        "code": "import math\ndef volume_sphere(r):\n  volume=(4/3)*math.pi*r*r*r\n  return volume",
+        "test_imports": [
+            "import math"
+        ],
+        "test_list": [
+            "assert math.isclose(volume_sphere(10), 4188.790204786391, rel_tol=0.001)",
+            "assert math.isclose(volume_sphere(25), 65449.84694978735, rel_tol=0.001)",
+            "assert math.isclose(volume_sphere(20), 33510.32163829113, rel_tol=0.001)"
+        ],
+        "entry_point": "volume_sphere",
+        "test": "def check():\n    assert math.isclose(volume_sphere(10), 4188.790204786391, rel_tol=0.001)\n    assert math.isclose(volume_sphere(25), 65449.84694978735, rel_tol=0.001)\n    assert math.isclose(volume_sphere(20), 33510.32163829113, rel_tol=0.001)\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 555,
+        "prompt": "Write a python function to find the difference between the sum of cubes of the first n natural numbers and the sum of the first n natural numbers.\n\ndef difference(n) :  ",
+        "code": "def difference(n) :  \n    S = (n*(n + 1))//2;  \n    res = S*(S-1);  \n    return res;  ",
+        "test_imports": [],
+        "test_list": [
+            "assert difference(3) == 30",
+            "assert difference(5) == 210",
+            "assert difference(2) == 6"
+        ],
+        "entry_point": "difference",
+        "test": "def check():\n    assert difference(3) == 30\n    assert difference(5) == 210\n    assert difference(2) == 6\n"
+    },
+    {
+        "source_file": "Mike's Copy of Benchmark Questions Verification V2.ipynb",
+        "task_id": 133,
+        "prompt": "Write a function to calculate the sum of the negative numbers of a given list of numbers.\n\ndef sum_negativenum(nums):",
+        "code": "def sum_negativenum(nums):\n  sum_negativenum = list(filter(lambda nums:nums<0,nums))\n  return sum(sum_negativenum)",
+        "test_imports": [],
+        "test_list": [
+            "assert sum_negativenum([2, 4, -6, -9, 11, -12, 14, -5, 17])==-32",
+            "assert sum_negativenum([10,15,-14,13,-18,12,-20])==-52",
+            "assert sum_negativenum([19, -65, 57, 39, 152,-639, 121, 44, 90, -190])==-894"
+        ],
+        "entry_point": "sum_negativenum",
+        "test": "def check():\n    assert sum_negativenum([2, 4, -6, -9, 11, -12, 14, -5, 17])==-32\n    assert sum_negativenum([10,15,-14,13,-18,12,-20])==-52\n    assert sum_negativenum([19, -65, 57, 39, 152,-639, 121, 44, 90, -190])==-894\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 782,
+        "prompt": "Write a python function to find the sum of all odd length subarrays. https://www.geeksforgeeks.org/sum-of-all-odd-length-subarrays/\n\ndef odd_length_sum(arr):",
+        "code": "def odd_length_sum(arr):\n    Sum = 0\n    l = len(arr)\n    for i in range(l):\n        Sum += ((((i + 1) *(l - i) + 1) // 2) * arr[i])\n    return Sum",
+        "test_imports": [],
+        "test_list": [
+            "assert odd_length_sum([1,2,4]) == 14",
+            "assert odd_length_sum([1,2,1,2]) == 15",
+            "assert odd_length_sum([1,7]) == 8"
+        ],
+        "entry_point": "odd_length_sum",
+        "test": "def check():\n    assert odd_length_sum([1,2,4]) == 14\n    assert odd_length_sum([1,2,1,2]) == 15\n    assert odd_length_sum([1,7]) == 8\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 581,
+        "prompt": "Write a python function to find the surface area of a square pyramid with a given base edge and height.\n\ndef surface_Area(b,s): ",
+        "code": "def surface_Area(b,s): \n    return 2 * b * s + pow(b,2) ",
+        "test_imports": [],
+        "test_list": [
+            "assert surface_Area(3,4) == 33",
+            "assert surface_Area(4,5) == 56",
+            "assert surface_Area(1,2) == 5"
+        ],
+        "entry_point": "surface_Area",
+        "test": "def check():\n    assert surface_Area(3,4) == 33\n    assert surface_Area(4,5) == 56\n    assert surface_Area(1,2) == 5\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 274,
+        "prompt": "Write a python function that takes in a positive integer n and finds the sum of even index binomial coefficients.\nimport math  \ndef even_binomial_Coeff_Sum( n): ",
+        "code": "import math  \ndef even_binomial_Coeff_Sum( n): \n    return (1 << (n - 1)) ",
+        "test_imports": [],
+        "test_list": [
+            "assert even_binomial_Coeff_Sum(4) == 8",
+            "assert even_binomial_Coeff_Sum(6) == 32",
+            "assert even_binomial_Coeff_Sum(2) == 2"
+        ],
+        "entry_point": "even_binomial_Coeff_Sum",
+        "test": "def check():\n    assert even_binomial_Coeff_Sum(4) == 8\n    assert even_binomial_Coeff_Sum(6) == 32\n    assert even_binomial_Coeff_Sum(2) == 2\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 270,
+        "prompt": "Write a python function to find the sum of even numbers at even positions of a list.\n\ndef sum_even_and_even_index(arr):  ",
+        "code": "def sum_even_and_even_index(arr):  \n    i = 0\n    sum = 0\n    for i in range(0, len(arr),2): \n        if (arr[i] % 2 == 0) : \n            sum += arr[i]  \n    return sum",
+        "test_imports": [],
+        "test_list": [
+            "assert sum_even_and_even_index([5, 6, 12, 1, 18, 8]) == 30",
+            "assert sum_even_and_even_index([3, 20, 17, 9, 2, 10, 18, 13, 6, 18]) == 26",
+            "assert sum_even_and_even_index([5, 6, 12, 1]) == 12"
+        ],
+        "entry_point": "sum_even_and_even_index",
+        "test": "def check():\n    assert sum_even_and_even_index([5, 6, 12, 1, 18, 8]) == 30\n    assert sum_even_and_even_index([3, 20, 17, 9, 2, 10, 18, 13, 6, 18]) == 26\n    assert sum_even_and_even_index([5, 6, 12, 1]) == 12\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 166,
+        "prompt": "Write a function that counts the number of pairs of integers in a list that xor to an even number.\n\ndef find_even_pair(A): ",
+        "code": "def find_even_pair(A): \n  count = 0\n  for i in range(0, len(A)): \n    for j in range(i+1, len(A)): \n        if ((A[i] ^ A[j]) % 2 == 0): \n          count += 1\n\n  return count",
+        "test_imports": [],
+        "test_list": [
+            "assert find_even_pair([5, 4, 7, 2, 1]) == 4",
+            "assert find_even_pair([7, 2, 8, 1, 0, 5, 11]) == 9",
+            "assert find_even_pair([1, 2, 3]) == 1"
+        ],
+        "entry_point": "find_even_pair",
+        "test": "def check():\n    assert find_even_pair([5, 4, 7, 2, 1]) == 4\n    assert find_even_pair([7, 2, 8, 1, 0, 5, 11]) == 9\n    assert find_even_pair([1, 2, 3]) == 1\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 271,
+        "prompt": "Write a python function that takes in an integer n and finds the sum of the first n even natural numbers that are raised to the fifth power.\n\ndef even_Power_Sum(n): ",
+        "code": "def even_Power_Sum(n): \n    sum = 0; \n    for i in range(1,n+1): \n        j = 2*i; \n        sum = sum + (j*j*j*j*j); \n    return sum; ",
+        "test_imports": [],
+        "test_list": [
+            "assert even_Power_Sum(2) == 1056",
+            "assert even_Power_Sum(3) == 8832",
+            "assert even_Power_Sum(1) == 32"
+        ],
+        "entry_point": "even_Power_Sum",
+        "test": "def check():\n    assert even_Power_Sum(2) == 1056\n    assert even_Power_Sum(3) == 8832\n    assert even_Power_Sum(1) == 32\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 246,
+        "prompt": "Write a function for computing square roots using the babylonian method.\n\ndef babylonian_squareroot(number):",
+        "code": "def babylonian_squareroot(number):\n    if(number == 0):\n        return 0;\n    g = number/2.0;\n    g2 = g + 1;\n    while(g != g2):\n        n = number/ g;\n        g2 = g;\n        g = (g + n)/2;\n    return g;",
+        "test_imports": [
+            "import math"
+        ],
+        "test_list": [
+            "assert math.isclose(babylonian_squareroot(10), 3.162277660168379, rel_tol=0.001)",
+            "assert math.isclose(babylonian_squareroot(2), 1.414213562373095, rel_tol=0.001)",
+            "assert math.isclose(babylonian_squareroot(9), 3.0, rel_tol=0.001)"
+        ],
+        "entry_point": "babylonian_squareroot",
+        "test": "def check():\n    assert math.isclose(babylonian_squareroot(10), 3.162277660168379, rel_tol=0.001)\n    assert math.isclose(babylonian_squareroot(2), 1.414213562373095, rel_tol=0.001)\n    assert math.isclose(babylonian_squareroot(9), 3.0, rel_tol=0.001)\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 735,
+        "prompt": "Write a python function to toggle bits of the number except the first and the last bit. https://www.geeksforgeeks.org/toggle-bits-number-expect-first-last-bits/\n\ndef toggle_middle_bits(n):  ",
+        "code": "def set_middle_bits(n):  \n    n |= n >> 1; \n    n |= n >> 2; \n    n |= n >> 4; \n    n |= n >> 8; \n    n |= n >> 16;  \n    return (n >> 1) ^ 1\ndef toggle_middle_bits(n): \n    if (n == 1): \n        return 1\n    return n ^ set_middle_bits(n) ",
+        "test_imports": [],
+        "test_list": [
+            "assert toggle_middle_bits(9) == 15",
+            "assert toggle_middle_bits(10) == 12",
+            "assert toggle_middle_bits(11) == 13",
+            "assert toggle_middle_bits(0b1000001) == 0b1111111",
+            "assert toggle_middle_bits(0b1001101) == 0b1110011"
+        ],
+        "entry_point": "toggle_middle_bits",
+        "test": "def check():\n    assert toggle_middle_bits(9) == 15\n    assert toggle_middle_bits(10) == 12\n    assert toggle_middle_bits(11) == 13\n    assert toggle_middle_bits(0b1000001) == 0b1111111\n    assert toggle_middle_bits(0b1001101) == 0b1110011\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 739,
+        "prompt": "Write a python function to find the index of smallest triangular number with n digits. https://www.geeksforgeeks.org/index-of-smallest-triangular-number-with-n-digits/\nimport math \ndef find_Index(n): ",
+        "code": "import math \ndef find_Index(n): \n    x = math.sqrt(2 * math.pow(10,(n - 1)))\n    return round(x)",
+        "test_imports": [],
+        "test_list": [
+            "assert find_Index(2) == 4",
+            "assert find_Index(3) == 14",
+            "assert find_Index(4) == 45"
+        ],
+        "entry_point": "find_Index",
+        "test": "def check():\n    assert find_Index(2) == 4\n    assert find_Index(3) == 14\n    assert find_Index(4) == 45\n"
+    },
+    {
+        "source_file": "Ellen's Copy of Benchmark Questions Verification V2.ipynb",
+        "task_id": 312,
+        "prompt": "Write a function to find the volume of a cone.\nimport math\ndef volume_cone(r,h):",
+        "code": "import math\ndef volume_cone(r,h):\n  volume = (1.0/3) * math.pi * r * r * h\n  return volume",
+        "test_imports": [
+            "import math"
+        ],
+        "test_list": [
+            "assert math.isclose(volume_cone(5,12), 314.15926535897927, rel_tol=0.001)",
+            "assert math.isclose(volume_cone(10,15), 1570.7963267948965, rel_tol=0.001)",
+            "assert math.isclose(volume_cone(19,17), 6426.651371693521, rel_tol=0.001)"
+        ],
+        "entry_point": "volume_cone",
+        "test": "def check():\n    assert math.isclose(volume_cone(5,12), 314.15926535897927, rel_tol=0.001)\n    assert math.isclose(volume_cone(10,15), 1570.7963267948965, rel_tol=0.001)\n    assert math.isclose(volume_cone(19,17), 6426.651371693521, rel_tol=0.001)\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 605,
+        "prompt": "Write a function to check if the given integer is a prime number.\n\ndef prime_num(num):",
+        "code": "def prime_num(num):\n  if num >=1:\n   for i in range(2, num//2):\n     if (num % i) == 0:\n                return False\n     else:\n                return True\n  else:\n          return False",
+        "test_imports": [],
+        "test_list": [
+            "assert prime_num(13)==True",
+            "assert prime_num(7)==True",
+            "assert prime_num(-1010)==False"
+        ],
+        "entry_point": "prime_num",
+        "test": "def check():\n    assert prime_num(13)==True\n    assert prime_num(7)==True\n    assert prime_num(-1010)==False\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 638,
+        "prompt": "Write a function to calculate the wind chill index rounded to the next integer given the wind velocity in km/h and a temperature in celsius.\nimport math\ndef wind_chill(v,t):",
+        "code": "import math\ndef wind_chill(v,t):\n windchill = 13.12 + 0.6215*t -  11.37*math.pow(v, 0.16) + 0.3965*t*math.pow(v, 0.16)\n return int(round(windchill, 0))",
+        "test_imports": [],
+        "test_list": [
+            "assert wind_chill(120,35)==40",
+            "assert wind_chill(40,20)==19",
+            "assert wind_chill(10,8)==6"
+        ],
+        "entry_point": "wind_chill",
+        "test": "def check():\n    assert wind_chill(120,35)==40\n    assert wind_chill(40,20)==19\n    assert wind_chill(10,8)==6\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 590,
+        "prompt": "Write a function to convert polar coordinates to rectangular coordinates.\nimport cmath\ndef polar_rect(x,y):",
+        "code": "import cmath\ndef polar_rect(x,y):\n cn = complex(x,y)\n cn=cmath.polar(cn)\n cn1 = cmath.rect(2, cmath.pi)\n return (cn,cn1)",
+        "test_imports": [],
+        "test_list": [
+            "assert polar_rect(3,4)==((5.0, 0.9272952180016122), (-2+2.4492935982947064e-16j))",
+            "assert polar_rect(4,7)==((8.06225774829855, 1.0516502125483738), (-2+2.4492935982947064e-16j))",
+            "assert polar_rect(15,17)==((22.67156809750927, 0.8478169733934057), (-2+2.4492935982947064e-16j))"
+        ],
+        "entry_point": "polar_rect",
+        "test": "def check():\n    assert polar_rect(3,4)==((5.0, 0.9272952180016122), (-2+2.4492935982947064e-16j))\n    assert polar_rect(4,7)==((8.06225774829855, 1.0516502125483738), (-2+2.4492935982947064e-16j))\n    assert polar_rect(15,17)==((22.67156809750927, 0.8478169733934057), (-2+2.4492935982947064e-16j))\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 244,
+        "prompt": "Write a python function to find the next perfect square greater than a given number.\nimport math  \ndef next_Perfect_Square(N): ",
+        "code": "import math  \ndef next_Perfect_Square(N): \n    nextN = math.floor(math.sqrt(N)) + 1\n    return nextN * nextN ",
+        "test_imports": [],
+        "test_list": [
+            "assert next_Perfect_Square(35) == 36",
+            "assert next_Perfect_Square(6) == 9",
+            "assert next_Perfect_Square(9) == 16"
+        ],
+        "entry_point": "next_Perfect_Square",
+        "test": "def check():\n    assert next_Perfect_Square(35) == 36\n    assert next_Perfect_Square(6) == 9\n    assert next_Perfect_Square(9) == 16\n"
+    },
+    {
+        "source_file": "charlessutton@: Benchmark Questions Verification V2.ipynb",
+        "task_id": 436,
+        "prompt": "Write a python function to return the negative numbers in a list.\n\ndef neg_nos(list1):",
+        "code": "def neg_nos(list1):\n  out = []\n  for num in list1: \n    if num < 0: \n      out.append(num)\n  return out ",
+        "test_imports": [],
+        "test_list": [
+            "assert neg_nos([-1,4,5,-6]) == [-1,-6]",
+            "assert neg_nos([-1,-2,3,4]) == [-1,-2]",
+            "assert neg_nos([-7,-6,8,9]) == [-7,-6]"
+        ],
+        "entry_point": "neg_nos",
+        "test": "def check():\n    assert neg_nos([-1,4,5,-6]) == [-1,-6]\n    assert neg_nos([-1,-2,3,4]) == [-1,-2]\n    assert neg_nos([-7,-6,8,9]) == [-7,-6]\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 731,
+        "prompt": "Write a function to find the lateral surface area of a cone given radius r and the height h.\nimport math\ndef lateralsurface_cone(r,h):",
+        "code": "import math\ndef lateralsurface_cone(r,h):\n  l = math.sqrt(r * r + h * h)\n  LSA = math.pi * r  * l\n  return LSA",
+        "test_imports": [],
+        "test_list": [
+            "assert lateralsurface_cone(5,12)==204.20352248333654",
+            "assert lateralsurface_cone(10,15)==566.3586699569488",
+            "assert lateralsurface_cone(19,17)==1521.8090132193388"
+        ],
+        "entry_point": "lateralsurface_cone",
+        "test": "def check():\n    assert lateralsurface_cone(5,12)==204.20352248333654\n    assert lateralsurface_cone(10,15)==566.3586699569488\n    assert lateralsurface_cone(19,17)==1521.8090132193388\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 227,
+        "prompt": "Write a function to find minimum of three numbers.\n\ndef min_of_three(a,b,c): ",
+        "code": "def min_of_three(a,b,c): \n      if (a <= b) and (a <= c): \n        smallest = a \n      elif (b <= a) and (b <= c): \n        smallest = b \n      else: \n        smallest = c \n      return smallest ",
+        "test_imports": [],
+        "test_list": [
+            "assert min_of_three(10,20,0)==0",
+            "assert min_of_three(19,15,18)==15",
+            "assert min_of_three(-10,-20,-30)==-30"
+        ],
+        "entry_point": "min_of_three",
+        "test": "def check():\n    assert min_of_three(10,20,0)==0\n    assert min_of_three(19,15,18)==15\n    assert min_of_three(-10,-20,-30)==-30\n"
+    },
+    {
+        "source_file": "Mike's Copy of Benchmark Questions Verification V2.ipynb",
+        "task_id": 80,
+        "prompt": "Write a function to find the nth tetrahedral number.\n\ndef tetrahedral_number(n): ",
+        "code": "def tetrahedral_number(n): \n\treturn (n * (n + 1) * (n + 2)) / 6",
+        "test_imports": [],
+        "test_list": [
+            "assert tetrahedral_number(5) == 35",
+            "assert tetrahedral_number(6) == 56",
+            "assert tetrahedral_number(7) == 84"
+        ],
+        "entry_point": "tetrahedral_number",
+        "test": "def check():\n    assert tetrahedral_number(5) == 35\n    assert tetrahedral_number(6) == 56\n    assert tetrahedral_number(7) == 84\n"
+    },
+    {
+        "source_file": "Ellen's Copy of Benchmark Questions Verification V2.ipynb",
+        "task_id": 301,
+        "prompt": "Write a function to find the depth of a dictionary.\n\ndef dict_depth(d):",
+        "code": "def dict_depth(d):\n    if isinstance(d, dict):\n        return 1 + (max(map(dict_depth, d.values())) if d else 0)\n    return 0",
+        "test_imports": [],
+        "test_list": [
+            "assert dict_depth({'a':1, 'b': {'c': {'d': {}}}})==4",
+            "assert dict_depth({'a':1, 'b': {'c':'python'}})==2",
+            "assert dict_depth({1: 'Sun', 2: {3: {4:'Mon'}}})==3"
+        ],
+        "entry_point": "dict_depth",
+        "test": "def check():\n    assert dict_depth({'a':1, 'b': {'c': {'d': {}}}})==4\n    assert dict_depth({'a':1, 'b': {'c':'python'}})==2\n    assert dict_depth({1: 'Sun', 2: {3: {4:'Mon'}}})==3\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 641,
+        "prompt": "Write a function to find the nth nonagonal number.\n\ndef is_nonagonal(n): ",
+        "code": "def is_nonagonal(n): \n\treturn int(n * (7 * n - 5) / 2) ",
+        "test_imports": [],
+        "test_list": [
+            "assert is_nonagonal(10) == 325",
+            "assert is_nonagonal(15) == 750",
+            "assert is_nonagonal(18) == 1089"
+        ],
+        "entry_point": "is_nonagonal",
+        "test": "def check():\n    assert is_nonagonal(10) == 325\n    assert is_nonagonal(15) == 750\n    assert is_nonagonal(18) == 1089\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 164,
+        "prompt": "Write a function to determine if the sum of the divisors of two integers are the same.\nimport math \ndef are_equivalent(num1, num2)",
+        "code": "import math \ndef div_sum(n): \n  total = 1\n  i = 2\n\n  while i * i <= n:\n    if (n % i == 0):\n      total = (total + i + math.floor(n / i))\n    i += 1\n\n  return total\n\ndef are_equivalent(num1, num2): \n    return div_sum(num1) == div_sum(num2); ",
+        "test_imports": [],
+        "test_list": [
+            "assert are_equivalent(36, 57) == False",
+            "assert are_equivalent(2, 4) == False",
+            "assert are_equivalent(23, 47) == True"
+        ],
+        "entry_point": "are_equivalent",
+        "test": "def check():\n    assert are_equivalent(36, 57) == False\n    assert are_equivalent(2, 4) == False\n    assert are_equivalent(23, 47) == True\n"
+    },
+    {
+        "source_file": "charlessutton@: Benchmark Questions Verification V2.ipynb",
+        "task_id": 453,
+        "prompt": "Write a python function to find the sum of even factors of a number.\nimport math \ndef sumofFactors(n) : ",
+        "code": "import math \ndef sumofFactors(n) : \n    if (n % 2 != 0) : \n        return 0\n    res = 1\n    for i in range(2, (int)(math.sqrt(n)) + 1) :    \n        count = 0\n        curr_sum = 1\n        curr_term = 1\n        while (n % i == 0) : \n            count= count + 1\n            n = n // i \n            if (i == 2 and count == 1) : \n                curr_sum = 0\n            curr_term = curr_term * i \n            curr_sum = curr_sum + curr_term \n        res = res * curr_sum  \n    if (n >= 2) : \n        res = res * (1 + n) \n    return res",
+        "test_imports": [],
+        "test_list": [
+            "assert sumofFactors(18) == 26",
+            "assert sumofFactors(30) == 48",
+            "assert sumofFactors(6) == 8"
+        ],
+        "entry_point": "sumofFactors",
+        "test": "def check():\n    assert sumofFactors(18) == 26\n    assert sumofFactors(30) == 48\n    assert sumofFactors(6) == 8\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 762,
+        "prompt": "Write a function to check whether the given month number contains 30 days or not. Months are given as number from 1 to 12.\n\ndef check_monthnumber_number(monthnum3):",
+        "code": "def check_monthnumber_number(monthnum3):\n  return monthnum3==4 or monthnum3==6 or monthnum3==9 or monthnum3==11",
+        "test_imports": [],
+        "test_list": [
+            "assert check_monthnumber_number(6)==True",
+            "assert check_monthnumber_number(2)==False",
+            "assert check_monthnumber_number(12)==False"
+        ],
+        "entry_point": "check_monthnumber_number",
+        "test": "def check():\n    assert check_monthnumber_number(6)==True\n    assert check_monthnumber_number(2)==False\n    assert check_monthnumber_number(12)==False\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 167,
+        "prompt": "Write a python function to find the smallest power of 2 greater than or equal to n.\n\ndef next_power_of_2(n): ",
+        "code": "def next_power_of_2(n): \n  if n and not n & (n - 1):\n    return n\n\n  count = 0\n  while n != 0: \n    n >>= 1\n    count += 1\n\n  return 1 << count; ",
+        "test_imports": [],
+        "test_list": [
+            "assert next_power_of_2(0) == 1",
+            "assert next_power_of_2(5) == 8",
+            "assert next_power_of_2(17) == 32"
+        ],
+        "entry_point": "next_power_of_2",
+        "test": "def check():\n    assert next_power_of_2(0) == 1\n    assert next_power_of_2(5) == 8\n    assert next_power_of_2(17) == 32\n"
+    },
+    {
+        "source_file": "Mike's Copy of Benchmark Questions Verification V2.ipynb",
+        "task_id": 93,
+        "prompt": "Write a function to calculate the value of 'a' to the power 'b'.\n\ndef power(a,b):",
+        "code": "def power(a,b):\n\tif b==0:\n\t\treturn 1\n\telif a==0:\n\t\treturn 0\n\telif b==1:\n\t\treturn a\n\telse:\n\t\treturn a*power(a,b-1)",
+        "test_imports": [],
+        "test_list": [
+            "assert power(3,4) == 81",
+            "assert power(2,3) == 8",
+            "assert power(5,5) == 3125"
+        ],
+        "entry_point": "power",
+        "test": "def check():\n    assert power(3,4) == 81\n    assert power(2,3) == 8\n    assert power(5,5) == 3125\n"
+    },
+    {
+        "source_file": "Ellen's Copy of Benchmark Questions Verification V2.ipynb",
+        "task_id": 292,
+        "prompt": "Write a python function to find quotient of two numbers (rounded down to the nearest integer).\n\ndef find(n,m):  ",
+        "code": "def find(n,m):  \n    q = n//m \n    return (q)",
+        "test_imports": [],
+        "test_list": [
+            "assert find(10,3) == 3",
+            "assert find(4,2) == 2",
+            "assert find(20,5) == 4"
+        ],
+        "entry_point": "find",
+        "test": "def check():\n    assert find(10,3) == 3\n    assert find(4,2) == 2\n    assert find(20,5) == 4\n"
+    },
+    {
+        "source_file": "Mike's Copy of Benchmark Questions Verification V2.ipynb",
+        "task_id": 109,
+        "prompt": "Write a python function to find the number of numbers with an odd value when rotating a binary string the given number of times.\n\ndef odd_Equivalent(s,n): ",
+        "code": "def odd_Equivalent(s,n): \n    count=0\n    for i in range(0,n): \n        if (s[i] == '1'): \n            count = count + 1\n    return count ",
+        "test_imports": [],
+        "test_list": [
+            "assert odd_Equivalent(\"011001\",6) == 3",
+            "assert odd_Equivalent(\"11011\",5) == 4",
+            "assert odd_Equivalent(\"1010\",4) == 2"
+        ],
+        "entry_point": "odd_Equivalent",
+        "test": "def check():\n    assert odd_Equivalent(\"011001\",6) == 3\n    assert odd_Equivalent(\"11011\",5) == 4\n    assert odd_Equivalent(\"1010\",4) == 2\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 252,
+        "prompt": "Write a python function to convert complex numbers to polar coordinates.\nimport cmath  \ndef convert(numbers):    ",
+        "code": "import cmath  \ndef convert(numbers):    \n  num = cmath.polar(numbers)  \n  return (num) ",
+        "test_imports": [],
+        "test_list": [
+            "assert convert(1) == (1.0, 0.0)",
+            "assert convert(4) == (4.0,0.0)",
+            "assert convert(5) == (5.0,0.0)"
+        ],
+        "entry_point": "convert",
+        "test": "def check():\n    assert convert(1) == (1.0, 0.0)\n    assert convert(4) == (4.0,0.0)\n    assert convert(5) == (5.0,0.0)\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 594,
+        "prompt": "Write a function to find the difference of the first even and first odd number of a given list.\n\ndef diff_even_odd(list1):",
+        "code": "def diff_even_odd(list1):\n    first_even = next((el for el in list1 if el%2==0),-1)\n    first_odd = next((el for el in list1 if el%2!=0),-1)\n    return (first_even-first_odd)",
+        "test_imports": [],
+        "test_list": [
+            "assert diff_even_odd([1,3,5,7,4,1,6,8])==3",
+            "assert diff_even_odd([1,2,3,4,5,6,7,8,9,10])==1",
+            "assert diff_even_odd([1,5,7,9,10])==9"
+        ],
+        "entry_point": "diff_even_odd",
+        "test": "def check():\n    assert diff_even_odd([1,3,5,7,4,1,6,8])==3\n    assert diff_even_odd([1,2,3,4,5,6,7,8,9,10])==1\n    assert diff_even_odd([1,5,7,9,10])==9\n"
+    },
+    {
+        "source_file": "Mike's Copy of Benchmark Questions Verification V2.ipynb",
+        "task_id": 86,
+        "prompt": "Write a function to find nth centered hexagonal number.\n\ndef centered_hexagonal_number(n):",
+        "code": "def centered_hexagonal_number(n):\n  return 3 * n * (n - 1) + 1",
+        "test_imports": [],
+        "test_list": [
+            "assert centered_hexagonal_number(10) == 271",
+            "assert centered_hexagonal_number(2) == 7",
+            "assert centered_hexagonal_number(9) == 217"
+        ],
+        "entry_point": "centered_hexagonal_number",
+        "test": "def check():\n    assert centered_hexagonal_number(10) == 271\n    assert centered_hexagonal_number(2) == 7\n    assert centered_hexagonal_number(9) == 217\n"
+    },
+    {
+        "source_file": "charlessutton@: Benchmark Questions Verification V2.ipynb",
+        "task_id": 448,
+        "prompt": "Write a function to calculate the sum of perrin numbers.\n\ndef cal_sum(n): ",
+        "code": "def cal_sum(n): \n\ta = 3\n\tb = 0\n\tc = 2\n\tif (n == 0): \n\t\treturn 3\n\tif (n == 1): \n\t\treturn 3\n\tif (n == 2): \n\t\treturn 5\n\tsum = 5\n\twhile (n > 2): \n\t\td = a + b \n\t\tsum = sum + d \n\t\ta = b \n\t\tb = c \n\t\tc = d \n\t\tn = n-1\n\treturn sum",
+        "test_imports": [],
+        "test_list": [
+            "assert cal_sum(9) == 49",
+            "assert cal_sum(10) == 66",
+            "assert cal_sum(11) == 88"
+        ],
+        "entry_point": "cal_sum",
+        "test": "def check():\n    assert cal_sum(9) == 49\n    assert cal_sum(10) == 66\n    assert cal_sum(11) == 88\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 589,
+        "prompt": "Write a function to find perfect squares between two given numbers.\n\ndef perfect_squares(a, b):",
+        "code": "def perfect_squares(a, b):\n    lists=[]\n    for i in range (a,b+1):\n        j = 1;\n        while j*j <= i:\n            if j*j == i:\n                 lists.append(i)  \n            j = j+1\n        i = i+1\n    return lists",
+        "test_imports": [],
+        "test_list": [
+            "assert perfect_squares(1,30)==[1, 4, 9, 16, 25]",
+            "assert perfect_squares(50,100)==[64, 81, 100]",
+            "assert perfect_squares(100,200)==[100, 121, 144, 169, 196]"
+        ],
+        "entry_point": "perfect_squares",
+        "test": "def check():\n    assert perfect_squares(1,30)==[1, 4, 9, 16, 25]\n    assert perfect_squares(50,100)==[64, 81, 100]\n    assert perfect_squares(100,200)==[100, 121, 144, 169, 196]\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 770,
+        "prompt": "Write a python function to find the sum of fourth power of first n odd natural numbers.\n\ndef odd_num_sum(n) : ",
+        "code": "def odd_num_sum(n) : \n    j = 0\n    sm = 0\n    for i in range(1,n + 1) : \n        j = (2*i-1) \n        sm = sm + (j*j*j*j)   \n    return sm ",
+        "test_imports": [],
+        "test_list": [
+            "assert odd_num_sum(2) == 82",
+            "assert odd_num_sum(3) == 707",
+            "assert odd_num_sum(4) == 3108"
+        ],
+        "entry_point": "odd_num_sum",
+        "test": "def check():\n    assert odd_num_sum(2) == 82\n    assert odd_num_sum(3) == 707\n    assert odd_num_sum(4) == 3108\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 224,
+        "prompt": "Write a python function to count the number of set bits (binary digits with value 1) in a given number.\n\ndef count_Set_Bits(n): ",
+        "code": "def count_Set_Bits(n): \n    count = 0\n    while (n): \n        count += n & 1\n        n >>= 1\n    return count ",
+        "test_imports": [],
+        "test_list": [
+            "assert count_Set_Bits(2) == 1",
+            "assert count_Set_Bits(4) == 1",
+            "assert count_Set_Bits(6) == 2"
+        ],
+        "entry_point": "count_Set_Bits",
+        "test": "def check():\n    assert count_Set_Bits(2) == 1\n    assert count_Set_Bits(4) == 1\n    assert count_Set_Bits(6) == 2\n"
+    },
+    {
+        "source_file": "Mike's Copy of Benchmark Questions Verification V2.ipynb",
+        "task_id": 99,
+        "prompt": "Write a function to convert the given decimal number to its binary equivalent, represented as a string with no leading zeros.\n\ndef decimal_to_binary(n): ",
+        "code": "def decimal_to_binary(n): \n    return bin(n).replace(\"0b\",\"\") ",
+        "test_imports": [],
+        "test_list": [
+            "assert decimal_to_binary(8) == '1000'",
+            "assert decimal_to_binary(18) == '10010'",
+            "assert decimal_to_binary(7) == '111'"
+        ],
+        "entry_point": "decimal_to_binary",
+        "test": "def check():\n    assert decimal_to_binary(8) == '1000'\n    assert decimal_to_binary(18) == '10010'\n    assert decimal_to_binary(7) == '111'\n"
+    },
+    {
+        "source_file": "charlessutton@: Benchmark Questions Verification V2.ipynb",
+        "task_id": 479,
+        "prompt": "Write a python function to find the first digit of a given number.\n\ndef first_Digit(n) :  ",
+        "code": "def first_Digit(n) :  \n    while n >= 10:  \n        n = n / 10 \n    return int(n) ",
+        "test_imports": [],
+        "test_list": [
+            "assert first_Digit(123) == 1",
+            "assert first_Digit(456) == 4",
+            "assert first_Digit(12) == 1"
+        ],
+        "entry_point": "first_Digit",
+        "test": "def check():\n    assert first_Digit(123) == 1\n    assert first_Digit(456) == 4\n    assert first_Digit(12) == 1\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 160,
+        "prompt": "Write a function that returns integers x and y that satisfy ax + by = n as a tuple, or return None if no solution exists.\n\ndef find_solution(a, b, n):",
+        "code": "def find_solution(a, b, n):\n\ti = 0\n\twhile i * a <= n:\n\t\tif (n - (i * a)) % b == 0: \n\t\t\treturn (i, (n - (i * a)) // b)\n\t\ti = i + 1\n\treturn None",
+        "test_imports": [],
+        "test_list": [
+            "assert find_solution(2, 3, 7) == (2, 1)",
+            "assert find_solution(4, 2, 7) == None",
+            "assert find_solution(1, 13, 17) == (4, 1)"
+        ],
+        "entry_point": "find_solution",
+        "test": "def check():\n    assert find_solution(2, 3, 7) == (2, 1)\n    assert find_solution(4, 2, 7) == None\n    assert find_solution(1, 13, 17) == (4, 1)\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 554,
+        "prompt": "Write a python function which takes a list of integers and only returns the odd ones.\n\ndef Split(list): ",
+        "code": "def Split(list): \n    od_li = [] \n    for i in list: \n        if (i % 2 != 0): \n            od_li.append(i)  \n    return od_li",
+        "test_imports": [],
+        "test_list": [
+            "assert Split([1,2,3,4,5,6]) == [1,3,5]",
+            "assert Split([10,11,12,13]) == [11,13]",
+            "assert Split([7,8,9,1]) == [7,9,1]"
+        ],
+        "entry_point": "Split",
+        "test": "def check():\n    assert Split([1,2,3,4,5,6]) == [1,3,5]\n    assert Split([10,11,12,13]) == [11,13]\n    assert Split([7,8,9,1]) == [7,9,1]\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 600,
+        "prompt": "Write a python function to check whether the given number is even or not.\n\ndef is_Even(n) : ",
+        "code": "def is_Even(n) : \n    if (n^1 == n+1) :\n        return True; \n    else :\n        return False; ",
+        "test_imports": [],
+        "test_list": [
+            "assert is_Even(1) == False",
+            "assert is_Even(2) == True",
+            "assert is_Even(3) == False"
+        ],
+        "entry_point": "is_Even",
+        "test": "def check():\n    assert is_Even(1) == False\n    assert is_Even(2) == True\n    assert is_Even(3) == False\n"
+    },
+    {
+        "source_file": "Mike's Copy of Benchmark Questions Verification V2.ipynb",
+        "task_id": 96,
+        "prompt": "Write a python function to find the number of divisors of a given integer.\n\ndef divisor(n):",
+        "code": "def divisor(n):\n  for i in range(n):\n    x = len([i for i in range(1,n+1) if not n % i])\n  return x",
+        "test_imports": [],
+        "test_list": [
+            "assert divisor(15) == 4",
+            "assert divisor(12) == 6",
+            "assert divisor(9) == 3"
+        ],
+        "entry_point": "divisor",
+        "test": "def check():\n    assert divisor(15) == 4\n    assert divisor(12) == 6\n    assert divisor(9) == 3\n"
+    },
+    {
+        "source_file": "charlessutton@: Benchmark Questions Verification V2.ipynb",
+        "task_id": 447,
+        "prompt": "Write a function to find cubes of individual elements in a list.\n\ndef cube_nums(nums):",
+        "code": "def cube_nums(nums):\n cube_nums = list(map(lambda x: x ** 3, nums))\n return cube_nums",
+        "test_imports": [],
+        "test_list": [
+            "assert cube_nums([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])==[1, 8, 27, 64, 125, 216, 343, 512, 729, 1000]",
+            "assert cube_nums([10,20,30])==([1000, 8000, 27000])",
+            "assert cube_nums([12,15])==([1728, 3375])"
+        ],
+        "entry_point": "cube_nums",
+        "test": "def check():\n    assert cube_nums([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])==[1, 8, 27, 64, 125, 216, 343, 512, 729, 1000]\n    assert cube_nums([10,20,30])==([1000, 8000, 27000])\n    assert cube_nums([12,15])==([1728, 3375])\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 608,
+        "prompt": "Write a python function to find nth bell number.\n\ndef bell_Number(n): ",
+        "code": "def bell_Number(n): \n    bell = [[0 for i in range(n+1)] for j in range(n+1)] \n    bell[0][0] = 1\n    for i in range(1, n+1):\n        bell[i][0] = bell[i-1][i-1]\n        for j in range(1, i+1): \n            bell[i][j] = bell[i-1][j-1] + bell[i][j-1] \n    return bell[n][0] ",
+        "test_imports": [],
+        "test_list": [
+            "assert bell_Number(2) == 2",
+            "assert bell_Number(3) == 5",
+            "assert bell_Number(4) == 15"
+        ],
+        "entry_point": "bell_Number",
+        "test": "def check():\n    assert bell_Number(2) == 2\n    assert bell_Number(3) == 5\n    assert bell_Number(4) == 15\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 279,
+        "prompt": "Write a function to find the nth decagonal number.\n\ndef is_num_decagonal(n): ",
+        "code": "def is_num_decagonal(n): \n\treturn 4 * n * n - 3 * n ",
+        "test_imports": [],
+        "test_list": [
+            "assert is_num_decagonal(3) == 27",
+            "assert is_num_decagonal(7) == 175",
+            "assert is_num_decagonal(10) == 370"
+        ],
+        "entry_point": "is_num_decagonal",
+        "test": "def check():\n    assert is_num_decagonal(3) == 27\n    assert is_num_decagonal(7) == 175\n    assert is_num_decagonal(10) == 370\n"
+    },
+    {
+        "source_file": "Mike's Copy of Benchmark Questions Verification V2.ipynb",
+        "task_id": 123,
+        "prompt": "Write a function to sum all amicable numbers from 1 to a specified number.\n\ndef amicable_numbers_sum(limit):",
+        "code": "def amicable_numbers_sum(limit):\n    if not isinstance(limit, int):\n        return \"Input is not an integer!\"\n    if limit < 1:\n        return \"Input must be bigger than 0!\"\n    amicables = set()\n    for num in range(2, limit+1):\n        if num in amicables:\n            continue\n        sum_fact = sum([fact for fact in range(1, num) if num % fact == 0])\n        sum_fact2 = sum([fact for fact in range(1, sum_fact) if sum_fact % fact == 0])\n        if num == sum_fact2 and num != sum_fact:\n            amicables.add(num)\n            amicables.add(sum_fact2)\n    return sum(amicables)",
+        "test_imports": [],
+        "test_list": [
+            "assert amicable_numbers_sum(999)==504",
+            "assert amicable_numbers_sum(9999)==31626",
+            "assert amicable_numbers_sum(99)==0"
+        ],
+        "entry_point": "amicable_numbers_sum",
+        "test": "def check():\n    assert amicable_numbers_sum(999)==504\n    assert amicable_numbers_sum(9999)==31626\n    assert amicable_numbers_sum(99)==0\n"
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "question": "Let $P(x)$ be a quadratic polynomial with real coefficients satisfying $x^2 - 2x + 2 \\le P(x) \\le 2x^2 - 4x + 3$ for all real  numbers $x$ , and suppose $P(11) = 181$ . Find $P(16)$ .",
+        "answer": "406"
+    },
+    {
+        "question": "A right circular cone has a base with radius 600 and height $200\\sqrt{7}.$ A fly starts at a point on the surface of the cone whose distance from the vertex of the cone is 125, and crawls along the surface of the cone to a point on the exact opposite side of the cone whose distance from the vertex is $375\\sqrt{2}.$ Find the least distance that the fly could have crawled.",
+        "answer": "625"
+    },
+    {
+        "question": "A function $f$ is defined for all real numbers and satisfies $f(2+x)=f(2-x)$ and $f(7+x)=f(7-x)$ for all $x$ . If $x=0$ is a root for $f(x)=0$ , what is the least number of roots $f(x)=0$ must have in the interval $-1000\\leq x \\leq 1000$ ?",
+        "answer": "401"
+    },
+    {
+        "question": "Find the value of $(52+6\\sqrt{43})^{3/2}-(52-6\\sqrt{43})^{3/2}$ .",
+        "answer": "828"
+    },
+    {
+        "question": "The graphs $y = 3(x-h)^2 + j$ and $y = 2(x-h)^2 + k$ have y-intercepts of $2013$ and $2014$ , respectively, and each graph has two positive integer x-intercepts. Find $h$ .",
+        "answer": "36"
+    },
+    {
+        "question": "Let $w$ and $z$ be complex numbers such that $|w| = 1$ and $|z| = 10$ . Let $\\theta = \\arg \\left(\\tfrac{w-z}{z}\\right)$ . The maximum possible value of $\\tan^2 \\theta$ can be written as $\\tfrac{p}{q}$ , where $p$ and $q$ are relatively prime positive integers. Find $p+q$ . (Note that $\\arg(w)$ , for $w \\neq 0$ , denotes the measure of the angle that the ray from $0$ to $w$ makes with the positive real axis in the complex plane.)",
+        "answer": "100"
+    },
+    {
+        "question": "Find the area of the region enclosed by the graph of $|x-60|+|y|=\\left|\\frac{x}{4}\\right|.$",
+        "answer": "480"
+    },
+    {
+        "question": "Let $z=a+bi$ be the complex number with $\\vert z \\vert = 5$ and $b > 0$ such that the distance between $(1+2i)z^3$ and $z^5$ is maximized, and let $z^4 = c+di$ . Find $c+d$ .",
+        "answer": "125"
+    }
+]
