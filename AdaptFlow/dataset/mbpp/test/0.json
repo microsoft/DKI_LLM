@@ -1,0 +1,663 @@
+[
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 257,
+        "prompt": "Write a function that takes in two numbers and returns a tuple with the second number and then the first number.\n\ndef swap_numbers(a,b):",
+        "code": "def swap_numbers(a,b):\n temp = a\n a = b\n b = temp\n return (a,b)",
+        "test_imports": [],
+        "test_list": [
+            "assert swap_numbers(10,20)==(20,10)",
+            "assert swap_numbers(15,17)==(17,15)",
+            "assert swap_numbers(100,200)==(200,100)"
+        ],
+        "entry_point": "swap_numbers",
+        "test": "def check():\n    assert swap_numbers(10,20)==(20,10)\n    assert swap_numbers(15,17)==(17,15)\n    assert swap_numbers(100,200)==(200,100)\n"
+    },
+    {
+        "source_file": "Ellen's Copy of Benchmark Questions Verification V2.ipynb",
+        "task_id": 299,
+        "prompt": "Write a function to calculate the maximum aggregate from the list of tuples.\nfrom collections import defaultdict\ndef max_aggregate(stdata):",
+        "code": "from collections import defaultdict\ndef max_aggregate(stdata):\n    temp = defaultdict(int)\n    for name, marks in stdata:\n        temp[name] += marks\n    return max(temp.items(), key=lambda x: x[1])",
+        "test_imports": [],
+        "test_list": [
+            "assert max_aggregate([('Juan Whelan',90),('Sabah Colley',88),('Peter Nichols',7),('Juan Whelan',122),('Sabah Colley',84)])==('Juan Whelan', 212)",
+            "assert max_aggregate([('Juan Whelan',50),('Sabah Colley',48),('Peter Nichols',37),('Juan Whelan',22),('Sabah Colley',14)])==('Juan Whelan', 72)",
+            "assert max_aggregate([('Juan Whelan',10),('Sabah Colley',20),('Peter Nichols',30),('Juan Whelan',40),('Sabah Colley',50)])==('Sabah Colley', 70)"
+        ],
+        "entry_point": "max_aggregate",
+        "test": "def check():\n    assert max_aggregate([('Juan Whelan',90),('Sabah Colley',88),('Peter Nichols',7),('Juan Whelan',122),('Sabah Colley',84)])==('Juan Whelan', 212)\n    assert max_aggregate([('Juan Whelan',50),('Sabah Colley',48),('Peter Nichols',37),('Juan Whelan',22),('Sabah Colley',14)])==('Juan Whelan', 72)\n    assert max_aggregate([('Juan Whelan',10),('Sabah Colley',20),('Peter Nichols',30),('Juan Whelan',40),('Sabah Colley',50)])==('Sabah Colley', 70)\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 796,
+        "prompt": "Write function to find the sum of all items in the given dictionary.\n\ndef return_sum(dict):",
+        "code": "def return_sum(dict):\n  sum = 0\n  for i in dict.values():\n    sum = sum + i\n  return sum",
+        "test_imports": [],
+        "test_list": [
+            "assert return_sum({'a': 100, 'b':200, 'c':300}) == 600",
+            "assert return_sum({'a': 25, 'b':18, 'c':45}) == 88",
+            "assert return_sum({'a': 36, 'b':39, 'c':49}) == 124"
+        ],
+        "entry_point": "return_sum",
+        "test": "def check():\n    assert return_sum({'a': 100, 'b':200, 'c':300}) == 600\n    assert return_sum({'a': 25, 'b':18, 'c':45}) == 88\n    assert return_sum({'a': 36, 'b':39, 'c':49}) == 124\n"
+    },
+    {
+        "source_file": "Mike's Copy of Benchmark Questions Verification V2.ipynb",
+        "task_id": 106,
+        "prompt": "Write a function to append the given list to the given tuples.\n\ndef add_lists(test_list, test_tup):",
+        "code": "def add_lists(test_list, test_tup):\n  res = tuple(list(test_tup) + test_list)\n  return (res) ",
+        "test_imports": [],
+        "test_list": [
+            "assert add_lists([5, 6, 7], (9, 10)) == (9, 10, 5, 6, 7)",
+            "assert add_lists([6, 7, 8], (10, 11)) == (10, 11, 6, 7, 8)",
+            "assert add_lists([7, 8, 9], (11, 12)) == (11, 12, 7, 8, 9)"
+        ],
+        "entry_point": "add_lists",
+        "test": "def check():\n    assert add_lists([5, 6, 7], (9, 10)) == (9, 10, 5, 6, 7)\n    assert add_lists([6, 7, 8], (10, 11)) == (10, 11, 6, 7, 8)\n    assert add_lists([7, 8, 9], (11, 12)) == (11, 12, 7, 8, 9)\n"
+    },
+    {
+        "source_file": "Mike's Copy of Benchmark Questions Verification V2.ipynb",
+        "task_id": 111,
+        "prompt": "Write a function to find the common elements in given nested lists.\n\ndef common_in_nested_lists(nestedlist):",
+        "code": "def common_in_nested_lists(nestedlist):\n    result = list(set.intersection(*map(set, nestedlist)))\n    return result",
+        "test_imports": [],
+        "test_list": [
+            "assert set(common_in_nested_lists([[12, 18, 23, 25, 45], [7, 12, 18, 24, 28], [1, 5, 8, 12, 15, 16, 18]]))==set([18, 12])",
+            "assert set(common_in_nested_lists([[12, 5, 23, 25, 45], [7, 11, 5, 23, 28], [1, 5, 8, 18, 23, 16]]))==set([5,23])",
+            "assert set(common_in_nested_lists([[2, 3,4, 1], [4, 5], [6,4, 8],[4, 5], [6, 8,4]]))==set([4])"
+        ],
+        "entry_point": "common_in_nested_lists",
+        "test": "def check():\n    assert set(common_in_nested_lists([[12, 18, 23, 25, 45], [7, 12, 18, 24, 28], [1, 5, 8, 12, 15, 16, 18]]))==set([18, 12])\n    assert set(common_in_nested_lists([[12, 5, 23, 25, 45], [7, 11, 5, 23, 28], [1, 5, 8, 18, 23, 16]]))==set([5,23])\n    assert set(common_in_nested_lists([[2, 3,4, 1], [4, 5], [6,4, 8],[4, 5], [6, 8,4]]))==set([4])\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 808,
+        "prompt": "Write a function to check if the given tuples contain the k or not.\n\ndef check_K(test_tup, K):",
+        "code": "def check_K(test_tup, K):\n  res = False\n  for ele in test_tup:\n    if ele == K:\n      res = True\n      break\n  return res ",
+        "test_imports": [],
+        "test_list": [
+            "assert check_K((10, 4, 5, 6, 8), 6) == True",
+            "assert check_K((1, 2, 3, 4, 5, 6), 7) == False",
+            "assert check_K((7, 8, 9, 44, 11, 12), 11) == True"
+        ],
+        "entry_point": "check_K",
+        "test": "def check():\n    assert check_K((10, 4, 5, 6, 8), 6) == True\n    assert check_K((1, 2, 3, 4, 5, 6), 7) == False\n    assert check_K((7, 8, 9, 44, 11, 12), 11) == True\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 409,
+        "prompt": "Write a function to find the minimum product from the pairs of tuples within a given list.\n\ndef min_product_tuple(list1):",
+        "code": "def min_product_tuple(list1):\n    result_min = min([abs(x * y) for x, y in list1] )\n    return result_min",
+        "test_imports": [],
+        "test_list": [
+            "assert min_product_tuple([(2, 7), (2, 6), (1, 8), (4, 9)] )==8",
+            "assert min_product_tuple([(10,20), (15,2), (5,10)] )==30",
+            "assert min_product_tuple([(11,44), (10,15), (20,5), (12, 9)] )==100"
+        ],
+        "entry_point": "min_product_tuple",
+        "test": "def check():\n    assert min_product_tuple([(2, 7), (2, 6), (1, 8), (4, 9)] )==8\n    assert min_product_tuple([(10,20), (15,2), (5,10)] )==30\n    assert min_product_tuple([(11,44), (10,15), (20,5), (12, 9)] )==100\n"
+    },
+    {
+        "source_file": "charlessutton@: Benchmark Questions Verification V2.ipynb",
+        "task_id": 413,
+        "prompt": "Write a function to extract the nth element from a given list of tuples.\n\ndef extract_nth_element(list1, n):",
+        "code": "def extract_nth_element(list1, n):\n    result = [x[n] for x in list1]\n    return result",
+        "test_imports": [],
+        "test_list": [
+            "assert extract_nth_element([('Greyson Fulton', 98, 99), ('Brady Kent', 97, 96), ('Wyatt Knott', 91, 94), ('Beau Turnbull', 94, 98)] ,0)==['Greyson Fulton', 'Brady Kent', 'Wyatt Knott', 'Beau Turnbull']",
+            "assert extract_nth_element([('Greyson Fulton', 98, 99), ('Brady Kent', 97, 96), ('Wyatt Knott', 91, 94), ('Beau Turnbull', 94, 98)] ,2)==[99, 96, 94, 98]",
+            "assert extract_nth_element([('Greyson Fulton', 98, 99), ('Brady Kent', 97, 96), ('Wyatt Knott', 91, 94), ('Beau Turnbull', 94, 98)],1)==[98, 97, 91, 94]"
+        ],
+        "entry_point": "extract_nth_element",
+        "test": "def check():\n    assert extract_nth_element([('Greyson Fulton', 98, 99), ('Brady Kent', 97, 96), ('Wyatt Knott', 91, 94), ('Beau Turnbull', 94, 98)] ,0)==['Greyson Fulton', 'Brady Kent', 'Wyatt Knott', 'Beau Turnbull']\n    assert extract_nth_element([('Greyson Fulton', 98, 99), ('Brady Kent', 97, 96), ('Wyatt Knott', 91, 94), ('Beau Turnbull', 94, 98)] ,2)==[99, 96, 94, 98]\n    assert extract_nth_element([('Greyson Fulton', 98, 99), ('Brady Kent', 97, 96), ('Wyatt Knott', 91, 94), ('Beau Turnbull', 94, 98)],1)==[98, 97, 91, 94]\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 780,
+        "prompt": "Write a function to find the combinations of sums with tuples in the given tuple list. https://www.geeksforgeeks.org/python-combinations-of-sum-with-tuples-in-tuple-list/\nfrom itertools import combinations \ndef find_combinations(test_list):",
+        "code": "from itertools import combinations \ndef find_combinations(test_list):\n  res = [(b1 + a1, b2 + a2) for (a1, a2), (b1, b2) in combinations(test_list, 2)]\n  return (res) ",
+        "test_imports": [],
+        "test_list": [
+            "assert find_combinations([(2, 4), (6, 7), (5, 1), (6, 10)]) == [(8, 11), (7, 5), (8, 14), (11, 8), (12, 17), (11, 11)]",
+            "assert find_combinations([(3, 5), (7, 8), (6, 2), (7, 11)]) == [(10, 13), (9, 7), (10, 16), (13, 10), (14, 19), (13, 13)]",
+            "assert find_combinations([(4, 6), (8, 9), (7, 3), (8, 12)]) == [(12, 15), (11, 9), (12, 18), (15, 12), (16, 21), (15, 15)]"
+        ],
+        "entry_point": "find_combinations",
+        "test": "def check():\n    assert find_combinations([(2, 4), (6, 7), (5, 1), (6, 10)]) == [(8, 11), (7, 5), (8, 14), (11, 8), (12, 17), (11, 11)]\n    assert find_combinations([(3, 5), (7, 8), (6, 2), (7, 11)]) == [(10, 13), (9, 7), (10, 16), (13, 10), (14, 19), (13, 13)]\n    assert find_combinations([(4, 6), (8, 9), (7, 3), (8, 12)]) == [(12, 15), (11, 9), (12, 18), (15, 12), (16, 21), (15, 15)]\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 405,
+        "prompt": "Write a function to check whether an element exists within a tuple.\n\ndef check_tuplex(tuplex,tuple1): ",
+        "code": "def check_tuplex(tuplex,tuple1): \n  if tuple1 in tuplex:\n    return True\n  else:\n     return False",
+        "test_imports": [],
+        "test_list": [
+            "assert check_tuplex((\"w\", 3, \"r\", \"e\", \"s\", \"o\", \"u\", \"r\", \"c\", \"e\"),'r')==True",
+            "assert check_tuplex((\"w\", 3, \"r\", \"e\", \"s\", \"o\", \"u\", \"r\", \"c\", \"e\"),'5')==False",
+            "assert check_tuplex((\"w\", 3, \"r\", \"e\", \"s\", \"o\", \"u\", \"r\", \"c\",\"e\"),3)==True"
+        ],
+        "entry_point": "check_tuplex",
+        "test": "def check():\n    assert check_tuplex((\"w\", 3, \"r\", \"e\", \"s\", \"o\", \"u\", \"r\", \"c\", \"e\"),'r')==True\n    assert check_tuplex((\"w\", 3, \"r\", \"e\", \"s\", \"o\", \"u\", \"r\", \"c\", \"e\"),'5')==False\n    assert check_tuplex((\"w\", 3, \"r\", \"e\", \"s\", \"o\", \"u\", \"r\", \"c\",\"e\"),3)==True\n"
+    },
+    {
+        "source_file": "charlessutton@: Benchmark Questions Verification V2.ipynb",
+        "task_id": 414,
+        "prompt": "Write a python function to check whether any value in a sequence exists in a sequence or not.\n\ndef overlapping(list1,list2):  ",
+        "code": "def overlapping(list1,list2):  \n    for i in range(len(list1)): \n        for j in range(len(list2)): \n            if(list1[i]==list2[j]): \n                return True\n    return False",
+        "test_imports": [],
+        "test_list": [
+            "assert overlapping([1,2,3,4,5],[6,7,8,9]) == False",
+            "assert overlapping([1,2,3],[4,5,6]) == False",
+            "assert overlapping([1,4,5],[1,4,5]) == True"
+        ],
+        "entry_point": "overlapping",
+        "test": "def check():\n    assert overlapping([1,2,3,4,5],[6,7,8,9]) == False\n    assert overlapping([1,2,3],[4,5,6]) == False\n    assert overlapping([1,4,5],[1,4,5]) == True\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 282,
+        "prompt": "Write a function to subtract two lists element-wise.\n\ndef sub_list(nums1,nums2):",
+        "code": "def sub_list(nums1,nums2):\n  result = map(lambda x, y: x - y, nums1, nums2)\n  return list(result)",
+        "test_imports": [],
+        "test_list": [
+            "assert sub_list([1, 2, 3],[4,5,6])==[-3,-3,-3]",
+            "assert sub_list([1,2],[3,4])==[-2,-2]",
+            "assert sub_list([90,120],[50,70])==[40,50]"
+        ],
+        "entry_point": "sub_list",
+        "test": "def check():\n    assert sub_list([1, 2, 3],[4,5,6])==[-3,-3,-3]\n    assert sub_list([1,2],[3,4])==[-2,-2]\n    assert sub_list([90,120],[50,70])==[40,50]\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 779,
+        "prompt": "Write a function to count the number of lists within a list. The function should return a dictionary, where every list is turned to a tuple, and the value of the tuple is the number of its occurrences.\n\ndef unique_sublists(list1):",
+        "code": "def unique_sublists(list1):\n    result ={}\n    for l in list1: \n        result.setdefault(tuple(l), list()).append(1) \n    for a, b in result.items(): \n        result[a] = sum(b)\n    return result",
+        "test_imports": [],
+        "test_list": [
+            "assert unique_sublists([[1, 3], [5, 7], [1, 3], [13, 15, 17], [5, 7], [9, 11]])=={(1, 3): 2, (5, 7): 2, (13, 15, 17): 1, (9, 11): 1}",
+            "assert unique_sublists([['green', 'orange'], ['black'], ['green', 'orange'], ['white']])=={('green', 'orange'): 2, ('black',): 1, ('white',): 1}",
+            "assert unique_sublists([[1, 2], [3, 4], [4, 5], [6, 7]])=={(1, 2): 1, (3, 4): 1, (4, 5): 1, (6, 7): 1}"
+        ],
+        "entry_point": "unique_sublists",
+        "test": "def check():\n    assert unique_sublists([[1, 3], [5, 7], [1, 3], [13, 15, 17], [5, 7], [9, 11]])=={(1, 3): 2, (5, 7): 2, (13, 15, 17): 1, (9, 11): 1}\n    assert unique_sublists([['green', 'orange'], ['black'], ['green', 'orange'], ['white']])=={('green', 'orange'): 2, ('black',): 1, ('white',): 1}\n    assert unique_sublists([[1, 2], [3, 4], [4, 5], [6, 7]])=={(1, 2): 1, (3, 4): 1, (4, 5): 1, (6, 7): 1}\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 788,
+        "prompt": "Write a function to create a new tuple from the given string and list.\n\ndef new_tuple(test_list, test_str):",
+        "code": "def new_tuple(test_list, test_str):\n  return tuple(test_list + [test_str])",
+        "test_imports": [],
+        "test_list": [
+            "assert new_tuple([\"WEB\", \"is\"], \"best\") == ('WEB', 'is', 'best')",
+            "assert new_tuple([\"We\", \"are\"], \"Developers\") == ('We', 'are', 'Developers')",
+            "assert new_tuple([\"Part\", \"is\"], \"Wrong\") == ('Part', 'is', 'Wrong')"
+        ],
+        "entry_point": "new_tuple",
+        "test": "def check():\n    assert new_tuple([\"WEB\", \"is\"], \"best\") == ('WEB', 'is', 'best')\n    assert new_tuple([\"We\", \"are\"], \"Developers\") == ('We', 'are', 'Developers')\n    assert new_tuple([\"Part\", \"is\"], \"Wrong\") == ('Part', 'is', 'Wrong')\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 723,
+        "prompt": "The input is defined as two lists of the same length. Write a function to count indices where the lists have the same values.\nfrom operator import eq\ndef count_same_pair(nums1, nums2):",
+        "code": "from operator import eq\ndef count_same_pair(nums1, nums2):\n    result = sum(map(eq, nums1, nums2))\n    return result",
+        "test_imports": [],
+        "test_list": [
+            "assert count_same_pair([1, 2, 3, 4, 5, 6, 7, 8],[2, 2, 3, 1, 2, 6, 7, 9])==4",
+            "assert count_same_pair([0, 1, 2, -1, -5, 6, 0, -3, -2, 3, 4, 6, 8],[2, 1, 2, -1, -5, 6, 4, -3, -2, 3, 4, 6, 8])==11",
+            "assert count_same_pair([2, 4, -6, -9, 11, -12, 14, -5, 17],[2, 1, 2, -1, -5, 6, 4, -3, -2, 3, 4, 6, 8])==1",
+            "assert count_same_pair([0, 1, 1, 2],[0, 1, 2, 2])==3"
+        ],
+        "entry_point": "count_same_pair",
+        "test": "def check():\n    assert count_same_pair([1, 2, 3, 4, 5, 6, 7, 8],[2, 2, 3, 1, 2, 6, 7, 9])==4\n    assert count_same_pair([0, 1, 2, -1, -5, 6, 0, -3, -2, 3, 4, 6, 8],[2, 1, 2, -1, -5, 6, 4, -3, -2, 3, 4, 6, 8])==11\n    assert count_same_pair([2, 4, -6, -9, 11, -12, 14, -5, 17],[2, 1, 2, -1, -5, 6, 4, -3, -2, 3, 4, 6, 8])==1\n    assert count_same_pair([0, 1, 1, 2],[0, 1, 2, 2])==3\n"
+    },
+    {
+        "source_file": "charlessutton@: Benchmark Questions Verification V2.ipynb",
+        "task_id": 439,
+        "prompt": "Write a function to join a list of multiple integers into a single integer.\n\ndef multiple_to_single(L):",
+        "code": "def multiple_to_single(L):\n  x = int(\"\".join(map(str, L)))\n  return x",
+        "test_imports": [],
+        "test_list": [
+            "assert multiple_to_single([11, 33, 50])==113350",
+            "assert multiple_to_single([-1,2,3,4,5,6])==-123456",
+            "assert multiple_to_single([10,15,20,25])==10152025"
+        ],
+        "entry_point": "multiple_to_single",
+        "test": "def check():\n    assert multiple_to_single([11, 33, 50])==113350\n    assert multiple_to_single([-1,2,3,4,5,6])==-123456\n    assert multiple_to_single([10,15,20,25])==10152025\n"
+    },
+    {
+        "source_file": "Mike's Copy of Benchmark Questions Verification V2.ipynb",
+        "task_id": 105,
+        "prompt": "Write a python function to count true booleans in the given list.\n\ndef count(lst):   ",
+        "code": "def count(lst):   \n    return sum(lst) ",
+        "test_imports": [],
+        "test_list": [
+            "assert count([True,False,True]) == 2",
+            "assert count([False,False]) == 0",
+            "assert count([True,True,True]) == 3"
+        ],
+        "entry_point": "count",
+        "test": "def check():\n    assert count([True,False,True]) == 2\n    assert count([False,False]) == 0\n    assert count([True,True,True]) == 3\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 222,
+        "prompt": "Write a function to check if all the elements in tuple have same data type or not.\n\ndef check_type(test_tuple):",
+        "code": "def check_type(test_tuple):\n  res = True\n  for ele in test_tuple:\n    if not isinstance(ele, type(test_tuple[0])):\n      res = False\n      break\n  return (res) ",
+        "test_imports": [],
+        "test_list": [
+            "assert check_type((5, 6, 7, 3, 5, 6) ) == True",
+            "assert check_type((1, 2, \"4\") ) == False",
+            "assert check_type((3, 2, 1, 4, 5) ) == True"
+        ],
+        "entry_point": "check_type",
+        "test": "def check():\n    assert check_type((5, 6, 7, 3, 5, 6) ) == True\n    assert check_type((1, 2, \"4\") ) == False\n    assert check_type((3, 2, 1, 4, 5) ) == True\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 610,
+        "prompt": "Write a python function which takes a list and returns a list with the same elements, but the k'th element removed.\n\ndef remove_kth_element(list1, L):",
+        "code": "def remove_kth_element(list1, L):\n    return  list1[:L-1] + list1[L:]",
+        "test_imports": [],
+        "test_list": [
+            "assert remove_kth_element([1,1,2,3,4,4,5,1],3)==[1, 1, 3, 4, 4, 5, 1]",
+            "assert remove_kth_element([0, 0, 1, 2, 3, 4, 4, 5, 6, 6, 6, 7, 8, 9, 4, 4],4)==[0, 0, 1, 3, 4, 4, 5, 6, 6, 6, 7, 8, 9, 4, 4]",
+            "assert remove_kth_element([10, 10, 15, 19, 18, 18, 17, 26, 26, 17, 18, 10],5)==[10,10,15,19, 18, 17, 26, 26, 17, 18, 10]"
+        ],
+        "entry_point": "remove_kth_element",
+        "test": "def check():\n    assert remove_kth_element([1,1,2,3,4,4,5,1],3)==[1, 1, 3, 4, 4, 5, 1]\n    assert remove_kth_element([0, 0, 1, 2, 3, 4, 4, 5, 6, 6, 6, 7, 8, 9, 4, 4],4)==[0, 0, 1, 3, 4, 4, 5, 6, 6, 6, 7, 8, 9, 4, 4]\n    assert remove_kth_element([10, 10, 15, 19, 18, 18, 17, 26, 26, 17, 18, 10],5)==[10,10,15,19, 18, 17, 26, 26, 17, 18, 10]\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 161,
+        "prompt": "Write a function to remove all elements from a given list present in another list.\n\ndef remove_elements(list1, list2):",
+        "code": "def remove_elements(list1, list2):\n    result = [x for x in list1 if x not in list2]\n    return result",
+        "test_imports": [],
+        "test_list": [
+            "assert remove_elements([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], [2, 4, 6, 8]) == [1, 3, 5, 7, 9, 10]",
+            "assert remove_elements([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], [1, 3, 5, 7]) == [2, 4, 6, 8, 9, 10]",
+            "assert remove_elements([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], [5, 7]) == [1, 2, 3, 4, 6, 8, 9, 10]"
+        ],
+        "entry_point": "remove_elements",
+        "test": "def check():\n    assert remove_elements([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], [2, 4, 6, 8]) == [1, 3, 5, 7, 9, 10]\n    assert remove_elements([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], [1, 3, 5, 7]) == [2, 4, 6, 8, 9, 10]\n    assert remove_elements([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], [5, 7]) == [1, 2, 3, 4, 6, 8, 9, 10]\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 390,
+        "prompt": "Write a function to apply a given format string to all of the elements in a list.\n\ndef add_string(list_, string):",
+        "code": "def add_string(list_, string):\n add_string=[string.format(i) for i in  list_]\n return add_string",
+        "test_imports": [],
+        "test_list": [
+            "assert add_string([1,2,3,4],'temp{0}')==['temp1', 'temp2', 'temp3', 'temp4']",
+            "assert add_string(['a','b','c','d'], 'python{0}')==[ 'pythona', 'pythonb', 'pythonc', 'pythond']",
+            "assert add_string([5,6,7,8],'string{0}')==['string5', 'string6', 'string7', 'string8']"
+        ],
+        "entry_point": "add_string",
+        "test": "def check():\n    assert add_string([1,2,3,4],'temp{0}')==['temp1', 'temp2', 'temp3', 'temp4']\n    assert add_string(['a','b','c','d'], 'python{0}')==[ 'pythona', 'pythonb', 'pythonc', 'pythond']\n    assert add_string([5,6,7,8],'string{0}')==['string5', 'string6', 'string7', 'string8']\n"
+    },
+    {
+        "source_file": "Mike's Copy of Benchmark Questions Verification V2.ipynb",
+        "task_id": 117,
+        "prompt": "Write a function to convert all possible convertible elements in a list of lists to floats.\n\ndef list_to_float(test_list):",
+        "code": "def list_to_float(test_list):\n  res = []\n  for tup in test_list:\n    temp = []\n    for ele in tup:\n      if ele.isalpha():\n        temp.append(ele)\n      else:\n        temp.append(float(ele))\n    res.append((temp[0],temp[1])) \n  return res",
+        "test_imports": [],
+        "test_list": [
+            "assert list_to_float( [(\"3\", \"4\"), (\"1\", \"26.45\"), (\"7.32\", \"8\"), (\"4\", \"8\")] ) == [(3.0, 4.0), (1.0, 26.45), (7.32, 8.0), (4.0, 8.0)]",
+            "assert list_to_float( [(\"4\", \"4\"), (\"2\", \"27\"), (\"4.12\", \"9\"), (\"7\", \"11\")] ) == [(4.0, 4.0), (2.0, 27.0), (4.12, 9.0), (7.0, 11.0)]",
+            "assert list_to_float( [(\"6\", \"78\"), (\"5\", \"26.45\"), (\"1.33\", \"4\"), (\"82\", \"13\")] ) == [(6.0, 78.0), (5.0, 26.45), (1.33, 4.0), (82.0, 13.0)]"
+        ],
+        "entry_point": "list_to_float",
+        "test": "def check():\n    assert list_to_float( [(\"3\", \"4\"), (\"1\", \"26.45\"), (\"7.32\", \"8\"), (\"4\", \"8\")] ) == [(3.0, 4.0), (1.0, 26.45), (7.32, 8.0), (4.0, 8.0)]\n    assert list_to_float( [(\"4\", \"4\"), (\"2\", \"27\"), (\"4.12\", \"9\"), (\"7\", \"11\")] ) == [(4.0, 4.0), (2.0, 27.0), (4.12, 9.0), (7.0, 11.0)]\n    assert list_to_float( [(\"6\", \"78\"), (\"5\", \"26.45\"), (\"1.33\", \"4\"), (\"82\", \"13\")] ) == [(6.0, 78.0), (5.0, 26.45), (1.33, 4.0), (82.0, 13.0)]\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 273,
+        "prompt": "Write a function that takes in two tuples and subtracts the elements of the first tuple by the elements of the second tuple with the same index.\n\ndef substract_elements(test_tup1, test_tup2):",
+        "code": "def substract_elements(test_tup1, test_tup2):\n  res = tuple(map(lambda i, j: i - j, test_tup1, test_tup2))\n  return (res) ",
+        "test_imports": [],
+        "test_list": [
+            "assert substract_elements((10, 4, 5), (2, 5, 18)) == (8, -1, -13)",
+            "assert substract_elements((11, 2, 3), (24, 45 ,16)) == (-13, -43, -13)",
+            "assert substract_elements((7, 18, 9), (10, 11, 12)) == (-3, 7, -3)"
+        ],
+        "entry_point": "substract_elements",
+        "test": "def check():\n    assert substract_elements((10, 4, 5), (2, 5, 18)) == (8, -1, -13)\n    assert substract_elements((11, 2, 3), (24, 45 ,16)) == (-13, -43, -13)\n    assert substract_elements((7, 18, 9), (10, 11, 12)) == (-3, 7, -3)\n"
+    },
+    {
+        "source_file": "Mike's Copy of Benchmark Questions Verification V2.ipynb",
+        "task_id": 140,
+        "prompt": "Write a function to flatten the list of lists into a single set of numbers.\n\ndef extract_singly(test_list):",
+        "code": "def extract_singly(test_list):\n  res = []\n  temp = set()\n  for inner in test_list:\n    for ele in inner:\n      if not ele in temp:\n        temp.add(ele)\n        res.append(ele)\n  return (res) ",
+        "test_imports": [],
+        "test_list": [
+            "assert set(extract_singly([(3, 4, 5), (4, 5, 7), (1, 4)])) == set([3, 4, 5, 7, 1])",
+            "assert set(extract_singly([(1, 2, 3), (4, 2, 3), (7, 8)])) == set([1, 2, 3, 4, 7, 8])",
+            "assert set(extract_singly([(7, 8, 9), (10, 11, 12), (10, 11)])) == set([7, 8, 9, 10, 11, 12])"
+        ],
+        "entry_point": "extract_singly",
+        "test": "def check():\n    assert set(extract_singly([(3, 4, 5), (4, 5, 7), (1, 4)])) == set([3, 4, 5, 7, 1])\n    assert set(extract_singly([(1, 2, 3), (4, 2, 3), (7, 8)])) == set([1, 2, 3, 4, 7, 8])\n    assert set(extract_singly([(7, 8, 9), (10, 11, 12), (10, 11)])) == set([7, 8, 9, 10, 11, 12])\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 391,
+        "prompt": "Write a function to convert more than one list to nested dictionary.\n\ndef convert_list_dictionary(l1, l2, l3):",
+        "code": "def convert_list_dictionary(l1, l2, l3):\n     result = [{x: {y: z}} for (x, y, z) in zip(l1, l2, l3)]\n     return result",
+        "test_imports": [],
+        "test_list": [
+            "assert convert_list_dictionary([\"S001\", \"S002\", \"S003\", \"S004\"],[\"Adina Park\", \"Leyton Marsh\", \"Duncan Boyle\", \"Saim Richards\"] ,[85, 98, 89, 92])==[{'S001': {'Adina Park': 85}}, {'S002': {'Leyton Marsh': 98}}, {'S003': {'Duncan Boyle': 89}}, {'S004': {'Saim Richards': 92}}]",
+            "assert convert_list_dictionary([\"abc\",\"def\",\"ghi\",\"jkl\"],[\"python\",\"program\",\"language\",\"programs\"],[100,200,300,400])==[{'abc':{'python':100}},{'def':{'program':200}},{'ghi':{'language':300}},{'jkl':{'programs':400}}]",
+            "assert convert_list_dictionary([\"A1\",\"A2\",\"A3\",\"A4\"],[\"java\",\"C\",\"C++\",\"DBMS\"],[10,20,30,40])==[{'A1':{'java':10}},{'A2':{'C':20}},{'A3':{'C++':30}},{'A4':{'DBMS':40}}]"
+        ],
+        "entry_point": "convert_list_dictionary",
+        "test": "def check():\n    assert convert_list_dictionary([\"S001\", \"S002\", \"S003\", \"S004\"],[\"Adina Park\", \"Leyton Marsh\", \"Duncan Boyle\", \"Saim Richards\"] ,[85, 98, 89, 92])==[{'S001': {'Adina Park': 85}}, {'S002': {'Leyton Marsh': 98}}, {'S003': {'Duncan Boyle': 89}}, {'S004': {'Saim Richards': 92}}]\n    assert convert_list_dictionary([\"abc\",\"def\",\"ghi\",\"jkl\"],[\"python\",\"program\",\"language\",\"programs\"],[100,200,300,400])==[{'abc':{'python':100}},{'def':{'program':200}},{'ghi':{'language':300}},{'jkl':{'programs':400}}]\n    assert convert_list_dictionary([\"A1\",\"A2\",\"A3\",\"A4\"],[\"java\",\"C\",\"C++\",\"DBMS\"],[10,20,30,40])==[{'A1':{'java':10}},{'A2':{'C':20}},{'A3':{'C++':30}},{'A4':{'DBMS':40}}]\n"
+    },
+    {
+        "source_file": "charlessutton@: Benchmark Questions Verification V2.ipynb",
+        "task_id": 446,
+        "prompt": "Write a python function to count the occurence of all elements of list in a tuple.\nfrom collections import Counter \ndef count_Occurrence(tup, lst): ",
+        "code": "from collections import Counter \ndef count_Occurrence(tup, lst): \n    count = 0\n    for item in tup: \n        if item in lst: \n            count+= 1 \n    return count  ",
+        "test_imports": [],
+        "test_list": [
+            "assert count_Occurrence(('a', 'a', 'c', 'b', 'd'),['a', 'b'] ) == 3",
+            "assert count_Occurrence((1, 2, 3, 1, 4, 6, 7, 1, 4),[1, 4, 7]) == 6",
+            "assert count_Occurrence((1,2,3,4,5,6),[1,2]) == 2"
+        ],
+        "entry_point": "count_Occurrence",
+        "test": "def check():\n    assert count_Occurrence(('a', 'a', 'c', 'b', 'd'),['a', 'b'] ) == 3\n    assert count_Occurrence((1, 2, 3, 1, 4, 6, 7, 1, 4),[1, 4, 7]) == 6\n    assert count_Occurrence((1,2,3,4,5,6),[1,2]) == 2\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 785,
+        "prompt": "Write a function to convert tuple string to integer tuple.\n\ndef tuple_str_int(test_str):",
+        "code": "def tuple_str_int(test_str):\n  res = tuple(int(num) for num in test_str.replace('(', '').replace(')', '').replace('...', '').split(', '))\n  return (res) ",
+        "test_imports": [],
+        "test_list": [
+            "assert tuple_str_int(\"(7, 8, 9)\") == (7, 8, 9)",
+            "assert tuple_str_int(\"(1, 2, 3)\") == (1, 2, 3)",
+            "assert tuple_str_int(\"(4, 5, 6)\") == (4, 5, 6)",
+            "assert tuple_str_int(\"(7, 81, 19)\") == (7, 81, 19)"
+        ],
+        "entry_point": "tuple_str_int",
+        "test": "def check():\n    assert tuple_str_int(\"(7, 8, 9)\") == (7, 8, 9)\n    assert tuple_str_int(\"(1, 2, 3)\") == (1, 2, 3)\n    assert tuple_str_int(\"(4, 5, 6)\") == (4, 5, 6)\n    assert tuple_str_int(\"(7, 81, 19)\") == (7, 81, 19)\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 253,
+        "prompt": "Write a python function that returns the number of integer elements in a given list.\n\ndef count_integer(list1):",
+        "code": "def count_integer(list1):\n    ctr = 0\n    for i in list1:\n        if isinstance(i, int):\n            ctr = ctr + 1\n    return ctr",
+        "test_imports": [],
+        "test_list": [
+            "assert count_integer([1,2,'abc',1.2]) == 2",
+            "assert count_integer([1,2,3]) == 3",
+            "assert count_integer([1,1.2,4,5.1]) == 2"
+        ],
+        "entry_point": "count_integer",
+        "test": "def check():\n    assert count_integer([1,2,'abc',1.2]) == 2\n    assert count_integer([1,2,3]) == 3\n    assert count_integer([1,1.2,4,5.1]) == 2\n"
+    },
+    {
+        "source_file": "charlessutton@: Benchmark Questions Verification V2.ipynb",
+        "task_id": 445,
+        "prompt": "Write a function to perform index wise multiplication of tuple elements in the given two tuples.\n\ndef index_multiplication(test_tup1, test_tup2):",
+        "code": "def index_multiplication(test_tup1, test_tup2):\n  res = tuple(tuple(a * b for a, b in zip(tup1, tup2))\n   for tup1, tup2 in zip(test_tup1, test_tup2))\n  return (res) ",
+        "test_imports": [],
+        "test_list": [
+            "assert index_multiplication(((1, 3), (4, 5), (2, 9), (1, 10)),((6, 7), (3, 9), (1, 1), (7, 3)) ) == ((6, 21), (12, 45), (2, 9), (7, 30))",
+            "assert index_multiplication(((2, 4), (5, 6), (3, 10), (2, 11)),((7, 8), (4, 10), (2, 2), (8, 4)) ) == ((14, 32), (20, 60), (6, 20), (16, 44))",
+            "assert index_multiplication(((3, 5), (6, 7), (4, 11), (3, 12)),((8, 9), (5, 11), (3, 3), (9, 5)) ) == ((24, 45), (30, 77), (12, 33), (27, 60))"
+        ],
+        "entry_point": "index_multiplication",
+        "test": "def check():\n    assert index_multiplication(((1, 3), (4, 5), (2, 9), (1, 10)),((6, 7), (3, 9), (1, 1), (7, 3)) ) == ((6, 21), (12, 45), (2, 9), (7, 30))\n    assert index_multiplication(((2, 4), (5, 6), (3, 10), (2, 11)),((7, 8), (4, 10), (2, 2), (8, 4)) ) == ((14, 32), (20, 60), (6, 20), (16, 44))\n    assert index_multiplication(((3, 5), (6, 7), (4, 11), (3, 12)),((8, 9), (5, 11), (3, 3), (9, 5)) ) == ((24, 45), (30, 77), (12, 33), (27, 60))\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 262,
+        "prompt": "Write a function that takes in a list and an integer L and splits the given list into two parts where the length of the first part of the list is L, and returns the resulting lists in a tuple.\n\ndef split_two_parts(list1, L):",
+        "code": "def split_two_parts(list1, L):\n    return list1[:L], list1[L:]",
+        "test_imports": [],
+        "test_list": [
+            "assert split_two_parts([1,1,2,3,4,4,5,1],3)==([1, 1, 2], [3, 4, 4, 5, 1])",
+            "assert split_two_parts(['a', 'b', 'c', 'd'],2)==(['a', 'b'], ['c', 'd'])",
+            "assert split_two_parts(['p', 'y', 't', 'h', 'o', 'n'],4)==(['p', 'y', 't', 'h'], ['o', 'n'])"
+        ],
+        "entry_point": "split_two_parts",
+        "test": "def check():\n    assert split_two_parts([1,1,2,3,4,4,5,1],3)==([1, 1, 2], [3, 4, 4, 5, 1])\n    assert split_two_parts(['a', 'b', 'c', 'd'],2)==(['a', 'b'], ['c', 'd'])\n    assert split_two_parts(['p', 'y', 't', 'h', 'o', 'n'],4)==(['p', 'y', 't', 'h'], ['o', 'n'])\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 251,
+        "prompt": "Write a function that takes in a list and an element and inserts the element before each element in the list, and returns the resulting list.\n\ndef insert_element(list,element):",
+        "code": "def insert_element(list,element):\n list = [v for elt in list for v in (element, elt)]\n return list",
+        "test_imports": [],
+        "test_list": [
+            "assert insert_element(['Red', 'Green', 'Black'] ,'c')==['c', 'Red', 'c', 'Green', 'c', 'Black']",
+            "assert insert_element(['python', 'java'] ,'program')==['program', 'python', 'program', 'java']",
+            "assert insert_element(['happy', 'sad'] ,'laugh')==['laugh', 'happy', 'laugh', 'sad']"
+        ],
+        "entry_point": "insert_element",
+        "test": "def check():\n    assert insert_element(['Red', 'Green', 'Black'] ,'c')==['c', 'Red', 'c', 'Green', 'c', 'Black']\n    assert insert_element(['python', 'java'] ,'program')==['program', 'python', 'program', 'java']\n    assert insert_element(['happy', 'sad'] ,'laugh')==['laugh', 'happy', 'laugh', 'sad']\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 259,
+        "prompt": "Write a function to maximize the given two tuples.\n\ndef maximize_elements(test_tup1, test_tup2):",
+        "code": "def maximize_elements(test_tup1, test_tup2):\n  res = tuple(tuple(max(a, b) for a, b in zip(tup1, tup2))\n   for tup1, tup2 in zip(test_tup1, test_tup2))\n  return (res) ",
+        "test_imports": [],
+        "test_list": [
+            "assert maximize_elements(((1, 3), (4, 5), (2, 9), (1, 10)), ((6, 7), (3, 9), (1, 1), (7, 3))) == ((6, 7), (4, 9), (2, 9), (7, 10))",
+            "assert maximize_elements(((2, 4), (5, 6), (3, 10), (2, 11)), ((7, 8), (4, 10), (2, 2), (8, 4))) == ((7, 8), (5, 10), (3, 10), (8, 11))",
+            "assert maximize_elements(((3, 5), (6, 7), (4, 11), (3, 12)), ((8, 9), (5, 11), (3, 3), (9, 5))) == ((8, 9), (6, 11), (4, 11), (9, 12))"
+        ],
+        "entry_point": "maximize_elements",
+        "test": "def check():\n    assert maximize_elements(((1, 3), (4, 5), (2, 9), (1, 10)), ((6, 7), (3, 9), (1, 1), (7, 3))) == ((6, 7), (4, 9), (2, 9), (7, 10))\n    assert maximize_elements(((2, 4), (5, 6), (3, 10), (2, 11)), ((7, 8), (4, 10), (2, 2), (8, 4))) == ((7, 8), (5, 10), (3, 10), (8, 11))\n    assert maximize_elements(((3, 5), (6, 7), (4, 11), (3, 12)), ((8, 9), (5, 11), (3, 3), (9, 5))) == ((8, 9), (6, 11), (4, 11), (9, 12))\n"
+    },
+    {
+        "source_file": "Mike's Copy of Benchmark Questions Verification V2.ipynb",
+        "task_id": 97,
+        "prompt": "Write a function to find frequency of each element in a flattened list of lists, returned in a dictionary.\n\ndef frequency_lists(list1):",
+        "code": "def frequency_lists(list1):\n    list1 = [item for sublist in list1 for item in sublist]\n    dic_data = {}\n    for num in list1:\n        if num in dic_data.keys():\n            dic_data[num] += 1\n        else:\n            key = num\n            value = 1\n            dic_data[key] = value\n    return dic_data\n",
+        "test_imports": [],
+        "test_list": [
+            "assert frequency_lists([[1, 2, 3, 2], [4, 5, 6, 2], [7, 8, 9, 5]])=={1: 1, 2: 3, 3: 1, 4: 1, 5: 2, 6: 1, 7: 1, 8: 1, 9: 1}",
+            "assert frequency_lists([[1,2,3,4],[5,6,7,8],[9,10,11,12]])=={1: 1, 2: 1, 3: 1, 4: 1, 5: 1, 6: 1, 7: 1, 8: 1, 9: 1,10:1,11:1,12:1}",
+            "assert frequency_lists([[20,30,40,17],[18,16,14,13],[10,20,30,40]])=={20:2,30:2,40:2,17: 1,18:1, 16: 1,14: 1,13: 1, 10: 1}"
+        ],
+        "entry_point": "frequency_lists",
+        "test": "def check():\n    assert frequency_lists([[1, 2, 3, 2], [4, 5, 6, 2], [7, 8, 9, 5]])=={1: 1, 2: 3, 3: 1, 4: 1, 5: 2, 6: 1, 7: 1, 8: 1, 9: 1}\n    assert frequency_lists([[1,2,3,4],[5,6,7,8],[9,10,11,12]])=={1: 1, 2: 1, 3: 1, 4: 1, 5: 1, 6: 1, 7: 1, 8: 1, 9: 1,10:1,11:1,12:1}\n    assert frequency_lists([[20,30,40,17],[18,16,14,13],[10,20,30,40]])=={20:2,30:2,40:2,17: 1,18:1, 16: 1,14: 1,13: 1, 10: 1}\n"
+    },
+    {
+        "source_file": "charlessutton@: Benchmark Questions Verification V2.ipynb",
+        "task_id": 438,
+        "prompt": "Write a function to count bidirectional tuple pairs.\n\ndef count_bidirectional(test_list):",
+        "code": "def count_bidirectional(test_list):\n  res = 0\n  for idx in range(0, len(test_list)):\n    for iidx in range(idx + 1, len(test_list)):\n      if test_list[iidx][0] == test_list[idx][1] and test_list[idx][1] == test_list[iidx][0]:\n        res += 1\n  return res",
+        "test_imports": [],
+        "test_list": [
+            "assert count_bidirectional([(5, 6), (1, 2), (6, 5), (9, 1), (6, 5), (2, 1)] ) == 3",
+            "assert count_bidirectional([(5, 6), (1, 3), (6, 5), (9, 1), (6, 5), (2, 1)] ) == 2",
+            "assert count_bidirectional([(5, 6), (1, 2), (6, 5), (9, 2), (6, 5), (2, 1)] ) == 4"
+        ],
+        "entry_point": "count_bidirectional",
+        "test": "def check():\n    assert count_bidirectional([(5, 6), (1, 2), (6, 5), (9, 1), (6, 5), (2, 1)] ) == 3\n    assert count_bidirectional([(5, 6), (1, 3), (6, 5), (9, 1), (6, 5), (2, 1)] ) == 2\n    assert count_bidirectional([(5, 6), (1, 2), (6, 5), (9, 2), (6, 5), (2, 1)] ) == 4\n"
+    },
+    {
+        "source_file": "Mike's Copy of Benchmark Questions Verification V2.ipynb",
+        "task_id": 75,
+        "prompt": "Write a function to find tuples which have all elements divisible by k from the given list of tuples.\n\ndef find_tuples(test_list, K):",
+        "code": "def find_tuples(test_list, K):\n  res = [sub for sub in test_list if all(ele % K == 0 for ele in sub)]\n  return res",
+        "test_imports": [],
+        "test_list": [
+            "assert find_tuples([(6, 24, 12), (7, 9, 6), (12, 18, 21)], 6) == [(6, 24, 12)]",
+            "assert find_tuples([(5, 25, 30), (4, 2, 3), (7, 8, 9)], 5) == [(5, 25, 30)]",
+            "assert find_tuples([(7, 9, 16), (8, 16, 4), (19, 17, 18)], 4) == [(8, 16, 4)]"
+        ],
+        "entry_point": "find_tuples",
+        "test": "def check():\n    assert find_tuples([(6, 24, 12), (7, 9, 6), (12, 18, 21)], 6) == [(6, 24, 12)]\n    assert find_tuples([(5, 25, 30), (4, 2, 3), (7, 8, 9)], 5) == [(5, 25, 30)]\n    assert find_tuples([(7, 9, 16), (8, 16, 4), (19, 17, 18)], 4) == [(8, 16, 4)]\n"
+    },
+    {
+        "source_file": "Mike's Copy of Benchmark Questions Verification V2.ipynb",
+        "task_id": 69,
+        "prompt": "Write a function to check whether a list contains the given sublist or not.\n\ndef is_sublist(l, s):",
+        "code": "def is_sublist(l, s):\n\tsub_set = False\n\tif s == []:\n\t\tsub_set = True\n\telif s == l:\n\t\tsub_set = True\n\telif len(s) > len(l):\n\t\tsub_set = False\n\telse:\n\t\tfor i in range(len(l)):\n\t\t\tif l[i] == s[0]:\n\t\t\t\tn = 1\n\t\t\t\twhile (n < len(s)) and (l[i+n] == s[n]):\n\t\t\t\t\tn += 1\t\t\t\t\n\t\t\t\tif n == len(s):\n\t\t\t\t\tsub_set = True\n\treturn sub_set",
+        "test_imports": [],
+        "test_list": [
+            "assert is_sublist([2,4,3,5,7],[3,7])==False",
+            "assert is_sublist([2,4,3,5,7],[4,3])==True",
+            "assert is_sublist([2,4,3,5,7],[1,6])==False"
+        ],
+        "entry_point": "is_sublist",
+        "test": "def check():\n    assert is_sublist([2,4,3,5,7],[3,7])==False\n    assert is_sublist([2,4,3,5,7],[4,3])==True\n    assert is_sublist([2,4,3,5,7],[1,6])==False\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 582,
+        "prompt": "Write a function to check if a dictionary is empty\n\ndef my_dict(dict1):",
+        "code": "def my_dict(dict1):\n  if bool(dict1):\n     return False\n  else:\n     return True",
+        "test_imports": [],
+        "test_list": [
+            "assert my_dict({10})==False",
+            "assert my_dict({11})==False",
+            "assert my_dict({})==True"
+        ],
+        "entry_point": "my_dict",
+        "test": "def check():\n    assert my_dict({10})==False\n    assert my_dict({11})==False\n    assert my_dict({})==True\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 766,
+        "prompt": "Write a function to return a list of all pairs of consecutive items in a given list.\n\ndef pair_wise(l1):",
+        "code": "def pair_wise(l1):\n    temp = []\n    for i in range(len(l1) - 1):\n        current_element, next_element = l1[i], l1[i + 1]\n        x = (current_element, next_element)\n        temp.append(x)\n    return temp",
+        "test_imports": [],
+        "test_list": [
+            "assert pair_wise([1,1,2,3,3,4,4,5])==[(1, 1), (1, 2), (2, 3), (3, 3), (3, 4), (4, 4), (4, 5)]",
+            "assert pair_wise([1,5,7,9,10])==[(1, 5), (5, 7), (7, 9), (9, 10)]",
+            "assert pair_wise([5,1,9,7,10])==[(5, 1), (1, 9), (9, 7), (7, 10)]",
+            "assert pair_wise([1,2,3,4,5,6,7,8,9,10])==[(1, 2), (2, 3), (3, 4), (4, 5), (5, 6), (6, 7), (7, 8), (8, 9), (9, 10)]"
+        ],
+        "entry_point": "pair_wise",
+        "test": "def check():\n    assert pair_wise([1,1,2,3,3,4,4,5])==[(1, 1), (1, 2), (2, 3), (3, 3), (3, 4), (4, 4), (4, 5)]\n    assert pair_wise([1,5,7,9,10])==[(1, 5), (5, 7), (7, 9), (9, 10)]\n    assert pair_wise([5,1,9,7,10])==[(5, 1), (1, 9), (9, 7), (7, 10)]\n    assert pair_wise([1,2,3,4,5,6,7,8,9,10])==[(1, 2), (2, 3), (3, 4), (4, 5), (5, 6), (6, 7), (7, 8), (8, 9), (9, 10)]\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 265,
+        "prompt": "Write a function that takes in a list and an integer n and splits a list for every nth element, returning a list of the resulting lists.\n\ndef list_split(S, step):",
+        "code": "def list_split(S, step):\n    return [S[i::step] for i in range(step)]",
+        "test_imports": [],
+        "test_list": [
+            "assert list_split(['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n'],3)==[['a', 'd', 'g', 'j', 'm'], ['b', 'e', 'h', 'k', 'n'], ['c', 'f', 'i', 'l']]",
+            "assert list_split([1,2,3,4,5,6,7,8,9,10,11,12,13,14],3)==[[1,4,7,10,13], [2,5,8,11,14], [3,6,9,12]]",
+            "assert list_split(['python','java','C','C++','DBMS','SQL'],2)==[['python', 'C', 'DBMS'], ['java', 'C++', 'SQL']]"
+        ],
+        "entry_point": "list_split",
+        "test": "def check():\n    assert list_split(['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n'],3)==[['a', 'd', 'g', 'j', 'm'], ['b', 'e', 'h', 'k', 'n'], ['c', 'f', 'i', 'l']]\n    assert list_split([1,2,3,4,5,6,7,8,9,10,11,12,13,14],3)==[[1,4,7,10,13], [2,5,8,11,14], [3,6,9,12]]\n    assert list_split(['python','java','C','C++','DBMS','SQL'],2)==[['python', 'C', 'DBMS'], ['java', 'C++', 'SQL']]\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 261,
+        "prompt": "Write a function that takes in two tuples and performs mathematical division operation element-wise across the given tuples.\n\ndef division_elements(test_tup1, test_tup2):",
+        "code": "def division_elements(test_tup1, test_tup2):\n  res = tuple(ele1 // ele2 for ele1, ele2 in zip(test_tup1, test_tup2))\n  return (res) ",
+        "test_imports": [],
+        "test_list": [
+            "assert division_elements((10, 4, 6, 9),(5, 2, 3, 3)) == (2, 2, 2, 3)",
+            "assert division_elements((12, 6, 8, 16),(6, 3, 4, 4)) == (2, 2, 2, 4)",
+            "assert division_elements((20, 14, 36, 18),(5, 7, 6, 9)) == (4, 2, 6, 2)"
+        ],
+        "entry_point": "division_elements",
+        "test": "def check():\n    assert division_elements((10, 4, 6, 9),(5, 2, 3, 3)) == (2, 2, 2, 3)\n    assert division_elements((12, 6, 8, 16),(6, 3, 4, 4)) == (2, 2, 2, 4)\n    assert division_elements((20, 14, 36, 18),(5, 7, 6, 9)) == (4, 2, 6, 2)\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 722,
+        "prompt": "The input is given as - a dictionary with a student name as a key and a tuple of float (student_height, student_weight) as a value, - minimal height, - minimal weight. Write a function to filter students that have height and weight above the minimum.\n\ndef filter_data(students,h,w):",
+        "code": "def filter_data(students,h,w):\n    result = {k: s for k, s in students.items() if s[0] >=h and s[1] >=w}\n    return result    ",
+        "test_imports": [],
+        "test_list": [
+            "assert filter_data({'Cierra Vega': (6.2, 70), 'Alden Cantrell': (5.9, 65), 'Kierra Gentry': (6.0, 68), 'Pierre Cox': (5.8, 66)},6.0,70)=={'Cierra Vega': (6.2, 70)}",
+            "assert filter_data({'Cierra Vega': (6.2, 70), 'Alden Cantrell': (5.9, 65), 'Kierra Gentry': (6.0, 68), 'Pierre Cox': (5.8, 66)},5.9,67)=={'Cierra Vega': (6.2, 70),'Kierra Gentry': (6.0, 68)}",
+            "assert filter_data({'Cierra Vega': (6.2, 70), 'Alden Cantrell': (5.9, 65), 'Kierra Gentry': (6.0, 68), 'Pierre Cox': (5.8, 66)},5.7,64)=={'Cierra Vega': (6.2, 70),'Alden Cantrell': (5.9, 65),'Kierra Gentry': (6.0, 68),'Pierre Cox': (5.8, 66)}"
+        ],
+        "entry_point": "filter_data",
+        "test": "def check():\n    assert filter_data({'Cierra Vega': (6.2, 70), 'Alden Cantrell': (5.9, 65), 'Kierra Gentry': (6.0, 68), 'Pierre Cox': (5.8, 66)},6.0,70)=={'Cierra Vega': (6.2, 70)}\n    assert filter_data({'Cierra Vega': (6.2, 70), 'Alden Cantrell': (5.9, 65), 'Kierra Gentry': (6.0, 68), 'Pierre Cox': (5.8, 66)},5.9,67)=={'Cierra Vega': (6.2, 70),'Kierra Gentry': (6.0, 68)}\n    assert filter_data({'Cierra Vega': (6.2, 70), 'Alden Cantrell': (5.9, 65), 'Kierra Gentry': (6.0, 68), 'Pierre Cox': (5.8, 66)},5.7,64)=={'Cierra Vega': (6.2, 70),'Alden Cantrell': (5.9, 65),'Kierra Gentry': (6.0, 68),'Pierre Cox': (5.8, 66)}\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 744,
+        "prompt": "Write a function to check if the given tuple has any none value or not.\n\ndef check_none(test_tup):",
+        "code": "def check_none(test_tup):\n  res = any(map(lambda ele: ele is None, test_tup))\n  return res ",
+        "test_imports": [],
+        "test_list": [
+            "assert check_none((10, 4, 5, 6, None)) == True",
+            "assert check_none((7, 8, 9, 11, 14)) == False",
+            "assert check_none((1, 2, 3, 4, None)) == True"
+        ],
+        "entry_point": "check_none",
+        "test": "def check():\n    assert check_none((10, 4, 5, 6, None)) == True\n    assert check_none((7, 8, 9, 11, 14)) == False\n    assert check_none((1, 2, 3, 4, None)) == True\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 792,
+        "prompt": "Write a python function to count the number of lists in a given number of lists.\n\ndef count_list(input_list): ",
+        "code": "def count_list(input_list): \n    return len(input_list)",
+        "test_imports": [],
+        "test_list": [
+            "assert count_list([[1, 3], [5, 7], [9, 11], [13, 15, 17]]) == 4",
+            "assert count_list([[1,2],[2,3],[4,5]]) == 3",
+            "assert count_list([[1,0],[2,0]]) == 2"
+        ],
+        "entry_point": "count_list",
+        "test": "def check():\n    assert count_list([[1, 3], [5, 7], [9, 11], [13, 15, 17]]) == 4\n    assert count_list([[1,2],[2,3],[4,5]]) == 3\n    assert count_list([[1,0],[2,0]]) == 2\n"
+    },
+    {
+        "source_file": "Mike's Copy of Benchmark Questions Verification V2.ipynb",
+        "task_id": 94,
+        "prompt": "Given a list of tuples, write a function that returns the first value of the tuple with the smallest second value.\nfrom operator import itemgetter \ndef index_minimum(test_list):",
+        "code": "from operator import itemgetter \ndef index_minimum(test_list):\n  res = min(test_list, key = itemgetter(1))[0]\n  return (res) ",
+        "test_imports": [],
+        "test_list": [
+            "assert index_minimum([('Rash', 143), ('Manjeet', 200), ('Varsha', 100)]) == 'Varsha'",
+            "assert index_minimum([('Yash', 185), ('Dawood', 125), ('Sanya', 175)]) == 'Dawood'",
+            "assert index_minimum([('Sai', 345), ('Salman', 145), ('Ayesha', 96)]) == 'Ayesha'"
+        ],
+        "entry_point": "index_minimum",
+        "test": "def check():\n    assert index_minimum([('Rash', 143), ('Manjeet', 200), ('Varsha', 100)]) == 'Varsha'\n    assert index_minimum([('Yash', 185), ('Dawood', 125), ('Sanya', 175)]) == 'Dawood'\n    assert index_minimum([('Sai', 345), ('Salman', 145), ('Ayesha', 96)]) == 'Ayesha'\n"
+    },
+    {
+        "source_file": "Benchmark Questions Verification V2.ipynb",
+        "task_id": 720,
+        "prompt": "Write a function to add a dictionary to the tuple. The output should be a tuple.\n\ndef add_dict_to_tuple(test_tup, test_dict):",
+        "code": "def add_dict_to_tuple(test_tup, test_dict):\n  test_tup = list(test_tup)\n  test_tup.append(test_dict)\n  test_tup = tuple(test_tup)\n  return (test_tup) ",
+        "test_imports": [],
+        "test_list": [
+            "assert add_dict_to_tuple((4, 5, 6), {\"MSAM\" : 1, \"is\" : 2, \"best\" : 3} ) == (4, 5, 6, {'MSAM': 1, 'is': 2, 'best': 3})",
+            "assert add_dict_to_tuple((1, 2, 3), {\"UTS\" : 2, \"is\" : 3, \"Worst\" : 4} ) == (1, 2, 3, {'UTS': 2, 'is': 3, 'Worst': 4})",
+            "assert add_dict_to_tuple((8, 9, 10), {\"POS\" : 3, \"is\" : 4, \"Okay\" : 5} ) == (8, 9, 10, {'POS': 3, 'is': 4, 'Okay': 5})"
+        ],
+        "entry_point": "add_dict_to_tuple",
+        "test": "def check():\n    assert add_dict_to_tuple((4, 5, 6), {\"MSAM\" : 1, \"is\" : 2, \"best\" : 3} ) == (4, 5, 6, {'MSAM': 1, 'is': 2, 'best': 3})\n    assert add_dict_to_tuple((1, 2, 3), {\"UTS\" : 2, \"is\" : 3, \"Worst\" : 4} ) == (1, 2, 3, {'UTS': 2, 'is': 3, 'Worst': 4})\n    assert add_dict_to_tuple((8, 9, 10), {\"POS\" : 3, \"is\" : 4, \"Okay\" : 5} ) == (8, 9, 10, {'POS': 3, 'is': 4, 'Okay': 5})\n"
+    },
+    {
+        "source_file": "charlessutton@: Benchmark Questions Verification V2.ipynb",
+        "task_id": 465,
+        "prompt": "Write a function to drop empty items from a given dictionary.\n\ndef drop_empty(dict1):",
+        "code": "def drop_empty(dict1):\n  dict1 = {key:value for (key, value) in dict1.items() if value is not None}\n  return dict1",
+        "test_imports": [],
+        "test_list": [
+            "assert drop_empty({'c1': 'Red', 'c2': 'Green', 'c3':None})=={'c1': 'Red', 'c2': 'Green'}",
+            "assert drop_empty({'c1': 'Red', 'c2': None, 'c3':None})=={'c1': 'Red'}",
+            "assert drop_empty({'c1': None, 'c2': 'Green', 'c3':None})=={ 'c2': 'Green'}"
+        ],
+        "entry_point": "drop_empty",
+        "test": "def check():\n    assert drop_empty({'c1': 'Red', 'c2': 'Green', 'c3':None})=={'c1': 'Red', 'c2': 'Green'}\n    assert drop_empty({'c1': 'Red', 'c2': None, 'c3':None})=={'c1': 'Red'}\n    assert drop_empty({'c1': None, 'c2': 'Green', 'c3':None})=={ 'c2': 'Green'}\n"
+    },
+    {
+        "source_file": "Mike's Copy of Benchmark Questions Verification V2.ipynb",
+        "task_id": 63,
+        "prompt": "Write a function to find the maximum difference between available pairs in the given tuple list.\n\ndef max_difference(test_list):",
+        "code": "def max_difference(test_list):\n  temp = [abs(b - a) for a, b in test_list]\n  res = max(temp)\n  return (res) ",
+        "test_imports": [],
+        "test_list": [
+            "assert max_difference([(3, 5), (1, 7), (10, 3), (1, 2)]) == 7",
+            "assert max_difference([(4, 6), (2, 17), (9, 13), (11, 12)]) == 15",
+            "assert max_difference([(12, 35), (21, 27), (13, 23), (41, 22)]) == 23"
+        ],
+        "entry_point": "max_difference",
+        "test": "def check():\n    assert max_difference([(3, 5), (1, 7), (10, 3), (1, 2)]) == 7\n    assert max_difference([(4, 6), (2, 17), (9, 13), (11, 12)]) == 15\n    assert max_difference([(12, 35), (21, 27), (13, 23), (41, 22)]) == 23\n"
+    }
+]

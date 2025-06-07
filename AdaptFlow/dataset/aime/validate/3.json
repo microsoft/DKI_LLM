@@ -1,0 +1,46 @@
+[
+    {
+        "question": "Find the number of rational numbers $r$ , $0<r<1,$ such that when $r$ is written as a fraction in lowest terms, the numerator and the denominator have a sum of $1000$ .",
+        "answer": "200"
+    },
+    {
+        "question": "Let $S$ be the increasing sequence of positive integers whose binary representation has exactly $8$ ones. Let $N$ be the 1000th number in $S$ . Find the remainder when $N$ is divided by $1000$ .",
+        "answer": "32"
+    },
+    {
+        "question": "There are two distinguishable flagpoles, and there are $19$ flags, of which $10$ are identical blue flags, and $9$ are identical green flags. Let $N$ be the number of distinguishable arrangements using all of the flags in which each flagpole has at least one flag and no two green flags on either pole are adjacent. Find the remainder when $N$ is divided by $1000$ .",
+        "answer": "310"
+    },
+    {
+        "question": "In a group of nine people each person shakes hands with exactly two of the other people from the group. Let $N$ be the number of ways this handshaking can occur. Consider two handshaking arrangements different if and only if at least two people who shake hands under one arrangement do not shake hands under the other arrangement. Find the remainder when $N$ is divided by $1000$ .",
+        "answer": "16"
+    },
+    {
+        "question": "A frog begins at $P_0 = (0,0)$ and makes a sequence of jumps according to the following rule: from $P_n = (x_n, y_n),$ the frog jumps to $P_{n+1},$ which may be any of the points $(x_n + 7, y_n + 2),$ $(x_n + 2, y_n + 7),$ $(x_n - 5, y_n - 10),$ or $(x_n - 10, y_n - 5).$ There are $M$ points $(x, y)$ with $|x| + |y| \\le 100$ that can be reached by a sequence of such jumps. Find the remainder when $M$ is divided by $1000.$",
+        "answer": "373"
+    },
+    {
+        "question": "Let $N$ be the number of consecutive 0's at the right end of the decimal representation of the product $1!2!3!4!\\cdots99!100!.$ Find the remainder when $N$ is divided by 1000.",
+        "answer": "124"
+    },
+    {
+        "question": "Let $\\mathcal{S}$ be the set $\\lbrace1,2,3,\\ldots,10\\rbrace$ Let $n$ be the number of sets of two non-empty disjoint subsets of $\\mathcal{S}$ . (Disjoint sets are defined as sets that have no common elements.) Find the remainder obtained when $n$ is divided by $1000$ .",
+        "answer": "501"
+    },
+    {
+        "question": "Except for the first two terms, each term of the sequence $1000, x, 1000 - x,\\ldots$ is obtained by subtracting the preceding term from the one before that.  The last term of the sequence is the first negative term encountered.  What positive integer $x$ produces a sequence of maximum length?",
+        "answer": "618"
+    },
+    {
+        "question": "For a positive integer $n$ , let $d_n$ be the units digit of $1 + 2 + \\dots + n$ . Find the remainder when \\[\\sum_{n=1}^{2017} d_n\\] is divided by $1000$ .",
+        "answer": "69"
+    },
+    {
+        "question": "Let $S = \\{2^0,2^1,2^2,\\ldots,2^{10}\\}$ . Consider all possible positive differences of pairs of elements of $S$ . Let $N$ be the sum of all of these differences. Find the remainder when $N$ is divided by $1000$ .",
+        "answer": "398"
+    },
+    {
+        "question": "For nonnegative integers $a$ and $b$ with $a + b \\leq 6$ , let $T(a, b) = \\binom{6}{a} \\binom{6}{b} \\binom{6}{a + b}$ . Let $S$ denote the sum of all $T(a, b)$ , where $a$ and $b$ are nonnegative integers with $a + b \\leq 6$ . Find the remainder when $S$ is divided by $1000$ .",
+        "answer": "564"
+    }
+]

@@ -1,0 +1,186 @@
+[
+    {
+        "question": "Suppose that the sum of the squares of two complex numbers $x$ and $y$ is $7$ and the sum of the cubes is $10$ . What is the largest real value that $x + y$ can have?",
+        "answer": "4"
+    },
+    {
+        "question": "The polynomial $P(x)$ is cubic.  What is the largest value of $k$ for which the polynomials $Q_1(x) = x^2 + (k-29)x - k$ and $Q_2(x) = 2x^2+ (2k-43)x + k$ are both factors of $P(x)$ ?",
+        "answer": "30"
+    },
+    {
+        "question": "The function $f$ defined by $f(x)= \\frac{ax+b}{cx+d}$ , where $a$ , $b$ , $c$ and $d$ are nonzero real numbers, has the properties $f(19)=19$ , $f(97)=97$ and $f(f(x))=x$ for all values except $\\frac{-d}{c}$ . Find the unique number that is not in the range of $f$ .",
+        "answer": "58"
+    },
+    {
+        "question": "Find $c$ if $a$ , $b$ , and $c$ are positive integers which satisfy $c=(a + bi)^3 - 107i$ , where $i^2 = -1$ .",
+        "answer": "198"
+    },
+    {
+        "question": "Let $x=\\frac{4}{(\\sqrt{5}+1)(\\sqrt[4]{5}+1)(\\sqrt[8]{5}+1)(\\sqrt[16]{5}+1)}.$ Find $(x+1)^{48}.$",
+        "answer": "125"
+    },
+    {
+        "question": "The sum of the first $2011$ terms of a geometric sequence is $200$ . The sum of the first $4022$ terms is $380$ . Find the sum of the first $6033$ terms.",
+        "answer": "542"
+    },
+    {
+        "question": "For $-1<r<1$ , let $S(r)$ denote the sum of the geometric series \\[12+12r+12r^2+12r^3+\\cdots .\\] Let $a$ between $-1$ and $1$ satisfy $S(a)S(-a)=2016$ . Find $S(a)+S(-a)$ .",
+        "answer": "336"
+    },
+    {
+        "question": "There are nonzero integers $a$ , $b$ , $r$ , and $s$ such that the complex number $r+si$ is a zero of the polynomial $P(x)={x}^{3}-a{x}^{2}+bx-65$ . For each possible combination of $a$ and $b$ , let ${p}_{a,b}$ be the sum of the zeros of $P(x)$ . Find the sum of the ${p}_{a,b}$ 's for all possible combinations of $a$ and $b$ .",
+        "answer": "80"
+    },
+    {
+        "question": "If $\\{a_1,a_2,a_3,\\ldots,a_n\\}$ is a set of real numbers , indexed so that $a_1 < a_2 < a_3 < \\cdots < a_n,$ its complex power sum is defined to be $a_1i + a_2i^2+ a_3i^3 + \\cdots + a_ni^n,$ where $i^2 = - 1.$ Let $S_n$ be the sum of the complex power sums of all nonempty subsets of $\\{1,2,\\ldots,n\\}.$ Given that $S_8 = - 176 - 64i$ and $S_9 = p + qi,$ where $p$ and $q$ are integers, find $|p| + |q|.$",
+        "answer": "368"
+    },
+    {
+        "question": "The polynomial $f(z)=az^{2018}+bz^{2017}+cz^{2016}$ has real coefficients not exceeding $2019,$ and $f\\left(\\tfrac{1+\\sqrt3i}{2}\\right)=2015+2019\\sqrt3i$ . Find the remainder when $f(1)$ is divided by $1000$ .",
+        "answer": "53"
+    },
+    {
+        "question": "Let $C$ be the coefficient of $x^2$ in the expansion of the product $(1 - x)(1 + 2x)(1 - 3x)\\cdots(1 + 14x)(1 - 15x).$ Find $|C|.$",
+        "answer": "588"
+    },
+    {
+        "question": "Let $r$ , $s$ , and $t$ be the three roots of the equation \\[8x^3 + 1001x + 2008 = 0.\\] Find $(r + s)^3 + (s + t)^3 + (t + r)^3$ .",
+        "answer": "753"
+    },
+    {
+        "question": "The equation $z^6+z^3+1=0$ has complex roots with argument $\\theta$ between $90^\\circ$ and $180^\\circ$ in the complex plane. Determine the degree measure of $\\theta$ .",
+        "answer": "160"
+    },
+    {
+        "question": "Assume that $a$ , $b$ , $c$ and $d$ are positive integers such that $a^5 = b^4$ , $c^3 = d^2$ and $c - a = 19$ . Determine $d - b$ .",
+        "answer": "757"
+    },
+    {
+        "question": "Find $a$ if $a$ and $b$ are integers such that $x^2 - x - 1$ is a factor of $ax^{17} + bx^{16} + 1$ .",
+        "answer": "987"
+    },
+    {
+        "question": "The increasing geometric sequence $x_{0},x_{1},x_{2},\\ldots$ consists entirely of integral powers of $3.$ Given that $\\sum_{n=0}^{7}\\log_{3}(x_{n}) = 308$ and $56 \\leq \\log_{3}\\left ( \\sum_{n=0}^{7}x_{n}\\right ) \\leq 57,$ find $\\log_{3}(x_{14}).$",
+        "answer": "91"
+    },
+    {
+        "question": "For how many real numbers $a^{}_{}$ does the quadratic equation $x^2 + ax^{}_{} + 6a=0$ have only integer roots for $x^{}_{}$ ?",
+        "answer": "10"
+    },
+    {
+        "question": "A real number $a$ is chosen randomly and uniformly from the interval $[-20, 18]$ . The probability that the roots of the polynomial \\[x^4 + 2ax^3 + (2a - 2)x^2 + (-4a + 3)x - 2\\] are all real can be written in the form $\\dfrac{m}{n}$ , where $m$ and $n$ are relatively prime positive integers. Find $m + n$ .",
+        "answer": "37"
+    },
+    {
+        "question": "Given that \\begin{align*}x_{1}&=211,\\\\ x_{2}&=375,\\\\ x_{3}&=420,\\\\ x_{4}&=523,\\ \\text{and}\\\\ x_{n}&=x_{n-1}-x_{n-2}+x_{n-3}-x_{n-4}\\ \\text{when}\\ n\\geq5, \\end{align*} find the value of $x_{531}+x_{753}+x_{975}$ .",
+        "answer": "898"
+    },
+    {
+        "question": "Evaluate the product \\[\\left(\\sqrt{5}+\\sqrt{6}+\\sqrt{7}\\right)\\left(\\sqrt{5}+\\sqrt{6}-\\sqrt{7}\\right)\\left(\\sqrt{5}-\\sqrt{6}+\\sqrt{7}\\right)\\left(-\\sqrt{5}+\\sqrt{6}+\\sqrt{7}\\right).\\]",
+        "answer": "104"
+    },
+    {
+        "question": "Let $F(z)=\\frac{z+i}{z-i}$ for all complex numbers $z\\not= i$ , and let $z_n=F(z_{n-1})$ for all positive integers $n$ . Given that $z_0=\\frac 1{137}+i$ and $z_{2002}=a+bi$ , where $a$ and $b$ are real numbers, find $a+b$ .",
+        "answer": "275"
+    },
+    {
+        "question": "Find $ax^5 + by^5$ if the real numbers $a,b,x,$ and $y$ satisfy the equations \\begin{align*} ax + by &= 3, \\\\ ax^2 + by^2 &= 7, \\\\ ax^3 + by^3 &= 16, \\\\ ax^4 + by^4 &= 42. \\end{align*}",
+        "answer": "20"
+    },
+    {
+        "question": "Let $z_1 = 18 + 83i$ , $z_2 = 18 + 39i,$ and $z_3 = 78 + 99i,$ where $i = \\sqrt{-1}$ . Let $z$ be the unique complex number with the properties that $\\frac{z_3 - z_1}{z_2 - z_1} \\cdot \\frac{z - z_2}{z - z_3}$ is a real number and the imaginary part of $z$ is the greatest possible. Find the real part of $z$ .",
+        "answer": "56"
+    },
+    {
+        "question": "There is a prime number $p$ such that $16p+1$ is the cube of a positive integer.  Find $p$ .",
+        "answer": "307"
+    },
+    {
+        "question": "The number $\\sqrt{104\\sqrt{6}+468\\sqrt{10}+144\\sqrt{15}+2006}$ can be written as $a\\sqrt{2}+b\\sqrt{3}+c\\sqrt{5},$ where $a, b,$ and $c$ are positive integers. Find $abc.$",
+        "answer": "936"
+    },
+    {
+        "question": "What is the product of the real roots of the equation $x^2 + 18x + 30 = 2 \\sqrt{x^2 + 18x + 45}$ ?",
+        "answer": "20"
+    },
+    {
+        "question": "Find the sum of all positive integers $n$ such that when $1^3+2^3+3^3+\\cdots +n^3$ is divided by $n+5$ , the remainder is $17$ .",
+        "answer": "239"
+    },
+    {
+        "question": "For integers $a,b,c$ and $d,$ let $f(x)=x^2+ax+b$ and $g(x)=x^2+cx+d.$ Find the number of ordered triples $(a,b,c)$ of integers with absolute values not exceeding $10$ for which there is an integer $d$ such that $g(f(2))=g(f(4))=0.$",
+        "answer": "510"
+    },
+    {
+        "question": "A list of positive integers has the following properties: $\\bullet$ The sum of the items in the list is $30$ . $\\bullet$ The unique mode of the list is $9$ . $\\bullet$ The median of the list is a positive integer that does not appear in the list itself. Find the sum of the squares of all the items in the list.",
+        "answer": "236"
+    },
+    {
+        "question": "Let $P(x)$ be a quadratic polynomial with complex coefficients whose $x^2$ coefficient is $1.$ Suppose the equation $P(P(x))=0$ has four distinct solutions, $x=3,4,a,b.$ Find the sum of all possible values of $(a+b)^2.$",
+        "answer": "85"
+    },
+    {
+        "question": "Let $P(z)=z^3+az^2+bz+c$ , where $a$ , $b$ , and $c$ are real. There exists a complex number $w$ such that the three roots of $P(z)$ are $w+3i$ , $w+9i$ , and $2w-4$ , where $i^2=-1$ . Find $|a+b+c|$ .",
+        "answer": "136"
+    },
+    {
+        "question": "Find the sum of all positive integers $n$ such that $\\sqrt{n^2+85n+2017}$ is an integer.",
+        "answer": "195"
+    },
+    {
+        "question": "Assume that $x_1,x_2,\\ldots,x_7$ are real numbers such that \\begin{align*} x_1 + 4x_2 + 9x_3 + 16x_4 + 25x_5 + 36x_6 + 49x_7 &= 1, \\\\ 4x_1 + 9x_2 + 16x_3 + 25x_4 + 36x_5 + 49x_6 + 64x_7 &= 12, \\\\ 9x_1 + 16x_2 + 25x_3 + 36x_4 + 49x_5 + 64x_6 + 81x_7 &= 123. \\end{align*} Find the value of $16x_1+25x_2+36x_3+49x_4+64x_5+81x_6+100x_7$ .",
+        "answer": "334"
+    },
+    {
+        "question": "Let $P$ be the product of the nonreal roots of $x^4-4x^3+6x^2-4x=2005.$ Find $\\lfloor P\\rfloor.$",
+        "answer": "45"
+    },
+    {
+        "question": "Consider the polynomials $P(x) = x^{6} - x^{5} - x^{3} - x^{2} - x$ and $Q(x) = x^{4} - x^{3} - x^{2} - 1.$ Given that $z_{1},z_{2},z_{3},$ and $z_{4}$ are the roots of $Q(x) = 0,$ find $P(z_{1}) + P(z_{2}) + P(z_{3}) + P(z_{4}).$",
+        "answer": "6"
+    },
+    {
+        "question": "Two positive integers differ by $60.$ The sum of their square roots is the square root of an integer that is not a perfect square. What is the maximum possible sum of the two integers?",
+        "answer": "156"
+    },
+    {
+        "question": "Find the smallest positive integer $n$ for which the expansion of $(xy-3x+7y-21)^n$ , after like terms have been collected, has at least 1996 terms.",
+        "answer": "44"
+    },
+    {
+        "question": "A certain function $f$ has the properties that $f(3x) = 3f(x)$ for all positive real values of $x$ , and that $f(x) = 1 - |x - 2|$ for $1\\leq x \\leq 3$ . Find the smallest $x$ for which $f(x) = f(2001)$ .",
+        "answer": "429"
+    },
+    {
+        "question": "For integers $a$ and $b$ consider the complex number \\[\\frac{\\sqrt{ab+2016}}{ab+100}-\\left(\\frac{\\sqrt{|a+b|}}{ab+100}\\right)i.\\] Find the number of ordered pairs of integers $(a,b)$ such that this complex number is a real number.",
+        "answer": "103"
+    },
+    {
+        "question": "The equation $2^{333x-2} + 2^{111x+2} = 2^{222x+1} + 1$ has three real roots. Given that their sum is $\\frac mn$ where $m$ and $n$ are relatively prime positive integers, find $m+n.$",
+        "answer": "113"
+    },
+    {
+        "question": "There is a polynomial $P(x)$ with integer coefficients such that \\[P(x)=\\frac{(x^{2310}-1)^6}{(x^{105}-1)(x^{70}-1)(x^{42}-1)(x^{30}-1)}\\] holds for every $0<x<1.$ Find the coefficient of $x^{2022}$ in $P(x)$ .",
+        "answer": "220"
+    },
+    {
+        "question": "Let $m$ be the largest real solution to the equation \\[\\dfrac{3}{x-3} + \\dfrac{5}{x-5} + \\dfrac{17}{x-17} + \\dfrac{19}{x-19} = x^2 - 11x - 4\\] There are positive integers $a, b,$ and $c$ such that $m = a + \\sqrt{b + \\sqrt{c}}$ . Find $a+b+c$ .",
+        "answer": "263"
+    },
+    {
+        "question": "The sequence $\\{a_n\\}$ is defined by \\[a_0 = 1,a_1 = 1, \\text{ and } a_n = a_{n - 1} + \\frac {a_{n - 1}^2}{a_{n - 2}}\\text{ for }n\\ge2.\\] The sequence $\\{b_n\\}$ is defined by \\[b_0 = 1,b_1 = 3, \\text{ and } b_n = b_{n - 1} + \\frac {b_{n - 1}^2}{b_{n - 2}}\\text{ for }n\\ge2.\\] Find $\\frac {b_{32}}{a_{32}}$ .",
+        "answer": "561"
+    },
+    {
+        "question": "What is the sum of the solutions to the equation $\\sqrt[4]{x} = \\frac{12}{7 - \\sqrt[4]{x}}$ ?",
+        "answer": "337"
+    },
+    {
+        "question": "Let $f(n)$ be the integer closest to $\\sqrt[4]{n}.$ Find $\\sum_{k=1}^{1995}\\frac 1{f(k)}.$",
+        "answer": "400"
+    },
+    {
+        "question": "Find the value of $10\\cot(\\cot^{-1}3+\\cot^{-1}7+\\cot^{-1}13+\\cot^{-1}21).$",
+        "answer": "15"
+    }
+]

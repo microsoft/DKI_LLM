@@ -1,0 +1,42 @@
+[
+    {
+        "question": "An integer $n$, with $100 \\leq n \\leq 999$, is chosen at random. What is the probability that the sum of the digits of $n$ is 24 ?",
+        "answer": "$\\frac{1}{90}$"
+    },
+    {
+        "question": "Let $T=\\frac{1}{6084}$. Compute the least positive integer $n$ such that when a fair coin is flipped $n$ times, the probability of it landing heads on all $n$ flips is less than $T$.",
+        "answer": "13"
+    },
+    {
+        "question": "Let $T=70$. Chef Selma is preparing a burrito menu. A burrito consists of: (1) a choice of chicken, beef, turkey, or no meat, (2) exactly one of three types of beans, (3) exactly one of two types of rice, and (4) exactly one of $K$ types of cheese. Compute the smallest value of $K$ such that Chef Selma can make at least $T$ different burrito varieties.",
+        "answer": "3"
+    },
+    {
+        "question": "Elizabeth is in an \"escape room\" puzzle. She is in a room with one door which is locked at the start of the puzzle. The room contains $n$ light switches, each of which is initially off. Each minute, she must flip exactly $k$ different light switches (to \"flip\" a switch means to turn it on if it is currently off, and off if it is currently on). At the end of each minute, if all of the switches are on, then the door unlocks and Elizabeth escapes from the room.\n\nLet $E(n, k)$ be the minimum number of minutes required for Elizabeth to escape, for positive integers $n, k$ with $k \\leq n$. For example, $E(2,1)=2$ because Elizabeth cannot escape in one minute (there are two switches and one must be flipped every minute) but she can escape in two minutes (by flipping Switch 1 in the first minute and Switch 2 in the second minute). Define $E(n, k)=\\infty$ if the puzzle is impossible to solve (that is, if it is impossible to have all switches on at the end of any minute).\n\nFor convenience, assume the $n$ light switches are numbered 1 through $n$.\nFind the $E(2001,501)$",
+        "answer": "5"
+    },
+    {
+        "question": "2500 chess kings have to be placed on a $100 \\times 100$ chessboard so that\n\n(i) no king can capture any other one (i.e. no two kings are placed in two squares sharing a common vertex);\n\n(ii) each row and each column contains exactly 25 kings.\n\nFind the number of such arrangements. (Two arrangements differing by rotation or symmetry are supposed to be different.)",
+        "answer": "2"
+    },
+    {
+        "question": "Ada starts with $x=10$ and $y=2$, and applies the following process:\n\nStep 1: Add $x$ and $y$. Let $x$ equal the result. The value of $y$ does not change. Step 2: Multiply $x$ and $y$. Let $x$ equal the result. The value of $y$ does not change.\n\nStep 3: Add $y$ and 1. Let $y$ equal the result. The value of $x$ does not change.\n\nAda keeps track of the values of $x$ and $y$ :\n\n|  | $x$ | $y$ |\n| :---: | :---: | :---: |\n| Before Step 1 | 10 | 2 |\n| After Step 1 | 12 | 2 |\n| After Step 2 | 24 | 2 |\n| After Step 3 | 24 | 3 |\n\nContinuing now with $x=24$ and $y=3$, Ada applies the process two more times. What is the final value of $x$ ?",
+        "answer": "340"
+    },
+    {
+        "question": "In the plane, 2013 red points and 2014 blue points are marked so that no three of the marked points are collinear. One needs to draw $k$ lines not passing through the marked points and dividing the plane into several regions. The goal is to do it in such a way that no region contains points of both colors.\n\nFind the minimal value of $k$ such that the goal is attainable for every possible configuration of 4027 points.",
+        "answer": "2013"
+    },
+    {
+        "question": "Elizabeth is in an \"escape room\" puzzle. She is in a room with one door which is locked at the start of the puzzle. The room contains $n$ light switches, each of which is initially off. Each minute, she must flip exactly $k$ different light switches (to \"flip\" a switch means to turn it on if it is currently off, and off if it is currently on). At the end of each minute, if all of the switches are on, then the door unlocks and Elizabeth escapes from the room.\n\nLet $E(n, k)$ be the minimum number of minutes required for Elizabeth to escape, for positive integers $n, k$ with $k \\leq n$. For example, $E(2,1)=2$ because Elizabeth cannot escape in one minute (there are two switches and one must be flipped every minute) but she can escape in two minutes (by flipping Switch 1 in the first minute and Switch 2 in the second minute). Define $E(n, k)=\\infty$ if the puzzle is impossible to solve (that is, if it is impossible to have all switches on at the end of any minute).\n\nFor convenience, assume the $n$ light switches are numbered 1 through $n$.\nOne might guess that in most cases, $E(n, k) \\approx \\frac{n}{k}$. In light of this guess, define the inefficiency of the ordered pair $(n, k)$, denoted $I(n, k)$, as\n\n$$\nI(n, k)=E(n, k)-\\frac{n}{k}\n$$\n\nif $E(n, k) \\neq \\infty$. If $E(n, k)=\\infty$, then by convention, $I(n, k)$ is undefined.\n\nCompute $I(6,3)$.",
+        "answer": "0"
+    },
+    {
+        "question": "A permutation of a list of numbers is an ordered arrangement of the numbers in that list. For example, $3,2,4,1,6,5$ is a permutation of $1,2,3,4,5,6$. We can write this permutation as $a_{1}, a_{2}, a_{3}, a_{4}, a_{5}, a_{6}$, where $a_{1}=3, a_{2}=2, a_{3}=4, a_{4}=1, a_{5}=6$, and $a_{6}=5$.\nDetermine the average value of\n\n$$\n\\left|a_{1}-a_{2}\\right|+\\left|a_{3}-a_{4}\\right|\n$$\n\nover all permutations $a_{1}, a_{2}, a_{3}, a_{4}$ of $1,2,3,4$.",
+        "answer": "$\\frac{10}{3}$"
+    },
+    {
+        "question": "Let $T=5$. Hannah flips two fair coins, while Otto flips $T$ fair coins. Let $p$ be the probability that the number of heads showing on Hannah's coins is greater than the number of heads showing on Otto's coins. If $p=q / r$, where $q$ and $r$ are relatively prime positive integers, compute $q+r$.",
+        "answer": "17"
+    }
+]

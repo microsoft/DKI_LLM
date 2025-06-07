@@ -1,0 +1,118 @@
+[
+    {
+        "question": "Let $\\overline{MN}$ be a diameter of a circle with diameter $1$ . Let $A$ and $B$ be points on one of the semicircular arcs determined by $\\overline{MN}$ such that $A$ is the midpoint of the semicircle and $MB=\\dfrac 35$ . Point $C$ lies on the other semicircular arc. Let $d$ be the length of the line segment whose endpoints are the intersections of diameter $\\overline{MN}$ with the chords $\\overline{AC}$ and $\\overline{BC}$ . The largest possible value of $d$ can be written in the form $r-s\\sqrt t$ , where $r$ , $s$ , and $t$ are positive integers and $t$ is not divisible by the square of any prime. Find $r+s+t$ .",
+        "answer": "14"
+    },
+    {
+        "question": "In parallelogram $ABCD$ , point $M$ is on $\\overline{AB}$ so that $\\frac {AM}{AB} = \\frac {17}{1000}$ and point $N$ is on $\\overline{AD}$ so that $\\frac {AN}{AD} = \\frac {17}{2009}$ . Let $P$ be the point of intersection of $\\overline{AC}$ and $\\overline{MN}$ . Find $\\frac {AC}{AP}$ .",
+        "answer": "177"
+    },
+    {
+        "question": "In triangle $ABC$ , $AB=\\sqrt{30}$ , $AC=\\sqrt{6}$ , and $BC=\\sqrt{15}$ . There is a point $D$ for which $\\overline{AD}$ bisects $\\overline{BC}$ , and $\\angle ADB$ is a right angle. The ratio \\[\\dfrac{\\text{Area}(\\triangle ADB)}{\\text{Area}(\\triangle ABC)}\\] can be written in the form $\\dfrac{m}{n}$ , where $m$ and $n$ are relatively prime positive integers. Find $m+n$ .",
+        "answer": "65"
+    },
+    {
+        "question": "A rectangular box has width $12$ inches, length $16$ inches, and height $\\frac{m}{n}$ inches, where $m$ and $n$ are relatively prime positive integers. Three faces of the box meet at a corner of the box. The center points of those three faces are the vertices of a triangle with an area of $30$ square inches. Find $m+n$ .",
+        "answer": "41"
+    },
+    {
+        "question": "A right prism with height $h$ has bases that are regular hexagons with sides of length $12$ . A vertex $A$ of the prism and its three adjacent vertices are the vertices of a triangular pyramid. The dihedral angle (the angle between the two planes) formed by the face of the pyramid that lies in a base of the prism and the face of the pyramid that does not contain $A$ measures $60^\\circ$ . Find $h^2$ .",
+        "answer": "108"
+    },
+    {
+        "question": "Equilateral triangle $ABC$ has side length $840$ . Point $D$ lies on the same side of line $BC$ as $A$ such that $\\overline{BD} \\perp \\overline{BC}$ . The line $\\ell$ through $D$ parallel to line $BC$ intersects sides $\\overline{AB}$ and $\\overline{AC}$ at points $E$ and $F$ , respectively. Point $G$ lies on $\\ell$ such that $F$ is between $E$ and $G$ , $\\triangle AFG$ is isosceles, and the ratio of the area of $\\triangle AFG$ to the area of $\\triangle BED$ is $8:9$ . Find $AF$ . [asy] pair A,B,C,D,E,F,G; B=origin; A=5*dir(60); C=(5,0); E=0.6*A+0.4*B; F=0.6*A+0.4*C; G=rotate(240,F)*A; D=extension(E,F,B,dir(90)); draw(D--G--A,grey); draw(B--0.5*A+rotate(60,B)*A*0.5,grey); draw(A--B--C--cycle,linewidth(1.5)); dot(A^^B^^C^^D^^E^^F^^G); label(\"$A$\",A,dir(90)); label(\"$B$\",B,dir(225)); label(\"$C$\",C,dir(-45)); label(\"$D$\",D,dir(180)); label(\"$E$\",E,dir(-45)); label(\"$F$\",F,dir(225)); label(\"$G$\",G,dir(0)); label(\"$\\ell$\",midpoint(E--F),dir(90)); [/asy]",
+        "answer": "336"
+    },
+    {
+        "question": "Let $ABCD$ be a convex quadrilateral with $AB = CD = 10$ , $BC = 14$ , and $AD = 2\\sqrt{65}$ . Assume that the diagonals of $ABCD$ intersect at point $P$ , and that the sum of the areas of triangles $APB$ and $CPD$ equals the sum of the areas of triangles $BPC$ and $APD$ . Find the area of quadrilateral $ABCD$ .",
+        "answer": "112"
+    },
+    {
+        "question": "A right circular cone has base radius $r$ and height $h$ .  The cone lies on its side on a flat table.  As the cone rolls on the surface of the table without slipping, the point where the cone's base meets the table traces a circular arc centered  at the point where the vertex touches the table.  The cone first returns to its original position on the table after making $17$ complete rotations.  The value of $h/r$ can be written in the form $m\\sqrt {n}$ , where $m$ and $n$ are positive integers and $n$ is not divisible by the square of any prime.  Find $m + n$ .",
+        "answer": "14"
+    },
+    {
+        "question": "In the Cartesian plane let $A = (1,0)$ and $B = \\left( 2, 2\\sqrt{3} \\right)$ .  Equilateral triangle $ABC$ is constructed so that $C$ lies in the first quadrant.  Let $P=(x,y)$ be the center of $\\triangle ABC$ .  Then $x \\cdot y$ can be written as $\\tfrac{p\\sqrt{q}}{r}$ , where $p$ and $r$ are relatively prime positive integers and $q$ is an integer that is not divisible by the square of any prime.  Find $p+q+r$ .",
+        "answer": "40"
+    },
+    {
+        "question": "Eight circles of diameter 1 are packed in the first quadrant of the coordinate plane as shown. Let region $\\mathcal{R}$ be the union of the eight circular regions. Line $l,$ with slope 3, divides $\\mathcal{R}$ into two regions of equal area. Line $l$ 's equation can be expressed in the form $ax=by+c,$ where $a, b,$ and $c$ are positive integers whose greatest common divisor is 1. Find $a^2+b^2+c^2.$ [asy] unitsize(0.50cm); draw((0,-1)--(0,6)); draw((-1,0)--(6,0)); draw(shift(1,1)*unitcircle); draw(shift(1,3)*unitcircle); draw(shift(1,5)*unitcircle); draw(shift(3,1)*unitcircle); draw(shift(3,3)*unitcircle); draw(shift(3,5)*unitcircle); draw(shift(5,1)*unitcircle); draw(shift(5,3)*unitcircle); [/asy]",
+        "answer": "65"
+    },
+    {
+        "question": "Twelve congruent disks are placed on a circle $C^{}_{}$ of radius 1 in such a way that the twelve disks cover $C^{}_{}$ , no two of the disks overlap, and so that each of the twelve disks is tangent to its two neighbors. The resulting arrangement of disks is shown in the figure below.  The sum of the areas of the twelve disks can be written in the form $\\pi(a-b\\sqrt{c})$ , where $a,b,c^{}_{}$ are positive integers and $c^{}_{}$ is not divisible by the square of any prime. Find $a+b+c^{}_{}$ . [asy] unitsize(100); draw(Circle((0,0),1)); dot((0,0)); draw((0,0)--(1,0)); label(\"$1$\", (0.5,0), S);  for (int i=0; i<12; ++i) { dot((cos(i*pi/6), sin(i*pi/6))); }  for (int a=1; a<24; a+=2) { dot(((1/cos(pi/12))*cos(a*pi/12), (1/cos(pi/12))*sin(a*pi/12))); draw(((1/cos(pi/12))*cos(a*pi/12), (1/cos(pi/12))*sin(a*pi/12))--((1/cos(pi/12))*cos((a+2)*pi/12), (1/cos(pi/12))*sin((a+2)*pi/12))); draw(Circle(((1/cos(pi/12))*cos(a*pi/12), (1/cos(pi/12))*sin(a*pi/12)), tan(pi/12))); } [/asy]",
+        "answer": "135"
+    },
+    {
+        "question": "Each face of two noncongruent parallelepipeds is a rhombus whose diagonals have lengths $\\sqrt{21}$ and $\\sqrt{31}$ . The ratio of the volume of the larger of the two polyhedra to the volume of the smaller is $\\frac{m}{n}$ , where $m$ and $n$ are relatively prime positive integers. Find $m + n$ . A parallelepiped is a solid with six parallelogram faces such as the one shown below. [asy] unitsize(2cm); pair o = (0, 0), u = (1, 0), v = 0.8*dir(40), w = dir(70);  draw(o--u--(u+v)); draw(o--v--(u+v), dotted); draw(shift(w)*(o--u--(u+v)--v--cycle)); draw(o--w); draw(u--(u+w)); draw(v--(v+w), dotted); draw((u+v)--(u+v+w)); [/asy]",
+        "answer": "125"
+    },
+    {
+        "question": "A fenced, rectangular field measures 24 meters by 52 meters. An agricultural researcher has 1994 meters of fence that can be used for internal fencing to partition the field into congruent, square test plots. The entire field must be partitioned, and the sides of the squares must be parallel to the edges of the field. What is the largest number of square test plots into which the field can be partitioned using all or some of the 1994 meters of fence?",
+        "answer": "702"
+    },
+    {
+        "question": "In triangle $ABC$ , $AB = AC = 100$ , and $BC = 56$ . Circle $P$ has radius $16$ and is tangent to $\\overline{AC}$ and $\\overline{BC}$ . Circle $Q$ is externally tangent to circle $P$ and is tangent to $\\overline{AB}$ and $\\overline{BC}$ . No point of circle $Q$ lies outside of $\\bigtriangleup\\overline{ABC}$ . The radius of circle $Q$ can be expressed in the form $m - n\\sqrt{k}$ ,where $m$ , $n$ , and $k$ are positive integers and $k$ is the product of distinct primes. Find $m +nk$ .",
+        "answer": "254"
+    },
+    {
+        "question": "In rectangle $ABCD$ , $AB = 12$ and $BC = 10$ .  Points $E$ and $F$ lie inside rectangle $ABCD$ so that $BE = 9$ , $DF = 8$ , $\\overline{BE} \\parallel \\overline{DF}$ , $\\overline{EF} \\parallel \\overline{AB}$ , and line $BE$ intersects segment $\\overline{AD}$ .  The length $EF$ can be expressed in the form $m \\sqrt{n} - p$ , where $m$ , $n$ , and $p$ are positive integers and $n$ is not divisible by the square of any prime.  Find $m + n + p$ .",
+        "answer": "36"
+    },
+    {
+        "question": "Square $ABCD$ has center $O, AB=900, E$ and $F$ are on $AB$ with $AE<BF$ and $E$ between $A$ and $F, m\\angle EOF =45^\\circ,$ and $EF=400.$ Given that $BF=p+q\\sqrt{r},$ where $p,q,$ and $r$ are positive integers and $r$ is not divisible by the square of any prime, find $p+q+r.$",
+        "answer": "307"
+    },
+    {
+        "question": "A beam of light strikes $\\overline{BC}\\,$ at point $C\\,$ with angle of incidence $\\alpha=19.94^\\circ\\,$ and reflects with an equal angle of reflection as shown.  The light beam continues its path, reflecting off line segments $\\overline{AB}\\,$ and $\\overline{BC}\\,$ according to the rule: angle of incidence equals angle of reflection.  Given that $\\beta=\\alpha/10=1.994^\\circ\\,$ and $AB=BC,\\,$ determine the number of times the light beam will bounce off the two line segments.  Include the first reflection at $C\\,$ in your count. AIME 1994 Problem 14.png",
+        "answer": "71"
+    },
+    {
+        "question": "Let $\\triangle ABC$ be an acute scalene triangle with circumcircle $\\omega$ . The tangents to $\\omega$ at $B$ and $C$ intersect at $T$ . Let $X$ and $Y$ be the projections of $T$ onto lines $AB$ and $AC$ , respectively. Suppose $BT = CT = 16$ , $BC = 22$ , and $TX^2 + TY^2 + XY^2 = 1143$ . Find $XY^2$ .",
+        "answer": "717"
+    },
+    {
+        "question": "Rectangle $ABCD$ is given with $AB=63$ and $BC=448.$ Points $E$ and $F$ lie on $AD$ and $BC$ respectively, such that $AE=CF=84.$ The inscribed circle of triangle $BEF$ is tangent to $EF$ at point $P,$ and the inscribed circle of triangle $DEF$ is tangent to $EF$ at point $Q.$ Find $PQ.$",
+        "answer": "259"
+    },
+    {
+        "question": "Equilateral $\\triangle ABC$ has side length $\\sqrt{111}$ . There are four distinct triangles $AD_1E_1$ , $AD_1E_2$ , $AD_2E_3$ , and $AD_2E_4$ , each congruent to $\\triangle ABC$ ,\nwith $BD_1 = BD_2 = \\sqrt{11}$ . Find $\\sum_{k=1}^4(CE_k)^2$ .",
+        "answer": "677"
+    },
+    {
+        "question": "A circle circumscribes an isosceles triangle whose two congruent angles have degree measure $x$ . Two points are chosen independently and uniformly at random on the circle, and a chord is drawn between them. The probability that the chord intersects the triangle is $\\frac{14}{25}$ . Find the difference between the largest and smallest possible values of $x$ .",
+        "answer": "48"
+    },
+    {
+        "question": "Let $ABCD$ be a cyclic quadrilateral with $AB=4,BC=5,CD=6,$ and $DA=7.$ Let $A_1$ and $C_1$ be the feet of the perpendiculars from $A$ and $C,$ respectively, to line $BD,$ and let $B_1$ and $D_1$ be the feet of the perpendiculars from $B$ and $D,$ respectively, to line $AC.$ The perimeter of $A_1B_1C_1D_1$ is $\\frac mn,$ where $m$ and $n$ are relatively prime positive integers. Find $m+n.$",
+        "answer": "301"
+    },
+    {
+        "question": "Triangle $ABC$ has side lengths $AB = 9$ , $BC =$ $5\\sqrt{3}$ , and $AC = 12$ . Points $A = P_{0}, P_{1}, P_{2}, ... , P_{2450} = B$ are on segment $\\overline{AB}$ with $P_{k}$ between $P_{k-1}$ and $P_{k+1}$ for $k = 1, 2, ..., 2449$ , and points $A = Q_{0}, Q_{1}, Q_{2}, ... , Q_{2450} = C$ are on segment $\\overline{AC}$ with $Q_{k}$ between $Q_{k-1}$ and $Q_{k+1}$ for $k = 1, 2, ..., 2449$ . Furthermore, each segment $\\overline{P_{k}Q_{k}}$ , $k = 1, 2, ..., 2449$ , is parallel to $\\overline{BC}$ . The segments cut the triangle into $2450$ regions, consisting of $2449$ trapezoids and $1$ triangle. Each of the $2450$ regions has the same area. Find the number of segments $\\overline{P_{k}Q_{k}}$ , $k = 1, 2, ..., 2450$ , that have rational length.",
+        "answer": "20"
+    },
+    {
+        "question": "Four circles $\\omega,$ $\\omega_{A},$ $\\omega_{B},$ and $\\omega_{C}$ with the same radius are drawn in the interior of triangle $ABC$ such that $\\omega_{A}$ is tangent to sides $AB$ and $AC$ , $\\omega_{B}$ to $BC$ and $BA$ , $\\omega_{C}$ to $CA$ and $CB$ , and $\\omega$ is externally tangent to $\\omega_{A},$ $\\omega_{B},$ and $\\omega_{C}$ . If the sides of triangle $ABC$ are $13,$ $14,$ and $15,$ the radius of $\\omega$ can be represented in the form $\\frac{m}{n}$ , where $m$ and $n$ are relatively prime positive integers. Find $m+n.$",
+        "answer": "389"
+    },
+    {
+        "question": "The incircle $\\omega$ of triangle $ABC$ is tangent to $\\overline{BC}$ at $X$ . Let $Y \\neq X$ be the other intersection of $\\overline{AX}$ with $\\omega$ . Points $P$ and $Q$ lie on $\\overline{AB}$ and $\\overline{AC}$ , respectively, so that $\\overline{PQ}$ is tangent to $\\omega$ at $Y$ . Assume that $AP = 3$ , $PB = 4$ , $AC = 8$ , and $AQ = \\dfrac{m}{n}$ , where $m$ and $n$ are relatively prime positive integers. Find $m+n$ .",
+        "answer": "227"
+    },
+    {
+        "question": "Let $ABCD$ and $BCFG$ be two faces of a cube with $AB=12$ . A beam of light emanates from vertex $A$ and reflects off face $BCFG$ at point $P$ , which is $7$ units from $\\overline{BG}$ and $5$ units from $\\overline{BC}$ . The beam continues to be reflected off the faces of the cube. The length of the light path from the time it leaves point $A$ until it next reaches a vertex of the cube is given by $m\\sqrt{n}$ , where $m$ and $n$ are integers and $n$ is not divisible by the square of any prime. Find $m+n$ .",
+        "answer": "230"
+    },
+    {
+        "question": "In the diagram below, angle $ABC$ is a right angle. Point $D$ is on $\\overline{BC}$ , and $\\overline{AD}$ bisects angle $CAB$ . Points $E$ and $F$ are on $\\overline{AB}$ and $\\overline{AC}$ , respectively, so that $AE=3$ and $AF=10$ . Given that $EB=9$ and $FC=27$ , find the integer closest to the area of quadrilateral $DCFG$ . [asy] size(250); pair A=(0,12), E=(0,8), B=origin, C=(24*sqrt(2),0), D=(6*sqrt(2),0), F=A+10*dir(A--C), G=intersectionpoint(E--F, A--D); draw(A--B--C--A--D^^E--F); pair point=G+1*dir(250); label(\"$A$\", A, dir(point--A)); label(\"$B$\", B, dir(point--B)); label(\"$C$\", C, dir(point--C)); label(\"$D$\", D, dir(point--D)); label(\"$E$\", E, dir(point--E)); label(\"$F$\", F, dir(point--F)); label(\"$G$\", G, dir(point--G)); markscalefactor=0.1; draw(rightanglemark(A,B,C)); label(\"10\", A--F, dir(90)*dir(A--F)); label(\"27\", F--C, dir(90)*dir(F--C)); label(\"3\", (0,10), W); label(\"9\", (0,4), W); [/asy]",
+        "answer": "148"
+    },
+    {
+        "question": "Given that $x, y,$ and $z$ are real numbers that satisfy: \\begin{align*} x &= \\sqrt{y^2-\\frac{1}{16}}+\\sqrt{z^2-\\frac{1}{16}}, \\\\ y &= \\sqrt{z^2-\\frac{1}{25}}+\\sqrt{x^2-\\frac{1}{25}}, \\\\ z &= \\sqrt{x^2 - \\frac 1{36}}+\\sqrt{y^2-\\frac 1{36}}, \\end{align*} and that $x+y+z = \\frac{m}{\\sqrt{n}},$ where $m$ and $n$ are positive integers and $n$ is not divisible by the square of any prime, find $m+n.$",
+        "answer": "9"
+    },
+    {
+        "question": "Let $\\overline{AB}$ be a chord of a circle $\\omega$ , and let $P$ be a point on the chord $\\overline{AB}$ . Circle $\\omega_1$ passes through $A$ and $P$ and is internally tangent to $\\omega$ . Circle $\\omega_2$ passes through $B$ and $P$ and is internally tangent to $\\omega$ . Circles $\\omega_1$ and $\\omega_2$ intersect at points $P$ and $Q$ . Line $PQ$ intersects $\\omega$ at $X$ and $Y$ . Assume that $AP=5$ , $PB=3$ , $XY=11$ , and $PQ^2 = \\tfrac{m}{n}$ , where $m$ and $n$ are relatively prime positive integers. Find $m+n$ .",
+        "answer": "65"
+    }
+]

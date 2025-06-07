@@ -1,0 +1,46 @@
+[
+    {
+        "question": "Find all triples $(x, y, z)$ of positive integers such that $x \\leq y \\leq z$ and\n\n$$\nx^{3}\\left(y^{3}+z^{3}\\right)=2012(x y z+2) \\text {. }\n$$",
+        "answer": "$(2,251,252)$"
+    },
+    {
+        "question": "There exists a digit $Y$ such that, for any digit $X$, the seven-digit number $\\underline{1} \\underline{2} \\underline{3} \\underline{X} \\underline{5} \\underline{Y} \\underline{7}$ is not a multiple of 11. Compute $Y$.",
+        "answer": "4"
+    },
+    {
+        "question": "Let $p$ be a prime number. If $p$ years ago, the ages of three children formed a geometric sequence with a sum of $p$ and a common ratio of 2 , compute the sum of the children's current ages.",
+        "answer": "28"
+    },
+    {
+        "question": "For how many integers $k$ with $0<k<18$ is $\\frac{5 \\sin \\left(10 k^{\\circ}\\right)-2}{\\sin ^{2}\\left(10 k^{\\circ}\\right)} \\geq 2$ ?",
+        "answer": "13"
+    },
+    {
+        "question": "Let $\\mathbb{Z}_{>0}$ denote the set of positive integers. For any positive integer $k$, a function $f: \\mathbb{Z}_{>0} \\rightarrow \\mathbb{Z}_{>0}$ is called $k$-good if $\\operatorname{gcd}(f(m)+n, f(n)+m) \\leqslant k$ for all $m \\neq n$. Find all $k$ such that there exists a $k$-good function.",
+        "answer": "$k \\geqslant 2$"
+    },
+    {
+        "question": "$\\quad$ Compute the greatest integer $k \\leq 1000$ such that $\\left(\\begin{array}{c}1000 \\\\ k\\end{array}\\right)$ is a multiple of 7 .",
+        "answer": "979"
+    },
+    {
+        "question": "The positive integers $a$ and $b$ have no common divisor larger than 1 . If the difference between $b$ and $a$ is 15 and $\\frac{5}{9}<\\frac{a}{b}<\\frac{4}{7}$, what is the value of $\\frac{a}{b}$ ?",
+        "answer": "$\\frac{19}{34}$"
+    },
+    {
+        "question": "Compute the sum of the reciprocals of the positive integer divisors of 24.",
+        "answer": "$\\frac{5}{2}$"
+    },
+    {
+        "question": "If $A, R, M$, and $L$ are positive integers such that $A^{2}+R^{2}=20$ and $M^{2}+L^{2}=10$, compute the product $A \\cdot R \\cdot M \\cdot L$.",
+        "answer": "24"
+    },
+    {
+        "question": "If $n$ is a positive integer, then $n$ !! is defined to be $n(n-2)(n-4) \\cdots 2$ if $n$ is even and $n(n-2)(n-4) \\cdots 1$ if $n$ is odd. For example, $8 ! !=8 \\cdot 6 \\cdot 4 \\cdot 2=384$ and $9 ! !=9 \\cdot 7 \\cdot 5 \\cdot 3 \\cdot 1=945$. Compute the number of positive integers $n$ such that $n !$ ! divides 2012!!.",
+        "answer": "1510"
+    },
+    {
+        "question": "Compute the least positive integer $n$ such that the sum of the digits of $n$ is five times the sum of the digits of $(n+2019)$.",
+        "answer": "7986"
+    }
+]

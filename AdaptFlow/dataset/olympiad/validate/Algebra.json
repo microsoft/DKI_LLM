@@ -1,0 +1,66 @@
+[
+    {
+        "question": "In an infinite array with two rows, the numbers in the top row are denoted $\\ldots, A_{-2}, A_{-1}, A_{0}, A_{1}, A_{2}, \\ldots$ and the numbers in the bottom row are denoted $\\ldots, B_{-2}, B_{-1}, B_{0}, B_{1}, B_{2}, \\ldots$ For each integer $k$, the entry $A_{k}$ is directly above the entry $B_{k}$ in the array, as shown:\n\n| $\\ldots$ | $A_{-2}$ | $A_{-1}$ | $A_{0}$ | $A_{1}$ | $A_{2}$ | $\\ldots$ |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $\\ldots$ | $B_{-2}$ | $B_{-1}$ | $B_{0}$ | $B_{1}$ | $B_{2}$ | $\\ldots$ |\n\nFor each integer $k, A_{k}$ is the average of the entry to its left, the entry to its right, and the entry below it; similarly, each entry $B_{k}$ is the average of the entry to its left, the entry to its right, and the entry above it.\nIn one such array, $A_{0}=A_{1}=A_{2}=0$ and $A_{3}=1$.\n\nDetermine the value of $A_{4}$.",
+        "answer": "6"
+    },
+    {
+        "question": "Let $T=2030$. Given that $\\mathrm{A}, \\mathrm{D}, \\mathrm{E}, \\mathrm{H}, \\mathrm{S}$, and $\\mathrm{W}$ are distinct digits, and that $\\underline{\\mathrm{W}} \\underline{\\mathrm{A}} \\underline{\\mathrm{D}} \\underline{\\mathrm{E}}+\\underline{\\mathrm{A}} \\underline{\\mathrm{S}} \\underline{\\mathrm{H}}=T$, what is the largest possible value of $\\mathrm{D}+\\mathrm{E}$ ?",
+        "answer": "9"
+    },
+    {
+        "question": "Let $T=55$. Compute the value of $K$ such that $20, T-5, K$ is an increasing geometric sequence and $19, K, 4 T+11$ is an increasing arithmetic sequence.",
+        "answer": "125"
+    },
+    {
+        "question": "Let $T=-10$. Given that $\\log _{2} 4^{8 !}+\\log _{4} 2^{8 !}=6 ! \\cdot T \\cdot x$, compute $x$.",
+        "answer": "-14"
+    },
+    {
+        "question": "For each positive integer $k$, let $S_{k}$ denote the infinite arithmetic sequence of integers with first term $k$ and common difference $k^{2}$. For example, $S_{3}$ is the sequence $3,12,21, \\ldots$ Compute the sum of all $k$ such that 306 is an element of $S_{k}$.",
+        "answer": "326"
+    },
+    {
+        "question": "Let $T=5$. Compute the smallest positive integer $n$ such that there are at least $T$ positive integers in the domain of $f(x)=\\sqrt{-x^{2}-2 x+n}$.",
+        "answer": "35"
+    },
+    {
+        "question": "Ross starts with an angle of measure $8^{\\circ}$ and doubles it 10 times until he obtains $8192^{\\circ}$. He then adds up the reciprocals of the sines of these 11 angles. That is, he calculates\n\n$$\nS=\\frac{1}{\\sin 8^{\\circ}}+\\frac{1}{\\sin 16^{\\circ}}+\\frac{1}{\\sin 32^{\\circ}}+\\cdots+\\frac{1}{\\sin 4096^{\\circ}}+\\frac{1}{\\sin 8192^{\\circ}}\n$$\n\nDetermine, without using a calculator, the measure of the acute angle $\\alpha$ so that $S=\\frac{1}{\\sin \\alpha}$.",
+        "answer": "$4^{\\circ}$"
+    },
+    {
+        "question": "Let $T=10$. Ann spends 80 seconds climbing up a $T$ meter rope at a constant speed, and she spends 70 seconds climbing down the same rope at a constant speed (different from her upward speed). Ann begins climbing up and down the rope repeatedly, and she does not pause after climbing the length of the rope. After $T$ minutes, how many meters will Ann have climbed in either direction?",
+        "answer": "80"
+    },
+    {
+        "question": "Determine all functions $f$ from the set of positive integers into the set of positive integers such that for all $x$ and $y$ there exists a non degenerated triangle with sides of lengths\n\n$$\nx, \\quad f(y) \\text { and } f(y+f(x)-1) .\n$$",
+        "answer": "$f(z)=z$"
+    },
+    {
+        "question": "The four zeros of the polynomial $x^{4}+j x^{2}+k x+225$ are distinct real numbers in arithmetic progression. Compute the value of $j$.",
+        "answer": "-50"
+    },
+    {
+        "question": "Let $T=35$. Compute the smallest positive real number $x$ such that $\\frac{\\lfloor x\\rfloor}{x-\\lfloor x\\rfloor}=T$.",
+        "answer": "$\\frac{36}{35}$"
+    },
+    {
+        "question": "A bakery sells small and large cookies. Before a price increase, the price of each small cookie is $\\$ 1.50$ and the price of each large cookie is $\\$ 2.00$. The price of each small cookie is increased by $10 \\%$ and the price of each large cookie is increased by $5 \\%$. What is the percentage increase in the total cost of a purchase of 2 small cookies and 1 large cookie?",
+        "answer": "$8 \\%$"
+    },
+    {
+        "question": "Let $\\mathcal{A}$ denote the set of all polynomials in three variables $x, y, z$ with integer coefficients. Let $\\mathcal{B}$ denote the subset of $\\mathcal{A}$ formed by all polynomials which can be expressed as\n\n$$\n(x+y+z) P(x, y, z)+(x y+y z+z x) Q(x, y, z)+x y z R(x, y, z)\n$$\n\nwith $P, Q, R \\in \\mathcal{A}$. Find the smallest non-negative integer $n$ such that $x^{i} y^{j} z^{k} \\in \\mathcal{B}$ for all nonnegative integers $i, j, k$ satisfying $i+j+k \\geqslant n$.",
+        "answer": "4"
+    },
+    {
+        "question": "A circular disc is divided into 36 sectors. A number is written in each sector. When three consecutive sectors contain $a, b$ and $c$ in that order, then $b=a c$. If the number 2 is placed in one of the sectors and the number 3 is placed in one of the adjacent sectors, as shown, what is the sum of the 36 numbers on the disc?\n\n<img_3397>",
+        "answer": "48"
+    },
+    {
+        "question": "Define $f(x)=\\sin ^{6} x+\\cos ^{6} x+k\\left(\\sin ^{4} x+\\cos ^{4} x\\right)$ for some real number $k$.\nDetermine all real numbers $k$ for which $f(x)$ is constant for all values of $x$.",
+        "answer": "$-\\frac{3}{2}$"
+    },
+    {
+        "question": "Let $T=5$. If $|T|-1+3 i=\\frac{1}{z}$, compute the sum of the real and imaginary parts of $z$.",
+        "answer": "$\\frac{1}{25}$"
+    }
+]

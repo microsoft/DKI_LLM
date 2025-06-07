@@ -1,0 +1,206 @@
+[
+    {
+        "question": "A long thin strip of paper is 1024 units in length, 1 unit in width, and is divided into 1024 unit squares. The paper is folded in half repeatedly. For the first fold, the right end of the paper is folded over to coincide with and lie on top of the left end. The result is a 512 by 1 strip of double thickness. Next, the right end of this strip is folded over to coincide with and lie on top of the left end, resulting in a 256 by 1 strip of quadruple thickness. This process is repeated 8 more times. After the last fold, the strip has become a stack of 1024 unit squares. How many of these squares lie below the square that was originally the 942nd square counting from the left?",
+        "answer": "593"
+    },
+    {
+        "question": "Let $ABCDEF$ be a regular hexagon. Let $G$ , $H$ , $I$ , $J$ , $K$ , and $L$ be the midpoints of sides $AB$ , $BC$ , $CD$ , $DE$ , $EF$ , and $AF$ , respectively. The segments $\\overline{AH}$ , $\\overline{BI}$ , $\\overline{CJ}$ , $\\overline{DK}$ , $\\overline{EL}$ , and $\\overline{FG}$ bound a smaller regular hexagon. Let the ratio of the area of the smaller hexagon to the area of $ABCDEF$ be expressed as a fraction $\\frac {m}{n}$ where $m$ and $n$ are relatively prime positive integers. Find $m + n$ . ",
+        "answer": "11"
+    },
+    {
+        "question": "The sum of the areas of all triangles whose vertices are also vertices of a 1 by 1 by 1 cube is $m + \\sqrt{n} + \\sqrt{p},$ where $m, n,$ and $p$ are integers. Find $m + n + p.$",
+        "answer": "348"
+    },
+    {
+        "question": "Let $A_1 A_2 A_3 A_4 A_5 A_6 A_7 A_8$ be a regular octagon.  Let $M_1$ , $M_3$ , $M_5$ , and $M_7$ be the midpoints of sides $\\overline{A_1 A_2}$ , $\\overline{A_3 A_4}$ , $\\overline{A_5 A_6}$ , and $\\overline{A_7 A_8}$ , respectively.  For $i = 1, 3, 5, 7$ , ray $R_i$ is constructed from $M_i$ towards the interior of the octagon such that $R_1 \\perp R_3$ , $R_3 \\perp R_5$ , $R_5 \\perp R_7$ , and $R_7 \\perp R_1$ .  Pairs of rays $R_1$ and $R_3$ , $R_3$ and $R_5$ , $R_5$ and $R_7$ , and $R_7$ and $R_1$ meet at $B_1$ , $B_3$ , $B_5$ , $B_7$ respectively.  If $B_1 B_3 = A_1 A_2$ , then $\\cos 2 \\angle A_3 M_3 B_1$ can be written in the form $m - \\sqrt{n}$ , where $m$ and $n$ are positive integers.  Find $m + n$ .",
+        "answer": "37"
+    },
+    {
+        "question": "Point $B$ is in the exterior of the regular $n$ -sided polygon $A_1A_2\\cdots A_n$ , and $A_1A_2B$ is an equilateral triangle. What is the largest value of $n$ for which $A_1$ , $A_n$ , and $B$ are consecutive vertices of a regular polygon?",
+        "answer": "42"
+    },
+    {
+        "question": "A solid rectangular block is formed by gluing together $N$ congruent 1-cm cubes face to face. When the block is viewed so that three of its faces are visible, exactly 231 of the 1-cm cubes cannot be seen. Find the smallest possible value of $N.$",
+        "answer": "384"
+    },
+    {
+        "question": "A right square pyramid with volume $54$ has a base with side length $6.$ The five vertices of the pyramid all lie on a sphere with radius $\\frac mn$ , where $m$ and $n$ are relatively prime positive integers. Find $m+n$ .",
+        "answer": "21"
+    },
+    {
+        "question": "A cylindrical barrel with radius $4$ feet and height $10$ feet is full of water. A solid cube with side length $8$ feet is set into the barrel so that the diagonal of the cube is vertical. The volume of water thus displaced is $v$ cubic feet. Find $v^2$ . [asy] import three; import solids; size(5cm); currentprojection=orthographic(1,-1/6,1/6);  draw(surface(revolution((0,0,0),(-2,-2*sqrt(3),0)--(-2,-2*sqrt(3),-10),Z,0,360)),white,nolight);  triple A =(8*sqrt(6)/3,0,8*sqrt(3)/3), B = (-4*sqrt(6)/3,4*sqrt(2),8*sqrt(3)/3), C = (-4*sqrt(6)/3,-4*sqrt(2),8*sqrt(3)/3), X = (0,0,-2*sqrt(2));  draw(X--X+A--X+A+B--X+A+B+C); draw(X--X+B--X+A+B); draw(X--X+C--X+A+C--X+A+B+C); draw(X+A--X+A+C); draw(X+C--X+C+B--X+A+B+C,linetype(\"2 4\")); draw(X+B--X+C+B,linetype(\"2 4\"));  draw(surface(revolution((0,0,0),(-2,-2*sqrt(3),0)--(-2,-2*sqrt(3),-10),Z,0,240)),white,nolight); draw((-2,-2*sqrt(3),0)..(4,0,0)..(-2,2*sqrt(3),0)); draw((-4*cos(atan(5)),-4*sin(atan(5)),0)--(-4*cos(atan(5)),-4*sin(atan(5)),-10)..(4,0,-10)..(4*cos(atan(5)),4*sin(atan(5)),-10)--(4*cos(atan(5)),4*sin(atan(5)),0)); draw((-2,-2*sqrt(3),0)..(-4,0,0)..(-2,2*sqrt(3),0),linetype(\"2 4\")); [/asy]",
+        "answer": "384"
+    },
+    {
+        "question": "A convex polyhedron has for its faces 12 squares, 8 regular hexagons, and 6 regular octagons. At each vertex of the polyhedron one square, one hexagon, and one octagon meet. How many segments joining vertices of the polyhedron lie in the interior of the polyhedron rather than along an edge or a face?",
+        "answer": "840"
+    },
+    {
+        "question": "A cube with side length 10 is suspended above a plane.  The vertex closest to the plane is labeled $A$ . The three vertices adjacent to vertex $A$ are at heights 10, 11, and 12 above the plane.  The distance from vertex $A$ to the plane can be expressed as $\\frac{r - \\sqrt{s}}{t}$ , where $r$ , $s$ , and $t$ are positive integers. Find $r + s + t$ .",
+        "answer": "330"
+    },
+    {
+        "question": "Let $A = (0,0)$ and $B = (b,2)$ be points on the coordinate plane. Let $ABCDEF$ be a convex equilateral hexagon such that $\\angle FAB = 120^\\circ,$ $\\overline{AB}\\parallel \\overline{DE},$ $\\overline{BC}\\parallel \\overline{EF,}$ $\\overline{CD}\\parallel \\overline{FA},$ and the y-coordinates of its vertices are distinct elements of the set $\\{0,2,4,6,8,10\\}.$ The area of the hexagon can be written in the form $m\\sqrt {n},$ where $m$ and $n$ are positive integers and n is not divisible by the square of any prime. Find $m + n.$",
+        "answer": "51"
+    },
+    {
+        "question": "Pyramid $OABCD$ has square base $ABCD,$ congruent edges $\\overline{OA}, \\overline{OB}, \\overline{OC},$ and $\\overline{OD},$ and $\\angle AOB=45^\\circ.$ Let $\\theta$ be the measure of the dihedral angle formed by faces $OAB$ and $OBC.$ Given that $\\cos \\theta=m+\\sqrt{n},$ where $m_{}$ and $n_{}$ are integers, find $m+n.$",
+        "answer": "5"
+    },
+    {
+        "question": "The two squares shown share the same center $O_{}$ and have sides of length 1. The length of $\\overline{AB}$ is $\\frac{43}{99}$ and the area of octagon $ABCDEFGH$ is $\\frac{m}{n}$ where $m_{}$ and $n_{}$ are relatively prime positive integers.  Find $m+n.$ AIME 1999 Problem 4.png",
+        "answer": "185"
+    },
+    {
+        "question": "Consider the set of points that are inside or within one unit of a rectangular parallelepiped (box) that measures 3 by 4 by 5 units. Given that the volume of this set is $\\frac{m + n \\pi}{p},$ where $m, n,$ and $p$ are positive integers, and $n$ and $p$ are relatively prime, find $m + n + p.$",
+        "answer": "505"
+    },
+    {
+        "question": "In tetrahedron $ABCD$ , edge $AB$ has length 3 cm. The area of face $ABC$ is $15\\mbox{cm}^2$ and the area of face $ABD$ is $12 \\mbox { cm}^2$ . These two faces meet each other at a $30^\\circ$ angle. Find the volume of the tetrahedron in $\\mbox{cm}^3$ .",
+        "answer": "20"
+    },
+    {
+        "question": "Faces $ABC^{}_{}$ and $BCD^{}_{}$ of tetrahedron $ABCD^{}_{}$ meet at an angle of $30^\\circ$ . The area of face $ABC^{}_{}$ is $120^{}_{}$ , the area of face $BCD^{}_{}$ is $80^{}_{}$ , and $BC=10^{}_{}$ . Find the volume of the tetrahedron.",
+        "answer": "320"
+    },
+    {
+        "question": "Two squares of a $7\\times 7$ checkerboard are painted yellow, and the rest are painted green. Two color schemes are equivalent if one can be obtained from the other by applying a rotation in the plane board. How many inequivalent color schemes are possible?",
+        "answer": "300"
+    },
+    {
+        "question": "Three $12$ cm $\\times 12$ cm squares are each cut into two pieces $A$ and $B$ , as shown in the first figure below, by joining the midpoints of two adjacent sides. These six pieces are then attached to a regular hexagon , as shown in the second figure, so as to fold into a polyhedron . What is the volume (in $\\mathrm{cm}^3$ ) of this polyhedron? AIME 1985 Problem 15.png",
+        "answer": "864"
+    },
+    {
+        "question": "Two congruent right circular cones each with base radius $3$ and height $8$ have axes of symmetry that intersect at right angles at a point in the interior of the cones a distance $3$ from the base of each cone. A sphere with radius $r$ lies within both cones. The maximum possible value of $r^2$ is $\\frac{m}{n}$ , where $m$ and $n$ are relatively prime positive integers. Find $m+n$ .",
+        "answer": "298"
+    },
+    {
+        "question": "Let $EFGH$ , $EFDC$ , and $EHBC$ be three adjacent square faces of a cube, for which $EC = 8$ , and let $A$ be the eighth vertex of the cube. Let $I$ , $J$ , and $K$ , be the points on $\\overline{EF}$ , $\\overline{EH}$ , and $\\overline{EC}$ , respectively, so that $EI = EJ = EK = 2$ . A solid $S$ is obtained by drilling a tunnel through the cube. The sides of the tunnel are planes parallel to $\\overline{AE}$ , and containing the edges, $\\overline{IJ}$ , $\\overline{JK}$ , and $\\overline{KI}$ . The surface area of $S$ , including the walls of the tunnel, is $m + n\\sqrt {p}$ , where $m$ , $n$ , and $p$ are positive integers and $p$ is not divisible by the square of any prime. Find $m + n + p$ .",
+        "answer": "417"
+    },
+    {
+        "question": "An $m\\times n\\times p$ rectangular box has half the volume of an $(m + 2)\\times(n + 2)\\times(p + 2)$ rectangular box, where $m, n,$ and $p$ are integers, and $m\\le n\\le p.$ What is the largest possible value of $p$ ?",
+        "answer": "130"
+    },
+    {
+        "question": "A convex polyhedron $P$ has 26 vertices, 60 edges, and 36 faces, 24 of which are triangular, and 12 of which are quadrilaterals. A space diagonal is a line segment connecting two non-adjacent vertices that do not belong to the same face. How many space diagonals does $P$ have?",
+        "answer": "241"
+    },
+    {
+        "question": "A square has sides of length 2. Set $S$ is the set of all line segments that have length 2 and whose endpoints are on adjacent sides of the square. The midpoints of the line segments in set $S$ enclose a region whose area to the nearest hundredth is $k.$ Find $100k.$",
+        "answer": "86"
+    },
+    {
+        "question": "A square pyramid with base $ABCD$ and vertex $E$ has eight edges of length 4.  A plane passes through the midpoints of $AE$ , $BC$ , and $CD$ .  The plane's intersection with the pyramid has an area that can be expressed as $\\sqrt{p}$ .  Find $p$ .",
+        "answer": "80"
+    },
+    {
+        "question": "Hexagon $ABCDEF$ is divided into five rhombuses, $P, Q, R, S,$ and $T$ , as shown. Rhombuses $P, Q, R,$ and $S$ are congruent, and each has area $\\sqrt{2006}.$ Let $K$ be the area of rhombus $T$ . Given that $K$ is a positive integer, find the number of possible values for $K.$ [asy] // TheMathGuyd size(8cm); pair A=(0,0), B=(4.2,0), C=(5.85,-1.6), D=(4.2,-3.2), EE=(0,-3.2), F=(-1.65,-1.6), G=(0.45,-1.6), H=(3.75,-1.6), I=(2.1,0), J=(2.1,-3.2), K=(2.1,-1.6); draw(A--B--C--D--EE--F--cycle); draw(F--G--(2.1,0)); draw(C--H--(2.1,0)); draw(G--(2.1,-3.2)); draw(H--(2.1,-3.2)); label(\"$\\mathcal{T}$\",(2.1,-1.6)); label(\"$\\mathcal{P}$\",(0,-1),NE); label(\"$\\mathcal{Q}$\",(4.2,-1),NW); label(\"$\\mathcal{R}$\",(0,-2.2),SE); label(\"$\\mathcal{S}$\",(4.2,-2.2),SW); [/asy]",
+        "answer": "89"
+    },
+    {
+        "question": "Consider the L-shaped region formed by three unit squares joined at their sides, as shown below. Two points $A$ and $B$ are chosen independently and uniformly at random from inside the region. The probability that the midpoint of $\\overline{AB}$ also lies inside this L-shaped region can be expressed as $\\frac{m}{n},$ where $m$ and $n$ are relatively prime positive integers. Find $m+n.$ [asy] unitsize(2cm); draw((0,0)--(2,0)--(2,1)--(1,1)--(1,2)--(0,2)--cycle); draw((0,1)--(1,1)--(1,0),dashed); [/asy]",
+        "answer": "35"
+    },
+    {
+        "question": "Consider the parallelogram with vertices $(10,45),$ $(10,114),$ $(28,153),$ and $(28,84).$ A line through the origin cuts this figure into two congruent polygons.  The slope of the line is $m/n,$ where $m_{}$ and $n_{}$ are relatively prime positive integers.  Find $m+n.$",
+        "answer": "118"
+    },
+    {
+        "question": "In convex hexagon $ABCDEF$ , all six sides are congruent, $\\angle A$ and $\\angle D$ are right angles, and $\\angle B, \\angle C, \\angle E,$ and $\\angle F$ are congruent. The area of the hexagonal region is $2116(\\sqrt{2}+1).$ Find $AB$ .",
+        "answer": "46"
+    },
+    {
+        "question": "The nine horizontal and nine vertical lines on an $8\\times8$ checkerboard form $r$ rectangles, of which $s$ are squares.  The number $s/r$ can be written in the form $m/n,$ where $m$ and $n$ are relatively prime positive integers.  Find $m + n.$",
+        "answer": "125"
+    },
+    {
+        "question": "A tripod has three legs each of length 5 feet. When the tripod is set up, the angle between any pair of legs is equal to the angle between any other pair, and the top of the tripod is 4 feet from the ground. In setting up the tripod, the lower 1 foot of one leg breaks off. Let $h$ be the height in feet of the top of the tripod from the ground when the broken tripod is set up. Then $h$ can be written in the form $\\frac m{\\sqrt{n}},$ where $m$ and $n$ are positive integers and $n$ is not divisible by the square of any prime. Find $\\lfloor m+\\sqrt{n}\\rfloor.$ (The notation $\\lfloor x\\rfloor$ denotes the greatest integer that is less than or equal to $x.$ )",
+        "answer": "183"
+    },
+    {
+        "question": "Given a point $P^{}_{}$ on a triangular piece of paper $ABC,\\,$ consider the creases that are formed in the paper when $A, B,\\,$ and $C\\,$ are folded onto $P.\\,$ Let us call $P_{}^{}$ a fold point of $\\triangle ABC\\,$ if these creases, which number three unless $P^{}_{}$ is one of the vertices, do not intersect.  Suppose that $AB=36, AC=72,\\,$ and $\\angle B=90^\\circ.\\,$ Then the area of the set of all fold points of $\\triangle ABC\\,$ can be written in the form $q\\pi-r\\sqrt{s},\\,$ where $q, r,\\,$ and $s\\,$ are positive integers and $s\\,$ is not divisible by the square of any prime.  What is $q+r+s\\,$ ?",
+        "answer": "597"
+    },
+    {
+        "question": "Euler's formula states that for a convex polyhedron with $V\\,$ vertices, $E\\,$ edges, and $F\\,$ faces, $V-E+F=2\\,$ . A particular convex polyhedron has 32 faces, each of which is either a triangle or a pentagon. At each of its $V\\,$ vertices, $T\\,$ triangular faces and $P^{}_{}$ pentagonal faces meet. What is the value of $100P+10T+V\\,$ ?",
+        "answer": "250"
+    },
+    {
+        "question": "$ABCD$ is a rectangular sheet of paper that has been folded so that corner $B$ is matched with point $B'$ on edge $AD.$ The crease is $EF,$ where $E$ is on $AB$ and $F$ is on $CD.$ The dimensions $AE=8, BE=17,$ and $CF=3$ are given. The perimeter of rectangle $ABCD$ is $m/n,$ where $m$ and $n$ are relatively prime positive integers. Find $m+n.$ [asy] size(200); defaultpen(linewidth(0.7)+fontsize(10)); pair A=origin, B=(25,0), C=(25,70/3), D=(0,70/3), E=(8,0), F=(22,70/3), Bp=reflect(E,F)*B, Cp=reflect(E,F)*C; draw(F--D--A--E); draw(E--B--C--F, linetype(\"4 4\")); filldraw(E--F--Cp--Bp--cycle, white, black); pair point=( 12.5, 35/3 ); label(\"$A$\", A, dir(point--A)); label(\"$B$\", B, dir(point--B)); label(\"$C$\", C, dir(point--C)); label(\"$D$\", D, dir(point--D)); label(\"$E$\", E, dir(point--E)); label(\"$F$\", F, dir(point--F)); label(\"$B^\\prime$\", Bp, dir(point--Bp)); label(\"$C^\\prime$\", Cp, dir(point--Cp));[/asy]",
+        "answer": "293"
+    },
+    {
+        "question": "A pyramid has a triangular base with side lengths $20$ , $20$ , and $24$ . The three edges of the pyramid from the three corners of the base to the fourth vertex of the pyramid all have length $25$ . The volume of the pyramid is $m\\sqrt{n}$ , where $m$ and $n$ are positive integers, and $n$ is not divisible by the square of any prime. Find $m+n$ .",
+        "answer": "803"
+    },
+    {
+        "question": "The wheel shown below consists of two circles and five spokes, with a label at each point where a spoke meets a circle. A bug walks along the wheel, starting at point $A$ . At every step of the process, the bug walks from one labeled point to an adjacent labeled point. Along the inner circle the bug only walks in a counterclockwise direction, and along the outer circle the bug only walks in a clockwise direction. For example, the bug could travel along the path $AJABCHCHIJA$ , which has $10$ steps. Let $n$ be the number of paths with $15$ steps that begin and end at point $A.$ Find the remainder when $n$ is divided by $1000$ . [asy] size(6cm);  draw(unitcircle); draw(scale(2) * unitcircle); for(int d = 90; d < 360 + 90; d += 72){ draw(2 * dir(d) -- dir(d)); }  dot(1 * dir( 90), linewidth(5)); dot(1 * dir(162), linewidth(5)); dot(1 * dir(234), linewidth(5)); dot(1 * dir(306), linewidth(5)); dot(1 * dir(378), linewidth(5)); dot(2 * dir(378), linewidth(5)); dot(2 * dir(306), linewidth(5)); dot(2 * dir(234), linewidth(5)); dot(2 * dir(162), linewidth(5)); dot(2 * dir( 90), linewidth(5));  label(\"$A$\", 1 * dir( 90), -dir( 90)); label(\"$B$\", 1 * dir(162), -dir(162)); label(\"$C$\", 1 * dir(234), -dir(234)); label(\"$D$\", 1 * dir(306), -dir(306)); label(\"$E$\", 1 * dir(378), -dir(378)); label(\"$F$\", 2 * dir(378), dir(378)); label(\"$G$\", 2 * dir(306), dir(306)); label(\"$H$\", 2 * dir(234), dir(234)); label(\"$I$\", 2 * dir(162), dir(162)); label(\"$J$\", 2 * dir( 90), dir( 90)); [/asy]",
+        "answer": "4"
+    },
+    {
+        "question": "A wooden cube, whose edges are one centimeter long, rests on a horizontal surface. Illuminated by a point source of light that is $x$ centimeters directly above an upper vertex, the cube casts a shadow on the horizontal surface. The area of a shadow, which does not include the area beneath the cube is 48 square centimeters. Find the greatest integer that does not exceed $1000x$ .",
+        "answer": "166"
+    },
+    {
+        "question": "One base of a trapezoid is $100$ units longer than the other base. The segment that joins the midpoints of the legs divides the trapezoid into two regions whose areas are in the ratio $2: 3$ . Let $x$ be the length of the segment joining the legs of the trapezoid that is parallel to the bases and that divides the trapezoid into two regions of equal area. Find the greatest integer that does not exceed $x^2/100$ .",
+        "answer": "181"
+    },
+    {
+        "question": "A solid in the shape of a right circular cone is 4 inches tall and its base has a 3-inch radius. The entire surface of the cone, including its base, is painted. A plane parallel to the base of the cone divides the cone into two solids, a smaller cone-shaped solid $C$ and a frustum-shaped solid $F,$ in such a way that the ratio between the areas of the painted surfaces of $C$ and $F$ and the ratio between the volumes of $C$ and $F$ are both equal to $k.$ Given that $k=m/n,$ where $m$ and $n$ are relatively prime positive integers, find $m+n.$",
+        "answer": "512"
+    },
+    {
+        "question": "What is the largest possible distance between two points, one on the sphere of radius 19 with center $(-2,-10,5),$ and the other on the sphere of radius 87 with center $(12,8,-16)$ ?",
+        "answer": "137"
+    },
+    {
+        "question": "The degree measures of the angles in a convex 18-sided polygon form an increasing arithmetic sequence with integer values. Find the degree measure of the smallest angle.",
+        "answer": "143"
+    },
+    {
+        "question": "Tetrahedron $ABCD$ has $AD=BC=28$ , $AC=BD=44$ , and $AB=CD=52$ . For any point $X$ in space, define $f(X)=AX+BX+CX+DX$ . The least possible value of $f(X)$ can be expressed as $m\\sqrt{n}$ , where $m$ and $n$ are positive integers, and $n$ is not divisible by the square of any prime. Find $m+n$ .",
+        "answer": "682"
+    },
+    {
+        "question": "A right rectangular prism $P_{}$ (i.e., a rectangular parallelepiped) has sides of integral length $a, b, c,$ with $a\\le b\\le c.$ A plane parallel to one of the faces of $P_{}$ cuts $P_{}$ into two prisms, one of which is similar to $P_{},$ and both of which have nonzero volume.  Given that $b=1995,$ for how many ordered triples $(a, b, c)$ does such a plane exist?",
+        "answer": "40"
+    },
+    {
+        "question": "In Pascal's Triangle, each entry is the sum of the two entries above it. The first few rows of the triangle are shown below. \\[\\begin{array}{c@{\\hspace{8em}} c@{\\hspace{6pt}}c@{\\hspace{6pt}}c@{\\hspace{6pt}}c@{\\hspace{4pt}}c@{\\hspace{2pt}} c@{\\hspace{2pt}}c@{\\hspace{2pt}}c@{\\hspace{2pt}}c@{\\hspace{3pt}}c@{\\hspace{6pt}} c@{\\hspace{6pt}}c@{\\hspace{6pt}}c} \\vspace{4pt} \\text{Row 0: } &    &    &     &     &    &    & 1 &     &     &    &    &    &  \\\\\\vspace{4pt} \\text{Row 1: } &    &    &     &     &    & 1 &    & 1  &     &    &    &    &  \\\\\\vspace{4pt} \\text{Row 2: } &    &    &     &     & 1 &    & 2 &     & 1  &    &    &    &  \\\\\\vspace{4pt} \\text{Row 3: } &    &    &     &  1 &    & 3 &    & 3  &     & 1 &    &    &  \\\\\\vspace{4pt} \\text{Row 4: } &    &    & 1  &     & 4 &    & 6 &     & 4  &    & 1 &    &  \\\\\\vspace{4pt} \\text{Row 5: } &    & 1 &     & 5  &    &10&    &10 &     & 5 &    & 1 &  \\\\\\vspace{4pt} \\text{Row 6: } & 1 &    & 6  &     &15&    &20&     &15 &    & 6 &    & 1 \\end{array}\\] In which row of Pascal's Triangle do three consecutive entries occur that are in the ratio $3: 4: 5$ ?",
+        "answer": "62"
+    },
+    {
+        "question": "Let $P_1^{}$ be a regular $r~\\mbox{gon}$ and $P_2^{}$ be a regular $s~\\mbox{gon}$ $(r\\geq s\\geq 3)$ such that each interior angle of $P_1^{}$ is $\\frac{59}{58}$ as large as each interior angle of $P_2^{}$ . What's the largest possible value of $s_{}^{}$ ?",
+        "answer": "117"
+    },
+    {
+        "question": "A right hexagonal prism has height $2$ . The bases are regular hexagons with side length $1$ . Any $3$ of the $12$ vertices determine a triangle. Find the number of these triangles that are isosceles (including equilateral triangles).",
+        "answer": "52"
+    },
+    {
+        "question": "A transformation of the first quadrant of the coordinate plane maps each point $(x,y)$ to the point $(\\sqrt{x},\\sqrt{y}).$ The vertices of quadrilateral $ABCD$ are $A=(900,300), B=(1800,600), C=(600,1800),$ and $D=(300,900).$ Let $k_{}$ be the area of the region enclosed by the image of quadrilateral $ABCD.$ Find the greatest integer that does not exceed $k_{}.$",
+        "answer": "314"
+    },
+    {
+        "question": "Three vertices of a cube are $P=(7,12,10)$ , $Q=(8,8,1)$ , and $R=(11,3,9)$ . What is the surface area of the cube?",
+        "answer": "294"
+    },
+    {
+        "question": "The graph of $y^2 + 2xy + 40|x|= 400$ partitions the plane into several regions.  What is the area of the bounded region?",
+        "answer": "800"
+    },
+    {
+        "question": "Let $ABCDEF$ be an equiangular hexagon such that $AB=6, BC=8, CD=10$ , and $DE=12$ . Denote $d$ the diameter of the largest circle that fits inside the hexagon. Find $d^2$ .",
+        "answer": "147"
+    },
+    {
+        "question": "Rectangle $ABCD_{}^{}$ has sides $\\overline {AB}$ of length 4 and $\\overline {CB}$ of length 3. Divide $\\overline {AB}$ into 168 congruent segments with points $A_{}^{}=P_0, P_1, \\ldots, P_{168}=B$ , and divide $\\overline {CB}$ into 168 congruent segments with points $C_{}^{}=Q_0, Q_1, \\ldots, Q_{168}=B$ . For $1_{}^{} \\le k \\le 167$ , draw the segments $\\overline {P_kQ_k}$ . Repeat this construction on the sides $\\overline {AD}$ and $\\overline {CD}$ , and then draw the diagonal $\\overline {AC}$ . Find the sum of the lengths of the 335 parallel segments drawn.",
+        "answer": "840"
+    },
+    {
+        "question": "David found four sticks of different lengths that can be used to form three non-congruent convex cyclic quadrilaterals, $A,\\text{ }B,\\text{ }C$ , which can each be inscribed in a circle with radius $1$ . Let $\\varphi_A$ denote the measure of the acute angle made by the diagonals of quadrilateral $A$ , and define $\\varphi_B$ and $\\varphi_C$ similarly. Suppose that $\\sin\\varphi_A=\\frac{2}{3}$ , $\\sin\\varphi_B=\\frac{3}{5}$ , and $\\sin\\varphi_C=\\frac{6}{7}$ . All three quadrilaterals have the same area $K$ , which can be written in the form $\\dfrac{m}{n}$ , where $m$ and $n$ are relatively prime positive integers. Find $m+n$ .",
+        "answer": "59"
+    }
+]

@@ -1,0 +1,310 @@
+[
+    {
+        "question": "In the adjoining figure, two circles with radii $8$ and $6$ are drawn with their centers $12$ units apart. At $P$ , one of the points of intersection, a line is drawn in such a way that the chords $QP$ and $PR$ have equal length. Find the square of the length of $QP$ . [asy]size(160); defaultpen(linewidth(.8pt)+fontsize(11pt)); dotfactor=3; pair O1=(0,0), O2=(12,0); path C1=Circle(O1,8), C2=Circle(O2,6); pair P=intersectionpoints(C1,C2)[0]; path C3=Circle(P,sqrt(130)); pair Q=intersectionpoints(C3,C1)[0]; pair R=intersectionpoints(C3,C2)[1]; draw(C1); draw(C2); draw(O2--O1); dot(O1); dot(O2); draw(Q--R); label(\"$Q$\",Q,NW); label(\"$P$\",P,1.5*dir(80)); label(\"$R$\",R,NE); label(\"12\",waypoint(O1--O2,0.4),S);[/asy]",
+        "answer": "130"
+    },
+    {
+        "question": "Triangle $ABC$ has right angle at $B$ , and contains a point $P$ for which $PA = 10$ , $PB = 6$ , and $\\angle APB = \\angle BPC = \\angle CPA$ .  Find $PC$ . AIME 1987 Problem 9.png",
+        "answer": "33"
+    },
+    {
+        "question": "Let $\\triangle{PQR}$ be a right triangle with $PQ = 90$ , $PR = 120$ , and $QR = 150$ . Let $C_{1}$ be the inscribed circle. Construct $\\overline{ST}$ with $S$ on $\\overline{PR}$ and $T$ on $\\overline{QR}$ , such that $\\overline{ST}$ is perpendicular to $\\overline{PR}$ and tangent to $C_{1}$ . Construct $\\overline{UV}$ with $U$ on $\\overline{PQ}$ and $V$ on $\\overline{QR}$ such that $\\overline{UV}$ is perpendicular to $\\overline{PQ}$ and tangent to $C_{1}$ . Let $C_{2}$ be the inscribed circle of $\\triangle{RST}$ and $C_{3}$ the inscribed circle of $\\triangle{QUV}$ . The distance between the centers of $C_{2}$ and $C_{3}$ can be written as $\\sqrt {10n}$ . What is $n$ ?",
+        "answer": "725"
+    },
+    {
+        "question": "A circle with diameter $\\overline{PQ}\\,$ of length 10 is internally tangent at $P^{}_{}$ to a circle of radius 20. Square $ABCD\\,$ is constructed with $A\\,$ and $B\\,$ on the larger circle, $\\overline{CD}\\,$ tangent at $Q\\,$ to the smaller circle, and the smaller circle outside $ABCD\\,$ . The length of $\\overline{AB}\\,$ can be written in the form $m + \\sqrt{n}\\,$ , where $m\\,$ and $n\\,$ are integers. Find $m + n\\,$ .",
+        "answer": "312"
+    },
+    {
+        "question": "In triangle $ABC$ , $AB = 125$ , $AC = 117$ , and $BC = 120$ .  The angle bisector of angle $A$ intersects $\\overline{BC}$ at point $L$ , and the angle bisector of angle $B$ intersects $\\overline{AC}$ at point $K$ .  Let $M$ and $N$ be the feet of the perpendiculars from $C$ to $\\overline{BK}$ and $\\overline{AL}$ , respectively.  Find $MN$ .",
+        "answer": "56"
+    },
+    {
+        "question": "In right $\\triangle ABC$ with hypotenuse $\\overline{AB}$ , $AC = 12$ , $BC = 35$ , and $\\overline{CD}$ is the altitude to $\\overline{AB}$ . Let $\\omega$ be the circle having $\\overline{CD}$ as a diameter. Let $I$ be a point outside $\\triangle ABC$ such that $\\overline{AI}$ and $\\overline{BI}$ are both tangent to circle $\\omega$ . The ratio of the perimeter of $\\triangle ABI$ to the length $AB$ can be expressed in the form $\\frac {m}{n}$ , where $m$ and $n$ are relatively prime positive integers. Find $m + n$ .",
+        "answer": "11"
+    },
+    {
+        "question": "In triangle $ABC, AB=13, BC=15,$ and $CA = 14.$ Point $D$ is on $\\overline{BC}$ with $CD=6.$ Point $E$ is on $\\overline{BC}$ such that $\\angle BAE\\cong \\angle CAD.$ Given that $BE=\\frac pq$ where $p$ and $q$ are relatively prime positive integers, find $q.$",
+        "answer": "463"
+    },
+    {
+        "question": "Let $L$ be the line with slope $\\frac{5}{12}$ that contains the point $A = (24,-1)$ , and let $M$ be the line perpendicular to line $L$ that contains the point $B = (5,6)$ .  The original coordinate axes are erased, and line $L$ is made the $x$ -axis and line $M$ the $y$ -axis.  In the new coordinate system, point $A$ is on the positive $x$ -axis, and point $B$ is on the positive $y$ -axis.  The point $P$ with coordinates $(-14,27)$ in the original system has coordinates $(\\alpha,\\beta)$ in the new coordinate system.  Find $\\alpha + \\beta$ .",
+        "answer": "31"
+    },
+    {
+        "question": "An ellipse has foci at $(9, 20)$ and $(49, 55)$ in the $xy$ -plane and is tangent to the $x$ -axis. What is the length of its major axis?",
+        "answer": "85"
+    },
+    {
+        "question": "Circles $\\mathcal{C}_{1}$ and $\\mathcal{C}_{2}$ intersect at two points, one of which is $(9,6)$ , and the product of the radii is $68$ . The x-axis and the line $y = mx$ , where $m > 0$ , are tangent to both circles. It is given that $m$ can be written in the form $a\\sqrt {b}/c$ , where $a$ , $b$ , and $c$ are positive integers, $b$ is not divisible by the square of any prime, and $a$ and $c$ are relatively prime. Find $a + b + c$ .",
+        "answer": "282"
+    },
+    {
+        "question": "In triangle $ABC,$ it is given that angles $B$ and $C$ are congruent. Points $P$ and $Q$ lie on $\\overline{AC}$ and $\\overline{AB},$ respectively, so that $AP = PQ = QB = BC.$ Angle $ACB$ is $r$ times as large as angle $APQ,$ where $r$ is a positive real number. Find $\\lfloor 1000r \\rfloor$ .",
+        "answer": "571"
+    },
+    {
+        "question": "Given a circle of radius $\\sqrt{13}$ , let $A$ be a point at a distance $4 + \\sqrt{13}$ from the center $O$ of the circle. Let $B$ be the point on the circle nearest to point $A$ . A line passing through the point $A$ intersects the circle at points $K$ and $L$ . The maximum possible area for $\\triangle BKL$ can be written in the form $\\frac{a - b\\sqrt{c}}{d}$ , where $a$ , $b$ , $c$ , and $d$ are positive integers, $a$ and $d$ are relatively prime, and $c$ is not divisible by the square of any prime. Find $a+b+c+d$ .",
+        "answer": "146"
+    },
+    {
+        "question": "In isosceles triangle $ABC$ , $A$ is located at the origin and $B$ is located at (20,0).  Point $C$ is in the first quadrant with $AC = BC$ and angle $BAC = 75^{\\circ}$ .  If triangle $ABC$ is rotated counterclockwise about point $A$ until the image of $C$ lies on the positive $y$ -axis, the area of the region common to the original and the rotated triangle is in the form $p\\sqrt{2} + q\\sqrt{3} + r\\sqrt{6} + s$ , where $p,q,r,s$ are integers.  Find $(p-q+r-s)/2$ .",
+        "answer": "875"
+    },
+    {
+        "question": "Equilateral $\\triangle ABC$ has side length $600$ . Points $P$ and $Q$ lie outside the plane of $\\triangle ABC$ and are on opposite sides of the plane. Furthermore, $PA=PB=PC$ , and $QA=QB=QC$ , and the planes of $\\triangle PAB$ and $\\triangle QAB$ form a $120^{\\circ}$ dihedral angle (the angle between the two planes). There is a point $O$ whose distance from each of $A,B,C,P,$ and $Q$ is $d$ . Find $d$ .",
+        "answer": "450"
+    },
+    {
+        "question": "The points $(0,0)\\,$ , $(a,11)\\,$ , and $(b,37)\\,$ are the vertices of an equilateral triangle.  Find the value of $ab\\,$ .",
+        "answer": "315"
+    },
+    {
+        "question": "Four lighthouses are located at points $A$ , $B$ , $C$ , and $D$ . The lighthouse at $A$ is $5$ kilometers from the lighthouse at $B$ , the lighthouse at $B$ is $12$ kilometers from the lighthouse at $C$ , and the lighthouse at $A$ is $13$ kilometers from the lighthouse at $C$ . To an observer at $A$ , the angle determined by the lights at $B$ and $D$ and the angle determined by the lights at $C$ and $D$ are equal. To an observer at $C$ , the angle determined by the lights at $A$ and $B$ and the angle determined by the lights at $D$ and $B$ are equal. The number of kilometers from $A$ to $D$ is given by $\\frac{p\\sqrt{r}}{q}$ , where $p$ , $q$ , and $r$ are relatively prime positive integers, and $r$ is not divisible by the square of any prime. Find $p+q+r$ .",
+        "answer": "96"
+    },
+    {
+        "question": "Let $ABCD$ be an isosceles trapezoid with $AD=BC$ and $AB<CD.$ Suppose that the distances from $A$ to the lines $BC,CD,$ and $BD$ are $15,18,$ and $10,$ respectively. Let $K$ be the area of $ABCD.$ Find $\\sqrt2 \\cdot K.$",
+        "answer": "567"
+    },
+    {
+        "question": "Given $\\triangle ABC$ and a point $P$ on one of its sides, call line $\\ell$ the $\\textit{splitting line}$ of $\\triangle ABC$ through $P$ if $\\ell$ passes through $P$ and divides $\\triangle ABC$ into two polygons of equal perimeter. Let $\\triangle ABC$ be a triangle where $BC = 219$ and $AB$ and $AC$ are positive integers. Let $M$ and $N$ be the midpoints of $\\overline{AB}$ and $\\overline{AC},$ respectively, and suppose that the splitting lines of $\\triangle ABC$ through $M$ and $N$ intersect at $30^\\circ.$ Find the perimeter of $\\triangle ABC.$",
+        "answer": "459"
+    },
+    {
+        "question": "Rectangle $ABCD$ is divided into four parts of equal area by five segments as shown in the figure, where $XY = YB + BC + CZ = ZW = WD + DA + AX$ , and $PQ$ is parallel to $AB$ .  Find the length of $AB$ (in cm) if $BC = 19$ cm and $PQ = 87$ cm. AIME 1987 Problem 6.png",
+        "answer": "193"
+    },
+    {
+        "question": "Point $B$ lies on line segment $\\overline{AC}$ with $AB=16$ and $BC=4$ . Points $D$ and $E$ lie on the same side of line $AC$ forming equilateral triangles $\\triangle ABD$ and $\\triangle BCE$ . Let $M$ be the midpoint of $\\overline{AE}$ , and $N$ be the midpoint of $\\overline{CD}$ . The area of $\\triangle BMN$ is $x$ . Find $x^2$ .",
+        "answer": "507"
+    },
+    {
+        "question": "In $\\triangle RED$ , $\\measuredangle DRE=75^{\\circ}$ and $\\measuredangle RED=45^{\\circ}$ . $RD=1$ . Let $M$ be the midpoint of segment $\\overline{RD}$ . Point $C$ lies on side $\\overline{ED}$ such that $\\overline{RC}\\perp\\overline{EM}$ . Extend segment $\\overline{DE}$ through $E$ to point $A$ such that $CA=AR$ . Then $AE=\\frac{a-\\sqrt{b}}{c}$ , where $a$ and $c$ are relatively prime positive integers, and $b$ is a positive integer. Find $a+b+c$ .",
+        "answer": "56"
+    },
+    {
+        "question": "In triangle $ABC,$ $AB = 13,$ $BC = 14,$ $AC = 15,$ and point $G$ is the intersection of the medians. Points $A',$ $B',$ and $C',$ are the images of $A,$ $B,$ and $C,$ respectively, after a $180^\\circ$ rotation about $G.$ What is the area of the union of the two regions enclosed by the triangles $ABC$ and $A'B'C'?$",
+        "answer": "112"
+    },
+    {
+        "question": "In quadrilateral $ABCD , \\angle B$ is a right angle, diagonal $\\overline{AC}$ is perpendicular to $\\overline{CD},  AB=18, BC=21,$ and $CD=14.$ Find the perimeter of $ABCD.$",
+        "answer": "84"
+    },
+    {
+        "question": "Triangle $ABC$ has side lengths $AB=7,BC=8,$ and $CA=9.$ Circle $\\omega_1$ passes through $B$ and is tangent to line $AC$ at $A.$ Circle $\\omega_2$ passes through $C$ and is tangent to line $AB$ at $A.$ Let $K$ be the intersection of circles $\\omega_1$ and $\\omega_2$ not equal to $A.$ Then $AK=\\tfrac{m}{n},$ where $m$ and $n$ are relatively prime positive integers. Find $m+n.$",
+        "answer": "11"
+    },
+    {
+        "question": "The area of the smallest equilateral triangle with one vertex on each of the sides of the right triangle with side lengths $2\\sqrt3$ , $5$ , and $\\sqrt{37}$ , as shown, is $\\tfrac{m\\sqrt{p}}{n}$ , where $m$ , $n$ , and $p$ are positive integers, $m$ and $n$ are relatively prime, and $p$ is not divisible by the square of any prime. Find $m+n+p$ . [asy] size(5cm); pair C=(0,0),B=(0,2*sqrt(3)),A=(5,0); real t = .385, s = 3.5*t-1; pair R = A*t+B*(1-t), P=B*s; pair Q = dir(-60) * (R-P) + P; fill(P--Q--R--cycle,gray); draw(A--B--C--A^^P--Q--R--P); dot(A--B--C--P--Q--R); [/asy]",
+        "answer": "145"
+    },
+    {
+        "question": "In rectangle $ABCD$ , $AB=100$ . Let $E$ be the midpoint of $\\overline{AD}$ . Given that line $AC$ and line $BE$ are perpendicular, find the greatest integer less than $AD$ .",
+        "answer": "141"
+    },
+    {
+        "question": "In $\\triangle ABC, AB = 3, BC = 4,$ and $CA = 5$ . Circle $\\omega$ intersects $\\overline{AB}$ at $E$ and $B, \\overline{BC}$ at $B$ and $D,$ and $\\overline{AC}$ at $F$ and $G$ . Given that $EF=DF$ and $\\frac{DG}{EG} = \\frac{3}{4},$ length $DE=\\frac{a\\sqrt{b}}{c},$ where $a$ and $c$ are relatively prime positive integers, and $b$ is a positive integer not divisible by the square of any prime. Find $a+b+c$ .",
+        "answer": "41"
+    },
+    {
+        "question": "Triangle $ABC$ with right angle at $C$ , $\\angle BAC < 45^\\circ$ and $AB = 4$ . Point $P$ on $\\overline{AB}$ is chosen such that $\\angle APC = 2\\angle ACP$ and $CP = 1$ . The ratio $\\frac{AP}{BP}$ can be represented in the form $p + q\\sqrt{r}$ , where $p$ , $q$ , $r$ are positive integers and $r$ is not divisible by the square of any prime. Find $p+q+r$ .",
+        "answer": "7"
+    },
+    {
+        "question": "A unicorn is tethered by a 20-foot silver rope to the base of a magician's cylindrical tower whose radius is 8 feet. The rope is attached to the tower at ground level and to the unicorn at a height of 4 feet. The unicorn has pulled the rope taut, the end of the rope is 4 feet from the nearest point on the tower, and the length of the rope that is touching the tower is $\\frac{a-\\sqrt{b}}c$ feet, where $a, b,$ and $c$ are positive integers, and $c$ is prime. Find $a+b+c.$",
+        "answer": "813"
+    },
+    {
+        "question": "Let $ABCD$ be an isosceles trapezoid with $\\overline{AD}||\\overline{BC}$ whose angle at the longer base $\\overline{AD}$ is $\\dfrac{\\pi}{3}$ . The diagonals have length $10\\sqrt {21}$ , and point $E$ is at distances $10\\sqrt {7}$ and $30\\sqrt {7}$ from vertices $A$ and $D$ , respectively. Let $F$ be the foot of the altitude from $C$ to $\\overline{AD}$ . The distance $EF$ can be expressed in the form $m\\sqrt {n}$ , where $m$ and $n$ are positive integers and $n$ is not divisible by the square of any prime. Find $m + n$ .",
+        "answer": "32"
+    },
+    {
+        "question": "In $\\triangle ABC$ let $I$ be the center of the inscribed circle, and let the bisector of $\\angle ACB$ intersect $\\overline{AB}$ at $L$ . The line through $C$ and $L$ intersects the circumscribed circle of $\\triangle ABC$ at the two points $C$ and $D$ . If $LI=2$ and $LD=3$ , then $IC= \\frac{p}{q}$ , where $p$ and $q$ are relatively prime positive integers. Find $p+q$ .",
+        "answer": "13"
+    },
+    {
+        "question": "Let $ABCD$ be a convex quadrilateral with $AB=2, AD=7,$ and $CD=3$ such that the bisectors of acute angles $\\angle{DAB}$ and $\\angle{ADC}$ intersect at the midpoint of $\\overline{BC}.$ Find the square of the area of $ABCD.$",
+        "answer": "180"
+    },
+    {
+        "question": "Let $ABC$ be an equilateral triangle, and let $D$ and $F$ be points on sides $BC$ and $AB$ , respectively, with $FA = 5$ and $CD = 2$ .  Point $E$ lies on side $CA$ such that angle $DEF = 60^{\\circ}$ .  The area of triangle $DEF$ is $14\\sqrt{3}$ .  The two possible values of the length of side $AB$ are $p \\pm q \\sqrt{r}$ , where $p$ and $q$ are rational, and $r$ is an integer not divisible by the square of a prime.  Find $r$ .",
+        "answer": "989"
+    },
+    {
+        "question": "In equilateral $\\triangle ABC$ let points $D$ and $E$ trisect $\\overline{BC}$ . Then $\\sin(\\angle DAE)$ can be expressed in the form $\\frac{a\\sqrt{b}}{c}$ , where $a$ and $c$ are relatively prime positive integers, and $b$ is an integer that is not divisible by the square of any prime. Find $a+b+c$ . ",
+        "answer": "20"
+    },
+    {
+        "question": "A circle with radius $6$ is externally tangent to a circle with radius $24$ . Find the area of the triangular region bounded by the three common tangent lines of these two circles.",
+        "answer": "192"
+    },
+    {
+        "question": "In triangle $ABC$ , point $D$ is on $\\overline{BC}$ with $CD=2$ and $DB=5$ , point $E$ is on $\\overline{AC}$ with $CE=1$ and $EA=3$ , $AB=8$ , and $\\overline{AD}$ and $\\overline{BE}$ intersect at $P$ . Points $Q$ and $R$ lie on $\\overline{AB}$ so that $\\overline{PQ}$ is parallel to $\\overline{CA}$ and $\\overline{PR}$ is parallel to $\\overline{CB}$ . It is given that the ratio of the area of triangle $PQR$ to the area of triangle $ABC$ is $m/n$ , where $m$ and $n$ are relatively prime positive integers. Find $m+n$ .",
+        "answer": "901"
+    },
+    {
+        "question": "Let $ABCD$ be a square, and let $E$ and $F$ be points on $\\overline{AB}$ and $\\overline{BC},$ respectively. The line through $E$ parallel to $\\overline{BC}$ and the line through $F$ parallel to $\\overline{AB}$ divide $ABCD$ into two squares and two nonsquare rectangles. The sum of the areas of the two squares is $\\frac{9}{10}$ of the area of square $ABCD.$ Find $\\frac{AE}{EB} + \\frac{EB}{AE}.$",
+        "answer": "18"
+    },
+    {
+        "question": "Convex pentagon $ABCDE$ has side lengths $AB=5$ , $BC=CD=DE=6$ , and $EA=7$ . Moreover, the pentagon has an inscribed circle (a circle tangent to each side of the pentagon). Find the area of $ABCDE$ .",
+        "answer": "60"
+    },
+    {
+        "question": "The perimeter of triangle $APM$ is $152$ , and the angle $PAM$ is a right angle. A circle of radius $19$ with center $O$ on $\\overline{AP}$ is drawn so that it is tangent to $\\overline{AM}$ and $\\overline{PM}$ . Given that $OP=m/n$ where $m$ and $n$ are relatively prime positive integers, find $m+n$ .",
+        "answer": "98"
+    },
+    {
+        "question": "In $\\triangle ABC$ with $AB=AC,$ point $D$ lies strictly between $A$ and $C$ on side $\\overline{AC},$ and point $E$ lies strictly between $A$ and $B$ on side $\\overline{AB}$ such that $AE=ED=DB=BC.$ The degree measure of $\\angle ABC$ is $\\tfrac{m}{n},$ where $m$ and $n$ are relatively prime positive integers. Find $m+n.$ ",
+        "answer": "547"
+    },
+    {
+        "question": "Trapezoid $ABCD^{}_{}$ has sides $AB=92^{}_{}$ , $BC=50^{}_{}$ , $CD=19^{}_{}$ , and $AD=70^{}_{}$ , with $AB^{}_{}$ parallel to $CD^{}_{}$ . A circle with center $P^{}_{}$ on $AB^{}_{}$ is drawn tangent to $BC^{}_{}$ and $AD^{}_{}$ . Given that $AP^{}_{}=\\frac mn$ , where $m^{}_{}$ and $n^{}_{}$ are relatively prime positive integers, find $m+n^{}_{}$ .",
+        "answer": "164"
+    },
+    {
+        "question": "Square $ABCD$ has sides of length 1. Points $E$ and $F$ are on $\\overline{BC}$ and $\\overline{CD},$ respectively, so that $\\triangle AEF$ is equilateral. A square with vertex $B$ has sides that are parallel to those of $ABCD$ and a vertex on $\\overline{AE}.$ The length of a side of this smaller square is $\\frac{a-\\sqrt{b}}{c},$ where $a, b,$ and $c$ are positive integers and $b$ is not divisible by the square of any prime. Find $a+b+c.$",
+        "answer": "12"
+    },
+    {
+        "question": "Rectangle $ABCD$ and a semicircle with diameter $AB$ are coplanar and have nonoverlapping interiors. Let $\\mathcal{R}$ denote the region enclosed by the semicircle and the rectangle. Line $\\ell$ meets the semicircle, segment $AB$ , and segment $CD$ at distinct points $N$ , $U$ , and $T$ , respectively. Line $\\ell$ divides region $\\mathcal{R}$ into two regions with areas in the ratio $1: 2$ . Suppose that $AU = 84$ , $AN = 126$ , and $UB = 168$ . Then $DA$ can be represented as $m\\sqrt {n}$ , where $m$ and $n$ are positive integers and $n$ is not divisible by the square of any prime. Find $m + n$ .",
+        "answer": "69"
+    },
+    {
+        "question": "Point $P_{}$ is located inside triangle $ABC$ so that angles $PAB, PBC,$ and $PCA$ are all congruent.  The sides of the triangle have lengths $AB=13, BC=14,$ and $CA=15,$ and the tangent of angle $PAB$ is $m/n,$ where $m_{}$ and $n_{}$ are relatively prime positive integers.  Find $m+n.$",
+        "answer": "463"
+    },
+    {
+        "question": "In triangle $ABC$ , $AB = 10$ , $BC = 14$ , and $CA = 16$ . Let $D$ be a point in the interior of $\\overline{BC}$ . Let points $I_B$ and $I_C$ denote the incenters of triangles $ABD$ and $ACD$ , respectively. The circumcircles of triangles $BI_BD$ and $CI_CD$ meet at distinct points $P$ and $D$ . The maximum possible area of $\\triangle BPC$ can be expressed in the form $a - b\\sqrt {c}$ , where $a$ , $b$ , and $c$ are positive integers and $c$ is not divisible by the square of any prime. Find $a + b + c$ .",
+        "answer": "150"
+    },
+    {
+        "question": "In acute triangle $ABC,$ points $P$ and $Q$ are the feet of the perpendiculars from $C$ to $\\overline{AB}$ and from $B$ to $\\overline{AC}$ , respectively. Line $PQ$ intersects the circumcircle of $\\triangle ABC$ in two distinct points, $X$ and $Y$ . Suppose $XP=10$ , $PQ=25$ , and $QY=15$ . The value of $AB\\cdot AC$ can be written in the form $m\\sqrt n$ where $m$ and $n$ are positive integers, and $n$ is not divisible by the square of any prime. Find $m+n$ .",
+        "answer": "574"
+    },
+    {
+        "question": "In $\\triangle ABC$ , $AB=10$ , $\\measuredangle A=30^{\\circ}$ , and $\\measuredangle C=45^{\\circ}$ . Let $H$ , $D$ , and $M$ be points on line $\\overline{BC}$ such that $AH\\perp BC$ , $\\measuredangle BAD=\\measuredangle CAD$ , and $BM=CM$ . Point $N$ is the midpoint of segment $HM$ , and point $P$ is on ray $AD$ such that $PN\\perp BC$ . Then $AP^2=\\frac{m}{n}$ , where $m$ and $n$ are relatively prime positive integers. Find $m+n$ .",
+        "answer": "77"
+    },
+    {
+        "question": "Let $\\Delta ABC$ be an acute triangle with circumcenter $O$ and centroid $G$ . Let $X$ be the intersection of the line tangent to the circumcircle of $\\Delta ABC$ at $A$ and the line perpendicular to $GO$ at $G$ . Let $Y$ be the intersection of lines $XG$ and $BC$ . Given that the measures of $\\angle ABC, \\angle BCA,$ and $\\angle XOY$ are in the ratio $13 : 2 : 17,$ the degree measure of $\\angle BAC$ can be written as $\\frac{m}{n},$ where $m$ and $n$ are relatively prime positive integers. Find $m+n$ .",
+        "answer": "592"
+    },
+    {
+        "question": "In triangle $ABC$ , angles $A$ and $B$ measure $60$ degrees and $45$ degrees, respectively. The bisector of angle $A$ intersects $\\overline{BC}$ at $T$ , and $AT=24$ . The area of triangle $ABC$ can be written in the form $a+b\\sqrt{c}$ , where $a$ , $b$ , and $c$ are positive integers, and $c$ is not divisible by the square of any prime. Find $a+b+c$ .",
+        "answer": "291"
+    },
+    {
+        "question": "Let $ABCD$ be an isosceles trapezoid, whose dimensions are $AB = 6, BC=5=DA,$ and $CD=4.$ Draw circles of radius 3 centered at $A$ and $B$ and circles of radius 2 centered at $C$ and $D.$ A circle contained within the trapezoid is tangent to all four of these circles. Its radius is $\\frac{-k+m\\sqrt{n}}p,$ where $k, m, n,$ and $p$ are positive integers, $n$ is not divisible by the square of any prime, and $k$ and $p$ are relatively prime. Find $k+m+n+p.$",
+        "answer": "134"
+    },
+    {
+        "question": "Twenty distinct points are marked on a circle and labeled $1$ through $20$ in clockwise order. A line segment is drawn between every pair of points whose labels differ by a prime number. Find the number of triangles formed whose vertices are among the original $20$ points.",
+        "answer": "72"
+    },
+    {
+        "question": "Circles $\\mathcal{C}_1, \\mathcal{C}_2,$ and $\\mathcal{C}_3$ have their centers at (0,0), (12,0), and (24,0), and have radii 1, 2, and 4, respectively. Line $t_1$ is a common internal tangent to $\\mathcal{C}_1$ and $\\mathcal{C}_2$ and has a positive slope, and line $t_2$ is a common internal tangent to $\\mathcal{C}_2$ and $\\mathcal{C}_3$ and has a negative slope. Given that lines $t_1$ and $t_2$ intersect at $(x,y),$ and that $x=p-q\\sqrt{r},$ where $p, q,$ and $r$ are positive integers and $r$ is not divisible by the square of any prime, find $p+q+r.$",
+        "answer": "27"
+    },
+    {
+        "question": "Triangle $ABC$ is inscribed in circle $\\omega$ with $AB=5$ , $BC=7$ , and $AC=3$ . The bisector of angle $A$ meets side $\\overline{BC}$ at $D$ and circle $\\omega$ at a second point $E$ . Let $\\gamma$ be the circle with diameter $\\overline{DE}$ . Circles $\\omega$ and $\\gamma$ meet at $E$ and a second point $F$ . Then $AF^2 = \\frac mn$ , where $m$ and $n$ are relatively prime positive integers. Find $m+n$ .",
+        "answer": "919"
+    },
+    {
+        "question": "Point $D$ lies on side $\\overline{BC}$ of $\\triangle ABC$ so that $\\overline{AD}$ bisects $\\angle BAC.$ The perpendicular bisector of $\\overline{AD}$ intersects the bisectors of $\\angle ABC$ and $\\angle ACB$ in points $E$ and $F,$ respectively. Given that $AB=4,BC=5,$ and $CA=6,$ the area of $\\triangle AEF$ can be written as $\\tfrac{m\\sqrt{n}}p,$ where $m$ and $p$ are relatively prime positive integers, and $n$ is a positive integer not divisible by the square of any prime. Find $m+n+p$ .",
+        "answer": "36"
+    },
+    {
+        "question": "In convex quadrilateral $ABCD, \\angle A \\cong \\angle C, AB = CD = 180,$ and $AD \\neq BC.$ The perimeter of $ABCD$ is 640. Find $\\lfloor 1000 \\cos A \\rfloor.$ (The notation $\\lfloor x \\rfloor$ means the greatest integer that is less than or equal to $x.$ )",
+        "answer": "777"
+    },
+    {
+        "question": "Let $ABC$ be equilateral , and $D, E,$ and $F$ be the midpoints of $\\overline{BC}, \\overline{CA},$ and $\\overline{AB},$ respectively.  There exist points $P, Q,$ and $R$ on $\\overline{DE}, \\overline{EF},$ and $\\overline{FD},$ respectively, with the property that $P$ is on $\\overline{CQ}, Q$ is on $\\overline{AR},$ and $R$ is on $\\overline{BP}.$ The ratio of the area of triangle $ABC$ to the area of triangle $PQR$ is $a + b\\sqrt {c},$ where $a, b$ and $c$ are integers, and $c$ is not divisible by the square of any prime .  What is $a^{2} + b^{2} + c^{2}$ ?",
+        "answer": "83"
+    },
+    {
+        "question": "Equilateral triangle $T$ is inscribed in circle $A$ , which has radius $10$ . Circle $B$ with radius $3$ is internally tangent to circle $A$ at one vertex of $T$ . Circles $C$ and $D$ , both with radius $2$ , are internally tangent to circle $A$ at the other two vertices of $T$ . Circles $B$ , $C$ , and $D$ are all externally tangent to circle $E$ , which has radius $\\dfrac mn$ , where $m$ and $n$ are relatively prime positive integers. Find $m+n$ . [asy] unitsize(3mm); defaultpen(linewidth(.8pt)); dotfactor=4;  pair A=(0,0), D=8*dir(330), C=8*dir(210), B=7*dir(90); pair Ep=(0,4-27/5); pair[] dotted={A,B,C,D,Ep};  draw(Circle(A,10)); draw(Circle(B,3)); draw(Circle(C,2)); draw(Circle(D,2)); draw(Circle(Ep,27/5));  dot(dotted); label(\"$E$\",Ep,E); label(\"$A$\",A,W); label(\"$B$\",B,W); label(\"$C$\",C,W); label(\"$D$\",D,E); [/asy]",
+        "answer": "32"
+    },
+    {
+        "question": "A circle is inscribed in quadrilateral $ABCD$ , tangent to $\\overline{AB}$ at $P$ and to $\\overline{CD}$ at $Q$ . Given that $AP=19$ , $PB=26$ , $CQ=37$ , and $QD=23$ , find the square of the radius of the circle.",
+        "answer": "647"
+    },
+    {
+        "question": "Let $\\triangle ABC$ have side lengths $AB=30$ , $BC=32$ , and $AC=34$ . Point $X$ lies in the interior of $\\overline{BC}$ , and points $I_1$ and $I_2$ are the incenters of $\\triangle ABX$ and $\\triangle ACX$ , respectively. Find the minimum possible area of $\\triangle AI_1I_2$ as $X$ varies along $\\overline{BC}$ .",
+        "answer": "126"
+    },
+    {
+        "question": "Let $\\triangle ABC$ be an isosceles triangle with $\\angle A = 90^\\circ.$ There exists a point $P$ inside $\\triangle ABC$ such that $\\angle PAB = \\angle PBC = \\angle PCA$ and $AP = 10.$ Find the area of $\\triangle ABC.$",
+        "answer": "250"
+    },
+    {
+        "question": "Circle $C_0$ has radius $1$ , and the point $A_0$ is a point on the circle. Circle $C_1$ has radius $r<1$ and is internally tangent to $C_0$ at point $A_0$ . Point $A_1$ lies on circle $C_1$ so that $A_1$ is located $90^{\\circ}$ counterclockwise from $A_0$ on $C_1$ . Circle $C_2$ has radius $r^2$ and is internally tangent to $C_1$ at point $A_1$ . In this way a sequence of circles $C_1,C_2,C_3,\\ldots$ and a sequence of points on the circles $A_1,A_2,A_3,\\ldots$ are constructed, where circle $C_n$ has radius $r^n$ and is internally tangent to circle $C_{n-1}$ at point $A_{n-1}$ , and point $A_n$ lies on $C_n$ $90^{\\circ}$ counterclockwise from point $A_{n-1}$ , as shown in the figure below. There is one point $B$ inside all of these circles. When $r = \\frac{11}{60}$ , the distance from the center $C_0$ to $B$ is $\\frac{m}{n}$ , where $m$ and $n$ are relatively prime positive integers. Find $m+n$ . [asy] draw(Circle((0,0),125)); draw(Circle((25,0),100)); draw(Circle((25,20),80)); draw(Circle((9,20),64)); dot((125,0)); label(\"$A_0$\",(125,0),E); dot((25,100)); label(\"$A_1$\",(25,100),SE); dot((-55,20)); label(\"$A_2$\",(-55,20),E); [/asy]",
+        "answer": "110"
+    },
+    {
+        "question": "In the diagram below, $ABCD$ is a square. Point $E$ is the midpoint of $\\overline{AD}$ . Points $F$ and $G$ lie on $\\overline{CE}$ , and $H$ and $J$ lie on $\\overline{AB}$ and $\\overline{BC}$ , respectively, so that $FGHJ$ is a square. Points $K$ and $L$ lie on $\\overline{GH}$ , and $M$ and $N$ lie on $\\overline{AD}$ and $\\overline{AB}$ , respectively, so that $KLMN$ is a square. The area of $KLMN$ is 99. Find the area of $FGHJ$ . [asy] pair A,B,C,D,E,F,G,H,J,K,L,M,N; B=(0,0); real m=7*sqrt(55)/5; J=(m,0); C=(7*m/2,0); A=(0,7*m/2); D=(7*m/2,7*m/2); E=(A+D)/2; H=(0,2m); N=(0,2m+3*sqrt(55)/2); G=foot(H,E,C); F=foot(J,E,C); draw(A--B--C--D--cycle); draw(C--E); draw(G--H--J--F); pair X=foot(N,E,C); M=extension(N,X,A,D); K=foot(N,H,G); L=foot(M,H,G); draw(K--N--M--L); label(\"$A$\",A,NW); label(\"$B$\",B,SW); label(\"$C$\",C,SE); label(\"$D$\",D,NE); label(\"$E$\",E,dir(90)); label(\"$F$\",F,NE); label(\"$G$\",G,NE); label(\"$H$\",H,W); label(\"$J$\",J,S); label(\"$K$\",K,SE); label(\"$L$\",L,SE); label(\"$M$\",M,dir(90)); label(\"$N$\",N,dir(180)); [/asy]",
+        "answer": "539"
+    },
+    {
+        "question": "In $\\triangle PQR$ , $PR=15$ , $QR=20$ , and $PQ=25$ . Points $A$ and $B$ lie on $\\overline{PQ}$ , points $C$ and $D$ lie on $\\overline{QR}$ , and points $E$ and $F$ lie on $\\overline{PR}$ , with $PA=QB=QC=RD=RE=PF=5$ . Find the area of hexagon $ABCDEF$ .",
+        "answer": "120"
+    },
+    {
+        "question": "Diameter $AB$ of a circle has length a $2$ -digit integer (base ten). Reversing the digits gives the length of the perpendicular chord $CD$ . The distance from their intersection point $H$ to the center $O$ is a positive rational number. Determine the length of $AB$ . Pdfresizer.com-pdf-convert-aimeq12.png",
+        "answer": "65"
+    },
+    {
+        "question": "Let $A$ and $B$ be the endpoints of a semicircular arc of radius $2$ . The arc is divided into seven congruent arcs by six equally spaced points $C_1,C_2,\\dots,C_6$ . All chords of the form $\\overline{AC_i}$ or $\\overline{BC_i}$ are drawn. Let $n$ be the product of the lengths of these twelve chords. Find the remainder when $n$ is divided by $1000$ .",
+        "answer": "672"
+    },
+    {
+        "question": "Let $R = (8,6)$ . The lines whose equations are $8y = 15x$ and $10y = 3x$ contain points $P$ and $Q$ , respectively, such that $R$ is the midpoint of $\\overline{PQ}$ . The length of $PQ$ equals $\\frac {m}{n}$ , where $m$ and $n$ are relatively prime positive integers. Find $m + n$ .",
+        "answer": "67"
+    },
+    {
+        "question": "On square $ABCD$ , point $E$ lies on side $AD$ and point $F$ lies on side $BC$ , so that $BE=EF=FD=30$ . Find the area of the square $ABCD$ .",
+        "answer": "810"
+    },
+    {
+        "question": "In trapezoid $ABCD$ with $\\overline{BC}\\parallel\\overline{AD}$ , let $BC = 1000$ and $AD = 2008$ . Let $\\angle A = 37^\\circ$ , $\\angle D = 53^\\circ$ , and $M$ and $N$ be the midpoints of $\\overline{BC}$ and $\\overline{AD}$ , respectively. Find the length $MN$ .",
+        "answer": "504"
+    },
+    {
+        "question": "In $\\triangle ABC$ with side lengths $AB = 13,$ $BC = 14,$ and $CA = 15,$ let $M$ be the midpoint of $\\overline{BC}.$ Let $P$ be the point on the circumcircle of $\\triangle ABC$ such that $M$ is on $\\overline{AP}.$ There exists a unique point $Q$ on segment $\\overline{AM}$ such that $\\angle PBQ = \\angle PCQ.$ Then $AQ$ can be written as $\\frac{m}{\\sqrt{n}},$ where $m$ and $n$ are relatively prime positive integers. Find $m+n.$",
+        "answer": "247"
+    },
+    {
+        "question": "Triangle $ABC$ is inscribed in circle $\\omega$ . Points $P$ and $Q$ are on side $\\overline{AB}$ with $AP<AQ$ . Rays $CP$ and $CQ$ meet $\\omega$ again at $S$ and $T$ (other than $C$ ), respectively. If $AP=4,PQ=3,QB=6,BT=5,$ and $AS=7$ , then $ST=\\frac{m}{n}$ , where $m$ and $n$ are relatively prime positive integers. Find $m+n$ .",
+        "answer": "43"
+    },
+    {
+        "question": "Let $ABCDE$ be a convex pentagon with $AB || CE, BC || AD, AC || DE, \\angle ABC=120^\\circ, AB=3, BC=5,$ and $DE = 15.$ Given that the ratio between the area of triangle $ABC$ and the area of triangle $EBD$ is $m/n,$ where $m$ and $n$ are relatively prime positive integers, find $m+n.$",
+        "answer": "484"
+    },
+    {
+        "question": "Let $\\overline{AB}$ be a diameter of circle $\\omega$ . Extend $\\overline{AB}$ through $A$ to $C$ . Point $T$ lies on $\\omega$ so that line $CT$ is tangent to $\\omega$ . Point $P$ is the foot of the perpendicular from $A$ to line $CT$ . Suppose $\\overline{AB} = 18$ , and let $m$ denote the maximum possible length of segment $BP$ . Find $m^{2}$ .",
+        "answer": "432"
+    },
+    {
+        "question": "Triangle $ABC$ has side lengths $AB=120,BC=220$ , and $AC=180$ . Lines $\\ell_A,\\ell_B$ , and $\\ell_C$ are drawn parallel to $\\overline{BC},\\overline{AC}$ , and $\\overline{AB}$ , respectively, such that the intersections of $\\ell_A,\\ell_B$ , and $\\ell_C$ with the interior of $\\triangle ABC$ are segments of lengths $55,45$ , and $15$ , respectively. Find the perimeter of the triangle whose sides lie on lines $\\ell_A,\\ell_B$ , and $\\ell_C$ .",
+        "answer": "715"
+    },
+    {
+        "question": "Circles $C_1$ and $C_2$ are externally tangent, and they are both internally tangent to circle $C_3.$ The radii of $C_1$ and $C_2$ are 4 and 10, respectively, and the centers of the three circles are all collinear. A chord of $C_3$ is also a common external tangent of $C_1$ and $C_2.$ Given that the length of the chord is $\\frac{m\\sqrt{n}}p$ where $m,n,$ and $p$ are positive integers, $m$ and $p$ are relatively prime, and $n$ is not divisible by the square of any prime, find $m+n+p.$",
+        "answer": "405"
+    },
+    {
+        "question": "Equilateral triangle $\\triangle ABC$ is inscribed in circle $\\omega$ with radius $18.$ Circle $\\omega_A$ is tangent to sides $\\overline{AB}$ and $\\overline{AC}$ and is internally tangent to $\\omega.$ Circles $\\omega_B$ and $\\omega_C$ are defined analogously. Circles $\\omega_A,$ $\\omega_B,$ and $\\omega_C$ meet in six points---two points for each pair of circles. The three intersection points closest to the vertices of $\\triangle ABC$ are the vertices of a large equilateral triangle in the interior of $\\triangle ABC,$ and the other three intersection points are the vertices of a smaller equilateral triangle in the interior of $\\triangle ABC.$ The side length of the smaller equilateral triangle can be written as $\\sqrt{a} - \\sqrt{b},$ where $a$ and $b$ are positive integers. Find $a+b.$",
+        "answer": "378"
+    },
+    {
+        "question": "Rhombus $ABCD$ has $\\angle BAD < 90^\\circ.$ There is a point $P$ on the incircle of the rhombus such that the distances from $P$ to the lines $DA,AB,$ and $BC$ are $9,5,$ and $16,$ respectively. Find the perimeter of $ABCD.$",
+        "answer": "125"
+    },
+    {
+        "question": "Let $\\overline{CH}$ be an altitude of $\\triangle ABC$ . Let $R\\,$ and $S\\,$ be the points where the circles inscribed in the triangles $ACH\\,$ and $BCH^{}_{}$ are tangent to $\\overline{CH}$ . If $AB = 1995\\,$ , $AC = 1994\\,$ , and $BC = 1993\\,$ , then $RS\\,$ can be expressed as $m/n\\,$ , where $m\\,$ and $n\\,$ are relatively prime integers. Find $m + n\\,$ .",
+        "answer": "997"
+    }
+]

@@ -1,0 +1,224 @@
+[
+  {
+    "context": "Passage: As of 2011 the 88,112 residents of Orem had a racial and ethnic composition of 89.3% White American, 0.9% black or African American, 0.9% Native Americans of the United States, 1.6% Asian American, 0.5% Pacific Islanders, 4% non-Hispanics reporting some other race, 2.9% two or more races reported and 14.8% Hispanic, as Orem has a large Mexican American community with other Latinos residing in the city. This contrasts with the census of 2000, which showed a racial makeup of 90.80% White (U.S. Census), 0.33% African American (U.S. Census), 0.73% Native American (U.S. Census), 1.45% Asian (U.S. Census), 0.86% Pacific Islander (U.S. Census), 3.64% from Race (United States Census), and 2.18% from two or more races. Hispanic (U.S. Census) or Latino (U.S. Census) of any race were 8.56% of the population. The 2000 Census counted 84,324 people, 23,382 households, and 19,079 families. The population density at that time was 4,572.6 people per square mile (1,765.6/km²). There were 24,166 housing units at an average density of 1,310.4 per square mile (506.0/km²). There were 23,382 households out of which 48.8% had children under the age of 18 living with them, 69.0% were Marriage living together, 9.5% had a female householder with no husband present, and 18.4% were non-families. 12.4% of all households were made up of individuals and 5.1% had someone living alone who was 65 years of age or older. The average household size was 3.57 and the average family size was 3.93.\nQuestion: How many percent of people were not Native American in 2000?\nAnswer:",
+    "completion": " 99.27",
+    "ref_text": "99.27",
+    "id": 2664
+  },
+  {
+    "context": "Passage: As of the census of 2000, there were 102,121 people, 40,307 households, and 26,118 families residing in the city. The population density was 2,265.5 people per square mile (874.6/km2). There were 43,121 housing units at an average density of 956.6 per square mile (369.3/km2). The racial makeup of the city was 76.21% White (U.S. Census), 2.41% African American (U.S. Census), 1.73% Native American (U.S. Census), 0.67% Asian (U.S. Census), 0.06% Pacific Islander (U.S. Census), 15.20% from Race (United States Census), and 3.71% from two or more races. Latinos (U.S. Census) made up 44.13% of the population. 10.1% were of Germans, 8.1% Italians, 6.0% American, 5.5% English and 5.4% Irish ancestry according to Census 2000.\nQuestion: Which racial groups each individually made up between 0.5 to 2.5% of the population?\nAnswer:",
+    "completion": " African American and Asian and Native American",
+    "ref_text": "African American and Asian and Native American|Native American and African American and Asian",
+    "id": 1840
+  },
+  {
+    "context": "Passage: As of the census of 2000, there were 19,234 people, 7,473 households, and 4,954 families residing in the village. The population density was 10,337.3 people per square mile (3,992.6/km²). There were 7,650 housing units at an average density of 4,111.5/sq mi (1,588.0/km²). The racial makeup of the village was 82.39% White (U.S. Census), 1.03% African American (U.S. Census), 0.29% Native American (U.S. Census), 4.52% Asian (U.S. Census), 0.04% Pacific Islander (U.S. Census), 3.93% from Race (United States Census), and 3.79% from two or more races. 13.03% of the population is Hispanic (U.S. Census) or Latino (U.S. Census) of any race.\nQuestion: Which racial group was the second smallest?\nAnswer:",
+    "completion": " Native American",
+    "ref_text": "Native American",
+    "id": 2473
+  },
+  {
+    "context": "Passage: As of the census of 2000, there were 7,791 people, 3,155 households, and 2,240 families residing in the county.  The population density was 16 people per square mile (6/km²).  There were 3,723 housing units at an average density of 8 per square mile (3/km²).  The racial makeup of the county was 97.63% Race (United States Census), 0.18% Race (United States Census) or Race (United States Census), 1.07% Race (United States Census), 0.19% Race (United States Census), 0.03% Race (United States Census), 0.22% from Race (United States Census), and 0.69% from two or more races.  1.26% of the population were Race (United States Census) or Race (United States Census) of any race. 33.7% were of germans, 13.9% swedish people, 10.1% irish people, 8.8% united states, 7.0% english people and 5.4% Danish people ancestry according to Census 2000.\nQuestion: How many more people were German than from the US or Danish?\nAnswer:",
+    "completion": " .3",
+    "ref_text": ".3|19.5",
+    "id": 6872
+  },
+  {
+    "context": "Passage: As of the census of 2000, there were 49,927 people, 18,009 households, and 12,192 families residing in the county.  The population density was 48 people per square mile (19/km²).  There were 24,505 housing units at an average density of 24 per square mile (9/km²).  The racial makeup of the county was 97.03% Race (United States Census), 0.72% Race (United States Census) or Race (United States Census), 0.28% Race (United States Census), 0.72% Race (United States Census), 0.37% from Race (United States Census), and 0.88% from two or more races.  0.91% of the population were Hispanics in the United States or Race (United States Census) of any race. 22.3% identified as being of Germans, 16.6% English people, 13.8% Irish people, 11.9% United States and 7.0% Italian people ancestry according to Census 2000. 96.5% spoke English language and 1.3% Spanish language as their first language.\nQuestion: How many more people are there than housing units?\nAnswer:",
+    "completion": " 25422",
+    "ref_text": "25422",
+    "id": 2456
+  },
+  {
+    "context": "Passage: As of the census of 2000, there were 7,791 people, 3,155 households, and 2,240 families residing in the county.  The population density was 16 people per square mile (6/km²).  There were 3,723 housing units at an average density of 8 per square mile (3/km²).  The racial makeup of the county was 97.63% Race (United States Census), 0.18% Race (United States Census) or Race (United States Census), 1.07% Race (United States Census), 0.19% Race (United States Census), 0.03% Race (United States Census), 0.22% from Race (United States Census), and 0.69% from two or more races.  1.26% of the population were Race (United States Census) or Race (United States Census) of any race. 33.7% were of germans, 13.9% swedish people, 10.1% irish people, 8.8% united states, 7.0% english people and 5.4% Danish people ancestry according to Census 2000.\nQuestion: Which ancestral group is smaller: swedish or united states?\nAnswer:",
+    "completion": " united states",
+    "ref_text": "united states",
+    "id": 9525
+  },
+  {
+    "context": "Passage: Skopje, as the Republic of Macedonia as a whole, is characterised by a large ethnic diversity. The city is located in a region where Ethnic Albanians and Macedonians meet, and it welcomed Romani, Turks, Jews and Serbs throughout its history. Skopje was mainly a Muslim city until the 19th century, when large numbers of Christians started to settle there. According to the 2002 census, Macedonians were the largest ethnic group in Skopje, with 338,358 inhabitants, or 66.75% of the population. Then came Albanians with 103,891 inhabitants (20.49%), Roma people with 23,475 (4.63%), Serbs (14,298 inhabitants), Turks (8,595), Bosniaks (7,585) and Vlachs (2,557). 8,167 people did not belong to any of these groups.\nQuestion: Which group from the census in Skopje is smaller: Macedonians or Albanians?\nAnswer:",
+    "completion": " Albanians",
+    "ref_text": "Albanians",
+    "id": 6696
+  },
+  {
+    "context": "Passage: After being higher in the postwar period, the U.S. unemployment rate fell below the rising eurozone unemployment rate in the mid-1980s and has remained significantly lower almost continuously since. In 1955, 55% of Americans worked in services, between 30% and 35% in industry, and between 10% and 15% in Agriculture in the United States. By 1980, over 65% were employed in services, between 25% and 30% in industry, and less than 5% in agriculture. Male unemployment continued to be significantly higher than those of females (at 9.8% vs. 7.5% in 2009). The unemployment among Caucasians continues being much lower than those for African-Americans (at 8.5% vs. 15.8% also in 2009).\nQuestion: Who was more out of work, Caucasians or African-Americans?\nAnswer:",
+    "completion": " African-Americans",
+    "ref_text": "African-Americans",
+    "id": 6129
+  },
+  {
+    "context": "Passage: A census in 1891 of uncertain accuracy gave a figure of 43,796 inhabitants, 79% of whom were Chinese (71% of the Chinese were Hakka people), 14% Malay, and 6% Indian. Another estimate put the population of Kuala Lumpur in 1890 at 20,000. In 1931, 61% of Kuala Lumpurs 111,418 inhabitants were Chinese, and in 1947 63.5%. The Malays however began to settle in the Kuala Lumpur in significant numbers, in part due to government employment, as well as the expansion of the city that absorbed the surrounding rural areas where many Malays lived. Between 1947 and 1957 the population of Malays in Kuala Lumpur doubled, increasing from 12.5 to 15%, while the proportion of Chinese dropped. The process continued after Malayan independence with the growth of a largely Malay civil service, and later the implementation of the Malaysian New Economic Policy which encouraged Malay participation in urban industries and business. In 1980 the population of Kuala Lumpur had reached over a million, with 52% Chinese, 33% Malay, and 15% Indian. From 1980 to 2000 the number of Bumiputras increased by 77%, but the Chinese still outnumbered the Bumiputras in Kuala Lumpur in the 2000 census at 43% compared to Bumiputras at 38%. By the 2010 census, according to the Department of Statistics and excluding non-citizens, the percentage of the Bumiputera (Malaysia) population in Kuala Lumpur had reached around 45.9% (44.7% Malay), with the Chinese population at 43.2% and Indians 10.3%.\nQuestion: How many percent of people were not Malay in 1891?\nAnswer:",
+    "completion": " 86",
+    "ref_text": "86",
+    "id": 8266
+  },
+  {
+    "context": "Passage: As of the census of 2000, there were 250,291 people, 99,187 households, and 60,702 families residing in the county. The population density was 298 people per square mile (115/km²). There were 104,217 housing units at an average density of 124 per square mile (48/km²). The racial makeup of the county was 90.07% Race (United States Census), 2.82% Race (United States Census) or Race (United States Census), 0.64% Race (United States Census), 2.86% Asian American, 0.06% Race (United States Census), 1.69% from Race (United States Census), and 1.87% from two or more races. 3.37% of the population were Race (United States Census) or Race (United States Census) of any race. 39.1% were of Germans, 7.9% English people and 7.8% Irish people ancestry according to Census 2000.\nQuestion: Which group is larger for the county according to the census: people or households?\nAnswer:",
+    "completion": " people",
+    "ref_text": "people",
+    "id": 9246
+  },
+  {
+    "context": "Passage: As of the 2000 United States Census of 2000, there were 47,829 people, 15,137 households, and 10,898 families residing in the city. The population density was 7,921.7 people per square mile (3,057.4/km2). There were 16,180 housing units at an average density of 2,679.8 per square mile (1,034.3/km2). The racial makeup of the city was 21.45% White (U.S. Census), 61.78% African American (U.S. Census), 0.41% Native American (U.S. Census), 0.93% Asian (U.S. Census), 0.10% Pacific Islander (U.S. Census), 10.78% from Race (United States Census), and 4.55% from two or more races. Hispanic (U.S. Census) or Latino (U.S. Census) of any race were 25.16% of the population.\nQuestion: How many more households are there than families?\nAnswer:",
+    "completion": " 4239",
+    "ref_text": "4239",
+    "id": 5312
+  },
+  {
+    "context": "Passage: According to the United Kingdom Census 2011, 45.7% of the population was White people (34.5% white British, 1.1% Irish migration to Great Britain, 0.2% Gypsy (term) or Irish Traveller, 9.9% Other White), 3.4% of Mixed (United Kingdom ethnicity category) (1.2% white and black Caribbean, 0.4% white and black African, 1.0% white and Asian, 0.8% other mixed), 39.7% British Asian (17.7% British Pakistanis, 15.6% British Indian, 0.4% British Bangladeshi, 0.6% British Chinese, 5.4% other Asian), 8.6% Black British (5.4% African, 2.2% British African-Caribbean people, 1.0% Other Black), 0.7% British Arab and 1.9% of other ethnic heritage. In the post-war years, immigrants from the Commonwealth of Nations, notably Anguilla, Antigua and Barbuda, India and Pakistan came to the town.\nQuestion: What has the highest percentage in the mix percentage: white and black Caribbean or white and black African?\nAnswer:",
+    "completion": " white and black Caribbean",
+    "ref_text": "white and black Caribbean",
+    "id": 1851
+  },
+  {
+    "context": "Passage: As of 2011 the 88,112 residents of Orem had a racial and ethnic composition of 89.3% White American, 0.9% black or African American, 0.9% Native Americans of the United States, 1.6% Asian American, 0.5% Pacific Islanders, 4% non-Hispanics reporting some other race, 2.9% two or more races reported and 14.8% Hispanic, as Orem has a large Mexican American community with other Latinos residing in the city. This contrasts with the census of 2000, which showed a racial makeup of 90.80% White (U.S. Census), 0.33% African American (U.S. Census), 0.73% Native American (U.S. Census), 1.45% Asian (U.S. Census), 0.86% Pacific Islander (U.S. Census), 3.64% from Race (United States Census), and 2.18% from two or more races. Hispanic (U.S. Census) or Latino (U.S. Census) of any race were 8.56% of the population. The 2000 Census counted 84,324 people, 23,382 households, and 19,079 families. The population density at that time was 4,572.6 people per square mile (1,765.6/km²). There were 24,166 housing units at an average density of 1,310.4 per square mile (506.0/km²). There were 23,382 households out of which 48.8% had children under the age of 18 living with them, 69.0% were Marriage living together, 9.5% had a female householder with no husband present, and 18.4% were non-families. 12.4% of all households were made up of individuals and 5.1% had someone living alone who was 65 years of age or older. The average household size was 3.57 and the average family size was 3.93.\nQuestion: How many percent of people were not white in 2011?\nAnswer:",
+    "completion": " 10.7",
+    "ref_text": "10.7",
+    "id": 3023
+  },
+  {
+    "context": "Passage: As of 2011 the 88,112 residents of Orem had a racial and ethnic composition of 89.3% White American, 0.9% black or African American, 0.9% Native Americans of the United States, 1.6% Asian American, 0.5% Pacific Islanders, 4% non-Hispanics reporting some other race, 2.9% two or more races reported and 14.8% Hispanic, as Orem has a large Mexican American community with other Latinos residing in the city. This contrasts with the census of 2000, which showed a racial makeup of 90.80% White (U.S. Census), 0.33% African American (U.S. Census), 0.73% Native American (U.S. Census), 1.45% Asian (U.S. Census), 0.86% Pacific Islander (U.S. Census), 3.64% from Race (United States Census), and 2.18% from two or more races. Hispanic (U.S. Census) or Latino (U.S. Census) of any race were 8.56% of the population. The 2000 Census counted 84,324 people, 23,382 households, and 19,079 families. The population density at that time was 4,572.6 people per square mile (1,765.6/km²). There were 24,166 housing units at an average density of 1,310.4 per square mile (506.0/km²). There were 23,382 households out of which 48.8% had children under the age of 18 living with them, 69.0% were Marriage living together, 9.5% had a female householder with no husband present, and 18.4% were non-families. 12.4% of all households were made up of individuals and 5.1% had someone living alone who was 65 years of age or older. The average household size was 3.57 and the average family size was 3.93.\nQuestion: How many percent of people in 2000 were not white?\nAnswer:",
+    "completion": " 9.2",
+    "ref_text": "9.2|10.7",
+    "id": 1318
+  },
+  {
+    "context": "Passage: In terms of race and ethnicity, Springfield is 51.8% White American, 22.3% African American or African American, 0.6% American Indian and Alaska Native, 2.4% Asian (1.2% Vietnamese, 0.3% Chinese, 0.2% Indian, 0.1% Cambodian, 0.1% Filipino, 0.1% Korean, 0.1% Pakistani, 0.1% Laotian), 0.1% Native Hawaiian and Other Pacific Islander, 18.0% from Some Other Race, and 4.7% from Two or More Races (1.5% White and Black or African American; 1.0% White and Some Other Race). Hispanic and Latino Americans and Latinos of any race made up 38.8% of the population (33.2% Puerto Rican, 1.7% Dominican, 1.0% Mexican, 0.5% Guatemalan, 0.3% Cuban, 0.2% Colombian, 0.2% Spanish, 0.2% Salvadoran, 0.1% Peruvian, 0.1% Ecuadorian, 0.1% Panamanian, 0.1% Costa Rican, 0.1% Honduran). Non-Hispanic Whites were 36.7% of the population in 2010, down from 84.1% in 1970.\nQuestion: How many more people, by percent, living in Springfield who were made up of two or more races were White and African American compared to White and some other race?\nAnswer:",
+    "completion": " .5",
+    "ref_text": ".5",
+    "id": 1142
+  },
+  {
+    "context": "Passage: Houston is considered an Automobile dependency city, with an estimated 77.2% of commuters driving alone to work in 2016, up from 71.7% in 1990 and 75.6% in 2009. In 2016, another 11.4% of Houstonians carpooled to work, while 3.6% used public transit, 2.1% walked, and 0.5% bicycled. A commuting study estimated that the median length of commute in the region was  in 2012. According to the 2013 American Community Survey, the average work commute in Houston (city) takes 26.3 minutes. A 1999 Murdoch University study found that Houston had both the lengthiest commute and lowest urban density of 13 large American cities surveyed, and a 2017 Arcadis study ranked Houston 22nd out of 23 American cities in transportation sustainability. Harris County is one of the largest consumers of gasoline in the United States, ranking second (behind Los Angeles County, California) in 2013.\nQuestion: How many people in terms of percentage did not drive alone to work in 2016?\nAnswer:",
+    "completion": " 22.8",
+    "ref_text": "22.8",
+    "id": 7671
+  },
+  {
+    "context": "Passage: Among Richmond residents, 64.56% residents speak English, 23.13% speak Spanish, 2.11% speak Tagalog language, 1.75% speak Chinese, 1.20% speak Hmong-Mien languages, 1.12% speak Laotian language, 0.72% speak Punjabi language, 0.54% speak Cantonese language, 0.51% speak French, 0.5% speak Vietnamese language, 3.49% speak other languages, none of which represents more than half of one percent of the population.\nQuestion: Which languages are spoken by more than 20% of Richmond's residents?\nAnswer:",
+    "completion": " English and Spanish",
+    "ref_text": "English and Spanish",
+    "id": 6069
+  },
+  {
+    "context": "Passage: In the census of 2010, there were 66,135 people, 26,265 (2000 data) households, and 14,051 (2000 data) families residing in the city. The population density was 6,096.7 people per square mile (2,199.9/km²). There were 30,272 (2000 data) housing units at an average density of 2,790.6 per square mile (1,077.2/km²). The racial makeup of the city was 59.38% (52.31% Non-Hispanic) (7.07 White-Hispanic) White (U.S. Census), 24.19% African American (U.S. Census), 14.47% Hispanic (U.S. Census) or Latin (U.S. Census)) of any race, 8.24% from Race (United States Census), 5.74% from two or more races, 2.62% Asian (U.S. Census), 0.69%  Native American (U.S.Census), and 0.14% Pacific Islander (U.S. Census). There is a growing Guyana population in the area. The top ancestries self-identified by people on the census are Italian (13.6%), Guyanese (12.3%), Irish (12.1%), Puerto Rican (10.1%), German (8.7%), English (6.0%), Polish (5.4%), French (4.4%). These reflect historic and early 20th-century immigration, as well as that since the late 20th century.\nQuestion: How many percent of people were not African American?\nAnswer:",
+    "completion": " 75.81",
+    "ref_text": "75.81|85.53",
+    "id": 5872
+  },
+  {
+    "context": "Passage: As of the census of 2000, there were 25,764 people, 10,477 households, and 7,459 families residing in the county.  The population density was 45 people per square mile (17/km2).  There were 12,115 housing units at an average density of 21 per square mile (8/km2).  The racial makeup of the county was 87.11% Race (United States Census), 10.65% Race (United States Census) or Race (United States Census), 0.76% Race (United States Census), 0.12% Race (United States Census), 0.02% Race (United States Census), 0.62% from Race (United States Census), and 0.72% from two or more races.  1.76% of the population were Race (United States Census) or Race (United States Census) of any race.\nQuestion: which has more, housing units or households?\nAnswer:",
+    "completion": " housing units",
+    "ref_text": "housing units",
+    "id": 2114
+  },
+  {
+    "context": "Passage: A census in 1891 of uncertain accuracy gave a figure of 43,796 inhabitants, 79% of whom were Chinese (71% of the Chinese were Hakka people), 14% Malay, and 6% Indian. Another estimate put the population of Kuala Lumpur in 1890 at 20,000. In 1931, 61% of Kuala Lumpurs 111,418 inhabitants were Chinese, and in 1947 63.5%. The Malays however began to settle in the Kuala Lumpur in significant numbers, in part due to government employment, as well as the expansion of the city that absorbed the surrounding rural areas where many Malays lived. Between 1947 and 1957 the population of Malays in Kuala Lumpur doubled, increasing from 12.5 to 15%, while the proportion of Chinese dropped. The process continued after Malayan independence with the growth of a largely Malay civil service, and later the implementation of the Malaysian New Economic Policy which encouraged Malay participation in urban industries and business. In 1980 the population of Kuala Lumpur had reached over a million, with 52% Chinese, 33% Malay, and 15% Indian. From 1980 to 2000 the number of Bumiputras increased by 77%, but the Chinese still outnumbered the Bumiputras in Kuala Lumpur in the 2000 census at 43% compared to Bumiputras at 38%. By the 2010 census, according to the Department of Statistics and excluding non-citizens, the percentage of the Bumiputera (Malaysia) population in Kuala Lumpur had reached around 45.9% (44.7% Malay), with the Chinese population at 43.2% and Indians 10.3%.\nQuestion: How many percent of people were not Chinese in 1891?\nAnswer:",
+    "completion": " 21",
+    "ref_text": "21",
+    "id": 765
+  },
+  {
+    "context": "Passage: As of the census of 2000, there were 24,621 people, 9,029 households, and 6,284 families residing in the county.  The population density was 73 people per square mile (28/km²).  There were 12,064 housing units at an average density of 36 per square mile (14/km²).  The racial makeup of the county was 97.90% White (U.S. Census), 0.56% African American (U.S. Census), 0.15% Native American (U.S. Census), 0.28% Asian (U.S. Census), 0.02% Pacific Islander (U.S. Census), 0.36% from Race (United States Census), and 0.74% from two or more races. Hispanic (U.S. Census) or Latino (U.S. Census) of any race were 0.93% of the population. 21.3% were of English people, 16.5% Germans, 11.4% Irish people, 10.7% United States, 5.3% danish people and 5.3% Italian people ancestry according to Census 2000.\nQuestion: How many in percent from the census weren't white?\nAnswer:",
+    "completion": " 2.1",
+    "ref_text": "2.1|2.10",
+    "id": 5046
+  },
+  {
+    "context": "Passage: According to statistical data from 2016, Cooke County has a population of 39,141 people (41% urban, 59% rural), nearly 14,000 households, and over 10,000 families. The population density was 42 per square mile (16/km²). The 15,061 housing units averaged 17 per square mile (7/km²). The Race (United States Census) of the county was 88.84% White, 3.06% Black or African American, 1.00% Native American, 0.34% Asian, 0.01% Pacific Islander, 5.16% from other races, and 1.61% from two or more races.  About 10% of the population was Hispanic or Latino of any race.\nQuestion: How many more people are there than households?\nAnswer:",
+    "completion": " 25141",
+    "ref_text": "25141",
+    "id": 4174
+  },
+  {
+    "context": "Passage: In the New Jersey gubernatorial election, 2013, Democrat Barbara Buono received 75.9% of the vote (5,757 cast), ahead of Republican Chris Christie with 22.7% (1,723 votes), and other candidates with 1.4% (104 votes), among the 8,174 ballots cast by the citys 21,996 registered voters (590 ballots were spoiled), for a turnout of 37.2%. In the New Jersey gubernatorial election, 2009, Democrat Jon Corzine received 7,140 ballots cast (81.3% vs. 50.6% countywide), ahead of Republican Chris Christie with 1,057 votes (12.0% vs. 41.7%), Independent Chris Daggett with 355 votes (4.0% vs. 5.9%) and other candidates with 84 votes (1.0% vs. 0.8%), among the 8,786 ballots cast by the citys 21,738 registered voters, yielding a 40.4% turnout (vs. 46.5% in the county).\nQuestion: How many more registered voters were there for the 2013 election compared to the 2009 election?\nAnswer:",
+    "completion": " 258",
+    "ref_text": "258",
+    "id": 8963
+  },
+  {
+    "context": "Passage: In 2010, 47.3 million people who lived in the EU were born outside their resident country. This corresponds to 9.4% of the total EU population. Of these, 31.4 million (6.3%) were born outside the EU and 16.0 million (3.2%) were born in another EU member state. The largest absolute numbers of people born outside the EU were in Germany (6.4 million), France (5.1 million), the United Kingdom (4.7 million), Spain (4.1 million), Italy (3.2 million), and the Netherlands (1.4 million).\nQuestion: Were more people born in the United Kingdom or Italy?\nAnswer:",
+    "completion": " the United Kingdom",
+    "ref_text": "the United Kingdom|United Kingdom",
+    "id": 6815
+  },
+  {
+    "context": "Passage: With the end of the \"crack epidemic\" in the mid-1990s and with the initiation of aggressive policing under mayors David Dinkins and subsequently  Rudolph Giuliani, crime in Harlem plummeted. In 1981, 6,500 robberies were reported in Harlem; robberies dropped to 4,800 in 1990 during David Dinkins mayoralty. By 2000, only 1,700 robberies were reported, and by 2010, only 1,100 were reported. There have been similar changes in all categories of crimes tracked by the New York City Police Department. In the 32nd Precinct, which services Central Harlem above 127th Street, for example, between 1990 and 2013, the murder rate dropped 89.4%, the rape rate dropped 67.5%, the robbery rate dropped 74.2%, burglary dropped 93.4%, and the total number of crime complaints dropped 77.6%.\nQuestion: Which crime saw the largest percentage decrease between 1990 and 2013?\nAnswer:",
+    "completion": " burglary",
+    "ref_text": "burglary",
+    "id": 4949
+  },
+  {
+    "context": "Passage: The census of 2000 showed there were 137,893 people, 58,110 households, and 31,321 families residing in the city of Eugene. The population density was 3,404.8 people per square mile (1,314.5/km²). There were 61,444 housing units at an average density of 1,516.4 per square mile (585.5/km²). The racial makeup of the city was 88.15% White, down from 99.5% in 1950, 3.57% Asian, 1.25% Black or African American, 0.93% Native American, 0.21% Pacific Islander, 2.18% from other races, and 3.72% from two or more races. 4.96% of the population were Hispanic or Latino of any race.\nQuestion: How many percent of people were not from 2 or more races?\nAnswer:",
+    "completion": " 96.28",
+    "ref_text": "96.28",
+    "id": 3548
+  },
+  {
+    "context": "Passage: The states with the largest estimated Chinese American populations, according to both the 2010 United States Census, were California (1,253,100; 3.4%), New York (state) (577,000; 3.0%), Texas (157,000; 0.6%), New Jersey (134,500; 1.5%), Massachusetts (123,000; 1.9%), Illinois (104,200; 0.8%), Washington (state) (94,200; 1.4%), Pennsylvania (85,000; 0.7%), Maryland (69,400; 1.2%), Virginia (59,800; 0.7%), and Ohio (51,033; 0.5%). The state of Hawaii has the highest concentration of Chinese Americans at 4.0%, or 55,000 people.\nQuestion: Which state listed had the second highest number of Chinese Americans?\nAnswer:",
+    "completion": " New York",
+    "ref_text": "New York|California",
+    "id": 4299
+  },
+  {
+    "context": "Passage: The 2010 United States Census reported that Huntington Beach had a population of 189,992. The population density was 5,959.1 people per square mile (2,300.8/km²). The racial makeup of Huntington Beach was 145,661 (76.7%) White (U.S. Census), 1,813 (1.0%) African American (U.S. Census), 992 (0.5%) Native American (U.S. Census), 21,070 (11.1%) Asian (U.S. Census), 635 (0.3%) Pacific Islander (U.S. Census), 11,193 (5.9%) from Race (United States Census), and 8,628 (4.5%) from two or more races. Hispanic (U.S. Census) or Latino (U.S. Census) of any race were 32,411 persons (17.1%). Non-Hispanic Whites were 67.2% of the population in 2010, compared to 90.8% in 1970.\nQuestion: Which group in percent of Huntington Beach from the 2010 United States Census is smaller: African American or Native American?\nAnswer:",
+    "completion": " Native American",
+    "ref_text": "Native American",
+    "id": 782
+  },
+  {
+    "context": "Passage: With the end of the \"crack epidemic\" in the mid-1990s and with the initiation of aggressive policing under mayors David Dinkins and subsequently  Rudolph Giuliani, crime in Harlem plummeted. In 1981, 6,500 robberies were reported in Harlem; robberies dropped to 4,800 in 1990 during David Dinkins mayoralty. By 2000, only 1,700 robberies were reported, and by 2010, only 1,100 were reported. There have been similar changes in all categories of crimes tracked by the New York City Police Department. In the 32nd Precinct, which services Central Harlem above 127th Street, for example, between 1990 and 2013, the murder rate dropped 89.4%, the rape rate dropped 67.5%, the robbery rate dropped 74.2%, burglary dropped 93.4%, and the total number of crime complaints dropped 77.6%.\nQuestion: How many fewer robberies were there in Harlem in 2010 compared to 2000?\nAnswer:",
+    "completion": " 600",
+    "ref_text": "600",
+    "id": 6025
+  },
+  {
+    "context": "Passage: As of the census of 2000, there were 24,621 people, 9,029 households, and 6,284 families residing in the county.  The population density was 73 people per square mile (28/km²).  There were 12,064 housing units at an average density of 36 per square mile (14/km²).  The racial makeup of the county was 97.90% White (U.S. Census), 0.56% African American (U.S. Census), 0.15% Native American (U.S. Census), 0.28% Asian (U.S. Census), 0.02% Pacific Islander (U.S. Census), 0.36% from Race (United States Census), and 0.74% from two or more races. Hispanic (U.S. Census) or Latino (U.S. Census) of any race were 0.93% of the population. 21.3% were of English people, 16.5% Germans, 11.4% Irish people, 10.7% United States, 5.3% danish people and 5.3% Italian people ancestry according to Census 2000.\nQuestion: How many percent of people were not Germans?\nAnswer:",
+    "completion": " 83.5",
+    "ref_text": "83.5|16.5",
+    "id": 8873
+  },
+  {
+    "context": "Passage: Skopje, as the Republic of Macedonia as a whole, is characterised by a large ethnic diversity. The city is located in a region where Ethnic Albanians and Macedonians meet, and it welcomed Romani, Turks, Jews and Serbs throughout its history. Skopje was mainly a Muslim city until the 19th century, when large numbers of Christians started to settle there. According to the 2002 census, Macedonians were the largest ethnic group in Skopje, with 338,358 inhabitants, or 66.75% of the population. Then came Albanians with 103,891 inhabitants (20.49%), Roma people with 23,475 (4.63%), Serbs (14,298 inhabitants), Turks (8,595), Bosniaks (7,585) and Vlachs (2,557). 8,167 people did not belong to any of these groups.\nQuestion: How many in percent from the census in Skopje weren't Macedonian?\nAnswer:",
+    "completion": " 33.25",
+    "ref_text": "33.25|169198",
+    "id": 7875
+  },
+  {
+    "context": "Passage: There were 20,928 births in 2006. Of these, 19,757 (94.40% of the births, 95.19% of the population) were to Non-Hispanic Whites. There were 22 births to American Indians (0.11% of the births and 0.54% of the population), 177 births to Asians (0.85% of the births and 0.68% of the population), 219 births to Hispanics (1.05% of the births and 0.88% of the population) and 753 births to Blacks and others (3.60% of the births and 3.56% of the population).\nQuestion: What races had between 100 and 500 births?\nAnswer:",
+    "completion": " Asians and Hispanics",
+    "ref_text": "Asians and Hispanics|Hispanics and Asians",
+    "id": 3185
+  },
+  {
+    "context": "Passage: As of the census of 2000, there were 445,342 people, 169,162 households, and 114,015 families residing in the county.  The population density was 615 people per square mile (238/km²).  There were 178,913 housing units at an average density of 247 per square mile (95/km²).  The racial makeup of the county was 82.19% Race (United States Census), 1.15% Race (United States Census) or Race (United States Census), 0.65% Race (United States Census), 6.68% Race (United States Census), 0.30% Race (United States Census), 5.86% from Race (United States Census), and 3.17% from two or more races.  11.17% of the population were Race (United States Census) or Race (United States Census) of any race. 17.2% were of German American, 9.9% English American, 8.2% Irish American, and 6.7% Americans ancestry. 81.7% spoke only English at home, while 9.6% spoke Spanish and 1.2% Vietnamese.\nQuestion: How many percents of the county population was either German American or English American?\nAnswer:",
+    "completion": " 27.1",
+    "ref_text": "27.1",
+    "id": 6713
+  },
+  {
+    "context": "Passage: The 2010 United States Census reported that Lassen County had a population of 34,895. The racial makeup of Lassen County was 25,532 (73.2%) White (U.S. Census), 2,834 (8.1%) African American (U.S. Census), 1,234 (3.5%) Native American (U.S. Census), 356 (1.0%) Asian (U.S. Census), 165 (0.5%) Pacific Islander (U.S. Census), 3,562 (10.2%) from Race (United States Census), and 1,212 (3.5%) from two or more races.  Hispanic (U.S. Census) or Latino (U.S. Census) of any race were 6,117 persons (17.5%).\nQuestion: How many more percent of people were white than black?\nAnswer:",
+    "completion": " 65.1",
+    "ref_text": "65.1",
+    "id": 2970
+  },
+  {
+    "context": "Passage: As of the 2010 United States Census, there were 244,826 people, 90,218 households, and 66,335 families residing in the county. The population density was . There were 95,554 housing units at an average density of . The racial makeup of the county was 81.2% white, 12.7% black or African American, 2.4% Asian, 0.3% American Indian, 0.1% Pacific islander, 0.9% from other races, and 2.5% from two or more races. Those of Hispanic or Latino origin made up 3.5% of the population. In terms of ancestry, 28.1% were German, 19.8% were Irish, 12.2% were English, 9.9% were Italian, 6.8% were Polish, and 6.2% were American.\nQuestion: How many in percent from the census weren't English?\nAnswer:",
+    "completion": " 87.8",
+    "ref_text": "87.8",
+    "id": 6620
+  },
+  {
+    "context": "Passage: As of May, 2010, the California Secretary of State reports that San Benito County has 34,562 eligible voters. Of those 24,736 (71.57%) are registered voters.  Of those, 11,959 (48.35%) are registered Democratic, 7,477 (30.23%) are registered Republican, 565 (2.28%)are registered American Independent, and 116 (0.47%) are Green Party.  The two incorporated municipalities of Hollister and San Juan Bautista have Democratic majorities on their voter rolls, whereas the unincorporated areas of San Benito County have a small Republican plurality in voter registration.\nQuestion: How many less Republican voters are there than Democratic voters?\nAnswer:",
+    "completion": " 4482",
+    "ref_text": "4482",
+    "id": 29
+  },
+  {
+    "context": "Passage: After being higher in the postwar period, the U.S. unemployment rate fell below the rising eurozone unemployment rate in the mid-1980s and has remained significantly lower almost continuously since. In 1955, 55% of Americans worked in services, between 30% and 35% in industry, and between 10% and 15% in Agriculture in the United States. By 1980, over 65% were employed in services, between 25% and 30% in industry, and less than 5% in agriculture. Male unemployment continued to be significantly higher than those of females (at 9.8% vs. 7.5% in 2009). The unemployment among Caucasians continues being much lower than those for African-Americans (at 8.5% vs. 15.8% also in 2009).\nQuestion: How many percent of Caucasians were not unemployed in 2009?\nAnswer:",
+    "completion": " 91.5",
+    "ref_text": "91.5",
+    "id": 9130
+  }
+]

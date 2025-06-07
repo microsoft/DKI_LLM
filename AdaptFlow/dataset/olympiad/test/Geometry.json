@@ -1,0 +1,266 @@
+[
+    {
+        "question": "Turbo the snail sits on a point on a circle with circumference 1. Given an infinite sequence of positive real numbers $c_{1}, c_{2}, c_{3}, \\ldots$. Turbo successively crawls distances $c_{1}, c_{2}, c_{3}, \\ldots$ around the circle, each time choosing to crawl either clockwise or counterclockwise.\n\nFor example, if the sequence $c_{1}, c_{2}, c_{3}, \\ldots$ is $0.4,0.6,0.3, \\ldots$, then Turbo may start crawling as follows:\n<img_3362>\n\nDetermine the largest constant $C>0$ with the following property: for every sequence of positive real numbers $c_{1}, c_{2}, c_{3}, \\ldots$ with $c_{i}<C$ for all $i$, Turbo can (after studying the sequence) ensure that there is some point on the circle that it will never visit or crawl across.",
+        "answer": "$\\frac{1}{2}$"
+    },
+    {
+        "question": "In the diagram, $A B C D$ is a quadrilateral in which $\\angle A+\\angle C=180^{\\circ}$. What is the length of $C D$ ?\n\n<img_3146>",
+        "answer": "5"
+    },
+    {
+        "question": "In the diagram, $P Q R S$ is a quadrilateral. What is its perimeter?\n\n<img_3956>",
+        "answer": "52"
+    },
+    {
+        "question": "In the diagram, what is the area of figure $A B C D E F$ ?\n\n<img_3643>",
+        "answer": "48"
+    },
+    {
+        "question": "In the diagram, $A B C D$ is a square of side length 6. Points $E, F, G$, and $H$ are on $A B, B C, C D$, and $D A$, respectively, so that the ratios $A E: E B, B F: F C$, $C G: G D$, and $D H: H A$ are all equal to $1: 2$.\n\nWhat is the area of $E F G H$ ?\n\n<img_3566>",
+        "answer": "20"
+    },
+    {
+        "question": "In the diagram, line $A$ has equation $y=2 x$. Line $B$ is obtained by reflecting line $A$ in the $y$-axis. Line $C$ is perpendicular to line $B$. What is the slope of line $C$ ?\n\n<img_3231>",
+        "answer": "$\\frac{1}{2}$"
+    },
+    {
+        "question": "Donna has a laser at $C$. She points the laser beam at the point $E$. The beam reflects off of $D F$ at $E$ and then off of $F H$ at $G$, as shown, arriving at point $B$ on $A D$. If $D E=E F=1 \\mathrm{~m}$, what is the length of $B D$, in metres?\n\n<img_3944>",
+        "answer": "3"
+    },
+    {
+        "question": "A circle, with diameter $A B$ as shown, intersects the positive $y$-axis at point $D(0, d)$. Determine $d$.\n\n<img_3467>",
+        "answer": "4"
+    },
+    {
+        "question": "A square $P Q R S$ with side of length $x$ is subdivided into four triangular regions as shown so that area (A) + area $(B)=\\text{area}(C)$. If $P T=3$ and $R U=5$, determine the value of $x$.\n\n<img_3567>",
+        "answer": "15"
+    },
+    {
+        "question": "On a cross-sectional diagram of the Earth, the $x$ and $y$-axes are placed so that $O(0,0)$ is the centre of the Earth and $C(6.40,0.00)$ is the location of Cape Canaveral. A space shuttle is forced to land on an island at $A(5.43,3.39)$, as shown. Each unit represents $1000 \\mathrm{~km}$.\n\nDetermine the distance from Cape Canaveral to the island, measured on the surface of the earth, to the nearest $10 \\mathrm{~km}$.\n\n<img_3336>",
+        "answer": "3570"
+    },
+    {
+        "question": "The parabola $y=-x^{2}+4$ has vertex $P$ and intersects the $x$-axis at $A$ and $B$. The parabola is translated from its original position so that its vertex moves along the line $y=x+4$ to the point $Q$. In this position, the parabola intersects the $x$-axis at $B$ and $C$. Determine the coordinates of $C$.\n\n<img_3623>",
+        "answer": "$(8,0)$"
+    },
+    {
+        "question": "In the isosceles trapezoid $A B C D$, $A B=C D=x$. The area of the trapezoid is 80 and the circle with centre $O$ and radius 4 is tangent to the four sides of the trapezoid. Determine the value of $x$.\n\n<img_3972>",
+        "answer": "10"
+    },
+    {
+        "question": "In the diagram, a line is drawn through points $P, Q$ and $R$. If $P Q=Q R$, what are the coordinates of $R$ ?\n\n<img_4009>",
+        "answer": "(3,8)"
+    },
+    {
+        "question": "In the diagram, $O A=15, O P=9$ and $P B=4$. Determine the equation of the line through $A$ and $B$. Explain how you got your answer.\n\n<img_4005>",
+        "answer": "$y=-3 x+39$"
+    },
+    {
+        "question": "In the diagram, $A B=B C=2 \\sqrt{2}, C D=D E$, $\\angle C D E=60^{\\circ}$, and $\\angle E A B=75^{\\circ}$. Determine the perimeter of figure $A B C D E$. Explain how you got your answer.\n\n<img_3224>",
+        "answer": "$4+4 \\sqrt{2}+2 \\sqrt{3}$"
+    },
+    {
+        "question": "In the diagram, the parabola intersects the $x$-axis at $A(-3,0)$ and $B(3,0)$ and has its vertex at $C$ below the $x$-axis. The area of $\\triangle A B C$ is 54 . Determine the equation of the parabola. Explain how you got your answer.\n\n<img_4015>",
+        "answer": "$y=2 x^{2}-18$"
+    },
+    {
+        "question": "In the diagram, $A(0, a)$ lies on the $y$-axis above $D$. If the triangles $A O B$ and $B C D$ have the same area, determine the value of $a$. Explain how you got your answer.\n\n<img_3690>",
+        "answer": "4"
+    },
+    {
+        "question": "The Little Prince lives on a spherical planet which has a radius of $24 \\mathrm{~km}$ and centre $O$. He hovers in a helicopter $(H)$ at a height of $2 \\mathrm{~km}$ above the surface of the planet. From his position in the helicopter, what is the distance, in kilometres, to the furthest point on the surface of the planet that he can see?\n\n<img_3900>",
+        "answer": "10"
+    },
+    {
+        "question": "A square lattice of 16 points is constructed such that the horizontal and vertical distances between adjacent points are all exactly 1 unit. Each of four pairs of points are connected by a line segment, as shown. The intersections of these line segments are the vertices of square $A B C D$. Determine the area of square $A B C D$.\n\n<img_3852>",
+        "answer": "$\\frac{9}{10}$"
+    },
+    {
+        "question": "In the diagram, $\\triangle A B C$ is right-angled at $B$ and $\\triangle A C D$ is right-angled at $A$. Also, $A B=3, B C=4$, and $C D=13$. What is the area of quadrilateral $A B C D$ ?\n\n<img_3281>",
+        "answer": "36"
+    },
+    {
+        "question": "The diagram shows two hills that meet at $O$. One hill makes a $30^{\\circ}$ angle with the horizontal and the other hill makes a $45^{\\circ}$ angle with the horizontal. Points $A$ and $B$ are on the hills so that $O A=O B=20 \\mathrm{~m}$. Vertical poles $B D$ and $A C$ are connected by a straight cable $C D$. If $A C=6 \\mathrm{~m}$, what is the length of $B D$ for which $C D$ is as short as possible?\n\n<img_3434>",
+        "answer": "$(16-10 \\sqrt{2})$"
+    },
+    {
+        "question": "In the diagram, $V$ is the vertex of the parabola with equation $y=-x^{2}+4 x+1$. Also, $A$ and $B$ are the points of intersection of the parabola and the line with equation $y=-x+1$. Determine the value of $A V^{2}+B V^{2}-A B^{2}$.\n\n<img_3223>",
+        "answer": "60"
+    },
+    {
+        "question": "In the diagram, $A B C$ is a quarter of a circular pizza with centre $A$ and radius $20 \\mathrm{~cm}$. The piece of pizza is placed on a circular pan with $A, B$ and $C$ touching the circumference of the pan, as shown. What fraction of the pan is covered by the piece of pizza?\n\n<img_3564>",
+        "answer": "$\\frac{1}{2}$"
+    },
+    {
+        "question": "The deck $A B$ of a sailboat is $8 \\mathrm{~m}$ long. Rope extends at an angle of $60^{\\circ}$ from $A$ to the top $(M)$ of the mast of the boat. More rope extends at an angle of $\\theta$ from $B$ to a point $P$ that is $2 \\mathrm{~m}$ below $M$, as shown. Determine the height $M F$ of the mast, in terms of $\\theta$.\n\n<img_3738>",
+        "answer": "$\\frac{8 \\sqrt{3} \\tan \\theta+2 \\sqrt{3}}{\\tan \\theta+\\sqrt{3}}$"
+    },
+    {
+        "question": "In the diagram, triangle ABC is right-angled at B. MT is the perpendicular bisector of $B C$ with $M$ on $B C$ and $T$ on $A C$. If $A T=A B$, what is the size of $\\angle A C B$ ?\n\n<img_3341>",
+        "answer": "$30^{\\circ}$"
+    },
+    {
+        "question": "A ladder, $A B$, is positioned so that its bottom sits on horizontal ground and its top rests against a vertical wall, as shown. In this initial position, the ladder makes an angle of $70^{\\circ}$ with the horizontal. The bottom of the ladder is then pushed $0.5 \\mathrm{~m}$ away from the wall, moving the ladder to position $A^{\\prime} B^{\\prime}$. In this new position, the ladder makes an angle of $55^{\\circ}$ with the horizontal. Calculate, to the nearest centimetre, the distance that the ladder slides down the wall (that is, the length of $B B^{\\prime}$ ).\n\n<img_3632>",
+        "answer": "26"
+    },
+    {
+        "question": "In the diagram, $P Q R S$ is an isosceles trapezoid with $P Q=7, P S=Q R=8$, and $S R=15$. Determine the length of the diagonal $P R$.\n\n<img_3239>",
+        "answer": "13"
+    },
+    {
+        "question": "In the diagram, the ferris wheel has a diameter of $18 \\mathrm{~m}$ and rotates at a constant rate. When Kolapo rides the ferris wheel and is at its lowest point, he is $1 \\mathrm{~m}$ above the ground. When Kolapo is at point $P$ that is $16 \\mathrm{~m}$ above the ground and is rising, it takes him 4 seconds to reach the highest point, $T$. He continues to travel for another 8 seconds reaching point $Q$. Determine Kolapo's height above the ground when he reaches point $Q$.\n\n<img_3685>",
+        "answer": "9"
+    },
+    {
+        "question": "In rectangle $A B C D, F$ is on diagonal $B D$ so that $A F$ is perpendicular to $B D$. Also, $B C=30, C D=40$ and $A F=x$. Determine the value of $x$.\n\n<img_3965>",
+        "answer": "24"
+    },
+    {
+        "question": "In the diagram, $P Q R S$ is a square with sides of length 4. Points $T$ and $U$ are on sides $Q R$ and $R S$ respectively such that $\\angle U P T=45^{\\circ}$. Determine the maximum possible perimeter of $\\triangle R U T$.\n\n<img_3191>",
+        "answer": "8"
+    },
+    {
+        "question": "In the diagram, $A B=21$ and $B C=16$. Also, $\\angle A B C=60^{\\circ}, \\angle C A D=30^{\\circ}$, and $\\angle A C D=45^{\\circ}$. Determine the length of $C D$, to the nearest tenth.\n\n<img_3209>",
+        "answer": "$\\frac{19 \\sqrt{2}}{\\sqrt{3}+1}$"
+    },
+    {
+        "question": "Let $T$ be a rational number. Two coplanar squares $\\mathcal{S}_{1}$ and $\\mathcal{S}_{2}$ each have area $T$ and are arranged as shown to form a nonconvex octagon. The center of $\\mathcal{S}_{1}$ is a vertex of $\\mathcal{S}_{2}$, and the center of $\\mathcal{S}_{2}$ is a vertex of $\\mathcal{S}_{1}$. Compute $\\frac{\\text { area of the union of } \\mathcal{S}_{1} \\text { and } \\mathcal{S}_{2}}{\\text { area of the intersection of } \\mathcal{S}_{1} \\text { and } \\mathcal{S}_{2}}$.\n\n<img_3476>",
+        "answer": "7"
+    },
+    {
+        "question": "In acute triangle $I L K$, shown in the figure, point $G$ lies on $\\overline{L K}$ so that $\\overline{I G} \\perp \\overline{L K}$. Given that $I L=\\sqrt{41}$ and $L G=I K=5$, compute $G K$.\n\n<img_3922>",
+        "answer": "3"
+    },
+    {
+        "question": "Let $T=80$. In circle $O$, diagrammed at right, minor arc $\\widehat{A B}$ measures $\\frac{T}{4}$ degrees. If $\\mathrm{m} \\angle O A C=10^{\\circ}$ and $\\mathrm{m} \\angle O B D=5^{\\circ}$, compute the degree measure of $\\angle A E B$. Just pass the number without the units.\n\n<img_3347>",
+        "answer": "5"
+    },
+    {
+        "question": "Points $A$ and $L$ lie outside circle $\\omega$, whose center is $O$, and $\\overline{A L}$ contains diameter $\\overline{R M}$, as shown below. Circle $\\omega$ is tangent to $\\overline{L K}$ at $K$. Also, $\\overline{A K}$ intersects $\\omega$ at $Y$, which is between $A$ and $K$. If $K L=3, M L=2$, and $\\mathrm{m} \\angle A K L-\\mathrm{m} \\angle Y M K=90^{\\circ}$, compute $[A K M]$ (i.e., the area of $\\triangle A K M$ ).\n\n<img_4018>",
+        "answer": "$\\frac{375}{182}$"
+    },
+    {
+        "question": "There are 2017 mutually external circles drawn on a blackboard, such that no two are tangent and no three share a common tangent. A tangent segment is a line segment that is a common tangent to two circles, starting at one tangent point and ending at the other one. Luciano is drawing tangent segments on the blackboard, one at a time, so that no tangent segment intersects any other circles or previously drawn tangent segments. Luciano keeps drawing tangent segments until no more can be drawn. Find all possible numbers of tangent segments when he stops drawing.",
+        "answer": "6048"
+    },
+    {
+        "question": "A cube has edges of length $n$, where $n$ is an integer. Three faces, meeting at a corner, are painted red. The cube is then cut into $n^{3}$ smaller cubes of unit length. If exactly 125 of these cubes have no faces painted red, determine the value of $n$.",
+        "answer": "6"
+    },
+    {
+        "question": "Triangle $A B C$ has vertices $A(0,5), B(3,0)$ and $C(8,3)$. Determine the measure of $\\angle A C B$.",
+        "answer": "$45^{\\circ}$"
+    },
+    {
+        "question": "Hexagon $A B C D E F$ has vertices $A(0,0), B(4,0), C(7,2), D(7,5), E(3,5)$, $F(0,3)$. What is the area of hexagon $A B C D E F$ ?",
+        "answer": "29"
+    },
+    {
+        "question": "In triangle $A B C, a=12, b=17$, and $c=13$. Compute $b \\cos C-c \\cos B$.",
+        "answer": "10"
+    },
+    {
+        "question": "Compute the smallest $n$ such that in the regular $n$-gon $A_{1} A_{2} A_{3} \\cdots A_{n}, \\mathrm{~m} \\angle A_{1} A_{20} A_{13}<60^{\\circ}$.",
+        "answer": "37"
+    },
+    {
+        "question": "In ARMLopolis, every house number is a positive integer, and City Hall's address is 0. However, due to the curved nature of the cowpaths that eventually became the streets of ARMLopolis, the distance $d(n)$ between house $n$ and City Hall is not simply the value of $n$. Instead, if $n=3^{k} n^{\\prime}$, where $k \\geq 0$ is an integer and $n^{\\prime}$ is an integer not divisible by 3 , then $d(n)=3^{-k}$. For example, $d(18)=1 / 9$ and $d(17)=1$. Notice that even though no houses have negative numbers, $d(n)$ is well-defined for negative values of $n$. For example, $d(-33)=1 / 3$ because $-33=3^{1} \\cdot-11$. By definition, $d(0)=0$. Following the dictum \"location, location, location,\" this Power Question will refer to \"houses\" and \"house numbers\" interchangeably.\n\nCuriously, the arrangement of the houses is such that the distance from house $n$ to house $m$, written $d(m, n)$, is simply $d(m-n)$. For example, $d(3,4)=d(-1)=1$ because $-1=3^{0} \\cdot-1$. In particular, if $m=n$, then $d(m, n)=0$.\n\n\nThe neighborhood of a house $n$, written $\\mathcal{N}(n)$, is the set of all houses that are the same distance from City Hall as $n$. In symbols, $\\mathcal{N}(n)=\\{m \\mid d(m)=d(n)\\}$. Geometrically, it may be helpful to think of $\\mathcal{N}(n)$ as a circle centered at City Hall with radius $d(n)$.\n\n\nUnfortunately for new development, ARMLopolis is full: every nonnegative integer corresponds to (exactly one) house (or City Hall, in the case of 0). However, eighteen families arrive and are looking to move in. After much debate, the connotations of using negative house numbers are deemed unacceptable, and the city decides on an alternative plan. On July 17, Shewad Movers arrive and relocate every family from house $n$ to house $n+18$, for all positive $n$ (so that City Hall does not move). For example, the family in house number 17 moves to house number 35.\nRoss takes a walk starting at his house, which is number 34 . He first visits house $n_{1}$, such that $d\\left(n_{1}, 34\\right)=1 / 3$. He then goes to another house, $n_{2}$, such that $d\\left(n_{1}, n_{2}\\right)=1 / 3$. Continuing in that way, he visits houses $n_{3}, n_{4}, \\ldots$, and each time, $d\\left(n_{i}, n_{i+1}\\right)=1 / 3$. At the end of the day, what is his maximum possible distance from his original house? Justify your answer.",
+        "answer": "$1/3$"
+    },
+    {
+        "question": "$\\quad$ Let $T=T N Y W R$. In parallelogram $A R M L$, points $P$ and $Q$ trisect $\\overline{A R}$ and points $W, X, Y, Z$ divide $\\overline{M L}$ into fifths (where $W$ is closest to $M$, and points $X$ and $Y$ are both between $W$ and $Z$ ). If $[A R M L]=T$, compute $[P Q W Z]$.",
+        "answer": "7"
+    },
+    {
+        "question": "Let $T=T N Y W R$. The graph of $y=x^{2}+2 x-T$ intersects the $x$-axis at points $A$ and $M$, which are diagonally opposite vertices of square $A R M L$. Compute $[A R M L]$.",
+        "answer": "74"
+    },
+    {
+        "question": "Let $T=T N Y W R$. The parabola $y=x^{2}+T x$ is tangent to the parabola $y=-(x-2 T)^{2}+b$. Compute $b$.",
+        "answer": "184"
+    },
+    {
+        "question": "Let $E U C L I D$ be a hexagon inscribed in a circle of radius 5 . Given that $E U=U C=L I=I D=6$, and $C L=D E$, compute $C L$.",
+        "answer": "$\\frac{14}{5}$"
+    },
+    {
+        "question": "Suppose that noncongruent triangles $A B C$ and $X Y Z$ are given such that $A B=X Y=10, B C=$ $Y Z=9$, and $\\mathrm{m} \\angle C A B=\\mathrm{m} \\angle Z X Y=30^{\\circ}$. Compute $[A B C]+[X Y Z]$.",
+        "answer": "$25 \\sqrt{3}$"
+    },
+    {
+        "question": "Three non-overlapping squares of positive integer side lengths each have one vertex at the origin and sides parallel to the coordinate axes. Together, the three squares enclose a region whose area is 41 . Compute the largest possible perimeter of the region.",
+        "answer": "32"
+    },
+    {
+        "question": "A circle with center $O$ and radius 1 contains chord $\\overline{A B}$ of length 1 , and point $M$ is the midpoint of $\\overline{A B}$. If the perpendicular to $\\overline{A O}$ through $M$ intersects $\\overline{A O}$ at $P$, compute $[M A P]$.",
+        "answer": "$\\frac{\\sqrt{3}}{32}$"
+    },
+    {
+        "question": "Let $T=95$. Triangle $A B C$ has $A B=A C$. Points $M$ and $N$ lie on $\\overline{B C}$ such that $\\overline{A M}$ and $\\overline{A N}$ trisect $\\angle B A C$, with $M$ closer to $C$. If $\\mathrm{m} \\angle A M C=T^{\\circ}$, then $\\mathrm{m} \\angle A C B=U^{\\circ}$. Compute $U$.",
+        "answer": "75"
+    },
+    {
+        "question": "The graphs of $y=x^{2}-|x|-12$ and $y=|x|-k$ intersect at distinct points $A, B, C$, and $D$, in order of increasing $x$-coordinates. If $A B=B C=C D$, compute $k$.",
+        "answer": "$10+2 \\sqrt{2}$"
+    },
+    {
+        "question": "Let $T=\\frac{9}{17}$. When $T$ is expressed as a reduced fraction, let $m$ and $n$ be the numerator and denominator, respectively. A square pyramid has base $A B C D$, the distance from vertex $P$ to the base is $n-m$, and $P A=P B=P C=P D=n$. Compute the area of square $A B C D$.",
+        "answer": "450"
+    },
+    {
+        "question": "Point $P$ is on the hypotenuse $\\overline{E N}$ of right triangle $B E N$ such that $\\overline{B P}$ bisects $\\angle E B N$. Perpendiculars $\\overline{P R}$ and $\\overline{P S}$ are drawn to sides $\\overline{B E}$ and $\\overline{B N}$, respectively. If $E N=221$ and $P R=60$, compute $\\frac{1}{B E}+\\frac{1}{B N}$.",
+        "answer": "$\\frac{1}{60}$"
+    },
+    {
+        "question": "$\\triangle A B C$ is on a coordinate plane such that $A=(3,6)$, $B=(T, 0)$, and $C=(2 T-1,1-T)$. Let $\\ell$ be the line containing the altitude to $\\overline{B C}$. Compute the $y$-intercept of $\\ell$.",
+        "answer": "3"
+    },
+    {
+        "question": "Let $T=12$. Equilateral triangle $A B C$ is given with side length $T$. Points $D$ and $E$ are the midpoints of $\\overline{A B}$ and $\\overline{A C}$, respectively. Point $F$ lies in space such that $\\triangle D E F$ is equilateral and $\\triangle D E F$ lies in a plane perpendicular to the plane containing $\\triangle A B C$. Compute the volume of tetrahedron $A B C F$.",
+        "answer": "108"
+    },
+    {
+        "question": "Points $P, Q, R$, and $S$ lie in the interior of square $A B C D$ such that triangles $A B P, B C Q$, $C D R$, and $D A S$ are equilateral. If $A B=1$, compute the area of quadrilateral $P Q R S$.",
+        "answer": "$2-\\sqrt{3}$"
+    },
+    {
+        "question": "Let $\\mathcal{R}$ denote the circular region bounded by $x^{2}+y^{2}=36$. The lines $x=4$ and $y=3$ partition $\\mathcal{R}$ into four regions $\\mathcal{R}_{1}, \\mathcal{R}_{2}, \\mathcal{R}_{3}$, and $\\mathcal{R}_{4}$. $\\left[\\mathcal{R}_{i}\\right]$ denotes the area of region $\\mathcal{R}_{i}$. If $\\left[\\mathcal{R}_{1}\\right]>\\left[\\mathcal{R}_{2}\\right]>\\left[\\mathcal{R}_{3}\\right]>\\left[\\mathcal{R}_{4}\\right]$, compute $\\left[\\mathcal{R}_{1}\\right]-\\left[\\mathcal{R}_{2}\\right]-\\left[\\mathcal{R}_{3}\\right]+\\left[\\mathcal{R}_{4}\\right]$.",
+        "answer": "48"
+    },
+    {
+        "question": "Let $T=3$. In $\\triangle A B C, A C=T^{2}, \\mathrm{~m} \\angle A B C=45^{\\circ}$, and $\\sin \\angle A C B=\\frac{8}{9}$. Compute $A B$.",
+        "answer": "$8 \\sqrt{2}$"
+    },
+    {
+        "question": "In parallelogram $A R M L$, points $P$ and $Q$ are the midpoints of sides $\\overline{R M}$ and $\\overline{A L}$, respectively. Point $X$ lies on segment $\\overline{P Q}$, and $P X=3, R X=4$, and $P R=5$. Point $I$ lies on segment $\\overline{R X}$ such that $I A=I L$. Compute the maximum possible value of $\\frac{[P Q R]}{[L I P]}$.",
+        "answer": "$\\frac{4}{3}$"
+    },
+    {
+        "question": "Let $T=101$. In $\\triangle A B C, \\mathrm{~m} \\angle C=90^{\\circ}$ and $A C=B C=\\sqrt{T-3}$. Circles $O$ and $P$ each have radius $r$ and lie inside $\\triangle A B C$. Circle $O$ is tangent to $\\overline{A C}$ and $\\overline{B C}$. Circle $P$ is externally tangent to circle $O$ and to $\\overline{A B}$. Given that points $C, O$, and $P$ are collinear, compute $r$.",
+        "answer": "$3-\\sqrt{2}$"
+    },
+    {
+        "question": "The points $(1,2,3)$ and $(3,3,2)$ are vertices of a cube. Compute the product of all possible distinct volumes of the cube.",
+        "answer": "216"
+    },
+    {
+        "question": "In non-right triangle $A B C$, distinct points $P, Q, R$, and $S$ lie on $\\overline{B C}$ in that order such that $\\angle B A P \\cong \\angle P A Q \\cong \\angle Q A R \\cong \\angle R A S \\cong \\angle S A C$. Given that the angles of $\\triangle A B C$ are congruent to the angles of $\\triangle A P Q$ in some order of correspondence, compute $\\mathrm{m} \\angle B$ in degrees.",
+        "answer": "$\\frac{45}{2}$"
+    },
+    {
+        "question": "Let $T=20$. In $\\triangle L E O, \\sin \\angle L E O=\\frac{1}{T}$. If $L E=\\frac{1}{n}$ for some positive real number $n$, then $E O=$ $n^{3}-4 n^{2}+5 n$. As $n$ ranges over the positive reals, compute the least possible value of $[L E O]$.",
+        "answer": "$\\frac{1}{40}$"
+    },
+    {
+        "question": "Some portions of the line $y=4 x$ lie below the curve $y=10 \\pi \\sin ^{2} x$, and other portions lie above the curve. Compute the sum of the lengths of all the segments of the graph of $y=4 x$ that lie in the first quadrant, below the graph of $y=10 \\pi \\sin ^{2} x$.",
+        "answer": "$\\frac{5 \\pi}{4} \\sqrt{17}$"
+    },
+    {
+        "question": "The taxicab distance between points $A=\\left(x_{A}, y_{A}\\right)$ and $B=\\left(x_{B}, y_{B}\\right)$ is defined as $d(A, B)=$ $\\left|x_{A}-x_{B}\\right|+\\left|y_{A}-y_{B}\\right|$. Given some $s>0$ and points $A=\\left(x_{A}, y_{A}\\right)$ and $B=\\left(x_{B}, y_{B}\\right)$, define the taxicab ellipse with foci $A=\\left(x_{A}, y_{A}\\right)$ and $B=\\left(x_{B}, y_{B}\\right)$ to be the set of points $\\{Q \\mid d(A, Q)+d(B, Q)=s\\}$. Compute the area enclosed by the taxicab ellipse with foci $(0,5)$ and $(12,0)$, passing through $(1,-1)$.",
+        "answer": "96"
+    },
+    {
+        "question": "Let $T=12$. Each interior angle of a regular $T$-gon has measure $d^{\\circ}$. Compute $d$.",
+        "answer": "150"
+    }
+]

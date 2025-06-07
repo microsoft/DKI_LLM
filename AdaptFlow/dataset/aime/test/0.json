@@ -1,0 +1,206 @@
+[
+    {
+        "question": "Alfred and Bonnie play a game in which they take turns tossing a fair coin. The winner of a game is the first person to obtain a head. Alfred and Bonnie play this game several times with the stipulation that the loser of a game goes first in the next game. Suppose that Alfred goes first in the first game, and that the probability that he wins the sixth game is $m/n\\,$ , where $m\\,$ and $n\\,$ are relatively prime positive integers. What are the last three digits of $m+n\\,$ ? ",
+        "answer": "93"
+    },
+    {
+        "question": "A mail carrier delivers mail to the nineteen houses on the east side of Elm Street.  The carrier notices that no two adjacent houses ever get mail on the same day, but that there are never more than two houses in a row that get no mail on the same day.  How many different patterns of mail delivery are possible? ",
+        "answer": "351"
+    },
+    {
+        "question": "Two mathematicians take a morning coffee break each day.  They arrive at the cafeteria independently, at random times between 9 a.m. and 10 a.m., and stay for exactly $m$ minutes.  The probability that either one arrives while the other is in the cafeteria is $40 \\%,$ and $m = a - b\\sqrt {c},$ where $a, b,$ and $c$ are positive integers , and $c$ is not divisible by the square of any prime .  Find $a + b + c.$",
+        "answer": "87"
+    },
+    {
+        "question": "In a tournament each player played exactly one game against each of the other players. In each game the winner was awarded 1 point, the loser got 0 points, and each of the two players earned $\\frac{1}{2}$ point if the game was a tie. After the completion of the tournament, it was found that exactly half of the points earned by each player were earned in games against the ten players with the least number of points. (In particular, each of the ten lowest scoring players earned half of her/his points against the other nine of the ten). What was the total number of players in the tournament?",
+        "answer": "25"
+    },
+    {
+        "question": "In the middle of a vast prairie, a firetruck is stationed at the intersection of two perpendicular straight highways. The truck travels at $50$ miles per hour along the highways and at $14$ miles per hour across the prairie. Consider the set of points that can be reached by the firetruck within six minutes. The area of this region is $\\frac{m}{n}$ square miles, where $m$ and $n$ are relatively prime positive integers. Find $m + n$ .",
+        "answer": "731"
+    },
+    {
+        "question": "A fair die is rolled four times. The probability that each of the final three rolls is at least as large as the roll preceding it may be expressed in the form $m/n$ , where $m$ and $n$ are relatively prime positive integers. Find $m+n$ . ",
+        "answer": "79"
+    },
+    {
+        "question": "A point $P$ is chosen at random in the interior of a unit square $S$ . Let $d(P)$ denote the distance from $P$ to the closest side of $S$ . The probability that $\\frac{1}{5}\\le d(P)\\le\\frac{1}{3}$ is equal to $\\frac{m}{n}$ , where $m$ and $n$ are relatively prime positive integers. Find $m+n$ .",
+        "answer": "281"
+    },
+    {
+        "question": "Jenny and Kenny are walking in the same direction, Kenny at 3 feet per second and Jenny at 1 foot per second, on parallel paths that are 200 feet apart. A tall circular building 100 feet in diameter is centered midway between the paths. At the instant when the building first blocks the line of sight between Jenny and Kenny, they are 200 feet apart. Let $t\\,$ be the amount of time, in seconds, before Jenny and Kenny can see each other again. If $t\\,$ is written as a fraction in lowest terms, what is the sum of the numerator and denominator?",
+        "answer": "163"
+    },
+    {
+        "question": "Two unit squares are selected at random without replacement from an $n \\times n$ grid of unit squares. Find the least positive integer $n$ such that the probability that the two selected unit squares are horizontally or vertically adjacent is less than $\\frac{1}{2015}$ .",
+        "answer": "90"
+    },
+    {
+        "question": "In a game of Chomp , two players alternately take bites from a 5-by-7 grid of unit squares. To take a bite, a player chooses one of the remaining squares, then removes (\"eats\") all squares in the quadrant defined by the left edge (extended upward) and the lower edge (extended rightward) of the chosen square. For example, the bite determined by the shaded square in the diagram would remove the shaded square and the four squares marked by $\\times.$ (The squares with two or more dotted edges have been removed from the original board in previous moves.) AIME 1992 Problem 12.png The object of the game is to make one's opponent take the last bite. The diagram shows one of the many subsets of the set of 35 unit squares that can occur during the game of Chomp. How many different subsets are there in all? Include the full board and empty board in your count.",
+        "answer": "792"
+    },
+    {
+        "question": "Nine delegates, three each from three different countries, randomly select chairs at a round table that seats nine people. Let the probability that each delegate sits next to at least one delegate from another country be $\\frac{m}{n}$ , where $m$ and $n$ are relatively prime positive integers. Find $m + n$ . ",
+        "answer": "97"
+    },
+    {
+        "question": "Starting at $(0,0),$ an object moves in the coordinate plane via a sequence of steps, each of length one.  Each step is left, right, up, or down, all four equally likely.  Let $p$ be the probability that the object reaches $(2,2)$ in six or fewer steps.  Given that $p$ can be written in the form $m/n,$ where $m$ and $n$ are relatively prime positive integers, find $m+n.$",
+        "answer": "67"
+    },
+    {
+        "question": "Jar $A$ contains four liters of a solution that is $45\\%$ acid. Jar $B$ contains five liters of a solution that is $48\\%$ acid. Jar $C$ contains one liter of a solution that is $k\\%$ acid. From jar $C$ , $\\frac{m}{n}$ liters of the solution is added to jar $A$ , and the remainder of the solution in jar $C$ is added to jar B. At the end both jar $A$ and jar $B$ contain solutions that are $50\\%$ acid. Given that $m$ and $n$ are relatively prime positive integers, find $k + m + n$ .",
+        "answer": "85"
+    },
+    {
+        "question": "Let $A=\\{1,2,3,4\\}$ , and $f$ and $g$ be randomly chosen (not necessarily distinct) functions from $A$ to $A$ . The probability that the range of $f$ and the range of $g$ are disjoint is $\\tfrac{m}{n}$ , where $m$ and $n$ are relatively prime positive integers. Find $m$ .",
+        "answer": "453"
+    },
+    {
+        "question": "Three clever monkeys divide a pile of bananas. The first monkey takes some bananas from the pile, keeps three-fourths of them, and divides the rest equally between the other two. The second monkey takes some bananas from the pile, keeps one-fourth of them, and divides the rest equally between the other two. The third monkey takes the remaining bananas from the pile, keeps one-twelfth of them, and divides the rest equally between the other two. Given that each monkey receives a whole number of bananas whenever the bananas are divided, and the numbers of bananas the first, second, and third monkeys have at the end of the process are in the ratio $3: 2: 1,$ what is the least possible total for the number of bananas?",
+        "answer": "408"
+    },
+    {
+        "question": "A fair coin is to be tossed $10_{}^{}$ times. Let $i/j^{}_{}$ , in lowest terms, be the probability that heads never occur on consecutive tosses. Find $i+j_{}^{}$ .",
+        "answer": "73"
+    },
+    {
+        "question": "Nine tiles are numbered $1, 2, 3, \\cdots, 9,$ respectively.  Each of three players randomly selects and keeps three of the tiles, and sums those three values.  The probability that all three players obtain an odd sum is $m/n,$ where $m$ and $n$ are relatively prime positive integers .  Find $m+n.$",
+        "answer": "17"
+    },
+    {
+        "question": "Melinda has three empty boxes and $12$ textbooks, three of which are mathematics textbooks. One box will hold any three of her textbooks, one will hold any four of her textbooks, and one will hold any five of her textbooks. If Melinda packs her textbooks into these boxes in random order, the probability that all three mathematics textbooks end up in the same box can be written as $\\frac{m}{n}$ , where $m$ and $n$ are relatively prime positive integers. Find $m+n$ .",
+        "answer": "47"
+    },
+    {
+        "question": "A tennis player computes her win ratio by dividing the number of matches she has won by the total number of matches she has played. At the start of a weekend, her win ratio is exactly $0.500$ . During the weekend, she plays four matches, winning three and losing one. At the end of the weekend, her win ratio is greater than $.503$ . What's the largest number of matches she could've won before the weekend began?",
+        "answer": "164"
+    },
+    {
+        "question": "The nine delegates to the Economic Cooperation Conference include $2$ officials from Mexico, $3$ officials from Canada, and $4$ officials from the United States. During the opening session, three of the delegates fall asleep. Assuming that the three sleepers were determined randomly, the probability that exactly two of the sleepers are from the same country is $\\frac{m}{n}$ , where $m$ and $n$ are relatively prime positive integers. Find $m+n$ .",
+        "answer": "139"
+    },
+    {
+        "question": "Beatrix is going to place six rooks on a $6 \\times 6$ chessboard where both the rows and columns are labeled $1$ to $6$ ; the rooks are placed so that no two rooks are in the same row or the same column. The value of a square is the sum of its row number and column number. The score of an arrangement of rooks is the least value of any occupied square. The average score over all valid configurations is $\\frac{p}{q}$ , where $p$ and $q$ are relatively prime positive integers. Find $p+q$ .",
+        "answer": "371"
+    },
+    {
+        "question": "Of the students attending a school party, $60\\%$ of the students are girls, and $40\\%$ of the students like to dance. After these students are joined by $20$ more boy students, all of whom like to dance, the party is now $58\\%$ girls. How many students now at the party like to dance?",
+        "answer": "252"
+    },
+    {
+        "question": "A car travels due east at $\\frac 23$ miles per minute on a long, straight road. At the same time, a circular storm, whose radius is $51$ miles, moves southeast at $\\frac 12\\sqrt{2}$ miles per minute. At time $t=0$ , the center of the storm is $110$ miles due north of the car. At time $t=t_1$ minutes, the car enters the storm circle, and at time $t=t_2$ minutes, the car leaves the storm circle. Find $\\frac 12(t_1+t_2)$ .",
+        "answer": "198"
+    },
+    {
+        "question": "Initially Alex, Betty, and Charlie had a total of $444$ peanuts. Charlie had the most peanuts, and Alex had the least. The three numbers of peanuts that each person had formed a geometric progression. Alex eats $5$ of his peanuts, Betty eats $9$ of her peanuts, and Charlie eats $25$ of his peanuts. Now the three numbers of peanuts each person has forms an arithmetic progression. Find the number of peanuts Alex had initially.",
+        "answer": "108"
+    },
+    {
+        "question": "Let $\\frac{m}{n}$ , in lowest terms, be the probability that a randomly chosen positive divisor of $10^{99}$ is an integer multiple of $10^{88}$ . Find $m + n$ .",
+        "answer": "634"
+    },
+    {
+        "question": "A standard six-sided fair die is rolled four times. The probability that the product of all four numbers rolled is a perfect square is $\\tfrac{m}{n}$ , where $m$ and $n$ are relatively prime positive integers. Find $m+n$ . ",
+        "answer": "187"
+    },
+    {
+        "question": "Each of the 2001 students at a high school studies either Spanish or French, and some study both. The number who study Spanish is between 80 percent and 85 percent of the school population, and the number who study French is between 30 percent and 40 percent. Let $m$ be the smallest number of students who could study both languages, and let $M$ be the largest number of students who could study both languages. Find $M-m$ .",
+        "answer": "298"
+    },
+    {
+        "question": "Let $P$ be a point chosen uniformly at random in the interior of the unit square with vertices at $(0,0), (1,0), (1,1)$ , and $(0,1)$ . The probability that the slope of the line determined by $P$ and the point $\\left(\\frac58, \\frac38 \\right)$ is greater than or equal to $\\frac12$ can be written as $\\frac{m}{n}$ , where $m$ and $n$ are relatively prime positive integers. Find $m+n$ .",
+        "answer": "171"
+    },
+    {
+        "question": "In the array of $13$ squares shown below, $8$ squares are colored red, and the remaining $5$ squares are colored blue. If one of all possible such colorings is chosen at random, the probability that the chosen colored array appears the same when rotated $90^{\\circ}$ around the central square is $\\frac{1}{n}$ , where $n$ is a positive integer. Find $n$ . [asy] draw((0,0)--(1,0)--(1,1)--(0,1)--(0,0)); draw((2,0)--(2,2)--(3,2)--(3,0)--(3,1)--(2,1)--(4,1)--(4,0)--(2,0)); draw((1,2)--(1,4)--(0,4)--(0,2)--(0,3)--(1,3)--(-1,3)--(-1,2)--(1,2)); draw((-1,1)--(-3,1)--(-3,0)--(-1,0)--(-2,0)--(-2,1)--(-2,-1)--(-1,-1)--(-1,1)); draw((0,-1)--(0,-3)--(1,-3)--(1,-1)--(1,-2)--(0,-2)--(2,-2)--(2,-1)--(0,-1)); size(100);[/asy]",
+        "answer": "429"
+    },
+    {
+        "question": "Ten points in the plane are given, with no three collinear.  Four distinct segments joining pairs of these points are chosen at random, all such segments being equally likely.  The probability that some three of the segments form a triangle whose vertices are among the ten given points is $m/n,$ where $m_{}$ and $n_{}$ are relatively prime positive integers.  Find $m+n.$ ",
+        "answer": "489"
+    },
+    {
+        "question": "Dave arrives at an airport which has twelve gates arranged in a straight line with exactly $100$ feet between adjacent gates. His departure gate is assigned at random. After waiting at that gate, Dave is told the departure gate has been changed to a different gate, again at random. Let the probability that Dave walks $400$ feet or less to the new gate be a fraction $\\frac{m}{n}$ , where $m$ and $n$ are relatively prime positive integers. Find $m+n$ .",
+        "answer": "52"
+    },
+    {
+        "question": "Anh read a book. On the first day she read $n$ pages in $t$ minutes, where $n$ and $t$ are positive integers. On the second day Anh read $n + 1$ pages in $t + 1$ minutes. Each day thereafter Anh read one more page than she read on the previous day, and it took her one more minute than on the previous day until she completely read the $374$ page book. It took her a total of $319$ minutes to read the book. Find $n + t$ .",
+        "answer": "53"
+    },
+    {
+        "question": "A bug walks all day and sleeps all night. On the first day, it starts at point $O,$ faces east, and walks a distance of $5$ units due east. Each night the bug rotates $60^\\circ$ counterclockwise. Each day it walks in this new direction half as far as it walked the previous day. The bug gets arbitrarily close to the point $P.$ Then $OP^2=\\tfrac{m}{n},$ where $m$ and $n$ are relatively prime positive integers. Find $m+n.$",
+        "answer": "103"
+    },
+    {
+        "question": "An urn contains $4$ green balls and $6$ blue balls. A second urn contains $16$ green balls and $N$ blue balls. A single ball is drawn at random from each urn. The probability that both balls are of the same color is $0.58$ . Find $N$ .",
+        "answer": "144"
+    },
+    {
+        "question": "A club consisting of $11$ men and $12$ women needs to choose a committee from among its members so that the number of women on the committee is one more than the number of men on the committee. The committee could have as few as $1$ member or as many as $23$ members. Let $N$ be the number of such committees that can be formed. Find the sum of the prime numbers that divide $N.$",
+        "answer": "81"
+    },
+    {
+        "question": "Dave rolls a fair six-sided die until a six appears for the first time. Independently, Linda rolls a fair six-sided die until a six appears for the first time. Let $m$ and $n$ be relatively prime positive integers such that $\\dfrac mn$ is the probability that the number of times Dave rolls his die is equal to or within one of the number of times Linda rolls her die. Find $m+n$ . ",
+        "answer": "41"
+    },
+    {
+        "question": "Let $p_{}$ be the probability that, in the process of repeatedly flipping a fair coin, one will encounter a run of 5 heads before one encounters a run of 2 tails.  Given that $p_{}$ can be written in the form $m/n$ where $m_{}$ and $n_{}$ are relatively prime positive integers, find $m+n$ .",
+        "answer": "37"
+    },
+    {
+        "question": "A basketball player has a constant probability of $.4$ of making any given shot, independent of previous shots. Let $a_n$ be the ratio of shots made to shots attempted after $n$ shots. The probability that $a_{10}=.4$ and $a_n\\le.4$ for all $n$ such that $1\\le n\\le9$ is given to be $p^aq^br/\\left(s^c\\right)$ where $p$ , $q$ , $r$ , and $s$ are primes, and $a$ , $b$ , and $c$ are positive integers. Find $\\left(p+q+r+s\\right)\\left(a+b+c\\right)$ .",
+        "answer": "660"
+    },
+    {
+        "question": "Charles has two six-sided dice. One of the die is fair, and the other die is biased so that it comes up six with probability $\\frac{2}{3}$ and each of the other five sides has probability $\\frac{1}{15}$ . Charles chooses one of the two dice at random and rolls it three times. Given that the first two rolls are both sixes, the probability that the third roll will also be a six is $\\frac{p}{q}$ , where $p$ and $q$ are relatively prime positive integers. Find $p+q$ .",
+        "answer": "167"
+    },
+    {
+        "question": "Let $S$ be a set with six elements . Let $\\mathcal{P}$ be the set of all subsets of $S.$ Subsets $A$ and $B$ of $S$ , not necessarily distinct, are chosen independently and at random from $\\mathcal{P}$ . The probability that $B$ is contained in one of $A$ or $S-A$ is $\\frac{m}{n^{r}},$ where $m$ , $n$ , and $r$ are positive integers , $n$ is prime , and $m$ and $n$ are relatively prime . Find $m+n+r.$ (The set $S-A$ is the set of all elements of $S$ which are not in $A.$ ) ",
+        "answer": "710"
+    },
+    {
+        "question": "A solitaire game is played as follows.  Six distinct pairs of matched tiles are placed in a bag.  The player randomly draws tiles one at a time from the bag and retains them, except that matching tiles are put aside as soon as they appear in the player's hand.  The game ends if the player ever holds three tiles, no two of which match; otherwise the drawing continues until the bag is empty.  The probability that the bag will be emptied is $p/q,\\,$ where $p\\,$ and $q\\,$ are relatively prime positive integers.  Find $p+q.\\,$ ",
+        "answer": "394"
+    },
+    {
+        "question": "Jackie and Phil have two fair coins and a third coin that comes up heads with probability $\\frac47$ . Jackie flips the three coins, and then Phil flips the three coins. Let $\\frac {m}{n}$ be the probability that Jackie gets the same number of heads as Phil, where $m$ and $n$ are relatively prime positive integers. Find $m + n$ .",
+        "answer": "515"
+    },
+    {
+        "question": "Lily pads $1,2,3,\\ldots$ lie in a row on a pond. A frog makes a sequence of jumps starting on pad $1$ . From any pad $k$ the frog jumps to either pad $k+1$ or pad $k+2$ chosen randomly with probability $\\tfrac{1}{2}$ and independently of other jumps. The probability that the frog visits pad $7$ is $\\tfrac{p}{q}$ , where $p$ and $q$ are relatively prime positive integers. Find $p+q$ .",
+        "answer": "107"
+    },
+    {
+        "question": "Club Truncator is in a soccer league with six other teams, each of which it plays once. In any of its 6 matches, the probabilities that Club Truncator will win, lose, or tie are each $\\frac {1}{3}$ . The probability that Club Truncator will finish the season with more wins than losses is $\\frac {m}{n}$ , where $m$ and $n$ are relatively prime positive integers. Find $m + n$ .",
+        "answer": "341"
+    },
+    {
+        "question": "Jon and Steve ride their bicycles along a path that parallels two side-by-side train tracks running the east/west direction. Jon rides east at $20$ miles per hour, and Steve rides west at $20$ miles per hour. Two trains of equal length, traveling in opposite directions at constant but different speeds each pass the two riders. Each train takes exactly $1$ minute to go past Jon. The westbound train takes $10$ times as long as the eastbound train to go past Steve. The length of each train is $\\tfrac{m}{n}$ miles, where $m$ and $n$ are relatively prime positive integers. Find $m+n$ .",
+        "answer": "49"
+    },
+    {
+        "question": "The AIME Triathlon consists of a half-mile swim, a 30-mile bicycle ride, and an eight-mile run. Tom swims, bicycles, and runs at constant rates. He runs fives times as fast as he swims, and he bicycles twice as fast as he runs. Tom completes the AIME Triathlon in four and a quarter hours. How many minutes does he spend bicycling?",
+        "answer": "150"
+    },
+    {
+        "question": "Twenty five of King Arthur's knights are seated at their customary round table. Three of them are chosen - all choices being equally likely - and are sent off to slay a troublesome dragon. Let $P$ be the probability that at least two of the three had been sitting next to each other. If $P$ is written as a fraction in lowest terms, what is the sum of the numerator and denominator? ",
+        "answer": "57"
+    },
+    {
+        "question": "Ten identical crates each of dimensions $3$ ft $\\times$ $4$ ft $\\times$ $6$ ft.  The first crate is placed flat on the floor.  Each of the remaining nine crates is placed, in turn, flat on top of the previous crate, and the orientation of each crate is chosen at random.  Let $\\frac {m}{n}$ be the probability that the stack of crates is exactly $41$ ft tall, where $m$ and $n$ are relatively prime positive integers.  Find $m$ .",
+        "answer": "190"
+    },
+    {
+        "question": "A biologist wants to calculate the number of fish in a lake. On May 1 she catches a random sample of 60 fish, tags them, and releases them. On September 1 she catches a random sample of 70 fish and finds that 3 of them are tagged. To calculate the number of fish in the lake on May 1, she assumes that 25% of these fish are no longer in the lake on September 1 (because of death and emigrations), that 40% of the fish were not in the lake May 1 (because of births and immigrations), and that the number of untagged fish and tagged fish in the September 1 sample are representative of the total population. What does the biologist calculate for the number of fish in the lake on May 1?",
+        "answer": "840"
+    },
+    {
+        "question": "Each of two boxes contains both black and white marbles, and the total number of marbles in the two boxes is $25.$ One marble is taken out of each box randomly. The probability that both marbles are black is $\\frac{27}{50},$ and the probability that both marbles are white is $\\frac{m}{n},$ where $m$ and $n$ are relatively prime positive integers. What is $m + n$ ?",
+        "answer": "26"
+    },
+    {
+        "question": "A gardener plants three maple trees, four oaks, and five birch trees in a row. He plants them in random order, each arrangement being equally likely. Let $\\frac m n$ in lowest terms be the probability that no two birch trees are next to one another. Find $m+n$ . ",
+        "answer": "106"
+    }
+]
