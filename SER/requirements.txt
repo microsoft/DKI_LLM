@@ -82,7 +82,7 @@ pyyaml==6.0.1
 ray==2.10.0
 referencing==0.34.0
 regex==2023.12.25
-requests==2.31.0
+requests==2.32.4
 responses==0.18.0
 rich==13.7.1
 rpds-py==0.18.0
