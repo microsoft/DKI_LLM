@@ -11,7 +11,7 @@ from trl.core import LengthSampler
 import wandb
 
 tqdm.pandas()
-wandb.login(key='2337982f9d5e160c3842587e5c1061fefb3fa096')
+wandb.login(key='') # Your wandb key here.
 
 @dataclass
 class ScriptArguments:
