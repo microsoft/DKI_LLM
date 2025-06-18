@@ -65,7 +65,7 @@ pandas==2.2.1
 peft==0.10.0
 pillow==10.2.0
 prometheus-client==0.20.0
-protobuf==4.25.3
+protobuf==4.25.8
 psutil==5.9.8
 py-cpuinfo==9.0.0
 pyarrow==15.0.2
