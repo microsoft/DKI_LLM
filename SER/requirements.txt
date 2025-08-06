@@ -102,7 +102,7 @@ threadpoolctl==3.4.0
 tiktoken==0.6.0
 tokenizers==0.15.2
 tqdm==4.66.2
-transformers==4.39.2
+transformers==4.53.0
 triton==2.1.0
 trl==0.8.1
 typing-extensions==4.10.0
