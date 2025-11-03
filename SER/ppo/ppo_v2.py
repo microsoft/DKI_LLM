@@ -15,7 +15,7 @@ from torch.utils.data import DataLoader
 
 
 tqdm.pandas()
-wandb.login(key='2337982f9d5e160c3842587e5c1061fefb3fa096')
+wandb.login(key='')
 
 @dataclass
 class ScriptArguments:
