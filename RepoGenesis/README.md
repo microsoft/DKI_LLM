@@ -3,10 +3,10 @@
 [//]: # ([![Project]&#40;http://img.shields.io/badge/Project-SER-E3E4C8.svg&#41;]&#40;https://microsoft.github.io/DKI_LLM/ser/ser_index.html&#41;)
 
 [![Paper](http://img.shields.io/badge/Paper-arxiv.2601.13943-99D4C8.svg)](https://arxiv.org/abs/2601.13943)
+[![Website](http://img.shields.io/badge/Website-RepoGenesis-99D4C8.svg)](https://microsoft.github.io/DKI_LLM/RepoGenesis/RepoGenesis_index.html)
+[![Leaderboard](https://img.shields.io/badge/Leaderboard-RepoGenesis-99D4C8.svg)](http://23.83.232.182:4090/)
 
-[![Leaderboard](https://img.shields.io/badge/Leaderboard-RepoGenesis.svg)](http://23.83.232.182:4090/)
-
-🔥 We released the [Leaderboard](http://23.83.232.182:4090/)! You can check the latest evaluation results of different agents and IDEs.
+🔥 [2026/02/25] We released the [Leaderboard](http://23.83.232.182:4090/)! You can now check the latest evaluation results of different agents and IDEs.
 
 This repository contains the code and data for RepoGenesis, the first multilingual benchmark for repository-level end-to-end web microservice generation. RepoGenesis assesses LLMs' capability in generating complete web microservice repositories from natural language requirements.
 
