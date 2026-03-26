@@ -22,7 +22,7 @@ conda create -n verl python==3.12
 conda init
 source ~/.bashrc
 conda activate verl
-cd duet/verl
+cd LettinGo/verl
 USE_MEGATRON=0 bash scripts/install_vllm_sglang_mcore.sh
 ```
 
@@ -30,7 +30,7 @@ USE_MEGATRON=0 bash scripts/install_vllm_sglang_mcore.sh
 You should start an API server to handle model inference requests for downstream recommendation score tasks.
 
 ```bash
-cd duet
+cd LettinGo
 bash scripts/run_api_call_server.sh
 ```
 Before running the script, make sure to set the correct model path inside the script.
@@ -39,7 +39,7 @@ Before running the script, make sure to set the correct model path inside the sc
 You can use the provided script to launch training:
 
 ```bash
-cd duet
+cd LettinGo
 bash scripts/run_training.sh
 ```
 Before running the script, make sure to set the correct paths for your work directory, model, dataset, wandb, and logging directory.
