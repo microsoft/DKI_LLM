@@ -22,7 +22,7 @@ This repo hosts multiple open-source codes of the [Microsoft DKI LLM Group](http
 ### Code Gen
 
 > **[RepoGenesis: Benchmarking End-to-End Microservice Generation from Readme to Repository](RepoGenesis)**
-> Zhiyuan Peng, Xin Yin, Pu Zhao, Fangkai Yang, Lu Wang, Ran Jia, Xu Chen, Qingwei Lin, Saravan Rajmohan, Dongmei Zhang. Arxiv.
+> Zhiyuan Peng, Xin Yin, Pu Zhao, Fangkai Yang, Lu Wang, Ran Jia, Xu Chen, Qingwei Lin, Saravan Rajmohan, Dongmei Zhang. ACL 2026 (Main Conference).
 
 ### Ads
 
