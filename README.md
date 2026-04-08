@@ -6,6 +6,7 @@
 This repo hosts multiple open-source codes of the [Microsoft DKI LLM Group](https://www.microsoft.com/en-us/research/group/data-knowledge-intelligence/). You could find the corresponding code as below:
 
 ## News
+- April, 2026: our paper [RepoGenesis: Benchmarking End-to-End Microservice Generation from Readme to Repository](https://arxiv.org/abs/2601.13943) was accepted by ACL 2026 (Main) with a Top 15% of accepted papers.
 - January, 2025: our paper [Self-Evolve Reward Learning for LLMs](https://arxiv.org/abs/2411.00418) was accepted by ICLR 2025.
 
 
