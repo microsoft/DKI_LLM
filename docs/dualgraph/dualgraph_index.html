@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" href="https://www.microsoft.com/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="https://www.microsoft.com/favicon.ico" type="image/x-icon">
+  <meta name="description" content="DualGraph: Separating Knowledge Exploration from Outline Structure for Open-Ended Deep Research.">
+  <meta property="og:title" content="A Tale of Two Graphs: DualGraph Memory"/>
+  <meta property="og:description" content="DualGraph separates what the agent knows from how it writes via two co-evolving graphs for open-ended deep research."/>
+  <meta property="og:url" content="https://microsoft.github.io/DKI_LLM/dualgraph/dualgraph_index.html"/>
+  <meta property="og:image" content="static/images/overview.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+  <meta name="twitter:title" content="A Tale of Two Graphs: DualGraph Memory">
+  <meta name="twitter:description" content="DualGraph separates knowledge exploration from outline structure for open-ended deep research.">
+  <meta name="twitter:image" content="static/images/overview.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="keywords" content="Deep Research, Knowledge Graph, Outline Graph, LLM Agents, DualGraph, Open-Ended Research">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>A Tale of Two Graphs: DualGraph Memory</title>
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+  <style>
+    .results-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9rem;
+      margin: 1em 0;
+    }
+    .results-table th, .results-table td {
+      padding: 6px 10px;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+    }
+    .results-table th {
+      background-color: #f5f5f5;
+      font-weight: 600;
+    }
+    .results-table tr.ours {
+      background-color: #e8f5e9;
+      font-weight: 600;
+    }
+    .results-table tr.ours-best {
+      background-color: #c8e6c9;
+      font-weight: 700;
+    }
+    .results-table td:first-child {
+      text-align: left;
+    }
+    .results-table .sep-row td {
+      border-bottom: 2px solid #999;
+      padding: 0;
+      height: 0;
+    }
+  </style>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">A Tale of Two Graphs: Separating Knowledge Exploration from Outline Structure for Open-Ended Deep Research</h1>
+
+          <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                Zhuofan Shi<sup>1*&#8225;</sup>,
+              </span>
+            <span class="author-block">
+                Ming Ma<sup>2,3*&#8225;</sup>,
+              </span>
+            <span class="author-block">
+                Zekun Yao<sup>4*</sup>,
+              </span>
+            <span class="author-block">
+                Fangkai Yang<sup>1&dagger;</sup>,
+              </span>
+            <span class="author-block">
+                Jue Zhang<sup>1&dagger;</sup>,
+              </span>
+          </div>
+          <div class="is-size-5 publication-authors" style="margin-top: 0.5em;">
+              <span class="author-block">
+                Dongge Han<sup>1</sup>,
+                Victor R&uuml;hle<sup>1</sup>,
+                Qingwei Lin<sup>1</sup>,
+                Saravan Rajmohan<sup>1</sup>,
+                Dongmei Zhang<sup>1</sup>
+              </span>
+          </div>
+          <div class="is-size-5 publication-authors" style="margin-top: 0.5em;">
+              <span class="author-block">
+                <sup>1</sup>Microsoft&nbsp;&nbsp;
+                <sup>2</sup>Chinese Academy of Sciences&nbsp;&nbsp;
+                <sup>3</sup>University of Chinese Academy of Sciences&nbsp;&nbsp;
+                <sup>4</sup>South China University of Technology
+              </span>
+          </div>
+          <div class="is-size-6 publication-authors" style="margin-top: 0.3em;">
+              <span class="author-block">
+                <sup>*</sup>Work done during an internship at Microsoft&nbsp;&nbsp;
+                <sup>&dagger;</sup>Corresponding authors&nbsp;&nbsp;
+                <sup>&#8225;</sup>Equal contribution
+              </span>
+          </div>
+          <div class="is-size-5 publication-authors" style="margin-top: 0.5em;">
+              <span class="author-block">
+                Email: <a href="mailto:fangkaiyang@microsoft.com">fangkaiyang@microsoft.com</a>, <a href="mailto:juezhang@microsoft.com">juezhang@microsoft.com</a>
+              </span>
+          </div>
+
+          <div class="publication-links" style="margin-top: 1em;">
+            <!-- ArXiv abstract -->
+            <span class="link-block">
+                <a href="https://arxiv.org/abs/2602.13830" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+            <!-- Github -->
+            <span class="link-block">
+                <a href="https://github.com/microsoft/DKI_LLM/tree/main/DualGraph" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                </a>
+              </span>
+            <!-- Arxiv PDF -->
+            <span class="link-block">
+                <a href="https://arxiv.org/pdf/2602.13830" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Teaser -->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="static/images/teaser.png" alt="DualGraph Teaser" style="max-width:85%; display:block; margin:auto;"/>
+      <h2 class="subtitle has-text-centered" style="margin-top: 1em;">
+        <strong>Motivating example.</strong> Linear accumulation suffers from lost-in-the-middle failures as evidence grows, while outline-centric planning provides weak supervision for identifying missing relations. <strong>DualGraph</strong> separates what the agent knows from how it writes via two co-evolving graph structures.
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End Teaser -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Open-Ended Deep Research (OEDR) pushes LLM agents toward long-horizon workflows where the agent must iteratively search, connect, and synthesize evidence into structured reports. Existing approaches follow either a linear &ldquo;search-then-generate&rdquo; accumulation, which suffers from lost-in-the-middle failures as evidence grows, or outline-centric planning, which provides weak supervision for identifying missing relations. We introduce <strong>DualGraph memory</strong>, an architecture that separates what the agent knows from how it writes via two co-evolving graph structures: an Outline Graph (OG) that governs report structure and a Knowledge Graph (KG) that stores fine-grained knowledge units, including core entities, concepts, and their relations. By analyzing KG topology alongside OG structural signals, DualGraph generates targeted search queries for more efficient and comprehensive iterative knowledge-driven exploration. DualGraph consistently outperforms state-of-the-art baselines in report depth, breadth, and factual grounding across three benchmarks, and reaches a <strong>53.08 RACE score</strong> on DeepResearch Bench with GPT-5. Ablation studies confirm the central role of the dual-graph design.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<!-- Overview -->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h2 class="title is-3 has-text-centered">Framework Overview</h2>
+      <img src="static/images/overview.png" alt="DualGraph Framework Overview"/>
+      <h2 class="subtitle has-text-centered" style="margin-top: 1em;">
+        Overview of the <strong>DualGraph</strong> framework. &#x2776; shows the OG initialization, &#x2777;&ndash;&#x277A; show the co-evolving iteration of KG and OG, and &#x277B; shows the report finalization after the iteration terminates.
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End Overview -->
+
+<!-- Main Results -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Main Results</h2>
+
+    <!-- DeepResearch Bench Table -->
+    <h3 class="title is-4" style="margin-top: 1.5em;">DeepResearch Bench</h3>
+    <p class="has-text-centered" style="margin-bottom: 0.5em;">RACE and FACT scores. Higher is better.</p>
+    <div style="overflow-x: auto;">
+    <table class="results-table">
+      <thead>
+        <tr>
+          <th rowspan="2" style="text-align:left;">Agent Systems</th>
+          <th colspan="4">RACE</th>
+          <th colspan="2">FACT</th>
+        </tr>
+        <tr>
+          <th>Overall</th>
+          <th>Comp.</th>
+          <th>Insight</th>
+          <th>Read.</th>
+          <th>C. acc.</th>
+          <th>Eff. c.</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Claude-3.5 (Search)</td><td>34.32</td><td>33.43</td><td>32.37</td><td>36.34</td><td>93.80</td><td>8.96</td></tr>
+        <tr><td>Claude-3.7 (Search)</td><td>41.56</td><td>41.42</td><td>39.99</td><td>42.02</td><td>87.32</td><td>24.51</td></tr>
+        <tr><td>Doubao-DR</td><td>46.62</td><td>47.67</td><td>45.21</td><td>45.07</td><td>51.87</td><td>35.12</td></tr>
+        <tr><td>Gemini-2.5-Pro (DR)</td><td>52.54</td><td>52.65</td><td>53.20</td><td>51.83</td><td>72.11</td><td>53.38</td></tr>
+        <tr><td>GPT-4.1</td><td>43.08</td><td>42.85</td><td>41.96</td><td>43.77</td><td>85.75</td><td>3.84</td></tr>
+        <tr><td>Grok (Deep Search)</td><td>41.01</td><td>40.55</td><td>38.82</td><td>42.83</td><td>68.47</td><td>7.28</td></tr>
+        <tr><td>Kimi (Res.)</td><td>46.50</td><td>47.06</td><td>45.67</td><td>45.47</td><td>20.80</td><td>2.30</td></tr>
+        <tr><td>OpenAI-DR</td><td>46.68</td><td>47.27</td><td>45.55</td><td>45.93</td><td>73.18</td><td>31.70</td></tr>
+        <tr><td>Perplexity (Res.)</td><td>42.44</td><td>42.36</td><td>40.85</td><td>43.11</td><td>76.03</td><td>21.69</td></tr>
+        <tr class="sep-row"><td colspan="7"></td></tr>
+        <tr><td>LangChain-DR</td><td>42.92</td><td>41.95</td><td>44.63</td><td>43.08</td><td>59.83</td><td>61.29</td></tr>
+        <tr><td>Qwen-Agent</td><td>40.95</td><td>39.19</td><td>43.65</td><td>41.27</td><td>52.23</td><td>8.39</td></tr>
+        <tr><td>WebWeaver</td><td>45.20</td><td>45.53</td><td>44.08</td><td>45.36</td><td>40.50</td><td>48.59</td></tr>
+        <tr><td>WebShaper</td><td>40.28</td><td>39.58</td><td>38.21</td><td>42.42</td><td>39.23</td><td>4.43</td></tr>
+        <tr class="sep-row"><td colspan="7"></td></tr>
+        <tr class="ours"><td>DualGraph w/o KG (GPT-4.1)</td><td>49.18</td><td>50.13</td><td>48.41</td><td>47.35</td><td>59.96</td><td>62.96</td></tr>
+        <tr class="ours"><td>DualGraph w/o KG (GPT-5)</td><td>51.17</td><td>51.69</td><td>51.79</td><td>48.75</td><td>61.15</td><td>66.06</td></tr>
+        <tr class="ours"><td>DualGraph (GPT-4.1)</td><td>51.50</td><td>52.07</td><td>52.00</td><td>49.30</td><td>56.23</td><td>76.33</td></tr>
+        <tr class="ours-best"><td>DualGraph (GPT-5)</td><td>53.08</td><td>53.78</td><td>54.30</td><td>49.81</td><td>57.55</td><td>79.65</td></tr>
+      </tbody>
+    </table>
+    </div>
+
+    <!-- DeepResearchGym & DeepConsult Table -->
+    <h3 class="title is-4" style="margin-top: 2em;">DeepResearchGym &amp; DeepConsult</h3>
+    <p class="has-text-centered" style="margin-bottom: 0.5em;">Performance on DeepResearchGym (Avg.) and DeepConsult (Win rate &amp; Avg. Score). Higher is better.</p>
+    <div style="overflow-x: auto;">
+    <table class="results-table">
+      <thead>
+        <tr>
+          <th rowspan="2" style="text-align:left;">Agent Systems</th>
+          <th colspan="2">DeepResearchGym</th>
+          <th colspan="3">DeepConsult</th>
+        </tr>
+        <tr>
+          <th>Avg.</th>
+          <th>Support</th>
+          <th>Win %</th>
+          <th>Lose %</th>
+          <th>Avg. Score</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Claude-Research</td><td>80.25</td><td>26.77</td><td>25.00</td><td>36.11</td><td>4.60</td></tr>
+        <tr><td>OpenAI-DeepResearch</td><td>91.27</td><td>88.40</td><td>0.00</td><td>0.00</td><td>5.00</td></tr>
+        <tr><td>Gemini-2.5-Pro (DR)</td><td>96.02</td><td>95.00</td><td>61.27</td><td>7.60</td><td>6.70</td></tr>
+        <tr><td>LangChain-DR</td><td>89.62</td><td>85.90</td><td>14.46</td><td>40.90</td><td>4.26</td></tr>
+        <tr><td>WebWeaver</td><td>90.84</td><td>89.70</td><td>50.77</td><td>26.53</td><td>5.65</td></tr>
+        <tr><td>WebShaper</td><td>80.17</td><td>71.00</td><td>15.93</td><td>64.46</td><td>3.71</td></tr>
+        <tr class="sep-row"><td colspan="6"></td></tr>
+        <tr class="ours"><td>DualGraph w/o KG (GPT-4.1)</td><td>93.68</td><td>89.66</td><td>57.61</td><td>14.13</td><td>6.24</td></tr>
+        <tr class="ours"><td>DualGraph (GPT-4.1)</td><td>94.31</td><td>91.86</td><td>64.42</td><td>12.50</td><td>6.42</td></tr>
+        <tr class="ours-best"><td>DualGraph (GPT-5.2)</td><td>96.52</td><td>97.20</td><td>67.27</td><td>16.49</td><td>6.84</td></tr>
+      </tbody>
+    </table>
+    </div>
+  </div>
+</section>
+<!-- End Main Results -->
+
+<!-- Ablation -->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h2 class="title is-3 has-text-centered">Ablation Studies</h2>
+      <div class="columns is-centered" style="margin-top: 1em;">
+        <div class="column is-half">
+          <img src="static/images/ablation.png" alt="Outline Score Ablation"/>
+          <p class="has-text-centered" style="margin-top: 0.5em;">LLM-as-a-judge scores of intermediate outlines generated by DualGraph and DualGraph w/o KG across optimization iterations.</p>
+        </div>
+        <div class="column is-half">
+          <img src="static/images/results.png" alt="Win Rate Comparison"/>
+          <p class="has-text-centered" style="margin-top: 0.5em;">LLM-as-a-judge comparison of intermediate outlines generated by DualGraph and DualGraph w/o KG across iterations.</p>
+        </div>
+      </div>
+      <div class="columns is-centered" style="margin-top: 1em;">
+        <div class="column is-half">
+          <img src="static/images/ablation_search_quality.png" alt="Search Query Quality Ablation"/>
+          <p class="has-text-centered" style="margin-top: 0.5em;">Search query with evidence quality across iterations for DualGraph variants.</p>
+        </div>
+        <div class="column is-half">
+          <img src="static/images/ablation_outline_quality.png" alt="Outline Quality Ablation"/>
+          <p class="has-text-centered" style="margin-top: 0.5em;">Outline quality across iterations for DualGraph variants.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Ablation -->
+
+<!-- BibTex citation -->
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@misc{shi2026talegraphsseparatingknowledge,
+      title={A Tale of Two Graphs: Separating Knowledge Exploration from Outline Structure for Open-Ended Deep Research}, 
+      author={Zhuofan Shi and Ming Ma and Zekun Yao and Fangkai Yang and Jue Zhang and Dongge Han and Victor Rühle and Qingwei Lin and Saravan Rajmohan and Dongmei Zhang},
+      year={2026},
+      eprint={2602.13830},
+      archivePrefix={arXiv},
+      primaryClass={cs.IR},
+      url={https://arxiv.org/abs/2602.13830}, 
+}</code></pre>
+  </div>
+</section>
+<!--End BibTex citation -->
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

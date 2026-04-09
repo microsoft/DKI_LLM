@@ -400,3 +400,6 @@ FodyWeavers.xsd
 *.sln.iml
 
 .DS_Store
+/DualGraph/paper_latex
+DualGraph/deepresearch/baselines/.env
+/DualGraph/deepresearch/utils

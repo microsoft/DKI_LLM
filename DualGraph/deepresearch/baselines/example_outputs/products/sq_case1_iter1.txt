@@ -1,0 +1,20 @@
+What are the details of Dr. Fei-Fei Li's life journey and foundational role in AI as discussed on the Y Combinator Startup Podcast?
+What personal journey stories and advice did Dr. Fei-Fei Li share on The Tim Ferriss Show podcast episode?
+How did Dr. Fei-Fei Li describe the creation and impact of ImageNet on the Y Combinator Startup Podcast?
+How did the Armchair Expert with Dax Shepard episode emphasize the formative role of resilience and mentorship in Dr. Fei-Fei Li's career?
+What was Dr. Fei-Fei Li's involvement in the creation of ImageNet as discussed on The Tim Ferriss Show podcast?
+What did Dr. Fei-Fei Li discuss regarding the creation of ImageNet during her appearance on the Ask Huberman Lab Podcast?
+How did the Ask Huberman Lab Podcast episode mention resilience and mentorship in the context of Dr. Fei-Fei Li's journey?
+How has Dr. Fei-Fei Li highlighted the significance of resilience and mentorship in her recent podcasts?
+What vision for the future of AI regulation did Dr. Fei-Fei Li outline on Armchair Expert with Dax Shepard (December 2024)?
+What were the key highlights and discussion points about World Labs from Dr. Fei-Fei Li's appearance on The Tim Ferriss Show Podcast Episode?
+criteria used for determining relevance of podcasts featuring AI thought leaders  
+summary table methodology for cataloging podcast appearances of Dr. Fei-Fei Li  
+detailed format and host analysis for the a16z podcast episode on spatial intelligence  
+role of technical breakthroughs like NERF in advancing spatial intelligence applications  
+impact of Amazon Mechanical Turk on large-scale AI dataset creation in academic research  
+Stanford’s interdisciplinary approach to AI education and curriculum innovation  
+integration of ambient intelligence and sensor technologies in modern healthcare delivery  
+challenges of modeling three-dimensional environments for artificial general intelligence  
+multidisciplinary collaborations addressing bias and promoting diversity in AI development  
+technological and regulatory solutions for AI-related social risks such as disinformation and job displacement

@@ -12,6 +12,11 @@ This repo hosts multiple open-source codes of the [Microsoft DKI LLM Group](http
 
 ## Code Release (Click Title to Locate the Code)
 
+### Deep Research
+
+> **[A Tale of Two Graphs: Separating Knowledge Exploration from Outline Structure for Open-Ended Deep Research](DualGraph)**
+> Zhuofan Shi, Ming Ma, Zekun Yao, Fangkai Yang, Jue Zhang, Dongge Han, Victor Rühle, Qingwei Lin, Saravan Rajmohan, Dongmei Zhang. Arxiv.
+
 ### RL
 
 > **[Self-Evolved Reward Learning for LLMs](SER)**
