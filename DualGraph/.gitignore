@@ -1,0 +1,21 @@
+# LaTeX build artifacts
+paper_latex/
+
+# Python virtual environment
+.venv/
+
+# Environment secrets
+deepresearch/baselines/.env
+
+# Example outputs
+# deepresearch/baselines/example_outputs/
+
+# Utils (sensitive/generated)
+deepresearch/utils/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store

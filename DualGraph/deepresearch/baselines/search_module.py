@@ -708,7 +708,7 @@ def search_with_filtering_visited_urls(
     report_id: int = None,
     usage_file: str = None,
     max_url_num_after_first_filter: int = 5,
-    search_provider: str = "bing",
+    search_provider: str = "serper",
 ) -> List[Dict[str, Any]]:
     """
     Main search function: search the web using the configured search provider.

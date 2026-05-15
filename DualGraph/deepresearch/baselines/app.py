@@ -65,7 +65,7 @@ def _get_or_create_llm_model():
         if _llm_model is not None:
             return _llm_model
         load_env_or_explain()
-        provider = env_str("LLM_PROVIDER", "azure_openai")
+        provider = env_str("LLM_PROVIDER", "openai")
         raw_base_url = env_str("LLM_BASE_URL") or env_str("AZURE_OPENAI_ENDPOINT")
         base_url = raw_base_url if raw_base_url else "https://api.openai.com"
         # Azure-specific: strip trailing /openai so the SDK can rebuild it
@@ -207,7 +207,7 @@ async def on_start():
                 id="search_provider",
                 label="Search Provider",
                 values=["bing", "serper"],
-                initial_value=env_str("SEARCH_PROVIDER", "bing") or "bing",
+                initial_value=env_str("SEARCH_PROVIDER", "serper") or "serper",
             ),
             cl.input_widget.Slider(
                 id="kg_query_num",
@@ -266,7 +266,7 @@ def _save_settings(settings):
     """Persist all settings to user session."""
     cl.user_session.set("language", settings.get("language", "English"))
     cl.user_session.set("max_iter", int(settings.get("max_iter", 5)))
-    cl.user_session.set("search_provider", settings.get("search_provider", "bing"))
+    cl.user_session.set("search_provider", settings.get("search_provider", "serper"))
     cl.user_session.set("kg_query_num", int(settings.get("kg_query_num", 10)))
     cl.user_session.set("og_query_num", int(settings.get("og_query_num", 10)))
     cl.user_session.set("readpage_method", settings.get("readpage_method", "firecrawl"))
@@ -372,7 +372,7 @@ async def _run_demo():
 async def _run_research(query: str):
     language = cl.user_session.get("language", "English")
     max_iter = cl.user_session.get("max_iter", 5)
-    search_provider = cl.user_session.get("search_provider", "bing")
+    search_provider = cl.user_session.get("search_provider", "serper")
     kg_query_num = cl.user_session.get("kg_query_num", 10)
     og_query_num = cl.user_session.get("og_query_num", 10)
     readpage_method = cl.user_session.get("readpage_method", "firecrawl")

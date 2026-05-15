@@ -20,7 +20,7 @@ class RunConfig:
 
     kg_query_num: int = 10  # queries generated from KG per iteration
     og_query_num: int = 10  # queries generated from OG per iteration
-    search_provider: str = "bing"  # bing / serper
+    search_provider: str = "serper"  # bing / serper
 
 import knowledge_graph_module
 import search_module
@@ -99,7 +99,7 @@ def _make_agent_config(model_name: str, base_url: str) -> AgentConfig:
     if api_key == "":
         api_key = None
     return AgentConfig(
-        llm_provider=env_str("LLM_PROVIDER", "azure_openai"),
+        llm_provider=env_str("LLM_PROVIDER", "openai"),
         llm_model_name=model_name,
         llm_api_key=api_key,
         llm_base_url=base_url,
@@ -895,9 +895,9 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--search-provider",
-        default="bing",
+        default="serper",
         choices=["bing", "serper"],
-        help="Search backend to use (default: bing)",
+        help="Search backend to use (default: serper)",
     )
     parser.add_argument(
         "--max-concurrency",
