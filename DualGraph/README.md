@@ -2,7 +2,7 @@
 
 [![Project](http://img.shields.io/badge/Project-DualGraph-E3E4C8.svg)](https://microsoft.github.io/DKI_LLM/dualgraph/dualgraph_index.html)
 [![Paper](http://img.shields.io/badge/Paper-arxiv.2602.13830-99D4C8.svg)](https://arxiv.org/abs/2602.13830)
-[![Conference](http://img.shields.io/badge/ICML-2025-4b44ce.svg)](https://icml.cc/)
+[![Conference](http://img.shields.io/badge/ICML-2026-4b44ce.svg)](https://icml.cc/)
 
 We introduce **DualGraph Memory**, an architecture that separates what the agent knows from how it writes via two co-evolving graph structures: an **Outline Graph (OG)** that governs report structure and a **Knowledge Graph (KG)** that stores fine-grained knowledge units. By analyzing KG topology alongside OG structural signals, DualGraph generates targeted search queries for more efficient and comprehensive iterative knowledge-driven exploration. DualGraph consistently outperforms state-of-the-art baselines in report depth, breadth, and factual grounding across three benchmarks, and reaches a **53.08 RACE score** on DeepResearch Bench with GPT-5.
 
