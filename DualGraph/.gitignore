@@ -8,7 +8,7 @@ paper_latex/
 deepresearch/baselines/.env
 
 # Example outputs
-# deepresearch/baselines/example_outputs/
+deepresearch/baselines/example_outputs/
 
 # Utils (sensitive/generated)
 deepresearch/utils/
