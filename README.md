@@ -8,6 +8,7 @@ This repo hosts multiple open-source codes of the [Microsoft DKI LLM Group](http
 ## News
 - April, 2026: our paper [A Tale of Two Graphs: Separating Knowledge Exploration from Outline Structure for Open-Ended Deep Research](DualGraph) was accepted by ICML 2026.
 - April, 2026: our paper [RepoGenesis: Benchmarking End-to-End Microservice Generation from Readme to Repository](https://arxiv.org/abs/2601.13943) was accepted by ACL 2026 (Main) with a Top 15% of accepted papers.
+- January, 2026: our paper [RePrompt: Reasoning-Augmented Reprompting for Text-to-Image Generation via Reinforcement Learning](RePrompt) was accepted by ICLR 2026.
 - January, 2025: our paper [Self-Evolve Reward Learning for LLMs](https://arxiv.org/abs/2411.00418) was accepted by ICLR 2025.
 
 
@@ -24,7 +25,7 @@ This repo hosts multiple open-source codes of the [Microsoft DKI LLM Group](http
 > Chenghua Huang, Zhizhen Fan, Lu Wang, Fangkai Yang, Pu Zhao, Zeqi Lin, Qingwei Lin, Dongmei Zhang, Saravan Rajmohan, Qi Zhang, ICLR 2025.
 
 > **[RePrompt: Reasoning-Augmented Reprompting for Text-to-Image Generation via Reinforcement Learning](RePrompt)**
-> Mingrui Wu, Lu Wang, Pu Zhao, Fangkai Yang, Jianjin Zhang, Jianfeng Liu, Yuefeng Zhan, Weihao Han, Hao Sun, Jiayi Ji, Xiaoshuai Sun, Qingwei Lin, Weiwei Deng, Dongmei Zhang, Feng Sun, Qi Zhang, Rongrong Ji. Arxiv.
+> Mingrui Wu, Lu Wang, Pu Zhao, Fangkai Yang, Jianjin Zhang, Jianfeng Liu, Yuefeng Zhan, Weihao Han, Hao Sun, Jiayi Ji, Xiaoshuai Sun, Qingwei Lin, Weiwei Deng, Dongmei Zhang, Feng Sun, Qi Zhang, Rongrong Ji. ICLR 2026.
 
 ### Code Gen
 
