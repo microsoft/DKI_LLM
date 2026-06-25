@@ -24,7 +24,7 @@ docstring-parser==0.16
 evaluate==0.4.1
 exceptiongroup==1.2.0
 fastapi==0.110.0
-filelock==3.13.3
+filelock==3.20.3
 fonttools==4.50.0
 frozenlist==1.4.1
 fsspec==2024.2.0
