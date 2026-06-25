@@ -8,7 +8,7 @@ json-numpy
 jsonlines
 matplotlib
 rich
-sentencepiece==0.1.99
+sentencepiece==0.2.1
 # dlimp @ git+https://github.com/moojink/dlimp_openvla
 diffusers==0.30.3
 imageio
